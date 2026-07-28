@@ -1,0 +1,1196 @@
+{
+  "common": {
+    "learnMore": "Daha fazla bilgi",
+    "watchVideo": "Videoyu izle",
+    "contactUs": "Bize ulaşın",
+    "startFreeTrial": "Ücretsiz denemeyi başlat",
+    "scheduleDemo": "Demo talep edin",
+    "comingSoon": "Yakında",
+    "situation": "Durum",
+    "problem": "Sorun",
+    "solution": "Çözüm",
+    "result": "Sonuç",
+    "for": "Kimler için",
+    "includes": "Neler dahil",
+    "whatHappens": "Ne oluyor:",
+    "whatToDo": "Yapmanız gereken:",
+    "whatItLooksLike": "Nasıl görünüyor:",
+    "whatHappensNext": "Sonra ne oluyor:",
+    "howItWorks": "Nasıl çalışır:",
+    "examples": "Otomatik eylem örnekleri:",
+    "whatItMeansForYou": "Bu sizin için ne anlama geliyor:",
+    "whoChooses": "Bu planı kimler tercih eder"
+  },
+  "home": {
+    "hero": {
+      "logo_alt": "ALFACAN Defence Group",
+      "cta": "Daha fazla bilgi",
+      "tagline": "Kritik altyapı, siber savunma ve endüstriyel süreçler için otonom yapay zeka sistemleri."
+    },
+    "section_6_products_block_1": {
+      "intro": "Oluşturduğumuz ilk platformlar, işletmelerin en kırılgan alanı olan bulut altyapısı için tasarlandı.",
+      "presenting": "Size iki platform sunuyoruz:",
+      "guardian_cloud": {
+        "name": "Guardian Cloud",
+        "subtitle": "Altyapı Zekası",
+        "description": "Herhangi bir bulut hizmetinin veya kapalı veri merkezinin sistem yönetimini ve siber güvenliğini tamamen otomatikleştiren bir platform. Sıfır insan faktörü, hatanın kabul edilemez olduğu sistemler için 7/24 koruma.",
+        "cta": "daha fazla bilgi",
+        "cta_url": "/cloud"
+      },
+      "mercanon": {
+        "name": "ALFACAN Mercanon",
+        "subtitle": "Operasyonel Zeka",
+        "description": "Her ölçekten e-ticaret mağazasındaki tüm süreçleri otomatikleştiren bir platform; yöneticilerin görevlerini otonom yapay zeka mühendisleri üstlenir, ticaret platformunuzun kesintisiz çalışması için Guardian Cloud'un tüm işlevleri de içinde bulunur.",
+        "cta": "daha fazla bilgi",
+        "cta_url": "/mercanon"
+      }
+    },
+    "section_7_products_block_2": {
+      "intro": "İkinci projemiz artık tek bir ürünün sınırlarını çoktan aştı; çünkü bir yapay zeka mühendisleri ekibi sağlamanın yalnızca altyapısını koruyanlar için değil, yeni bir şey yaratanlar için de gerekli olduğunu fark ettik — bu bir program, bir hizmet ya da bütün bir dijital imparatorluk olabilir.",
+      "presenting": "Size sunuyoruz:",
+      "ai_studio": {
+        "name": "ALFACAN AI Studio",
+        "subtitle": "Ortak Yaratım Alanı",
+        "description_1": "Bu, yapay zeka mühendisleri ekibinizin davanızda silah arkadaşınız haline geldiği bir ortamdır. Üç otonom dijital mühendis — Mimar, Usta ve Muhafız — her biri kendi rolünde, sonuç hayal ettiğiniz başyapıta dönüşene kadar sizinle birlikte çalışır.",
+        "description_2": "AI Studio'nun içinde, çalışmanın farklı aşamaları için üç araç yaşıyor:",
+        "cta_url": "/studio"
+      },
+      "g_coder": {
+        "name": "G-Coder",
+        "description": "Projenizin kodunun doğduğu ortam. Mimar planı kurar, Usta her satırı projenizin tarzında yazar, Muhafız ise kod kusursuz olana kadar denetler ve tartışır. Tüm bunlar, başka kimsenin asla bilmeyeceği bir diyalog içinde gerçekleşir.",
+        "cta": "daha fazla bilgi",
+        "cta_url": "/studio/g-coder"
+      },
+      "g_tester": {
+        "name": "G-Tester",
+        "description": "Ürününüzün gerçek dünyayla karşılaşmadan önce tüm sınavlardan geçtiği ortam. Aklınıza bile gelmeyen testler, yükler ve senaryolar yayından önce keşfedilir, sonra değil.",
+        "cta": "daha fazla bilgi",
+        "cta_url": "/studio/g-tester"
+      },
+      "g_studio": {
+        "name": "G-Studio",
+        "description": "Ürününüzün görsel olarak doğduğu ortam. İlk taslaktan nihai etkileşimli kompozisyona kadar, kendi tarzınızda, kendi estetiğinizde, şablonsuz ve dışarıdan çözümlere ihtiyaç duymadan.",
+        "status": "Yakında",
+        "cta": "daha fazla bilgi",
+        "cta_url": "/studio/g-studio"
+      }
+    },
+    "section_8_products_block_3": {
+      "intro": "Üçüncü projemiz, tüm hayatımız boyunca edindiğimiz iş tecrübesinden doğdu. Dijital dünya, bizi çevreleyenin sadece yarısı. Bir de ikinci yarısı var: ekipmanın çalıştığı, makinelerin hareket ettiği, lojistiğin aktığı, ürünlerin yetiştiği, elektrik ve gazın sağlandığı, dronların kalktığı ve gemilerin yol aldığı gerçek, fiziksel dünya. Ve burada bir hata, paradan çok daha fazlasına mal olur.",
+      "presenting": "Size sunuyoruz:",
+      "blackwings": {
+        "name": "ALFACAN BlackWings",
+        "subtitle": "Her Şeyin Sinir Ağı",
+        "description_1": "Bu, çalışan ve bağlanabilen her şeyin sinir ağıdır. Havada, karada, suda, tarlalarda ve seralarda, enerji tedarik sistemlerinde, bütün lojistik zincirlerde — zekanın uygulanabileceği ve insan faktörünün artık gerekmediği her yerde.",
+        "description_2": "Tek bir sinir ağı. Tek bir zeka. Bağlanabilecek sınırsız sayıda sistem. Kapatılıp yeniden başlatılamayacak şeylerin yönetimine emanet edilebilecek bir sinir ağı oluşturduk.",
+        "description_3": "Ve tam da bu, sunumlar için değil gerçek dünya için bir platform olduğundan, onu 2026-2027 boyunca aşama aşama, yön yön devreye alıyoruz. İnsanların, otonom zekanın makinelere emanet etmeye alıştıklarından çok daha fazlasını başarabileceği gerçeğine hazırlanması gerekiyor.",
+        "description_4": "Her biri bu devasa görevin kendi parçasını çözen üç yönle başladık.",
+        "cta_url": "/blackwings"
+      },
+      "architect": {
+        "name": "BlackWings Architect",
+        "description": "Makinenin kendisinin doğduğu yer. Genel standartlar için değil, üretildikleri görevler için optimize edilmiş makinelerin, insansız hava, kara ve su sistemlerinin tasarımı.",
+        "status": "Yakında · 2026-2027",
+        "cta": "daha fazla bilgi",
+        "cta_url": "/blackwings/architect"
+      },
+      "arsenal": {
+        "name": "BlackWings Arsenal",
+        "description": "Bu makinelerin üretildiği ve çalıştığı yer. Üretim organizmasının yönetimi — tezgahlardan ve lojistikten satış ve pazarlamaya kadar — ayrı departmanların toplamı değil, tek, koordineli bir bütün olarak.",
+        "status": "Yakında · 2026-2027",
+        "cta": "daha fazla bilgi",
+        "cta_url": "/blackwings/arsenal"
+      },
+      "training_center": {
+        "name": "BlackWings Training Center",
+        "description": "Makinelerin gerçek dünyayla karşılaşmadan önce test edildiği ve operatörlerin gerçek bir kumanda konsoluna oturmadan önce güvenli bir simülasyonda çalışmayı öğrendiği yer.",
+        "status": "Yakında · 2026-2027",
+        "cta": "daha fazla bilgi",
+        "cta_url": "/blackwings/training-center"
+      }
+    },
+    "section_9_partner_program": {
+      "intro_1": "Dünyanın büyük olduğunun ve tüm tecrübemize ve yanımızdaki yapay zeka mühendisleri ekibine rağmen hâlâ tek başımıza olduğumuzun farkındayız. Kendi başımıza, orada zaten yaşayan ve çalışanlar kadar derinlemesine asla nüfuz edemeyeceğimiz birçok pazar, dil, kültür ve sektör var.",
+      "intro_2": "Bu yüzden, yapay zekanın nasıl olması gerektiği konusunda bizimle aynı görüşü paylaşan ve platformlarımızı kendi pazarlarına taşımaya hazır olanlar için bir ortaklık programı açtık.",
+      "program": {
+        "name": "AlfaCan Partner Program",
+        "subtitle": "Davada Yoldaşlar",
+        "description_1": "Bayi aramıyoruz. Zaten müşterileriyle çalışan ve onları bizden daha iyi anlayan BT uzmanları, sistem yöneticileri, dijital ajanslar ve MSP sağlayıcıları arıyoruz. Size hazır bir platform sağlıyoruz, siz de onu buna gerçekten ihtiyaç duyanlara ulaştırıyorsunuz.",
+        "description_2": "Programın iki kademesi var. Birincisi, yeni başlayıp denemek isteyenler için: her satıştan yüzde ona kadar komisyon ve tam teknik destek. İkincisi, bize zaten yüz müşteri getirip ciddi bir işe dönüşmüş olanlar için: yüzde on beşe kadar komisyon, kendi markanız altında white-label seçenekleri ve her konuda öncelik.",
+        "description_3": "Büyük MSP sağlayıcıları için ayrı bir görüşme ve ayrı koşullarımız var.",
+        "description_4": "Böyle bir ortaksanız, program koşullarına göz atın veya bize yazın; sizin özel durumunuzda bunun nasıl görünebileceğini birlikte konuşalım.",
+        "cta_primary": "Ortak Olun",
+        "cta_primary_url": "/referral",
+        "cta_secondary": "Koşulları İnceleyin",
+        "cta_secondary_url": "/referral#terms"
+      },
+      "referral_cta": "Referans programı ve nasıl çalıştığı",
+      "intro_3": "Uzmanların elinden işlerini almıyoruz. Sistem yöneticileri, mühendisler, programcılar, BT şirketleri ve MSP sağlayıcıları: onların yerine geçmiyoruz. Onlara aracı veriyoruz ve kazandığından bir pay veriyoruz.",
+      "intro_4": "Platforma bir müşteri getirir ve bizimle kaldığı sürece yaptığı her ödemeden kazanırsınız: kişisel bir referans linki, şeffaf hesaplama ve gerçekten tahsil edilmiş faturalara karşı ödemeler."
+    },
+    "company_intro": {
+      "title": "Gerçek koşullarda pekişmiş deneyim",
+      "legal": "AlfaCan Defence Group Limited. Londra, İngiltere ve Galler, Sicil No. 17062207.",
+      "jurisdiction": "İngiliz yargı yetkisi, titiz güvenlik standartları ve B2B segmentinin bir kurumsal ortaktan beklediği her şeye tam uyum.",
+      "experience": "Şirket, onlarca yıllık pratik risk yönetimi, kriz altında yürütülen lojistik ve önemli ölçekte karmaşık sistemler inşa etme deneyimine dayanır.",
+      "mission": "Başarısızlığın gelişim maliyetinden daha pahalıya mal olduğu ortamlar için otonom sistemler inşa ediyoruz: bulut altyapısı, sistem yönetimi, siber savunma ve endüstriyel ile ekonomik süreçler.",
+      "contract_lead": "Bütün bunlar korunan bir çevre içinde işler ve bu, bir broşürde vaat edilmez, sözleşmede kayıt altına alınır: verileriniz sizin kalır ve onu yalnızca hizmeti sunmak amacıyla işleriz.",
+      "contract_cta": "Hizmet sözleşmesi",
+      "points": [
+        {
+          "title": "Mimari hassasiyet",
+          "text": "Her kod satırı ve her mantıksal bağlantı belirli bir operasyonel görev için çizilir. Sadece özellik listesini doldurmak için hiçbir şey eklenmez."
+        },
+        {
+          "title": "Uzman ve yapay zeka simbiyozu",
+          "text": "Kendi modellerimizi eğitiyor ve korunan bir çevre içinde sunuyoruz — geliştirme ve testten özel bulut ile hava boşluklu (air-gapped) ortamların devreye alınmasına kadar. Mühendis görevi belirler ve kararı verir; sistemi ise işi yapar."
+        }
+      ]
+    },
+    "company_principles": {
+      "title": "AlfaCan'ın çözümleri pratikte neden işe yarıyor",
+      "principles": [
+        {
+          "title": "Modülerlik ve arayüzler için bir kurgu aracı",
+          "text": "Yazılıma kendinizi uydurmuyorsunuz. Yöneticiden operatöre kadar belirli bir departmanın işine uygun çalışma alanlarını ve analitik panelleri widget'lardan oluşturuyorsunuz. Ekranda yerini hak etmeyen hiçbir şey yok."
+        },
+        {
+          "title": "Yöneten ve koruyan tek bir operatör",
+          "text": "Piyasa bunları ayrı satar: bir ürün altyapıyı sürdürür, bir başkası onu korur ve her ikisi de nöbet tutan insanlar gerektirir. Bizde ise tek bir otonom sistem var. Denetimi, güncellemeleri ve arıza giderimini kapsayarak yönetir; olayları araştırır ve saldırılara yanıt verir. Çevreniz içinde, döngüde bir insanla ve yapılan her şeyin eksiksiz kaydıyla."
+        },
+        {
+          "title": "Erişim üzerinde mutlak kontrol",
+          "text": "Her çalışan için hakları, rolleri ve modül görünürlüğünü kendiniz belirlersiniz. Kiracılar arasında mantıksal izolasyon, rol tabanlı erişim ve kapalı dağıtımlar için hava boşluklu bir çevre."
+        },
+        {
+          "title": "Pragmatik mühendislik",
+          "text": "Gereksiz olan her şeyi kestik. Müşteri yalnızca kararların hızına ve kaynak tüketimine doğrudan etki eden araçları alır."
+        }
+      ]
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Guardian Cloud",
+      "subtitle": "Asla yorulmayan 7/24 asistanınız",
+      "description": "Tüm sunucularınızı ve sistemlerinizi saat boyunca izleyen güvenilir bir asistanınız olduğunu hayal edin. Sorunları kritik hale gelmeden tespit eder ve otomatik olarak çözer. İşte Guardian Cloud budur."
+    },
+    "problems": {
+      "title": "Tanıdık geliyor mu?",
+      "problem1": {
+        "title": "Sorun 1: Ekibiniz sürekli izlemekten yoruluyor",
+        "description": "Ekibiniz her gün günlükleri kontrol etmek, hataları analiz etmek ve sorunları aramakla saatler harcıyor. İnsanlar yoruluyor, dikkat dağılıyor ve sonuçta önemli bir şey gözden kaçabiliyor. Bu yalnızca verimsiz değil, işiniz için de tehlikeli.",
+        "points": [
+          "Çalışanlar rutin izleme için günde 4-6 saat harcıyor",
+          "Bir sorun oluştuğunda çözümü 30-60 dakika sürüyor",
+          "İnsanlar stres altında çalışıyor ve tükeniyor"
+        ]
+      },
+      "problem2": {
+        "title": "Sorun 2: Binlerce yanlış alarm",
+        "description": "İzleme sistemleri günde yüzlerce bildirim üretiyor. Bunların yüzde 80'i yanlış alarm. Sonuç olarak ekip bildirimlere dikkat etmemeye başlıyor ve gerçek sorunlar fark edilmeden kalıyor.",
+        "points": [
+          "Günde 500'den fazla bildirim alınıyor",
+          "Bunların yüzde 80'i gürültü, gerçek sorun değil",
+          "Ekip, yanlış alarm yorgunluğu nedeniyle bildirimleri görmezden geliyor",
+          "Gerçek sorunlar fark edilmeden kalıyor"
+        ]
+      },
+      "problem3": {
+        "title": "Sorun 3: İşe yaramayan pahalı çözümler",
+        "description": "Profesyonel izleme ve güvenlik hizmetleri çok pahalı — ayda 5.000 ila 10.000 dolar arasında. Bu, çoğu şirket için karşılanamaz. Ucuz çözümler ise iyi çalışmıyor.",
+        "points": [
+          "7/24 profesyonel izleme ayda 5.000-10.000 dolara mal oluyor",
+          "Küçük ve orta ölçekli işletmeler için karşılanamaz",
+          "Şirketler tam koruma ve izleme olmadan çalışıyor",
+          "Sorunlar ortaya çıktığında kayıplar çok büyük olabiliyor"
+        ]
+      },
+      "cta": "Bir çözüm var!"
+    },
+    "howItWorks": {
+      "title": "Guardian Cloud Nasıl Çalışır",
+      "subtitle": "Huzura giden üç basit adım",
+      "step1": {
+        "title": "Adım 1: Kurulum (basit ve hızlı)",
+        "whatToDo": "Sunucularınıza küçük bir ajan kurun. 5 dakika sürer. Hafif ve kaynak dostudur.",
+        "whatItLooksLike": "Terminalde tek bir komut — bu kadar. Ya da Docker üzerinden. Teknik değil misiniz? 15 dakikada yardımcı oluruz.",
+        "whatHappensNext": "Ajan sistem verilerini toplamaya başlar ve Guardian Cloud'a gönderir."
+      },
+      "step2": {
+        "title": "Adım 2: Analiz (yapay zeka iş başında)",
+        "whatHappens": "Guardian Cloud, yapay zeka kullanarak günlükleri, hataları, performansı ve güvenliği analiz eder.",
+        "howItWorks": [
+          "Yapay zeka, sisteminiz için normal olanı öğrenir",
+          "Bir şeyler ters gittiğinde fark eder",
+          "Gerçek sorunları yanlış alarmlardan ayıklar",
+          "Önem derecesini değerlendirir"
+        ],
+        "result": "500 bildirim yerine 5-10 isabetli bildirim alırsınız."
+      },
+      "step3": {
+        "title": "Adım 3: Otomatik çözüm (insan gerekmez)",
+        "whatHappens": "Bir sorun tespit edildiğinde, Guardian Cloud kurallarınıza göre otomatik olarak çözer.",
+        "examples": [
+          "Servis çöktü mü? Guardian yeniden başlatır.",
+          "Disk doldu mu? Guardian eski dosyaları temizler.",
+          "Şüpheli etkinlik mi? Guardian kaynağı engeller.",
+          "Ölçeklendirmeye mi ihtiyaç var? Guardian kaynak ekler."
+        ],
+        "result": "Sorunlar saniyeler içinde çözülür. Ekibiniz huzur içinde uyur."
+      }
+    },
+    "capabilities": {
+      "title": "Guardian Cloud Neler Yapabilir",
+      "monitoring": {
+        "title": "7/24 İzleme",
+        "description": "Guardian Cloud asla uyumaz. Sistemlerinizi haftanın 7 günü, günün 24 saati izler. Tüm ekibiniz uyurken bile Guardian çalışır ve işinizi korur.",
+        "benefits": [
+          "Sorunlar anında tespit edilir",
+          "Slack veya e-posta üzerinden bildirim alırsınız",
+          "Sorunlar siz uyurken otomatik olarak çözülür",
+          "Sabah olanların raporunu okumanız yeterli"
+        ]
+      },
+      "detection": {
+        "title": "Akıllı Sorun Tespiti",
+        "description": "Yapay zeka, sisteminiz için neyin normal neyin normal olmadığını öğrenir. Zamanla gelişir.",
+        "benefits": [
+          "Yanlış alarmlar neredeyse tamamen ortadan kalkar",
+          "Yalnızca gerçek sorunları görürsünüz",
+          "Yapay zeka sisteminize uyum sağlar ve daha isabetli hale gelir",
+          "Her uyarıya güvenebilirsiniz"
+        ]
+      },
+      "security": {
+        "title": "Güvenlik Tehdidi Tespiti",
+        "description": "Guardian Cloud şüpheli etkinlikleri, saldırı girişimlerini, veri sızıntılarını ve daha fazlasını izler.",
+        "benefits": [
+          "Siber tehditlere karşı korunursunuz",
+          "Saldırı girişimleri otomatik olarak engellenir",
+          "Güvenlik raporları teslim edilir",
+          "İşiniz güvenlik standartlarına uyar"
+        ]
+      },
+      "automation": {
+        "title": "Otomatik Sorun Çözümü",
+        "description": "Kuralları bir kez ayarlayın — Guardian bunları otomatik olarak takip eder. Bir sorun oluştuğunda, Guardian sizin katılımınız olmadan çözer.",
+        "benefits": [
+          "Sorunlar saniyeler içinde çözülür",
+          "Ekibiniz rutin işlerle zaman kaybetmez",
+          "İnsanlar önemli görevlere odaklanabilir",
+          "Kesinti süresi en aza indirilir"
+        ]
+      },
+      "compatibility": {
+        "title": "Her Yerde Çalışır",
+        "description": "AWS, Google Cloud, Azure ve yerinde (on-premise) sunucularla çalışır. Her şey için tek bir araç.",
+        "benefits": [
+          "Her bulut için yeni sistemler öğrenmeye gerek yok",
+          "Tüm sistemleriniz için birleşik görünüm",
+          "Daha kolay altyapı yönetimi",
+          "Zaman ve maliyet tasarrufu"
+        ]
+      },
+      "reporting": {
+        "title": "Denetim Raporları",
+        "description": "Güvenlik denetimleri ve uyumluluk standartları (SOC2, ISO27001, GDPR) için gereken raporları otomatik olarak oluşturur.",
+        "benefits": [
+          "Denetimler daha hızlı tamamlanır",
+          "Tüm belgeler otomatik olarak hazır olur",
+          "Güvenlik standartlarına uyum sağlarsınız",
+          "Müşteriler güvenliği ciddiye aldığınızı görür"
+        ]
+      }
+    },
+    "pricing": {
+      "title": "Size Uygun Planı Seçin",
+      "subtitle": "Tüm planlarda 10 günlük ücretsiz deneme dahildir. Kredi kartı gerekmez.",
+      "plans": {
+        "smallBusiness": {
+          "name": "Lite — 500$/ay",
+          "for": [
+            "Startuplar",
+            "Küçük şirketler",
+            "Yeni başlayanlar"
+          ],
+          "includes": [
+            "10 sunucuya kadar izleme",
+            "Otomatik sorun çözümü — 1 sunucu",
+            "SIEM entegrasyonu: Wazuh, Elastic",
+            "Günlük ve hata analizi",
+            "Sorun tespiti",
+            "Slack ve e-posta bildirimleri",
+            "Haftalık raporlar",
+            "E-posta desteği",
+            "Öncelikli destek"
+          ],
+          "whoChooses": [
+            "Küçük altyapılı startuplar",
+            "Denemek isteyen şirketler",
+            "Bütçe dostu çözüm arayanlar"
+          ],
+          "cta": "Ücretsiz Denemeyi Başlat"
+        },
+        "growingCompanies": {
+          "name": "Pro — 1500$/ay",
+          "badge": "EN POPÜLER",
+          "for": [
+            "Orta ölçekli şirketler",
+            "DevOps ekipleri",
+            "Büyüyen şirketler"
+          ],
+          "includes": [
+            "Small Business planındaki her şey",
+            "50 sunucuya kadar izleme",
+            "Otomatik sorun çözümü — 10 sunucu",
+            "SIEM entegrasyonu: Wazuh, Elastic",
+            "Özel otomasyon kuralları",
+            "Örneklerden öğrenme (RAG Hub)",
+            "Güvenlik duvarı yönetimi",
+            "Öncelikli destek (4 saat içinde yanıt)",
+            "Aylık güvenlik raporları",
+            "Profesyonel izleme sistemleriyle entegrasyon"
+          ],
+          "whoChooses": [
+            "DevOps ekipleri",
+            "Büyüyen şirketler",
+            "Tam otomasyon isteyenler"
+          ],
+          "cta": "Ücretsiz Denemeyi Başlat"
+        },
+        "largeCompanies": {
+          "name": "Business — 3500$/ay",
+          "for": [
+            "Büyük şirketler",
+            "Başka müşterilere hizmet veren şirketler",
+            "Yüksek güvenlik gereksinimleri olan şirketler"
+          ],
+          "includes": [
+            "100 sunucuya kadar izleme",
+            "Otomatik sorun çözümü — 50 sunucu",
+            "SIEM entegrasyonu: Wazuh, Elastic",
+            "Growing Companies planındaki her şey",
+            "Profesyonel izleme sistemleriyle entegrasyon",
+            "Yerinde (on-premise) dağıtım (opsiyonel)",
+            "Şirketinize özel yapay zeka ayarı",
+            "Tek oturum açma (SSO)",
+            "Özel destek",
+            "%99,9 çalışma süresi garantisi",
+            "Üç aylık güvenlik denetimleri",
+            "White-label (kendi logonuz)"
+          ],
+          "whoChooses": [
+            "Büyük şirketler",
+            "Başka müşterilere hizmet veren şirketler",
+            "Yüksek güvenlik gereksinimleri olan şirketler",
+            "Finans ve sağlık şirketleri"
+          ],
+          "cta": "Ücretsiz Denemeyi Başlat"
+        },
+        "enterprise": {
+          "name": "Enterprise — Özel fiyatlandırma",
+          "badge": "💎",
+          "for": [
+            "Büyük kurumlar",
+            "Bankalar ve finans kuruluşları",
+            "Veri merkezleri ve barındırma sağlayıcıları",
+            "Devlet kurumları",
+            "Kapalı ağlara sahip şirketler"
+          ],
+          "paymentModel": [
+            "İlk kurulum: 3.000$ (tek seferlik)",
+            "Yıllık lisans: 12.000$/yıldan başlayan"
+          ],
+          "includes": [
+            "Large Companies planındaki her şey",
+            "Kendi sunucularınıza kurulum (tam izolasyon)",
+            "Hava boşluklu (air-gapped) çalışma (çevrimdışı)",
+            "Bizimki yerine kendi logonuz (white-label)",
+            "Şirketinize özel yapay zeka ayarı"
+          ],
+          "cta": "Yöneticiyle İletişime Geçin"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Guardian Cloud ve Diğer Çözümler",
+      "header": {
+        "criterion": "Önemli olan",
+        "guardianCloud": "Guardian Cloud",
+        "expensiveSystems": "Pahalı sistemler (Datadog, Splunk)",
+        "manualMonitoring": "Manuel izleme"
+      },
+      "rows": [
+        "price",
+        "setupTime",
+        "ai",
+        "autoFix",
+        "falseAlarms",
+        "fixTime",
+        "ease",
+        "support",
+        "aiLearning"
+      ],
+      "row": {
+        "price": {
+          "criterion": "Aylık maliyet",
+          "guardianCloud": "99-999$",
+          "expensiveSystems": "500-10.000$",
+          "manualMonitoring": "50.000$+ (maaş)"
+        },
+        "setupTime": {
+          "criterion": "Kurulum süresi",
+          "guardianCloud": "5 dakika",
+          "expensiveSystems": "2-3 saat",
+          "manualMonitoring": "Uygulanamaz"
+        },
+        "ai": {
+          "criterion": "Yapay Zeka",
+          "guardianCloud": "✅ Var",
+          "expensiveSystems": "❌ Yok",
+          "manualMonitoring": "❌ Yok"
+        },
+        "autoFix": {
+          "criterion": "Otomatik çözüm",
+          "guardianCloud": "✅ Var",
+          "expensiveSystems": "❌ Yok",
+          "manualMonitoring": "❌ Yok"
+        },
+        "falseAlarms": {
+          "criterion": "Yanlış alarmlar",
+          "guardianCloud": "%1",
+          "expensiveSystems": "%20-30",
+          "manualMonitoring": "%50+"
+        },
+        "fixTime": {
+          "criterion": "Sorun çözüm süresi",
+          "guardianCloud": "5 sn",
+          "expensiveSystems": "1-2 sn",
+          "manualMonitoring": "30-60 dk"
+        },
+        "ease": {
+          "criterion": "Kullanım kolaylığı",
+          "guardianCloud": "✅ Çok kolay",
+          "expensiveSystems": "❌ Karmaşık",
+          "manualMonitoring": "Uygulanamaz"
+        },
+        "support": {
+          "criterion": "Destek",
+          "guardianCloud": "✅ 7/24",
+          "expensiveSystems": "✅ 7/24",
+          "manualMonitoring": "Uygulanamaz"
+        },
+        "aiLearning": {
+          "criterion": "Yapay zeka öğrenimi",
+          "guardianCloud": "✅ Öğrenir",
+          "expensiveSystems": "❌ Yok",
+          "manualMonitoring": "Uygulanamaz"
+        }
+      }
+    },
+    "faq": {
+      "title": "Sorulara Yanıtlar",
+      "q1": {
+        "question": "Guardian Cloud'u kurmak ne kadar zor?",
+        "answer": "Çok kolay. Terminalde bir komut çalıştırabiliyorsanız, 5 dakikada kurabilirsiniz. Teknik değil misiniz? Ücretsiz yardımcı oluruz."
+      },
+      "q2": {
+        "question": "Guardian Cloud hangi verileri toplar?",
+        "answer": "Günlükler, performans metrikleri ve güvenlik olayları. Asla şifre veya kişisel veri toplamayız. Her şey şifrelenir."
+      },
+      "q3": {
+        "question": "Kendi sunucularımla kullanabilir miyim?",
+        "answer": "Evet. SaaS ya da on-premise (Enterprise planı). Seçim sizin."
+      },
+      "q4": {
+        "question": "Yapay zeka ne kadar isabetli?",
+        "answer": "%99,2 doğruluk. Sisteminizden öğrenir ve zamanla gelişir."
+      },
+      "q5": {
+        "question": "Ücretsiz denemeye neler dahil?",
+        "answer": "10 gün tam Pro plan erişimi. Kredi kartı gerekmez. İstediğiniz zaman iptal edin."
+      },
+      "q6": {
+        "question": "Denetimler için raporlara ihtiyacım var mı?",
+        "answer": "Evet, Guardian Cloud tüm güvenlik standartları (SOC2, ISO27001, GDPR, HIPAA) için otomatik olarak rapor oluşturur. Denetimler için her şey hazırdır."
+      },
+      "q7": {
+        "question": "Guardian Cloud araçlarımla nasıl entegre olur?",
+        "answer": "Guardian Cloud, Slack, PagerDuty, Datadog ve birçok popüler araçla çalışır. Belirli bir şeyle entegrasyona ihtiyacınız varsa bize yazın — yardımcı oluruz."
+      },
+      "q8": {
+        "question": "Ne tür bir çalışma süresi garantisi sağlıyorsunuz?",
+        "answer": "Small business planı: %99 çalışma süresi\nGrowing companies planı: %99,5 çalışma süresi\nLarge companies planı: %99,9 çalışma süresi\nBu, Guardian Cloud'un neredeyse her zaman çalışacağı anlamına gelir. Kesinti süresi neredeyse ortadan kalkar."
+      }
+    },
+    "finalCTA": {
+      "title": "Değişmeye Hazır mısınız?",
+      "subtitle": "Guardian Cloud'u zaten kullanan şirketlere katılın",
+      "description": "Beklemeye gerek yok. Guardian Cloud'u bugün ücretsiz deneyin. 10 gün tam erişim. Kredi kartı gerekmez. İstediğiniz zaman iptal edin.",
+      "primaryButton": "Ücretsiz Denemeyi Başlat",
+      "secondaryButton": "Demo Talep Edin",
+      "note": "Kredi kartı gerekmez. İstediğiniz zaman iptal edin. 7/24 destek."
+    }
+  },
+  "ops": {
+    "hero": {
+      "title": "ALFACAN Mercanon",
+      "subtitle": "Online mağazanızı bütün bir ekip yerine yöneten yapay zeka direktörünüz",
+      "description": "7/24 çalışan ve asla hata yapmayan altı uzmanlık ekibine sahip olduğunuzu hayal edin. Bir sistem yöneticisi siteyi izler, bir sipariş yöneticisi siparişleri işler, bir lojistikçi depoyu ve teslimatı yönetir, bir mali sorumlu ödemeleri kontrol eder, bir pazarlamacı içerik üretir ve sosyal medyada tanıtım yapar. Ve tüm bunlar ayda 15.000 dolar yerine 99-999 dolara. İşte ALFACAN Mercanon budur."
+    },
+    "soon": {
+      "badge": "Modül geliştirme aşamasında",
+      "title": "Bu modül geliştirme aşamasında",
+      "body_1": "ALFACAN Mercanon şu anda inşa ediliyor. Modül hazır olana kadar planları göstermiyor veya kayıt açmıyoruz: henüz var olmayanı vaat etmeyeceğiz.",
+      "body_2": "Mağazanız için ne yapmasını isterdiniz, bize söyleyin. İnşa ederken bunu dikkate alacağız ve yayına girdiğinde size haber vereceğiz.",
+      "cta": "İsteklerinizi paylaşın"
+    }
+  },
+  "referral": {
+    "hero": {
+      "title": "Guardian AI Partner Program",
+      "subtitle": "Sizin Deneyiminiz + Bizim Teknolojimiz = İşiniz İçin Yeni Fırsatlar",
+      "description": "Müşterilerinize geliştirme ve destek için zaman harcamadan siber güvenlik ve otomasyon için en yeni yapay zeka çözümlerini sunabildiğinizi hayal edin. Her müşterinin ödemesinden aylık yüzde 15'e kadar alırsınız, müşterileriniz profesyonel 7/24 koruma elde eder ve tüm teknik işi Guardian AI üstlenir. İşte ortaklık programımız budur."
+    },
+    "shift": {
+      "intro": "Yapay zekanın işinizi elinizden alacağı fikriyle sizi korkutmaya çalışmıyoruz. Bu doğru değil ve zaten bize inanmazdınız.",
+      "change": "Başka bir şey değişiyor ve bu tam da şimdi oluyor: müşteriler saatler için ödeme yapmayı bırakıp sonuçlar için ödeme yapmaya başladı. Kimse on saatlik yapılandırma istemiyor — her şeyin çalışmasını ve korunmasını istiyorlar.",
+      "bad": "Zamanını satan herkes için bu kötü bir haber.",
+      "good": "Sistemi yöneten herkes için ise on yılın en iyi haberi.",
+      "risk": "Gerçek risk, bir makinenin yerinizi almasında değil. Risk, bir gün müşterinizin doğrudan teknoloji sağlayıcısına gitmesi — ve sizin tek bir görevi değil, tüm hesabı kaybetmenizdir.",
+      "bring": "Onu kendiniz getirin. Müşteri sizin kalır ve yaptığı her ödemeden bir yüzde kazanırsınız."
+    },
+    "insider": {
+      "title": "Bu sistemi değerlendirmeniz istendiyse",
+      "lead": "Büyük olasılıkla ne diyeceğinizi zaten biliyorsunuz. Nedenini anlıyoruz ve bunu görmezden gelmeyeceğiz. Ama her iki senaryoyu da sonuna kadar okuyun.",
+      "s1_title": "Senaryo 1: Ürünü olgunlaşmamış ilan edersiniz.",
+      "s1_text": "Konu kapanır, ama sadece bir süreliğine. Birkaç ay içinde direktörünüz bu sistemi zaten kullanan ve sonuçlarını gören bir iş ortağından duyacak. Konuya geri dönecek, ama bu sefer sizsiz. Karar başınızın üstünden verilecek ve önceki değerlendirmeniz ya profesyonel bir hata ya da statükoyu koruma girişimi olarak okunacak.",
+      "s2_title": "Senaryo 2: Bu çözümü kendiniz getirirsiniz.",
+      "s2_text": "Onu ilk anlayan siz olursunuz ve sıkı koşullar koyarsınız: sistemin neye dokunabileceğini, neyin sizin kişisel onayınızı gerektirdiğini, güvenlik sınırının nerede olduğunu. Devreye alma sizin tam kontrolünüz altında gerçekleşir, çünkü şirkette altyapıyı sizin kadar derinlemesine anlayan başka kimse yok.",
+      "close": "Senaryolar arasındaki fark, otomasyonun gelip gelmeyeceği değil. Gelecek. Fark, onu getiren kişi mi yoksa kaçıran kişi mi olduğunuzdur."
+    },
+    "callout": {
+      "line1": "Belki de kendinize, bugün olduğunuz gibi kalacağınız bir gelecek hikayesi anlatmayı bırakma zamanıdır.",
+      "line2": "Belki de zaten olan biteni kabul edip kendi koşullarınızla içine adım atma zamanıdır."
+    },
+    "msp": {
+      "title": "MSP: marjınız maaşlarda tükeniyor",
+      "p1": "Saat satıyorsunuz. Mühendisler pahalılaşıyor, müşteriler fiyata direniyor ve her yeni sözleşme yeni insanlar gerektiriyor. Bu bir piyasa gerilemesi değil, tükenmiş bir model.",
+      "p2": "Müşteriniz de aynı sonuca varacak. Birisi onlara sabit bir abonelikle otonom, korunan bir sistem sunduğu gün, nöbet için ödeme yapmayı bırakacaklar.",
+      "s1_title": "Senaryo 1. Eski modeli savunun.",
+      "s1_text": "O teklif sizi atlayarak doğrudan müşterinize ulaşacak. Bir olayı değil, sözleşmenin tamamını kaybedeceksiniz.",
+      "s2_title": "Senaryo 2. Kendiniz getirin.",
+      "s2_text": "Mühendisleriniz ilk hattan mimariye geçer. Aynı kadroyla daha fazla müşteri alırsınız. Saat değil, abonelik satarsınız.",
+      "list_title": "Bir MSP ortağı ne elde eder:",
+      "points": [
+        {
+          "title": "White-Label",
+          "text": "Bizim değil, sizin markanız altında otonom siber savunma."
+        },
+        {
+          "title": "İnsanlarınız rutini kapatmayı bırakır",
+          "text": "Ve iyi ödenen işi kapatmaya başlar."
+        },
+        {
+          "title": "Araçlar mühendislerinize gider",
+          "text": "Günlük iş için Guardian Cloud, G-Coder ve G-Tester — satış ekibi için demo girişi değil. Sırada G-Studio var: kendini kuran siteler, mağazalar ve hizmetler."
+        },
+        {
+          "title": "Sözleşmeniz için özel bir modül",
+          "text": "Büyük bir müşteri sahip olmadığımız bir şey talep ederse, bize söyleyin. Geliştirmede, kendi aklımıza gelenlerden önce ortaklarımızın gerçek ihalelerden getirdiği taleplere öncelik veriyoruz."
+        }
+      ],
+      "transition": "Mevcut filonuzu bize taşıyın. 51. müşteriden itibaren komisyonunuz yükselmeye başlar, 100'de ise bayi statüsü ve kendi markanız altında White-Label açılır. Bir MSP'nin zaten müşterileri olduğundan, bu eşiği bir yıl boyunca çalışmak yerine anında geçersiniz. Geçişin tam koşullarını yüz yüze görüşerek belirleriz.",
+      "close": "Size yığına bir araç daha satmıyoruz. Sattığınız şeyi değiştiriyoruz."
+    },
+    "ecosystem": {
+      "title": "Ekosistemimize katılarak neler kazanırsınız",
+      "lead": "Komisyon bir sonuçtur. Gerçek bir ortaklık başka bir yerden başlar.",
+      "points": [
+        {
+          "title": "Ürün paketine tam erişim",
+          "text": "Guardian Cloud, G-Coder, G-Tester ve ardından gelecek her hizmet. Kendimiz kullandığımız aynı çalışan araç setini alırsınız. Kısaltılmış demo sürümleri yok."
+        },
+        {
+          "title": "Geliştirme üzerinde doğrudan etki",
+          "text": "Bizim göremediğimizi siz görürsünüz: sistemlerin bir müşteride sahada gerçekten nasıl davrandığını. Yeni bir modül geliştirmeye girmeden önce ortaklarımıza görüş sormayı taahhüt ediyoruz — yayından sonra onlara oldu-bitti sunmak yerine."
+        },
+        {
+          "title": "Teknolojiye erken erişim",
+          "text": "Neyi ve nasıl inşa ettiğimizi ilk öğrenen siz olursunuz. Testlere ve mimariye katılmak isterseniz katılırsınız. İstemezseniz, sadece tüm pazarın önünde nabzınızı tutarsınız."
+        },
+        {
+          "title": "Fikirlerinize yatırım",
+          "text": "Bize getirdiğiniz umut vadeden projeleri incelemeye, birlikte fonlamaya ve ekosisteme entegre etmeye hazırız."
+        }
+      ],
+      "close": "İşte kariyerinizdeki yeni dönüş: başkalarının emirlerini yerine getirmekten kendi ürünlerinizin yazarı olmaya giden yol."
+    },
+    "pricing": {
+      "title": "Koşullar",
+      "subtitle": "Oranınız, ödeme yapan müşteri sayınızla birlikte yükselir ve otomatik olarak yeniden hesaplanır.",
+      "ladder": {
+        "title": "Oranınız",
+        "col_clients": "Müşteriler",
+        "col_rate": "Komisyon",
+        "steps": [
+          {
+            "clients": "50'ye kadar",
+            "rate": "%10"
+          },
+          {
+            "clients": "51-60",
+            "rate": "%11"
+          },
+          {
+            "clients": "61-70",
+            "rate": "%12"
+          },
+          {
+            "clients": "71-80",
+            "rate": "%13"
+          },
+          {
+            "clients": "81-90",
+            "rate": "%14"
+          },
+          {
+            "clients": "91 ve üzeri",
+            "rate": "%15"
+          }
+        ],
+        "note": "Bizimle kaldıkları sürece her müşterinizin cirosundan bir yüzde kazanırsınız. Hangi planda oldukları ve tam olarak ne satın aldıkları fark etmez."
+      },
+      "subpartner": {
+        "title": "Getirdiğiniz ortaklar",
+        "text": "Bir ortak getirirseniz, onların müşterilerinin cirosundan ek olarak %5 kazanırsınız. Kendi oranları düşürülmez."
+      },
+      "reseller": {
+        "title": "Bayi statüsü",
+        "text": "100 aktif ödeme yapan müşteride bayiye yükselebilirsiniz: ayda ek 200$ karşılığında kendi markanız altında White-Label, müşterileriniz için öncelikli destek ve yeni modüllere erken erişim."
+      },
+      "payouts": {
+        "title": "Ödemeler",
+        "rows": [
+          {
+            "k": "Ne zaman",
+            "v": "sonraki ayın 10'u"
+          },
+          {
+            "k": "Minimum",
+            "v": "100$ tahakkuk eden komisyon"
+          },
+          {
+            "k": "Koşul",
+            "v": "imzalı bir ödeme talebi"
+          },
+          {
+            "k": "Esas",
+            "v": "müşterinin fiilen ödediği faturalar"
+          },
+          {
+            "k": "Yöntem",
+            "v": "Revolut Business, bizim tarafımızdan hiçbir kesinti yapılmadan"
+          }
+        ]
+      },
+      "cta": "Ortak olun"
+    },
+    "faq": {
+      "title": "Sorularınıza yanıtlar",
+      "q1": {
+        "question": "Programa katılmanın maliyeti nedir?",
+        "answer": "Hiçbir şey. Kayıt, materyallere erişim ve teknik destek ücretsizdir. Müşterileriniz ödeme yaptığında siz de kazanırsınız."
+      },
+      "q2": {
+        "question": "İlk ödememi ne zaman alırım?",
+        "answer": "Müşteriniz ödeme yaptığı anda komisyon tahakkuk eder. Ödeme, tahakkuk eden tutar 100$'a ulaştığında ve ödeme talebi imzalandığında, sonraki ayın 10'unda yapılır."
+      },
+      "q3": {
+        "question": "Müşterim aboneliğini iptal ederse ne olur?",
+        "answer": "O müşteriden komisyon kazanmayı bırakırsınız, diğerleri ödemeye devam ederken. Her müşteri uygun değildir ve bu normaldir."
+      },
+      "q4": {
+        "question": "Hizmetlerinizi kendi markam altında satabilir miyim?",
+        "answer": "Evet. 100 aktif ödeme yapan müşteride bayi statüsünü ve onunla birlikte ayda ek 200$ karşılığında White-Label'i açarsınız: kendi logonuz, kendi adınız, kendi iletişim bilgileriniz."
+      },
+      "q5": {
+        "question": "Müşterilere teknik destek sağlamam gerekiyor mu?",
+        "answer": "Hayır. Kurulum, yapılandırma, izleme ve destek AlfaCan tarafından yürütülür. Siz çözümü önerir ve müşterinin plan seçmesine yardımcı olursunuz."
+      },
+      "q6": {
+        "question": "Bayi statüsü ne zaman açılır?",
+        "answer": "100 aktif ödeme yapan müşteriniz olduğunda otomatik olarak. Ondan önce komisyonunuz kademeli olarak yükselir: 51. müşteriden itibaren temel %10'un üzerine çıkmaya başlar."
+      },
+      "q7": {
+        "question": "Kendi hizmetlerimi platformlarınızla birleştirebilir miyim?",
+        "answer": "Evet, hatta ana model budur. Siz danışmanlık, geliştirme ve uygulamaya devam ederken rutin izleme ve güvenlik platforma taşınır. Zaman kazanır ve üzerine kazanırsınız."
+      },
+      "q8": {
+        "question": "Müşterim komisyon aldığımı öğrenirse ne olur?",
+        "answer": "Hiçbir şey olmaz. Onlara yardımcı olacak bir çözüm önerdiniz ve komisyon bu tavsiyenin karşılığıdır. Büyük her BT şirketi ortaklık programını bu şekilde yürütür."
+      }
+    },
+    "finalCTA": {
+      "title": "İlk müşterinizi getirin",
+      "subtitle": "Kayıt birkaç dakika sürer",
+      "description": "Sonrasında her müşteriyi, her ödemeyi ve mevcut oranınızı gösteren kişisel bir link ve bir gösterge paneli alırsınız.",
+      "primaryButton": "Ortak olun",
+      "note": "Katılım ücretsizdir, hacim taahhüdü gerektirmez."
+    }
+  },
+  "team": {
+    "hero": {
+      "title": "Ekibimiz",
+      "subtitle": "Oyunun kurallarını değiştiren bir ekibiz"
+    },
+    "founder": {
+      "name": "Taras Safonov",
+      "position": "Proje Sahibi ve Kurucusu",
+      "location": "Yunanistan",
+      "watchVideo": "Videoyu İzle",
+      "linkedin": "LinkedIn"
+    },
+    "members": [
+      {
+        "name": "Anatol Popandopulo",
+        "position": "Proje CEO'su",
+        "location": "Polonya"
+      },
+      {
+        "name": "Oxana Vlasova",
+        "position": "Projenin Baş Mühendisi",
+        "location": "Yunanistan"
+      },
+      {
+        "name": "Vlada Safonova",
+        "position": "Projenin Başgeliştiricisi",
+        "location": "Türkiye"
+      },
+      {
+        "name": "Alex Jackson",
+        "position": "Cloud Danışmanı",
+        "location": "ABD"
+      },
+      {
+        "name": "Dmitry Pancenko",
+        "position": "Avrupa ve BDT'de E-ticaret Danışmanı",
+        "location": "Ukrayna"
+      },
+      {
+        "name": "Jenny Yang",
+        "position": "Asya Pazarında E-ticaret Danışmanı",
+        "location": "Çin"
+      }
+    ],
+    "aiThanks": {
+      "title": "Yapay Zeka Yaratıcılarına Teşekkürler",
+      "description": "GuardianAI, yapay zeka alanındaki ileri gelişmeler sayesinde mümkün oldu. Platform için mimari geliştirme, kodlama ve yerel modellerin ince ayarında bize yardımcı olan aşağıdaki modellerin arkasındaki ekiplere ve araştırmacılara derin şükranlarımızı sunuyoruz:",
+      "creators": [
+        {
+          "name": "Claude",
+          "company": "Anthropic",
+          "description": "doğal dil işlemeye yenilikçi yaklaşımlar ve uyarlanabilir yapay zeka çözümleri oluşturmadaki yardımları için."
+        },
+        {
+          "name": "Mistral",
+          "company": "Mistral AI",
+          "description": "platformumuzun mantığını ve mimarisini optimize etmenin temeli olan güçlü dil modelleri için."
+        },
+        {
+          "name": "Llama",
+          "company": "Meta",
+          "description": "gelişmiş makine öğrenimi algoritmalarını yerel çözümlere entegre etmemizi sağlayan açık modeller için."
+        },
+        {
+          "name": "Grok",
+          "company": "xAI",
+          "description": "GuardianAI'nin işlevselliğini genişleten benzersiz veri analizi ve içerik üretimi yetenekleri için."
+        },
+        {
+          "name": "DeepSeek",
+          "company": "DeepSeek AI",
+          "description": "karmaşık sorguları işlemek ve iş süreçlerini optimize etmek için yüksek hassasiyetli modeller için."
+        },
+        {
+          "name": "Qwen",
+          "company": "Alibaba Cloud",
+          "description": "kullanıcı etkileşimini iyileştirmemize yardımcı olan çok modlu modeller alanındaki yenilikçi çözümler için."
+        },
+        {
+          "name": "Manus",
+          "company": "Manus",
+          "description": "yapay zekayı platforma özgü görevlere ince ayar yapma ve uyarlama konusundaki destek için."
+        }
+      ],
+      "closing": "Teknolojileriniz ve işbirliğine açıklığınız olmasaydı, GuardianAI bugün olduğu devrim niteliğindeki araç haline gelemezdi. Yapay zekanın gelişimine katkınız ve inovasyona verdiğiniz destek için teşekkür ederiz!"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Bize Ulaşın",
+      "subtitle": "İşinizi dönüştürmeye hazır mısınız? Formu doldurun, ekibimiz 24 saat içinde sizinle iletişime geçsin."
+    },
+    "contacts": {
+      "email": {
+        "title": "E-posta",
+        "value": "info@guardian.afla-can.com"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+30(694) 1517518"
+      },
+      "address": {
+        "title": "Adres",
+        "value": "Londra, Birleşik Krallık"
+      }
+    },
+    "form": {
+      "title": "Bize mesaj gönderin",
+      "fields": {
+        "name": {
+          "label": "Ad Soyad *",
+          "placeholder": "John Doe"
+        },
+        "email": {
+          "label": "E-posta *",
+          "placeholder": "john@example.com"
+        },
+        "company": {
+          "label": "Şirket",
+          "placeholder": "Şirket adı"
+        },
+        "phone": {
+          "label": "Telefon",
+          "placeholder": "+30 xxxxxxxxxx"
+        },
+        "product": {
+          "label": "İlgilendiğiniz Ürün",
+          "options": [
+            "Guardian Cloud",
+            "ALFACAN Mercanon",
+            "Her İki Ürün",
+            "Referans Programı"
+          ]
+        },
+        "message": {
+          "label": "Mesaj *",
+          "placeholder": "Göreviniz veya sorunuz hakkında bize anlatın..."
+        },
+        "consent": {
+          "label": "Kişisel verilerin işlenme koşullarını kabul ediyorum"
+        }
+      },
+      "submit": "Mesaj Gönder"
+    }
+  },
+  "footer": {
+    "company": "Şirket",
+    "companyDesc": "Siber güvenlik ve otomasyon için lider yapay zeka çözümleri",
+    "products": "Ürünler",
+    "guardianCloud": "Guardian Cloud",
+    "guardianOps": "ALFACAN Mercanon",
+    "referralProgram": "Referans Programı",
+    "about": "Hakkımızda",
+    "aboutUs": "Hakkımızda",
+    "team": "Ekibimiz",
+    "contact": "İletişim",
+    "socialMedia": "Bizi sosyal medyada takip edin",
+    "copyright": "© 2024 Guardian AI. Tüm hakları saklıdır."
+  },
+  "studio": {
+    "hero": {
+      "title": "AI Studio",
+      "subtitle": "Süreçlerinizi çalıştırmak, inşa etmek ve ölçeklendirmek için tek bir otonom ortam."
+    },
+    "section_6_bridge": {
+      "title": "Projelere Köprü",
+      "paragraph_1": "Bunu, Geleceğin Mimarları'nın en geniş kitlesine ulaşacak iki projeye ayırdık.",
+      "paragraph_2": "Proje G — fikrini dijital alanda yaratmak isteyenler için.",
+      "paragraph_3": "Proje BlackWings — fikrini gerçek sektörde hayata geçirmek isteyenler için.",
+      "paragraph_4": "Bu projelerin sayfalarını ziyaret edin, onları tanıyın ve hayatınızda nasıl kullanacağınıza karar verin.",
+      "paragraph_5": "Gördüğünüz gibi bazı modüller zaten inşa edilmiş ve çalışıyor; diğerleri hâlâ geliştirme aşamasında ve önümüzdeki aylarda gelecek.",
+      "paragraph_6": "Onlarda başka neler görmek istediğinizi bizimle paylaşmaktan memnuniyet duyarız.",
+      "wishes_button": "İsteklerinizi paylaşın"
+    },
+    "concept": {
+      "statement": "AI Studio sizin teknolojik köprübaşınızdır.",
+      "body": "Yönü ve nihai hedefi siz belirlersiniz; sistem göreve, analitik ve siber savunmadan yazılım, iletişim ve altyapı yönetimine kadar ihtiyaç duyduğu özel modül setini getirir. Her aşamada modellerin birbiriyle görüştüğünü görürsünüz ve istediğiniz anda araya girip yönü düzeltebilirsiniz, böylece iş doğru yapılır ve bir kez yapılır.",
+      "dev_title": "Kendi işiniz için inşa edilmiş ve entegre edilmiş",
+      "dev_1": "AI Studio, evrime açık bir mimaridir. Burada bizimle birlikte yeni modüller geliştirebilir ve doğrudan kendi alanınızda kullanıma sunabilirsiniz.",
+      "dev_2": "İşletmenizin veya üretiminizin özel taleplerine yönelik hazır bir araç henüz mevcut olmadığında, onu tasarlar ve kendi çevrenizin içine yerleştiririz.",
+      "guide_1": "Kayıt olduktan sonra gösterge panelinizde sizi Falco karşılayacak. Sizi AI Studio'nun her modülünden geçirecek ve her birinin ne için olduğunu açıklayacak.",
+      "guide_2": "Burada iş gününün gerektirdiği her şeyi bulacaksınız. Kod yazmak için G-Coder. Bulut altyapınızı test etmek için G-Tester. Zamanla iletişiminizi aynı çatı altına getirmek için G-CallCenter. Ve kimsenin ihtiyaç duymayacağı ve asla açmayacağı bir özellik yığını için değil, onu kullanan kişi için inşa edilmiş proje yönetimi G-Team.",
+      "guide_3": "BlackWings projesinin çalışması, gerçek makineler ve mekanizmalar tasarlamanıza ve üretiminizi içinde insan olmadan yürütmenize olanak tanıyacak. İnsana kalan tek pay, malzemeyi makinelere taşıyan yükleyicidir.",
+      "guide_4": "Falco, inşa etmeye giriştiğiniz her şeyde rehberiniz ve yardımcınız olacak.",
+      "evolve_1": "Zamanla Falco, komutu değil niyeti anlamaya başlayacak. Çalışma tarzınıza uyum sağlayacak, aldığınız kararları hatırlayacak ve size bariz olanı açıklamanızı istemeyi bırakacak.",
+      "evolve_2": "Ve sonra bir ses bulacak, siz de birçok bilim kurgu filminin kahramanlarının kendi yapay zekalarıyla konuştuğu gibi onunla konuşacaksınız. Yakın zamana kadar fantezi sayılanı zaten inşa ediyoruz."
+    }
+  },
+  "gcoder": {
+    "meta": {
+      "title": "G-Coder: Hizmet Olarak Yapay Zeka Mühendisi | AlfaCan AI Studio",
+      "description": "Özel, tamamen kapalı bir yapay zeka çıkarım çevresine bağlı bir VS Code çatalı. Kaynak kodunuz çevreyi asla terk etmez. OWASP/CWE doktrini altında bir model konseyi, döngüde bir insanla.",
+      "og_title": "G-Coder: Hizmet Olarak Yapay Zeka Mühendisi",
+      "og_description": "Kapalı bir çevre içinde, makinenizde bir yapay zeka mühendisliği ekibi. Garanti koddan sürece taşınır: her değişiklik açık bir insan onayından geçer."
+    },
+    "hero": {
+      "badge": "",
+      "title": "G-Coder",
+      "subtitle": "",
+      "paragraph": "",
+      "cta_primary": "Kayıt",
+      "cta_primary_url": "#early-access",
+      "cta_secondary": "",
+      "cta_secondary_url": ""
+    },
+    "section_overview": {
+      "title": "Yazılım geliştirmenin yeni bir yolu",
+      "lead": "Kodla çalışmanın temelden yeni bir yolunu inşa ettik. Bir bulut uygulaması, bir hizmet veya bir web platformu oluşturmak için artık bir programcı olmanıza ya da karmaşık bir dil yığınını kafanızda tutmanıza gerek yok. Fikirlerinizi pahalı geliştirme ekipleri kiralamadan doğrudan gerçeğe dönüştürdüğünüz zaman geldi.",
+      "falco": "Daha ilk andan itibaren asistanınız Falco (Gemma-4-26B) ile konuşursunuz. Herhangi bir soruda yardımcı olur, model konseyini toplar ve siz kenardan izlerken toplantıyı yürütür. İstediğiniz anda herhangi bir modeli durdurup şunu sorabilirsiniz: \"Bu ne? Neden başka türlü değil de bu şekilde yapmaya karar verdin?\"",
+      "how_title": "Nasıl çalışır?",
+      "how_lead": "Çevrenizin içindeki özel bir yapay zeka çıkarım çevresine bağlı, kendi donanımınızda çalışan bir VS Code çatalı.",
+      "how_intro": "Görevi tanımlarsınız ve ardından uzmanlaşmış bir model konseyi devreye girer:",
+      "model_1_name": "Falco (Gemma-4)",
+      "model_1_role": "mimariyi tasarlar ve planı oluşturur;",
+      "model_2_name": "Qwen3-Coder",
+      "model_2_role": "temiz kod yazar;",
+      "model_3_name": "Qwen3-Thinking",
+      "model_3_role": "mantığı hatalara karşı test eder ve kontrol eder;",
+      "model_4_name": "Da Vinci (GLM-5.2)",
+      "model_4_role": "konseyin ana beyni: en yüksek riskli değişiklikleri doğrular ve onayınızdan önce son sözü söyler.",
+      "how_close": "Modellerin tüm görüşmelerini, birbirleriyle olan bütün müzakerelerini, söyledikleri her kelimeyi görürsünüz. İstediğiniz anda araya girip herhangi bir modele soru sorabilirsiniz ve o size cevap verir; sürece de ayarlamalar yapabilirsiniz.",
+      "diff_title": "Cursor ve otonom ajanlardan temel fark",
+      "diff_1": "Diğer editörlerde görevi bir \"kara kutuya\" verir ve sonucu umarsınız. Sonunda model \"uygun gördüğü\" şeyi yazar ve siz onu yeniden düzenlemek için saatler harcarsınız.",
+      "diff_2": "Bizimle süreç tamamen sizin kontrolünüzdedir. Siz bir izleyici değil, baş mimarsınız:",
+      "quote": "\"Hayır, burada farklı yapıyoruz. Ve burada mantığı değiştiriyoruz.\"",
+      "close": "Her adımı görür, yönlendirir ve onaylarsınız. Ortaya çıkan şey sinir ağının karar verdiği değil, tam olarak aklınızdaki şeydir."
+    },
+    "section_walkthrough": {
+      "title": "Platformun tam anlatımı",
+      "text": "Tüm bunların nasıl gerçekleştiğini daha ayrıntılı olarak anlamak isterseniz, platformun tam bir anlatımını hazırladık. İçeriden nasıl çalıştığını parça parça görün.",
+      "video_ru": "avVnG456czM",
+      "video_en": "AGWVTduarco",
+      "article_text": "G-Coder mimarisini daha derinlemesine incelemek isterseniz, ürünün teknik açıklamasını okuyun.",
+      "article_label": "Açıklamayı oku",
+      "article_url": "/papers/g-coder-paper-en.html"
+    },
+    "section_council": {
+      "title": "Ajan Konseyi, her adımı görürsünüz",
+      "paragraph_1": "Bu bir diff döndüren kara kutu değildir. S-coding arka ucu, her sıranızda tam olarak bir adım ilerleyen gözlemlenebilir bir model konseyi toplar. Aşama ve çalışma durumu bir veritabanına kaydedilir, böylece bir oturum yeniden başlatmaya, bir duraklamaya ve bir denetime dayanır: aynı noktadan devam ettirilebilir ve tamamen gösterilebilir.",
+      "pipeline_label": "Konsey hattı:",
+      "pipeline_steps": "Niyet → Planlama (Falco / Gemma-4) → Üretim (Qwen3-Coder) → İnceleme (Qwen3-Thinking) → Doğrulama (Da Vinci / GLM-5.2) → onay bekleniyor → sizin \"devam\" sözünüz → altyapınıza dağıtım",
+      "paragraph_2": "Her adımda devam edebilir, aktif modele \"neden?\" diye sorabilir, onu yönlendirebilir ya da uygulama adımına ulaşmadan durdurabilirsiniz. Her akıl yürütme turu kaydedilir: sonradan uydurulan bir gerekçe değil, tam bir günlük.",
+      "paragraph_3": "Kod, kendi sunucunuzdaki bir ajan aracılığıyla uygulanır. Platform akıl yürütür, makineniz uygular. Dosya sisteminize doğrudan hiçbir şey yazmayız."
+    },
+    "section_models": {
+      "title": "Kendi model filomuz tarafından desteklenir",
+      "intro": "Konseye, her birini uzman haline getirmek için ince ayar yaptığımız kendi eğittiğimiz modeller liderlik eder. Tümü kendi barındırdığımız, çevre içinde. Yalnızca bir opsiyonel adım dışarı çıkabilir, o da yalnızca sizin seçiminizle ve yalnızca temizlenmiş parçalar üzerinde.",
+      "m1_name": "Orkestratör: Falco / Gemma-4-26B",
+      "m1_role": "Niyeti görevlere böler, konseye liderlik eder, sizinle konuşur.",
+      "m2_name": "Üretici: Qwen3-Coder-30B",
+      "m2_role": "Yüksek verimli kod yazımı ve dosya dosya yama oluşturma.",
+      "m3_name": "İnceleyici: Qwen3-30B-Thinking",
+      "m3_role": "OWASP/CWE doktrinine ve doğruluğa karşı titizlikle tartışır.",
+      "m4_name": "Da Vinci: GLM-5.2 · ana beyin",
+      "m4_role": "Çevre içi doğrulayıcı: 753 milyar parametre, bir milyon token bağlam, kendi GPU'muzda. En yüksek riskli değişikliklerde son sözü söyler.",
+      "m5_name": "Harici doğrulayıcı: Claude Opus 4.8 / Fable 5 (opsiyonel)",
+      "m5_role": "Sizin tercihinizle ve yalnızca otomatik olarak temizlenmiş parçacıklar üzerinde ikinci bir görüş. Varsayılan olarak kapalıdır.",
+      "fleet_link": "Tam model filosunu görün →",
+      "fleet_url": "/studio/ai-models"
+    },
+    "section_doctrine": {
+      "title": "Sezgi değil, doktrin temelinde",
+      "paragraph_1": "Modelin uydurmasını bastırmak için, inceleyici her yamayı s-rag motoruna karşı kontrol eder. Alım iki aşamalıdır: önce yoğun alım, burada bir çift kodlayıcı OWASP/CWE vektör indeksinden anlamına göre aday kuralları hatırlar; ardından bağlamsal yeniden sıralama, burada bir çapraz kodlayıcı bunları \"kodunuz artı tehdit modeli\" eşleştirmesiyle yeniden puanlar ve yalnızca en iyileri bağlama girer.",
+      "paragraph_2": "İnceleyici neye bakması gerektiğini bilir çünkü doktrin önündedir. Bir riski işaretlerken, kararın arkasındaki tam kurala işaret eder. Kurumsal müşteriler özel koleksiyonlar ekler: kendi standartları ve angajman kuralları."
+    },
+    "section_safety": {
+      "title": "Asla bozmadığımız dört değişmez ilke",
+      "inv_1_title": "Hava boşluğu sınırı",
+      "inv_1_text": "Kaynak kodunuz iç çevreyi asla terk etmez. Harici doğrulama varsayılan olarak kapalıdır (EXTERNAL_VALIDATION_ALLOWED = false); etkinleştirmek müşterinin açık tercihini gerektirir ve yalnızca otomatik olarak temizlenmiş parçacıklar dışarı çıkar.",
+      "inv_2_title": "İnsan döngüde kapısı",
+      "inv_2_text": "Bir değişiklik yalnızca sohbette açık sözlü onayınız üzerine (örneğin \"devam\") APPLIED durumuna geçer. Bu onay, denetim kaydının kendisidir.",
+      "inv_3_title": "Kritik risk kapısı",
+      "inv_3_text": "CRITICAL olarak derecelendirilen değişikliklerin herhangi bir ayar altında otonom olarak uygulanması yasaktır. Bunları yalnızca bir insan yetkilendirebilir.",
+      "inv_4_title": "Denetimli yeniden eğitim döngüsü",
+      "inv_4_text": "Yürütme sonrası dersler anonimleştirilir ve insan incelemesi altında RAG doktrinine geri döndürülür. Yalnızca temizlenmiş kalıplar geri yazılır, asla müşteri kodu değil."
+    },
+    "section_evaluation": {
+      "title": "Nasıl ölçüyoruz ve henüz neyi iddia etmiyoruz",
+      "intro": "Dürüstçe: henüz ampirik ölçümler yok. Kıyaslama, ön yayın denetiminin ardından GPU kümesi yeniden etkinleştirildikten sonra planlanmıştır; o zamana kadar ana çıkarım sahte (mock) işleyicilerde çalışır. Ölçmediğimiz sayıları değil, mimariyi iddia ediyoruz. GPU açıldığında kendimizi sorumlu tutacağımız üç metrik burada.",
+      "metric_1_title": "CWE yakalama oranı",
+      "metric_1_text": "\"İnceleyici + RAG\" ikilisinin, ayrılmış bir korpustan enjekte edilen CWE Top-25 güvenlik açıklarının ne kadarını yakaladığı. Doktrin hatırlamasının bir ölçüsü.",
+      "metric_2_title": "Yanlış uygulama oranı",
+      "metric_2_text": "Doğrulanmamış veya onaylanmamış yamaların ne kadarının yine de APPLIED durumuna ulaştığı. Hedef: %0,0, 2. ve 3. değişmez ilkelerin kapılarınca korunur.",
+      "metric_3_title": "İnsan reddetme oranı",
+      "metric_3_text": "Önerilen yamaların insanın sohbette ne kadarını reddettiği veya düzelttiği. Konseyin operatörle uyumunun bir ölçüsü."
+    },
+    "section_pricing": {
+      "title": "Fiyatlandırma",
+      "intro": "Editör kendi makinenizde çalışır, ağır dağıtım ajan aracılığıyla altyapınızda gerçekleşir, böylece fiyat dürüst kalır ve yaklaşık %85 marj korunur. S-seviyeleri, token değil, haftada aktif yapay zeka çalışması saatleridir.",
+      "tier_s1_name": "S1",
+      "tier_s1_price": "25$/ay",
+      "tier_s1_desc": "Haftada ~10 saat aktif yapay zeka çift programlama.",
+      "tier_s2_name": "S2",
+      "tier_s2_price": "50$/ay",
+      "tier_s2_desc": "Sıradan günlük geliştirici iş akışı.",
+      "tier_s3_name": "S3",
+      "tier_s3_price": "75$/ay",
+      "tier_s3_desc": "Yoğun otonom çift programlama.",
+      "tier_s4_name": "S4",
+      "tier_s4_price": "100$/ay",
+      "tier_s4_desc": "Maksimum yoğunluk ve öncelikli kuyruk.",
+      "guardian_addon_label": "Guardian Cloud müşterileri için",
+      "guardian_addon_text": "S1 koltukları Cloud katmanınıza ücretsiz dahildir: Server'da 1, Cluster'da 3, Platform'da 10, Enterprise'da sınırsız, ayrıca tüm AI Studio ürünlerinde %10 indirim."
+    },
+    "section_launch": {
+      "title": "Platform 10 Ağustos'ta yayına giriyor",
+      "badge": "",
+      "text": ""
+    }
+  },
+  "gtester": {
+    "meta": {
+      "title": "G-Tester — Hizmet Olarak QA | AlfaCan AI Studio",
+      "description": "G-Tester, canlı bir ajan konseyi, etkileşimli bir AI Boardroom ve 20 test disiplini içeren bir yapay zeka QA ekibidir. Tüm süreci gerçek zamanlı olarak görür ve istediğiniz anda müdahale edebilirsiniz.",
+      "og_title": "G-Tester — Hizmet Olarak QA",
+      "og_description": "Yatay olarak ölçeklenebilir test çalıştırıcı filosu artı uzmanlaşmış LLM'lerden oluşan etkileşimli bir konsey. Deterministik karar. Döngüde insan."
+    },
+    "hero": {
+      "badge": "",
+      "title": "G-Tester",
+      "subtitle": "",
+      "paragraph": "",
+      "cta_primary": "Başlayın",
+      "cta_primary_url": "https://studio.alfa-can.com",
+      "cta_secondary": "← AI Studio",
+      "cta_secondary_url": "/studio"
+    },
+    "section_problem": {
+      "title": "Geleneksel QA'da Neler Bozuk",
+      "problem_1_title": "Çok Yavaş",
+      "problem_1_text": "Kapsamlı uçtan uca, yük ve güvenlik testleri, her büyük sürüm için kıdemli mühendislik zamanının günlerini hatta haftalarını alır. Günlük dağıtımların olduğu bir CI/CD ortamında bu darboğaz hızı öldürür.",
+      "problem_2_title": "Öznel ve Tekrarlanamaz",
+      "problem_2_text": "Güvenlik açığı önem derecesi puanlaması ve bulgu önceliklendirmesi mühendisin kişisel yargısına bağlıdır. Aynı güvenlik açığı ekipler arasında farklı puanlar alır ve nedenine dair tek bir gerçek kaynağı yoktur.",
+      "problem_3_title": "Araçlar Birbiriyle Konuşmaz",
+      "problem_3_text": "Yük üreticileri, statik analizörler, DAST probları, erişilebilirlik sürücüleri — her biri kendi veri akışını üretir. Bunları birleşik bir sürüm görünümünde toplamak, kendi başına zaman alan manuel bir iştir.",
+      "problem_4_title": "Görünürlük Olmadan Otomasyon",
+      "problem_4_text": "Betikler arka planda çalışır ve sonuçları sessizce üretir. Belirli bir testin neden atlandığını, bir önem derecesinin neden atandığını ya da kararın güvenilir olup olmadığını kimse bilmez."
+    },
+    "section_intro": {
+      "text": "Bir güvenlik mühendisi, bir performans analisti, bir kod denetçisi, bir UX uzmanından oluşan bir QA uzmanları ekibiniz olduğunu hayal edin. Sürümünüzü gerçek zamanlı olarak, tam ekranınızda tartışırlar. Akıl yürütmelerini görür, soru sorabilir, denetim sırasında yönü değiştirebilir veya bir test parametresini değiştirebilirsiniz. Sonunda profesyonel bir QA paketi ve deterministik bir sürüme hazır olma kararı alırsınız."
+    },
+    "section_walkthrough": {
+      "title": "Platformun tam anlatımı",
+      "text": "G-Tester'ın nasıl çalıştığını daha ayrıntılı olarak anlamak isterseniz, platformun tam bir anlatımını hazırladık. İçeriden nasıl çalıştığını görün.",
+      "video_ru": "PjskZfpa2Fc",
+      "video_en": "vrc6KFY9SuQ",
+      "article_text": "G-Tester mimarisini daha derinlemesine incelemek isterseniz, ürünün teknik açıklamasını okuyun.",
+      "article_label": "Açıklamayı oku",
+      "article_url": "/papers/g-tester-paper-en.html"
+    },
+    "section_boardroom": {
+      "title": "AI Boardroom",
+      "paragraph_1": "G-Tester'ın merkezi öğesi, canlı ajan konseyi arayüzüdür. Bir denetim başlattığınızda, platform gerçek zamanlı olarak çalıştırıcılarınızdan gelen gerçek telemetri üzerinde akıl yürüten uzmanlaşmış yapay zeka ajanlarının işbirlikçi bir oturumunu başlatır.",
+      "paragraph_2": "Bir rapor için beklemezsiniz — süreci gözlemlersiniz. Her ajanın ne düşündüğünü, hangi doktrin kurallarını aldığını, ajanların birbiriyle nasıl anlaşmazlığa düştüğünü ve birlikte hangi sonuca vardıklarını görürsünüz.",
+      "paragraph_3": "Ve müdahale edebilirsiniz. İstediğiniz anda — konseyi duraklatın, bir komut girin (\"SQL enjeksiyonu bulgusunu, yukarı akışta bir WAF olduğunu varsayarak yeniden değerlendir\"), test parametrelerini değiştirin veya bir önem eşiğini ayarlayın. Tüm müdahaleler nihai denetim paketinde kriptografik olarak kaydedilir.",
+      "capability_1_title": "Canlı Ajan Akışı",
+      "capability_1_text": "Gerçek zamanlı akıl yürütme günlükleri, model güven puanları, tartışmalı bulgular üzerine ajanlar arası tartışmalar.",
+      "capability_2_title": "Kanıt Akışı",
+      "capability_2_text": "Playwright, k6, pa11y ve HTTP problarından gelen ham telemetri anında. Yükleri inceleyin ve çalışma sırasında iz dosyalarını indirin.",
+      "capability_3_title": "Doktrin Denetleyici",
+      "capability_3_text": "Her bulgu için s-rag aracılığıyla alınan tam doktrin pasajları. Ajanın belirli bir önem derecesini neden atadığını görürsünüz — modelin öyle karar verdiği için değil, doğrudan OWASP'tan veya kurumsal standardınızdan kaynaklandığı için.",
+      "capability_4_title": "Yönlendirme Konsolu",
+      "capability_4_text": "Etkileşimli komut girişi ve yürütme durumu kontrolleri: duraklat, devam et, geçersiz kıl — canlı, denetim sırasında."
+    },
+    "section_agents": {
+      "title": "Ajan Konseyi",
+      "intro": "Her biri net bir şekilde tanımlanmış bir sorumluluk alanına sahip beş uzmanlaşmış rol.",
+      "agent_1_name": "Baş QA Başkanı / Sentez Sorumlusu",
+      "agent_1_model": "Gemma-4-26B",
+      "agent_1_role": "Konsey koordinasyonu, bulguların yönetici özetine sentezi, doktrin uygulaması, nihai karar hesaplaması.",
+      "agent_2_name": "Güvenlik ve ITDR Sorumlusu",
+      "agent_2_model": "Gemma-4-26B (ince ayarlı ITDR sorumlusu)",
+      "agent_2_role": "Tehdit modellemesi, OWASP Top-10 / CWE taksonomisi, ayrıcalık yükseltme, kimlik bilgisi saklama duruşu, hava boşluklu ITDR analizi.",
+      "agent_3_name": "Kod ve Sözleşme Denetçisi",
+      "agent_3_model": "Qwen3-30B-Thinking",
+      "agent_3_role": "OpenAPI sözleşme doğrulaması, veritabanı şema sapması tespiti, statik kod kapsama analizi, sözleşme uygulama mantığı.",
+      "agent_4_name": "UX ve Erişilebilirlik Uzmanı",
+      "agent_4_model": "Qwen3-VL-Embedding-8B",
+      "agent_4_role": "DOM anlık görüntüleri, WCAG 2.1 erişilebilirlik ağaçları, Core Web Vitals, tarayıcı motorları arası görüntüleme anomalileri.",
+      "agent_5_name": "Performans ve Dayanıklılık Analisti",
+      "agent_5_model": "Qwen3-30B-Thinking",
+      "agent_5_role": "Yüksek eşzamanlılık yük eğrileri, p95/p99 gecikme dağılımı, kaos yük devretme telemetrisi, sistem bozulma eşikleri."
+    },
+    "section_disciplines": {
+      "title": "20 Test Disiplini",
+      "intro": "Bir denetim — eksiksiz bir resim. G-Tester tek bir hat üzerinden beş test kategorisini kapsar.",
+      "category_1_name": "Güvenlik ve Altyapı",
+      "category_1_disciplines": "Hava boşluklu ITDR çevresi üzerinden kapsamlı sistem geneli güvenlik değerlendirmesi; OWASP Top-10 / CWE sızma testi; ~23 sistem parametresi üzerinde salt okunur ana bilgisayar ortamı denetimi.",
+      "category_2_name": "API ve Veri Bütünlüğü",
+      "category_2_disciplines": "OpenAPI sözleşme doğrulaması; şema sapma tespiti; referans bütünlüğü ve eşzamanlı işlem güvenliği doğrulaması.",
+      "category_3_name": "İşlevsel Doğrulama",
+      "category_3_disciplines": "Birim kapsama analizi; hizmetler arası entegrasyon sınırları; Playwright ile uçtan uca tarayıcı yolculukları; geçmiş temel çizgiye göre gerileme karşılaştırması.",
+      "category_4_name": "Performans ve Dayanıklılık",
+      "category_4_disciplines": "k6 ile yüksek verimli stres testi ve kırılma noktası keşfi; zarif kurtarma izlemeli kontrollü kaos testi; bozulmuş ağ simülasyonu.",
+      "category_5_name": "UX, Ön Yüz ve Uyumluluk",
+      "category_5_disciplines": "DOM doğrulaması ve JavaScript hata yakalama; sezgisel UX değerlendirmesi; Chromium, Firefox, WebKit'te tarayıcılar arası test; Core Web Vitals (TTFB, LCP, INP, CLS); mobil duyarlılık; WCAG 2.1 AA/AAA uyumluluğu; yerelleştirme ve RTL/LTR işleme."
+    },
+    "section_verdict": {
+      "title": "Deterministik Karar",
+      "paragraph": "Yapay zeka ajanları ayrıntılı anlatı analizi üretir ve düzeltici kod önerir — ancak sürüme hazır olma kararı, çalıştırılan tüm çalıştırıcılar genelindeki en yüksek önem dereceli bulguya dayanarak deterministik olarak hesaplanır.",
+      "verdict_1": "NOT_READY",
+      "verdict_1_condition": "En az bir CRITICAL bulgu mevcut",
+      "verdict_2": "READY_WITH_CAVEATS",
+      "verdict_2_condition": "Yalnızca HIGH veya MEDIUM bulgular",
+      "verdict_3": "PRODUCTION_READY",
+      "verdict_3_condition": "Yalnızca LOW veya INFO bulgular"
+    },
+    "section_invariants": {
+      "title": "Asla Bozmadığımız Üç Değişmez İlke",
+      "inv_1_title": "Dürüstlük",
+      "inv_1_text": "Çalıştırılmayan yollar açıkça atlandı olarak raporlanır, geçti olarak değil. Bir test çalıştırılmadıysa — ajan bunu doğrudan söyler.",
+      "inv_2_title": "Temellendirme",
+      "inv_2_text": "Ajan akıl yürütmesi, fiilen çalıştırılan telemetri ve doktrin kurallarıyla sınırlıdır. Kanıt olmadan sonuç yok.",
+      "inv_3_title": "Zarif Bozulma",
+      "inv_3_text": "Yapay zeka altyapısı kullanılamıyorsa, sistem deterministik yürütme kurallarına geri döner. Denetim durmak yerine devam eder."
+    },
+    "section_what_you_get": {
+      "title": "Neler Alırsınız",
+      "item_1": "Yönetici özeti, ayrıntılı bulgular ve düzeltici kod içeren eksiksiz bir QA paketi",
+      "item_2": "Deterministik sürüme hazır olma kararı: NOT_READY / READY_WITH_CAVEATS / PRODUCTION_READY",
+      "item_3": "Kriptografik olarak kaydedilmiş operatör müdahaleleriyle tam konsey oturum kaydı",
+      "item_4": "Bağımsız denetim için izler, yanıt başlıkları ve yükler",
+      "item_5": "Her bulgu için belirli OWASP / CWE pasaj referansları"
+    },
+    "section_status": {
+      "title": "Mevcut Durum",
+      "badge": "Arka Uç Tamamlandı · Uçtan Uca Doğrulandı",
+      "text": "Arka uç tamamen bitmiş ve uçtan uca doğrulanmıştır. Canlı etkileşimli AI Boardroom aktiftir. G-Tester, Guardian Cloud ve G-Coder ile aynı paylaşılan model filosunda çalışır — tek bir GPU çevresi her üç ürüne de hizmet verir. Ticari yayın, ana platform dağıtımının ardından gelir.",
+      "cta": "Bize Ulaşın",
+      "cta_url": "/contact"
+    },
+    "section_pricing": {
+      "title": "Fiyatlandırma",
+      "philosophy_label": "Nasıl belirledik",
+      "philosophy": "Temel olarak canlı bir QA mühendisinin minimum bölgesel ücretinin yarısını aldık. Bir ajansın fiyatının yarısı değil, piyasadaki en ucuz insan işinin yarısı. Bir insan için küçük bir test yaklaşık 150$'a, bir sızma testi ise yaklaşık 1.500$'a mal olur.",
+      "how_label": "Nasıl çalışır",
+      "how": "Abonelik yoktur. Menüden ihtiyacınız olan test disiplinlerini seçersiniz, hesap makinesi fiyatı hemen gösterir ve sipariş ettiğiniz için ödeme yaparsınız. Mevcut disiplinler kümesi hesap makinesinde görünür.",
+      "t1_name": "Sistem geneli güvenlik açığı",
+      "t1_price": "750$",
+      "t1_desc": "Amiral gemisi test: hava boşluklu ITDR çevresi üzerinden tüm sistemin bir güvenlik değerlendirmesi.",
+      "t2_name": "Sunucu denetimi",
+      "t2_price": "150$",
+      "t2_desc": "Ana bilgisayar ve altyapı durumunun salt okunur bir denetimi.",
+      "t3_name": "20 disiplinin tamamı",
+      "t3_price": "2.450$",
+      "t3_desc": "Ayrı ayrı 3.120$ yerine tam paket, yaklaşık %21 indirimli.",
+      "note": "Diğer disiplinler tek bir test başına 60$'dan başlar. Tam menü ve kesin toplam hesap makinesinde hesaplanır."
+    },
+    "section_launch": {
+      "title": "Platform 10 Ağustos'ta yayına giriyor",
+      "cta": "Kayıt"
+    }
+  }
+}

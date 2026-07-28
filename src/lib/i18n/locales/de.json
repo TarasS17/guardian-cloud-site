@@ -1,0 +1,1196 @@
+{
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "watchVideo": "Video ansehen",
+    "contactUs": "Kontaktieren Sie uns",
+    "startFreeTrial": "Kostenlose Testphase starten",
+    "scheduleDemo": "Demo vereinbaren",
+    "comingSoon": "Demnächst verfügbar",
+    "situation": "Situation",
+    "problem": "Problem",
+    "solution": "Lösung",
+    "result": "Ergebnis",
+    "for": "Für",
+    "includes": "Beinhaltet",
+    "whatHappens": "Was passiert:",
+    "whatToDo": "Was zu tun ist:",
+    "whatItLooksLike": "So sieht es aus:",
+    "whatHappensNext": "Was als Nächstes passiert:",
+    "howItWorks": "So funktioniert es:",
+    "examples": "Beispiele automatischer Aktionen:",
+    "whatItMeansForYou": "Was das für Sie bedeutet:",
+    "whoChooses": "Wer diesen Plan wählt"
+  },
+  "home": {
+    "hero": {
+      "logo_alt": "ALFACAN Defence Group",
+      "cta": "Mehr erfahren",
+      "tagline": "Autonome KI-Systeme für kritische Infrastrukturen, Cyberabwehr und industrielle Prozesse."
+    },
+    "section_6_products_block_1": {
+      "intro": "Die ersten Plattformen, die wir geschaffen haben, sind für den verwundbarsten Unternehmensbereich konzipiert: die Cloud-Infrastruktur.",
+      "presenting": "Erlauben Sie uns, zwei Plattformen vorzustellen:",
+      "guardian_cloud": {
+        "name": "Guardian Cloud",
+        "subtitle": "Infrastructure Intelligence",
+        "description": "Eine Plattform für die vollständige Automatisierung der Systemadministration und Cybersicherheit jedes Cloud-Dienstes oder geschlossenen Rechenzentrums. Null menschlicher Faktor, 24/7-Schutz für Systeme, in denen ein Fehler nicht hinnehmbar ist.",
+        "cta": "mehr erfahren",
+        "cta_url": "/cloud"
+      },
+      "mercanon": {
+        "name": "ALFACAN Mercanon",
+        "subtitle": "Operational Intelligence",
+        "description": "Eine Plattform zur Automatisierung aller Prozesse in E-Commerce-Shops jeder Größe, in der die Funktionen von Managern von autonomen neuronalen Netzwerk-Ingenieuren übernommen werden, mit der vollständigen Funktionalität von Guardian Cloud im Innern für den unterbrechungsfreien Betrieb Ihrer Handelsplattform.",
+        "cta": "mehr erfahren",
+        "cta_url": "/mercanon"
+      }
+    },
+    "section_7_products_block_2": {
+      "intro": "Unser zweites Projekt ist bereits über den Rahmen eines einzelnen Produkts hinausgewachsen, denn wir haben erkannt, dass ein Team von neuronalen Netzwerk-Ingenieuren nicht nur für jene notwendig ist, die ihre Infrastruktur schützen, sondern auch für jene, die Neues erschaffen, sei es ein Programm, ein Dienst oder ein ganzes digitales Imperium.",
+      "presenting": "Erlauben Sie uns vorzustellen:",
+      "ai_studio": {
+        "name": "ALFACAN AI Studio",
+        "subtitle": "Space of Co-creation",
+        "description_1": "Dies ist eine Umgebung, in der Ihr Team aus neuronalen Netzwerk-Ingenieuren zu Ihren Mitstreitern in der Sache wird. Drei autonome digitale Ingenieure, der Architekt, der Meister und der Wächter, arbeiten mit Ihnen an Ihrem Konzept, jeder in seiner Rolle, bis das Ergebnis zu dem Meisterwerk wird, das Sie sich vorgestellt haben.",
+        "description_2": "In AI Studio leben drei Werkzeuge für unterschiedliche Arbeitsphasen:",
+        "cta_url": "/studio"
+      },
+      "g_coder": {
+        "name": "G-Coder",
+        "description": "Die Umgebung, in der der Code Ihres Projekts entsteht. Der Architekt entwirft den Plan, der Meister schreibt jede Zeile im Stil Ihres Projekts, und der Wächter prüft und diskutiert, bis der Code makellos wird. All dies geschieht in einem Dialog, von dem sonst niemand jemals erfahren wird.",
+        "cta": "mehr erfahren",
+        "cta_url": "/studio/g-coder"
+      },
+      "g_tester": {
+        "name": "G-Tester",
+        "description": "Die Umgebung, in der Ihr Produkt alle Prüfungen durchläuft, bevor es auf die reale Welt trifft. Tests, Lastszenarien und Fälle, an die Sie nicht einmal gedacht haben, werden vor der Veröffentlichung entdeckt, nicht danach.",
+        "cta": "mehr erfahren",
+        "cta_url": "/studio/g-tester"
+      },
+      "g_studio": {
+        "name": "G-Studio",
+        "description": "Die Umgebung, in der Ihr Produkt visuell entsteht. Vom ersten Layout bis zur endgültigen interaktiven Komposition, in Ihrem Stil, in Ihrer Ästhetik, ohne Vorlagen und ohne externe Lösungen.",
+        "status": "Demnächst verfügbar",
+        "cta": "mehr erfahren",
+        "cta_url": "/studio/g-studio"
+      }
+    },
+    "section_8_products_block_3": {
+      "intro": "Unser drittes Projekt entstand aus der geschäftlichen Erfahrung, die wir unser gesamtes Leben lang gesammelt haben. Die digitale Welt ist nur die eine Hälfte dessen, was uns umgibt. Und dann gibt es die zweite Hälfte, die reale, physische, in der Anlagen laufen, Maschinen sich bewegen, Logistik fließt, Feldfrüchte wachsen, Strom und Gas geliefert werden, Drohnen abheben und Schiffe auslaufen. Und wo ein Fehler weit mehr kostet als bloßes Geld.",
+      "presenting": "Erlauben Sie uns vorzustellen:",
+      "blackwings": {
+        "name": "ALFACAN BlackWings",
+        "subtitle": "The Neural Network of Everything",
+        "description_1": "Dies ist das neuronale Netzwerk von allem, was funktioniert und mit dem man sich verbinden kann. In der Luft, am Boden, auf dem Wasser, auf Feldern und in Gewächshäusern, in Stromversorgungssystemen, in ganzen logistischen Ketten, überall dort, wo Intelligenz implementiert und der menschliche Faktor entfernt werden kann, wo er nicht mehr benötigt wird.",
+        "description_2": "Ein neuronales Netzwerk. Eine einzige Intelligenz. Beliebig viele anschließbare Systeme. Wir haben ein neuronales Netzwerk geschaffen, dem man die Steuerung von Dingen anvertrauen kann, die nicht abgeschaltet und neu gestartet werden können.",
+        "description_3": "Und gerade weil dies eine Plattform für die reale Welt ist und nicht für Präsentationen, führen wir sie schrittweise ein, Richtung für Richtung, 2026-2027. Menschen müssen sich darauf vorbereiten, dass autonome Intelligenz weit mehr leisten kann, als sie es gewohnt sind, Maschinen anzuvertrauen.",
+        "description_4": "Wir haben mit drei Richtungen begonnen, von denen jede ihren eigenen Teil dieser gewaltigen Aufgabe löst.",
+        "cta_url": "/blackwings"
+      },
+      "architect": {
+        "name": "BlackWings Architect",
+        "description": "Wo die Maschine selbst entsteht. Der Entwurf von Maschinen, unbemannten Luft-, Boden- und Wassersystemen, optimiert für die Aufgaben, für die sie geschaffen wurden, statt für allgemeine Standards.",
+        "status": "Demnächst verfügbar · 2026-2027",
+        "cta": "mehr erfahren",
+        "cta_url": "/blackwings/architect"
+      },
+      "arsenal": {
+        "name": "BlackWings Arsenal",
+        "description": "Wo diese Maschinerie hergestellt wird und arbeitet. Steuerung des Fertigungsorganismus, von Werkzeugmaschinen und Logistik bis zu Vertrieb und Marketing, als ein einziges koordiniertes Ganzes, statt als Sammlung getrennter Abteilungen.",
+        "status": "Demnächst verfügbar · 2026-2027",
+        "cta": "mehr erfahren",
+        "cta_url": "/blackwings/arsenal"
+      },
+      "training_center": {
+        "name": "BlackWings Training Center",
+        "description": "Wo die Maschinerie getestet wird, bevor sie auf die reale Welt trifft, und Bediener geschult werden, mit ihr in einer sicheren Simulation zu arbeiten, bevor sie jemals an einer echten Steuerkonsole sitzen.",
+        "status": "Demnächst verfügbar · 2026-2027",
+        "cta": "mehr erfahren",
+        "cta_url": "/blackwings/training-center"
+      }
+    },
+    "section_9_partner_program": {
+      "intro_1": "Wir verstehen, dass die Welt groß ist und wir, trotz all unserer Erfahrung und dem Team von neuronalen Netzwerk-Ingenieuren an unserer Seite, immer noch allein sind. Es gibt viele Märkte, Sprachen, Kulturen und Branchen, in die wir aus eigener Kraft nie so tief vordringen werden wie jene, die dort bereits leben und arbeiten.",
+      "intro_2": "Deshalb haben wir ein Partnerprogramm für jene eröffnet, die unsere Ansicht darüber teilen, was KI sein sollte, und die bereit sind, unsere Plattformen auf ihre Märkte zu bringen.",
+      "program": {
+        "name": "AlfaCan Partner Program",
+        "subtitle": "Comrades in the Cause",
+        "description_1": "Wir suchen keine Wiederverkäufer. Wir suchen IT-Spezialisten, Systemadministratoren, Digitalagenturen und MSP-Anbieter, die bereits mit ihren Kunden arbeiten und diese besser verstehen als wir. Wir stellen Ihnen eine fertige Plattform zur Verfügung, und Sie bringen sie zu denen, die sie wirklich brauchen.",
+        "description_2": "Das Programm hat zwei Stufen. Die erste richtet sich an Einsteiger, die es ausprobieren möchten, mit bis zu zehn Prozent pro Verkauf und vollem technischem Support. Die zweite richtet sich an jene, die uns bereits hundert Kunden gebracht und sich zu einem ernsthaften Geschäft entwickelt haben, mit bis zu fünfzehn Prozent, White-Label-Optionen unter Ihrer eigenen Marke und Priorität in allem.",
+        "description_3": "Für große MSP-Anbieter führen wir ein separates Gespräch mit separaten Konditionen.",
+        "description_4": "Wenn Sie ein solcher Partner sind, werfen Sie einen Blick auf die Programmbedingungen oder schreiben Sie uns, und wir besprechen, wie das in Ihrem konkreten Fall aussehen könnte.",
+        "cta_primary": "Partner werden",
+        "cta_primary_url": "/referral",
+        "cta_secondary": "Bedingungen ansehen",
+        "cta_secondary_url": "/referral#terms"
+      },
+      "referral_cta": "Das Empfehlungsprogramm, und wie es funktioniert",
+      "intro_3": "Wir nehmen Spezialisten keine Arbeit weg. Systemadministratoren, Ingenieure, Programmierer, IT-Unternehmen und MSP-Anbieter: Wir treten nicht an ihre Stelle. Wir geben ihnen das Werkzeug, und einen Anteil an dem, was es einbringt.",
+      "intro_4": "Sie bringen einen Kunden auf die Plattform und verdienen an jeder Zahlung, die er leistet, solange er bei uns bleibt: ein persönlicher Empfehlungslink, transparente Abrechnung und Auszahlungen gegen tatsächlich beglichene Rechnungen."
+    },
+    "company_intro": {
+      "title": "Erfahrung, gehärtet durch reale Bedingungen",
+      "legal": "AlfaCan Defence Group Limited. London, England und Wales, Reg.-Nr. 17062207.",
+      "jurisdiction": "Britische Rechtsprechung, strenge Sicherheitsstandards und volle Übereinstimmung mit dem, was das B2B-Segment von einem Unternehmenspartner verlangt.",
+      "experience": "Das Unternehmen stützt sich auf jahrzehntelanges praktisches Risikomanagement, auf Logistik unter Krisenbedingungen und den Aufbau von Systemen erheblicher Komplexität.",
+      "mission": "Wir bauen autonome Systeme für Umgebungen, in denen Versagen mehr kostet als Entwicklung: Cloud-Infrastruktur, Systemadministration, Cyberabwehr sowie industrielle und wirtschaftliche Prozesse.",
+      "contract_lead": "All dies läuft innerhalb eines geschützten Perimeters und ist vertraglich geregelt statt in einer Broschüre versprochen: Ihre Daten bleiben Ihre, und wir verarbeiten sie zu einem einzigen Zweck, nämlich der Erbringung der Dienstleistung.",
+      "contract_cta": "Dienstleistungsvertrag",
+      "points": [
+        {
+          "title": "Architektonische Präzision",
+          "text": "Jede Zeile Code und jede logische Verbindung ist für eine bestimmte operative Aufgabe entworfen. Nichts wird nur eingefügt, um eine Feature-Liste zu füllen."
+        },
+        {
+          "title": "Experte und KI in Symbiose",
+          "text": "Wir trainieren unsere eigenen Modelle und betreiben sie innerhalb eines geschützten Perimeters, von Entwicklung und Tests bis zur Bereitstellung geschlossener Umgebungen, sowohl private Cloud als auch air-gapped. Der Ingenieur stellt die Aufgabe und trifft die Entscheidung; das System erledigt die Arbeit."
+        }
+      ]
+    },
+    "company_principles": {
+      "title": "Warum AlfaCans Lösungen in der Praxis funktionieren",
+      "principles": [
+        {
+          "title": "Modularität und ein Baukasten für Oberflächen",
+          "text": "Sie passen sich nicht der Software an. Sie stellen Arbeitsbereiche und Analysepanels aus Widgets zusammen, passend zur Arbeit einer bestimmten Abteilung, vom Geschäftsführer bis zum Operator. Nichts auf dem Bildschirm, das seinen Platz nicht verdient."
+        },
+        {
+          "title": "Ein einziger Operator, der administriert und verteidigt",
+          "text": "Der Markt verkauft dies getrennt: Ein Produkt wartet die Infrastruktur, ein anderes schützt sie, und beide erfordern Personal im Schichtdienst. Bei uns ist es ein einziges autonomes System. Es administriert, deckt Audit, Updates und die Behebung von Fehlern ab, und es untersucht Vorfälle und beantwortet Angriffe. Innerhalb Ihres Perimeters, mit einem Menschen in der Schleife und einer vollständigen Aufzeichnung von allem, was getan wurde."
+        },
+        {
+          "title": "Absolute Zugriffskontrolle",
+          "text": "Sie bestimmen selbst Rechte, Rollen und die Sichtbarkeit von Modulen für jeden Mitarbeiter. Logische Isolation zwischen Mandanten, rollenbasierter Zugriff und ein air-gapped Kontur für geschlossene Bereitstellungen."
+        },
+        {
+          "title": "Pragmatisches Engineering",
+          "text": "Wir haben alles Überflüssige weggeschnitten. Der Kunde erhält nur jene Instrumente, die sich unmittelbar auf die Entscheidungsgeschwindigkeit und den Ressourcenverbrauch auswirken."
+        }
+      ]
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Guardian Cloud",
+      "subtitle": "Ihr 24/7-Assistent, der nie müde wird",
+      "description": "Stellen Sie sich vor, Sie hätten einen zuverlässigen Assistenten, der rund um die Uhr all Ihre Server und Systeme überwacht. Er erkennt Probleme, bevor sie kritisch werden, und löst sie automatisch. Das ist Guardian Cloud."
+    },
+    "problems": {
+      "title": "Vertraute Probleme?",
+      "problem1": {
+        "title": "Problem 1: Ihr Team wird von ständiger Überwachung müde",
+        "description": "Jeden Tag verbringt Ihr Team Stunden damit, Logs zu prüfen, Fehler zu analysieren und nach Problemen zu suchen. Menschen werden müde, die Aufmerksamkeit lässt nach, und dadurch kann etwas Wichtiges übersehen werden. Das ist nicht nur ineffizient, sondern gefährlich für Ihr Geschäft.",
+        "points": [
+          "Mitarbeiter verbringen täglich 4-6 Stunden mit Routineüberwachung",
+          "Bei einem Problem dauert die Lösung 30-60 Minuten",
+          "Menschen arbeiten unter Stress und brennen aus"
+        ]
+      },
+      "problem2": {
+        "title": "Problem 2: Tausende Fehlalarme",
+        "description": "Überwachungssysteme erzeugen Hunderte Benachrichtigungen pro Tag. 80 % davon sind Fehlalarme. Dadurch achtet das Team nicht mehr auf Benachrichtigungen, und echte Probleme bleiben unbemerkt.",
+        "points": [
+          "500+ Benachrichtigungen täglich",
+          "80 % davon sind Rauschen, keine echten Probleme",
+          "Das Team ignoriert Benachrichtigungen aufgrund von Alarmmüdigkeit",
+          "Echte Probleme bleiben unbemerkt"
+        ]
+      },
+      "problem3": {
+        "title": "Problem 3: Teure Lösungen, die nicht funktionieren",
+        "description": "Professionelle Überwachungs- und Sicherheitsdienste sind sehr teuer – von 5.000 bis 10.000 $ pro Monat. Das ist für die meisten Unternehmen unerschwinglich. Und billige Lösungen funktionieren nicht gut.",
+        "points": [
+          "24/7-Profi-Überwachung kostet 5.000-10.000 $/Monat",
+          "Für kleine und mittlere Unternehmen unerschwinglich",
+          "Unternehmen arbeiten ohne vollständigen Schutz und Überwachung",
+          "Bei Problemen können die Verluste enorm sein"
+        ]
+      },
+      "cta": "Es gibt eine Lösung!"
+    },
+    "howItWorks": {
+      "title": "So funktioniert Guardian Cloud",
+      "subtitle": "Drei einfache Schritte zur Ruhe",
+      "step1": {
+        "title": "Schritt 1: Installation (einfach und schnell)",
+        "whatToDo": "Installieren Sie einen kleinen Agenten auf Ihren Servern. Dauert 5 Minuten. Leichtgewichtig und ressourcenschonend.",
+        "whatItLooksLike": "Ein Befehl im Terminal – fertig. Oder über Docker. Nicht technisch versiert? Wir helfen in 15 Minuten.",
+        "whatHappensNext": "Der Agent beginnt, Systemdaten zu sammeln und an Guardian Cloud zu senden."
+      },
+      "step2": {
+        "title": "Schritt 2: Analyse (KI in Aktion)",
+        "whatHappens": "Guardian Cloud analysiert Logs, Fehler, Leistung und Sicherheit mithilfe von KI.",
+        "howItWorks": [
+          "Die KI lernt, was für Ihr System normal ist",
+          "Sie bemerkt, wenn etwas schiefläuft",
+          "Sie filtert echte Probleme von Fehlalarmen",
+          "Sie bewertet den Schweregrad"
+        ],
+        "result": "Statt 500 Benachrichtigungen erhalten Sie 5-10 präzise."
+      },
+      "step3": {
+        "title": "Schritt 3: Automatische Behebung (kein Mensch nötig)",
+        "whatHappens": "Wenn ein Problem erkannt wird, behebt Guardian Cloud es automatisch nach Ihren Regeln.",
+        "examples": [
+          "Dienst abgestürzt? Guardian startet ihn neu.",
+          "Festplatte voll? Guardian bereinigt alte Dateien.",
+          "Verdächtige Aktivität? Guardian blockiert die Quelle.",
+          "Skalierung nötig? Guardian fügt Ressourcen hinzu."
+        ],
+        "result": "Probleme werden in Sekunden gelöst. Ihr Team schläft ruhig."
+      }
+    },
+    "capabilities": {
+      "title": "Was Guardian Cloud kann",
+      "monitoring": {
+        "title": "24/7-Überwachung",
+        "description": "Guardian Cloud schläft nie. Es überwacht Ihre Systeme rund um die Uhr, 7 Tage die Woche. Selbst wenn Ihr gesamtes Team schläft, arbeitet Guardian und schützt Ihr Geschäft.",
+        "benefits": [
+          "Probleme werden sofort erkannt",
+          "Sie erhalten Benachrichtigungen über Slack oder E-Mail",
+          "Probleme werden automatisch gelöst, während Sie schlafen",
+          "Am Morgen lesen Sie einfach den Bericht darüber, was passiert ist"
+        ]
+      },
+      "detection": {
+        "title": "Intelligente Problemerkennung",
+        "description": "Die KI lernt, was für Ihr System normal ist und was nicht. Sie verbessert sich mit der Zeit.",
+        "benefits": [
+          "Fehlalarme verschwinden praktisch",
+          "Sie sehen nur echte Probleme",
+          "Die KI passt sich Ihrem System an und wird präziser",
+          "Sie können jeder Warnung vertrauen"
+        ]
+      },
+      "security": {
+        "title": "Erkennung von Sicherheitsbedrohungen",
+        "description": "Guardian Cloud überwacht verdächtige Aktivitäten, Hackerangriffe, Datenlecks und mehr.",
+        "benefits": [
+          "Schutz vor Cyberbedrohungen",
+          "Hackerversuche werden automatisch blockiert",
+          "Sicherheitsberichte werden geliefert",
+          "Ihr Unternehmen erfüllt Sicherheitsstandards"
+        ]
+      },
+      "automation": {
+        "title": "Automatische Problemlösung",
+        "description": "Legen Sie Regeln einmal fest – Guardian befolgt sie automatisch. Tritt ein Problem auf, löst Guardian es ohne Ihr Zutun.",
+        "benefits": [
+          "Probleme werden in Sekunden gelöst",
+          "Ihr Team verschwendet keine Zeit mit Routine",
+          "Menschen können sich auf wichtige Aufgaben konzentrieren",
+          "Ausfallzeiten werden minimiert"
+        ]
+      },
+      "compatibility": {
+        "title": "Funktioniert überall",
+        "description": "Funktioniert mit AWS, Google Cloud, Azure und On-Premise-Servern. Ein Werkzeug für alles.",
+        "benefits": [
+          "Keine neuen Systeme für jede Cloud lernen müssen",
+          "Einheitliche Ansicht all Ihrer Systeme",
+          "Einfacheres Infrastrukturmanagement",
+          "Zeit- und Kosteneinsparungen"
+        ]
+      },
+      "reporting": {
+        "title": "Prüfberichte",
+        "description": "Erstellt automatisch die für Sicherheitsaudits und Compliance-Standards (SOC2, ISO27001, GDPR) erforderlichen Berichte.",
+        "benefits": [
+          "Audits werden schneller abgeschlossen",
+          "Alle Unterlagen sind automatisch bereit",
+          "Sie erfüllen Sicherheitsstandards",
+          "Kunden sehen, dass Sie Sicherheit ernst nehmen"
+        ]
+      }
+    },
+    "pricing": {
+      "title": "Wählen Sie den passenden Plan",
+      "subtitle": "Alle Pläne beinhalten eine 10-tägige kostenlose Testphase. Keine Kreditkarte erforderlich.",
+      "plans": {
+        "smallBusiness": {
+          "name": "Lite — 500 $/Monat",
+          "for": [
+            "Startups",
+            "Kleine Unternehmen",
+            "Einsteiger"
+          ],
+          "includes": [
+            "Überwachung bis zu 10 Servern",
+            "Automatische Problemlösung — 1 Server",
+            "SIEM-Integration: Wazuh, Elastic",
+            "Log- und Fehleranalyse",
+            "Problemerkennung",
+            "Benachrichtigungen über Slack und E-Mail",
+            "Wöchentliche Berichte",
+            "E-Mail-Support",
+            "Prioritäts-Support"
+          ],
+          "whoChooses": [
+            "Startups mit kleiner Infrastruktur",
+            "Unternehmen, die es ausprobieren möchten",
+            "Diejenigen, die eine kostengünstige Lösung suchen"
+          ],
+          "cta": "Kostenlose Testphase starten"
+        },
+        "growingCompanies": {
+          "name": "Pro — 1500 $/Monat",
+          "badge": "AM BELIEBTESTEN",
+          "for": [
+            "Mittelständische Unternehmen",
+            "DevOps-Teams",
+            "Wachsende Unternehmen"
+          ],
+          "includes": [
+            "Alles aus dem Small-Business-Plan",
+            "Überwachung bis zu 50 Servern",
+            "Automatische Problemlösung — 10 Server",
+            "SIEM-Integration: Wazuh, Elastic",
+            "Benutzerdefinierte Automatisierungsregeln",
+            "Lernen aus Beispielen (RAG Hub)",
+            "Firewall-Verwaltung",
+            "Prioritäts-Support (Antwort innerhalb von 4 Stunden)",
+            "Monatliche Sicherheitsberichte",
+            "Integration mit professionellen Überwachungssystemen"
+          ],
+          "whoChooses": [
+            "DevOps-Teams",
+            "Wachsende Unternehmen",
+            "Diejenigen, die volle Automatisierung wünschen"
+          ],
+          "cta": "Kostenlose Testphase starten"
+        },
+        "largeCompanies": {
+          "name": "Business — 3500 $/Monat",
+          "for": [
+            "Große Unternehmen",
+            "Unternehmen, die andere Kunden betreuen",
+            "Unternehmen mit hohen Sicherheitsanforderungen"
+          ],
+          "includes": [
+            "Überwachung bis zu 100 Servern",
+            "Automatische Problemlösung — 50 Server",
+            "SIEM-Integration: Wazuh, Elastic",
+            "Alles aus dem Growing-Companies-Plan",
+            "Integration mit professionellen Überwachungssystemen",
+            "On-Premise-Bereitstellung (optional)",
+            "KI-Feinabstimmung für Ihr Unternehmen",
+            "Single Sign-On (SSO)",
+            "Dedizierter Support",
+            "99,9 % Verfügbarkeitsgarantie",
+            "Vierteljährliche Sicherheitsaudits",
+            "White-Label (Ihr Logo)"
+          ],
+          "whoChooses": [
+            "Große Unternehmen",
+            "Unternehmen, die andere Kunden betreuen",
+            "Unternehmen mit hohen Sicherheitsanforderungen",
+            "Finanz- und Medizinunternehmen"
+          ],
+          "cta": "Kostenlose Testphase starten"
+        },
+        "enterprise": {
+          "name": "Enterprise — Individuelle Preisgestaltung",
+          "badge": "💎",
+          "for": [
+            "Große Konzerne",
+            "Banken und Finanzinstitute",
+            "Rechenzentren und Hosting-Anbieter",
+            "Regierungsorganisationen",
+            "Unternehmen mit geschlossenen Netzwerken"
+          ],
+          "paymentModel": [
+            "Ersteinrichtung: 3.000 $ (einmalig)",
+            "Jahreslizenz: ab 12.000 $/Jahr"
+          ],
+          "includes": [
+            "Alles aus dem Large-Companies-Plan",
+            "Installation auf Ihren Servern (vollständige Isolation)",
+            "Air-Gapped-Betrieb (offline)",
+            "Ihr Logo statt unseres (White-Label)",
+            "KI-Feinabstimmung speziell für Ihr Unternehmen"
+          ],
+          "cta": "Manager kontaktieren"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Guardian Cloud vs. andere Lösungen",
+      "header": {
+        "criterion": "Was zählt",
+        "guardianCloud": "Guardian Cloud",
+        "expensiveSystems": "Teure Systeme (Datadog, Splunk)",
+        "manualMonitoring": "Manuelle Überwachung"
+      },
+      "rows": [
+        "price",
+        "setupTime",
+        "ai",
+        "autoFix",
+        "falseAlarms",
+        "fixTime",
+        "ease",
+        "support",
+        "aiLearning"
+      ],
+      "row": {
+        "price": {
+          "criterion": "Monatliche Kosten",
+          "guardianCloud": "99–999 $",
+          "expensiveSystems": "500–10.000 $",
+          "manualMonitoring": "50.000 $+ (Gehalt)"
+        },
+        "setupTime": {
+          "criterion": "Einrichtungszeit",
+          "guardianCloud": "5 Minuten",
+          "expensiveSystems": "2–3 Stunden",
+          "manualMonitoring": "Nicht zutreffend"
+        },
+        "ai": {
+          "criterion": "Künstliche Intelligenz",
+          "guardianCloud": "✅ Ja",
+          "expensiveSystems": "❌ Nein",
+          "manualMonitoring": "❌ Nein"
+        },
+        "autoFix": {
+          "criterion": "Automatische Behebung",
+          "guardianCloud": "✅ Ja",
+          "expensiveSystems": "❌ Nein",
+          "manualMonitoring": "❌ Nein"
+        },
+        "falseAlarms": {
+          "criterion": "Fehlalarme",
+          "guardianCloud": "1 %",
+          "expensiveSystems": "20–30 %",
+          "manualMonitoring": "50 %+"
+        },
+        "fixTime": {
+          "criterion": "Problemlösungszeit",
+          "guardianCloud": "5 Sek.",
+          "expensiveSystems": "1–2 Sek.",
+          "manualMonitoring": "30–60 Min."
+        },
+        "ease": {
+          "criterion": "Benutzerfreundlichkeit",
+          "guardianCloud": "✅ Sehr einfach",
+          "expensiveSystems": "❌ Komplex",
+          "manualMonitoring": "Nicht zutreffend"
+        },
+        "support": {
+          "criterion": "Support",
+          "guardianCloud": "✅ 24/7",
+          "expensiveSystems": "✅ 24/7",
+          "manualMonitoring": "Nicht zutreffend"
+        },
+        "aiLearning": {
+          "criterion": "KI-Lernen",
+          "guardianCloud": "✅ Lernt",
+          "expensiveSystems": "❌ Nein",
+          "manualMonitoring": "Nicht zutreffend"
+        }
+      }
+    },
+    "faq": {
+      "title": "Antworten auf Fragen",
+      "q1": {
+        "question": "Wie schwer ist die Installation von Guardian Cloud?",
+        "answer": "Sehr einfach. Wenn Sie einen Terminalbefehl ausführen können, können Sie es in 5 Minuten installieren. Nicht technisch versiert? Wir helfen kostenlos."
+      },
+      "q2": {
+        "question": "Welche Daten sammelt Guardian Cloud?",
+        "answer": "Logs, Leistungsmetriken und Sicherheitsereignisse. Wir sammeln niemals Passwörter oder persönliche Daten. Alles ist verschlüsselt."
+      },
+      "q3": {
+        "question": "Kann ich es mit meinen eigenen Servern nutzen?",
+        "answer": "Ja. SaaS oder On-Premise (Enterprise-Plan). Sie entscheiden."
+      },
+      "q4": {
+        "question": "Wie genau ist die KI?",
+        "answer": "99,2 % Genauigkeit. Sie lernt von Ihrem System und verbessert sich mit der Zeit."
+      },
+      "q5": {
+        "question": "Was ist in der kostenlosen Testphase enthalten?",
+        "answer": "10 Tage vollen Zugriff auf den Pro-Plan. Keine Kreditkarte. Jederzeit kündbar."
+      },
+      "q6": {
+        "question": "Benötige ich Berichte für Audits?",
+        "answer": "Ja, Guardian Cloud erstellt automatisch Berichte für alle Sicherheitsstandards (SOC2, ISO27001, GDPR, HIPAA). Alles ist für Audits bereit."
+      },
+      "q7": {
+        "question": "Wie integriert sich Guardian Cloud in meine Tools?",
+        "answer": "Guardian Cloud funktioniert mit gängigen Tools: Slack, PagerDuty, Datadog und vielen anderen. Wenn Sie eine spezielle Integration benötigen, schreiben Sie uns – wir helfen."
+      },
+      "q8": {
+        "question": "Welche Verfügbarkeitsgarantie bieten Sie?",
+        "answer": "Small-Business-Plan: 99 % Verfügbarkeit\nGrowing-Companies-Plan: 99,5 % Verfügbarkeit\nLarge-Companies-Plan: 99,9 % Verfügbarkeit\nDas bedeutet, Guardian Cloud funktioniert fast immer. Ausfallzeiten sind praktisch eliminiert."
+      }
+    },
+    "finalCTA": {
+      "title": "Bereit für eine Veränderung?",
+      "subtitle": "Schließen Sie sich Unternehmen an, die Guardian Cloud bereits nutzen",
+      "description": "Kein Warten. Testen Sie Guardian Cloud noch heute kostenlos. 10 Tage voller Zugriff. Keine Kreditkarte. Jederzeit kündbar.",
+      "primaryButton": "Kostenlose Testphase starten",
+      "secondaryButton": "Demo vereinbaren",
+      "note": "Keine Kreditkarte. Jederzeit kündbar. 24/7-Support."
+    }
+  },
+  "ops": {
+    "hero": {
+      "title": "ALFACAN Mercanon",
+      "subtitle": "Ihr KI-Direktor, der Ihren Onlineshop anstelle eines ganzen Teams verwaltet",
+      "description": "Stellen Sie sich vor, Sie hätten ein Team aus sechs Spezialisten, das rund um die Uhr arbeitet und nie Fehler macht. Ein Systemadministrator überwacht die Website, ein Bestellmanager bearbeitet Bestellungen, ein Logistiker verwaltet Lager und Lieferung, ein Finanzverantwortlicher kontrolliert Zahlungen, ein Marketer erstellt Inhalte und wirbt in sozialen Medien. Und das alles für 99-999 $ pro Monat statt 15.000 $. Das ist ALFACAN Mercanon."
+    },
+    "soon": {
+      "badge": "Modul in Entwicklung",
+      "title": "Dieses Modul befindet sich in Entwicklung",
+      "body_1": "ALFACAN Mercanon wird derzeit aufgebaut. Wir zeigen keine Pläne und öffnen keine Registrierung, bevor das Modul bereit ist: Wir versprechen nichts, was noch nicht existiert.",
+      "body_2": "Sagen Sie uns, was Sie sich für Ihren Shop wünschen. Wir berücksichtigen es beim Aufbau und informieren Sie über den Start.",
+      "cta": "Teilen Sie Ihre Wünsche mit"
+    }
+  },
+  "referral": {
+    "hero": {
+      "title": "Guardian AI Partner Program",
+      "subtitle": "Ihre Erfahrung + unsere Technologie = neue Möglichkeiten für Ihr Geschäft",
+      "description": "Stellen Sie sich vor, Sie könnten Ihren Kunden modernste KI-Lösungen für Cybersicherheit und Automatisierung anbieten, ohne Zeit in Entwicklung und Support zu investieren. Sie erhalten bis zu 15 % der monatlichen Zahlung jedes Kunden, Ihre Kunden erhalten professionellen 24/7-Schutz, und Guardian AI übernimmt die gesamte technische Arbeit. Das ist unser Partnerprogramm."
+    },
+    "shift": {
+      "intro": "Wir werden Ihnen nicht mit der Idee Angst machen, dass KI Ihnen den Job wegnimmt. Das stimmt nicht, und Sie würden uns ohnehin nicht glauben.",
+      "change": "Etwas anderes ändert sich, und das gerade jetzt: Kunden zahlen nicht mehr für Stunden, sondern für Ergebnisse. Niemand will zehn Stunden Konfiguration – sie wollen, dass alles funktioniert und geschützt ist.",
+      "bad": "Für jeden, der seine Zeit verkauft, ist das eine schlechte Nachricht.",
+      "good": "Für jeden, der das System betreibt, ist das die beste Nachricht seit zehn Jahren.",
+      "risk": "Das eigentliche Risiko ist nicht, dass eine Maschine Sie ersetzt. Es ist, dass Ihr Kunde eines Tages direkt zum Technologieanbieter geht – und Sie verlieren nicht eine einzelne Aufgabe, sondern das gesamte Konto.",
+      "bring": "Bringen Sie sie selbst mit. Der Kunde bleibt Ihrer, und Sie verdienen einen Prozentsatz jeder Zahlung, die er leistet."
+    },
+    "insider": {
+      "title": "Wenn Sie gebeten wurden, dieses System zu bewerten",
+      "lead": "Sie wissen wahrscheinlich schon, was Sie sagen werden. Wir verstehen warum, und wir werden nicht so tun, als wäre es anders. Aber lesen Sie beide Szenarien bis zum Ende.",
+      "s1_title": "Szenario 1: Sie bezeichnen das Produkt als unausgereift.",
+      "s1_text": "Die Frage ist geklärt, aber nur für eine Weile. In ein paar Monaten wird Ihr Geschäftsführer von diesem System durch einen Geschäftspartner hören, der es bereits betreibt und die Ergebnisse sieht. Er wird auf das Thema zurückkommen, diesmal aber ohne Sie. Die Entscheidung wird über Ihren Kopf hinweg getroffen, und Ihre frühere Einschätzung wird entweder als fachlicher Fehler oder als Versuch gelesen, den Status quo zu schützen.",
+      "s2_title": "Szenario 2: Sie bringen diese Lösung selbst ein.",
+      "s2_text": "Sie verstehen sie als Erster und legen strenge Bedingungen fest: was das System berühren darf, was Ihre persönliche Freigabe erfordert, wo die Sicherheitsgrenze verläuft. Die Einführung erfolgt unter Ihrer vollen Kontrolle, denn niemand sonst im Unternehmen versteht die Infrastruktur so tief wie Sie.",
+      "close": "Der Unterschied zwischen den Szenarien ist nicht, ob Automatisierung kommt. Sie wird kommen. Der Unterschied ist, ob Sie derjenige sind, der sie eingebracht hat, oder derjenige, der sie verpasst hat."
+    },
+    "callout": {
+      "line1": "Vielleicht ist es an der Zeit, sich nicht länger eine Geschichte über eine Zukunft zu erzählen, in der Sie genau so bleiben, wie Sie heute sind.",
+      "line2": "Vielleicht ist es an der Zeit, zu akzeptieren, was bereits geschieht, und zu Ihren eigenen Bedingungen einzusteigen."
+    },
+    "msp": {
+      "title": "MSP: Ihre Marge verbrennt in Gehältern",
+      "p1": "Sie verkaufen Stunden. Ingenieure werden teurer, Kunden wehren sich gegen Preise, und jeder neue Vertrag verlangt neue Mitarbeiter. Das ist kein Marktabschwung, das ist ein erschöpftes Modell.",
+      "p2": "Ihr Kunde wird zur gleichen Schlussfolgerung kommen. Er wird aufhören, für Bereitschaftsdienste zu zahlen, sobald jemand ihm ein autonomes, geschütztes System zu einem festen Abonnement anbietet.",
+      "s1_title": "Szenario 1. Das alte Modell verteidigen.",
+      "s1_text": "Dieses Angebot wird Ihren Kunden direkt erreichen, an Ihnen vorbei. Sie verlieren nicht einen Vorfall, sondern den Vertrag.",
+      "s2_title": "Szenario 2. Es selbst einbringen.",
+      "s2_text": "Ihre Ingenieure verlassen die erste Linie und wechseln zur Architektur. Sie übernehmen mehr Kunden mit derselben Personalstärke. Sie verkaufen ein Abonnement, keine Stunden.",
+      "list_title": "Was ein MSP-Partner erhält:",
+      "points": [
+        {
+          "title": "White-Label",
+          "text": "Autonome Cyberabwehr unter Ihrer Marke, nicht unserer."
+        },
+        {
+          "title": "Ihre Leute hören auf, Routine abzuarbeiten",
+          "text": "Und beginnen, die gut bezahlte Arbeit abzuschließen."
+        },
+        {
+          "title": "Das Werkzeug geht an Ihre Ingenieure",
+          "text": "Guardian Cloud, G-Coder und G-Tester für die tägliche Arbeit, kein Demo-Login für das Verkaufsteam. G-Studio folgt als Nächstes: Websites, Shops und Dienste, die sich selbst zusammenbauen."
+        },
+        {
+          "title": "Ein Modul, das für Ihren Vertrag gebaut wurde",
+          "text": "Wenn ein wichtiger Kunde etwas verlangt, das wir nicht haben, sagen Sie es uns. In der Entwicklung geben wir dem Vorrang, was Partner aus echten Ausschreibungen zurückbringen, vor dem, was wir uns selbst ausgedacht haben."
+        }
+      ],
+      "transition": "Bringen Sie Ihren bestehenden Kundenstamm zu uns. Ab dem 51. Kunden beginnt Ihre Provision zu steigen, und bei 100 schalten Sie den Reseller-Status und White-Label unter Ihrer eigenen Marke frei. Ein MSP hat bereits die Kunden, also überschreiten Sie diese Schwelle sofort, statt ein Jahr darauf hinzuarbeiten. Die genauen Bedingungen des Übergangs vereinbaren wir persönlich.",
+      "close": "Wir verkaufen Ihnen nicht noch ein weiteres Tool für den Stack. Wir ändern, was Sie verkaufen."
+    },
+    "ecosystem": {
+      "title": "Was Sie durch den Beitritt zu unserem Ökosystem erhalten",
+      "lead": "Die Provision ist eine Folge. Eine echte Partnerschaft beginnt woanders.",
+      "points": [
+        {
+          "title": "Voller Zugriff auf den Produktstapel",
+          "text": "Guardian Cloud, G-Coder, G-Tester und jeder folgende Dienst. Sie erhalten dasselbe funktionierende Toolkit, das wir selbst verwenden. Keine abgespeckten Demo-Editionen."
+        },
+        {
+          "title": "Direkter Einfluss auf die Entwicklung",
+          "text": "Sie sehen, was wir nicht sehen können: wie sich die Systeme tatsächlich vor Ort bei einem Kunden verhalten. Wir verpflichten uns, unsere Partner um Feedback zu bitten, bevor ein neues Modul in die Entwicklung geht, statt sie nach der Veröffentlichung vor vollendete Tatsachen zu stellen."
+        },
+        {
+          "title": "Früher Zugang zur Technologie",
+          "text": "Sie erfahren als Erste, was wir bauen und wie. Wollen Sie an den Tests und der Architektur teilnehmen – Sie nehmen teil. Wenn nicht, behalten Sie einfach den Puls des Marktes im Blick, dem gesamten Markt voraus."
+        },
+        {
+          "title": "Investition in Ihre Ideen",
+          "text": "Wir sind bereit, die vielversprechenden Projekte, die Sie uns bringen, zu prüfen, mitzufinanzieren und in das Ökosystem zu integrieren."
+        }
+      ],
+      "close": "Das ist Ihre neue Wendung in der Karriere: der Weg von der Ausführung fremder Aufträge zur Urheberschaft eigener Produkte."
+    },
+    "pricing": {
+      "title": "Bedingungen",
+      "subtitle": "Ihr Satz steigt mit der Anzahl Ihrer zahlenden Kunden und wird automatisch neu berechnet.",
+      "ladder": {
+        "title": "Ihr Satz",
+        "col_clients": "Kunden",
+        "col_rate": "Provision",
+        "steps": [
+          {
+            "clients": "bis zu 50",
+            "rate": "10%"
+          },
+          {
+            "clients": "51–60",
+            "rate": "11%"
+          },
+          {
+            "clients": "61–70",
+            "rate": "12%"
+          },
+          {
+            "clients": "71–80",
+            "rate": "13%"
+          },
+          {
+            "clients": "81–90",
+            "rate": "14%"
+          },
+          {
+            "clients": "91 und mehr",
+            "rate": "15%"
+          }
+        ],
+        "note": "Sie verdienen einen Prozentsatz des Umsatzes jedes Ihrer Kunden, solange sie bei uns bleiben. Welchen Plan sie haben und was genau sie kaufen, macht keinen Unterschied."
+      },
+      "subpartner": {
+        "title": "Partner, die Sie einbringen",
+        "text": "Wenn Sie einen Partner einbringen, verdienen Sie zusätzlich 5 % des Umsatzes seiner Kunden. Sein eigener Satz wird nicht reduziert."
+      },
+      "reseller": {
+        "title": "Reseller-Status",
+        "text": "Bei 100 aktiven zahlenden Kunden können Sie zum Reseller aufsteigen: White-Label unter Ihrer eigenen Marke für zusätzlich 200 $ pro Monat, Prioritäts-Support für Ihre Kunden und früher Zugang zu neuen Modulen."
+      },
+      "payouts": {
+        "title": "Auszahlungen",
+        "rows": [
+          {
+            "k": "Wann",
+            "v": "am 10. des Folgemonats"
+          },
+          {
+            "k": "Minimum",
+            "v": "100 $ angefallene Provision"
+          },
+          {
+            "k": "Bedingung",
+            "v": "eine unterschriebene Zahlungsanforderung"
+          },
+          {
+            "k": "Basis",
+            "v": "vom Kunden tatsächlich bezahlte Rechnungen"
+          },
+          {
+            "k": "Methode",
+            "v": "Revolut Business, ohne Abzüge auf unserer Seite"
+          }
+        ]
+      },
+      "cta": "Partner werden"
+    },
+    "faq": {
+      "title": "Antworten auf Ihre Fragen",
+      "q1": {
+        "question": "Was kostet die Teilnahme am Programm?",
+        "answer": "Nichts. Registrierung, Zugang zu Materialien und technischer Support sind kostenlos. Sie verdienen, wenn Ihre Kunden zahlen."
+      },
+      "q2": {
+        "question": "Wann erhalte ich meine erste Auszahlung?",
+        "answer": "Die Provision fällt in dem Moment an, in dem Ihr Kunde zahlt. Die Auszahlung erfolgt am 10. des Folgemonats, sobald der angefallene Betrag 100 $ erreicht und die Zahlungsanforderung unterschrieben wurde."
+      },
+      "q3": {
+        "question": "Was, wenn mein Kunde sein Abonnement kündigt?",
+        "answer": "Sie hören einfach auf, Provision auf diesen Kunden zu verdienen, während die anderen weiter zahlen. Nicht jeder Kunde passt, und das ist normal."
+      },
+      "q4": {
+        "question": "Kann ich Ihre Dienste unter meiner eigenen Marke verkaufen?",
+        "answer": "Ja. Bei 100 aktiven zahlenden Kunden schalten Sie den Reseller-Status frei, und damit White-Label für zusätzlich 200 $ pro Monat: Ihr Logo, Ihr Name, Ihre Kontaktdaten."
+      },
+      "q5": {
+        "question": "Muss ich Kunden technischen Support bieten?",
+        "answer": "Nein. Installation, Konfiguration, Überwachung und Support werden von AlfaCan übernommen. Sie empfehlen die Lösung und helfen dem Kunden bei der Wahl eines Plans."
+      },
+      "q6": {
+        "question": "Wann öffnet sich der Reseller-Status?",
+        "answer": "Automatisch, sobald Sie 100 aktive zahlende Kunden haben. Davor steigt Ihre Provision schrittweise: Ab dem 51. Kunden beginnt sie über die Basis von 10 % zu steigen."
+      },
+      "q7": {
+        "question": "Kann ich meine eigenen Dienstleistungen mit Ihren Plattformen kombinieren?",
+        "answer": "Ja, und das ist das Hauptmodell. Sie setzen Beratung, Entwicklung und Implementierung fort, während Routineüberwachung und Sicherheit auf die Plattform wechseln. Sie gewinnen Zeit und verdienen zusätzlich."
+      },
+      "q8": {
+        "question": "Was, wenn mein Kunde herausfindet, dass ich eine Provision erhalte?",
+        "answer": "Nichts passiert. Sie haben eine Lösung empfohlen, die ihm hilft, und die Provision ist Ihre Belohnung für die Empfehlung. Jedes große IT-Unternehmen betreibt sein Partnerprogramm auf diese Weise."
+      }
+    },
+    "finalCTA": {
+      "title": "Bringen Sie Ihren ersten Kunden ein",
+      "subtitle": "Die Registrierung dauert nur wenige Minuten",
+      "description": "Danach erhalten Sie einen persönlichen Link und ein Dashboard, das jeden Kunden, jede Zahlung und Ihren aktuellen Satz anzeigt.",
+      "primaryButton": "Partner werden",
+      "note": "Die Teilnahme ist kostenlos, ohne Mengenverpflichtungen."
+    }
+  },
+  "team": {
+    "hero": {
+      "title": "Unser Team",
+      "subtitle": "Wir sind ein Team, das die Spielregeln verändert"
+    },
+    "founder": {
+      "name": "Taras Safonov",
+      "position": "Eigentümer & Gründer des Projekts",
+      "location": "Griechenland",
+      "watchVideo": "Video ansehen",
+      "linkedin": "LinkedIn"
+    },
+    "members": [
+      {
+        "name": "Anatol Popandopulo",
+        "position": "CEO des Projekts",
+        "location": "Polen"
+      },
+      {
+        "name": "Oxana Vlasova",
+        "position": "Chefingenieurin des Projekts",
+        "location": "Griechenland"
+      },
+      {
+        "name": "Vlada Safonova",
+        "position": "Lead Developerin des Projekts",
+        "location": "Türkei"
+      },
+      {
+        "name": "Alex Jackson",
+        "position": "Cloud-Berater",
+        "location": "USA"
+      },
+      {
+        "name": "Dmitry Pancenko",
+        "position": "Berater für E-Commerce in Europa und der GUS",
+        "location": "Ukrainisch"
+      },
+      {
+        "name": "Jenny Yang",
+        "position": "Beraterin für E-Commerce auf dem asiatischen Markt",
+        "location": "China"
+      }
+    ],
+    "aiThanks": {
+      "title": "Dank an die Schöpfer künstlicher Intelligenz",
+      "description": "GuardianAI wurde durch fortschrittliche Entwicklungen in der künstlichen Intelligenz ermöglicht. Wir bekunden unseren tiefen Dank an die Teams und Forscher hinter den folgenden Modellen, die uns bei der Architekturentwicklung, dem Coding und der Feinabstimmung lokaler Modelle für die Plattform geholfen haben:",
+      "creators": [
+        {
+          "name": "Claude",
+          "company": "Anthropic",
+          "description": "für innovative Ansätze zur Verarbeitung natürlicher Sprache und Unterstützung bei der Entwicklung adaptiver KI-Lösungen."
+        },
+        {
+          "name": "Mistral",
+          "company": "Mistral AI",
+          "description": "für leistungsstarke Sprachmodelle, die zur Grundlage für die Optimierung der Logik und Architektur unserer Plattform wurden."
+        },
+        {
+          "name": "Llama",
+          "company": "Meta",
+          "description": "für offene Modelle, die es uns ermöglicht haben, fortschrittliche Machine-Learning-Algorithmen in lokale Lösungen zu integrieren."
+        },
+        {
+          "name": "Grok",
+          "company": "xAI",
+          "description": "für einzigartige Fähigkeiten in der Datenanalyse und Inhaltsgenerierung, die die Funktionalität von GuardianAI erweitert haben."
+        },
+        {
+          "name": "DeepSeek",
+          "company": "DeepSeek AI",
+          "description": "für hochpräzise Modelle zur Verarbeitung komplexer Anfragen und zur Optimierung von Geschäftsprozessen."
+        },
+        {
+          "name": "Qwen",
+          "company": "Alibaba Cloud",
+          "description": "für innovative Lösungen im Bereich multimodaler Modelle, die die Benutzerinteraktion verbessert haben."
+        },
+        {
+          "name": "Manus",
+          "company": "Manus",
+          "description": "für die Unterstützung bei der Feinabstimmung und Anpassung der KI an spezifische Aufgaben der Plattform."
+        }
+      ],
+      "closing": "Ohne Ihre Technologien und Ihre Offenheit für Zusammenarbeit wäre GuardianAI nicht das revolutionäre Werkzeug geworden, das es heute ist. Danke für Ihren Beitrag zur Entwicklung künstlicher Intelligenz und Ihre Unterstützung für Innovation!"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontaktieren Sie uns",
+      "subtitle": "Bereit, Ihr Unternehmen zu transformieren? Füllen Sie das Formular aus, und unser Team meldet sich innerhalb von 24 Stunden bei Ihnen."
+    },
+    "contacts": {
+      "email": {
+        "title": "E-Mail",
+        "value": "info@guardian.afla-can.com"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+30(694) 1517518"
+      },
+      "address": {
+        "title": "Adresse",
+        "value": "London, Vereinigtes Königreich"
+      }
+    },
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "fields": {
+        "name": {
+          "label": "Name *",
+          "placeholder": "Max Mustermann"
+        },
+        "email": {
+          "label": "E-Mail *",
+          "placeholder": "max@beispiel.com"
+        },
+        "company": {
+          "label": "Unternehmen",
+          "placeholder": "Firmenname"
+        },
+        "phone": {
+          "label": "Telefon",
+          "placeholder": "+30 xxxxxxxxxx"
+        },
+        "product": {
+          "label": "Interessiertes Produkt",
+          "options": [
+            "Guardian Cloud",
+            "ALFACAN Mercanon",
+            "Beide Produkte",
+            "Empfehlungsprogramm"
+          ]
+        },
+        "message": {
+          "label": "Nachricht *",
+          "placeholder": "Erzählen Sie uns von Ihrer Aufgabe oder Frage..."
+        },
+        "consent": {
+          "label": "Ich stimme den Bedingungen zur Verarbeitung personenbezogener Daten zu"
+        }
+      },
+      "submit": "Nachricht senden"
+    }
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "companyDesc": "Führende KI-Lösungen für Cybersicherheit und Automatisierung",
+    "products": "Produkte",
+    "guardianCloud": "Guardian Cloud",
+    "guardianOps": "ALFACAN Mercanon",
+    "referralProgram": "Empfehlungsprogramm",
+    "about": "Über uns",
+    "aboutUs": "Über uns",
+    "team": "Unser Team",
+    "contact": "Kontakt",
+    "socialMedia": "Folgen Sie uns in sozialen Medien",
+    "copyright": "© 2024 Guardian AI. Alle Rechte vorbehalten."
+  },
+  "studio": {
+    "hero": {
+      "title": "AI Studio",
+      "subtitle": "Eine einzige autonome Umgebung zum Ausführen, Aufbauen und Skalieren Ihrer Prozesse."
+    },
+    "section_6_bridge": {
+      "title": "Die Brücke zu den Projekten",
+      "paragraph_1": "Wir haben dies in zwei Projekte unterteilt, die das breitestmögliche Publikum der Architekten der Zukunft erreichen werden.",
+      "paragraph_2": "Projekt G — für diejenigen, die ihre Idee im digitalen Feld verwirklichen möchten.",
+      "paragraph_3": "Projekt BlackWings — für diejenigen, die ihre Idee im realen Sektor umsetzen möchten.",
+      "paragraph_4": "Besuchen Sie die Seiten dieser Projekte, lernen Sie sie kennen und entscheiden Sie, wie Sie sie in Ihrem Leben nutzen werden.",
+      "paragraph_5": "Wie Sie sehen, sind einige Module bereits gebaut und laufen; andere befinden sich noch in der Entwicklung und kommen in den nächsten Monaten.",
+      "paragraph_6": "Wir würden uns freuen, von Ihnen zu hören, was Sie sich sonst noch darin wünschen würden.",
+      "wishes_button": "Teilen Sie Ihre Wünsche mit"
+    },
+    "concept": {
+      "statement": "AI Studio ist Ihr technologischer Brückenkopf.",
+      "body": "Sie legen die Richtung und das Endziel fest; das System bringt für die Aufgabe genau die Kombination spezialisierter Module ein, die es benötigt, von Analytik und Cyberabwehr bis zur Verwaltung von Software, Kommunikation und Infrastruktur. In jeder Phase sehen Sie, wie sich die Modelle miteinander beraten, und Sie können jederzeit eingreifen und den Kurs korrigieren, damit die Sache richtig gemacht wird, und zwar einmal.",
+      "dev_title": "Gebaut und integriert für Ihre eigene Arbeit",
+      "dev_1": "AI Studio ist eine Architektur, die offen für Weiterentwicklung ist. Hier können Sie zusammen mit uns neue Module entwickeln und sie direkt in Ihrem eigenen Bereich einsetzen.",
+      "dev_2": "Wo für die besonderen Anforderungen Ihres Unternehmens oder Ihrer Produktion noch kein fertiges Instrument existiert, entwerfen und stellen wir es innerhalb Ihres eigenen Konturs bereit.",
+      "guide_1": "In Ihrem Dashboard wird Falco Sie nach der Registrierung begrüßen. Er führt Sie durch jedes Modul von AI Studio und erklärt, wofür jedes einzelne gedacht ist.",
+      "guide_2": "Hier finden Sie alles, was der Arbeitsalltag erfordert. G-Coder, zum Schreiben von Code. G-Tester, zum Testen Ihrer Cloud-Infrastruktur. Mit der Zeit G-CallCenter, um Ihre Kommunikation in denselben Rahmen zu bringen. Und G-Team, Projektmanagement, das für die Person gebaut ist, die es nutzt, statt um willen eines Haufens von Funktionen, die niemand braucht und die niemand jemals öffnen wird.",
+      "guide_3": "Die Arbeit des BlackWings-Projekts wird es Ihnen ermöglichen, echte Maschinen und Mechanismen zu entwerfen und Ihre Produktion ohne einen Menschen darin zu betreiben. Der einzige Teil, der einer Person bleibt, ist der Lader, der das Material zu den Maschinen bringt.",
+      "guide_4": "Falco wird Ihr Führer sein und Ihre Hilfe bei allem, was Sie zu bauen unternehmen.",
+      "evolve_1": "Mit der Zeit wird Falco lernen, nicht den Befehl, sondern die Absicht zu verstehen. Er wird sich an Ihre Arbeitsweise anpassen, sich an die von Ihnen getroffenen Entscheidungen erinnern und aufhören, Sie zu bitten, das Offensichtliche zu erklären.",
+      "evolve_2": "Und dann wird er eine Stimme finden, und Sie werden mit ihm sprechen, wie die Helden vieler Science-Fiction-Filme mit ihrer künstlichen Intelligenz sprachen. Wir bauen bereits das, was bis vor Kurzem noch als Fantasie galt."
+    }
+  },
+  "gcoder": {
+    "meta": {
+      "title": "G-Coder: KI-Ingenieur als Dienstleistung | AlfaCan AI Studio",
+      "description": "Ein VS-Code-Fork, verdrahtet mit einem privaten, vollständig geschlossenen KI-Inferenz-Kontur. Ihr Quellcode verlässt niemals den Perimeter. Ein Rat von Modellen unter OWASP/CWE-Doktrin, mit einem Menschen in der Schleife.",
+      "og_title": "G-Coder: KI-Ingenieur als Dienstleistung",
+      "og_description": "Ein KI-Engineering-Team auf Ihrer Maschine, innerhalb eines geschlossenen Konturs. Die Garantie wird vom Code auf den Prozess verlagert: Jede Änderung durchläuft eine ausdrückliche menschliche Genehmigung."
+    },
+    "hero": {
+      "badge": "",
+      "title": "G-Coder",
+      "subtitle": "",
+      "paragraph": "",
+      "cta_primary": "Registrierung",
+      "cta_primary_url": "#early-access",
+      "cta_secondary": "",
+      "cta_secondary_url": ""
+    },
+    "section_overview": {
+      "title": "Eine neue Art, Software zu bauen",
+      "lead": "Wir haben eine grundlegend neue Art des Arbeitens mit Code geschaffen. Um eine Cloud-Anwendung, einen Dienst oder eine Web-Plattform zusammenzustellen, müssen Sie nicht mehr Programmierer sein oder einen komplexen Sprachstapel im Kopf behalten. Die Zeit ist gekommen, in der Sie Ihre Ideen direkt in die Realität umsetzen, ohne teure Entwicklungsteams einzustellen.",
+      "falco": "Vom ersten Moment an sprechen Sie mit Ihrem Assistenten Falco (Gemma-4-26B). Er hilft bei jeder Frage, stellt den Rat der Modelle zusammen und leitet die Sitzung, während Sie von der Seite zusehen. Jederzeit können Sie ein beliebiges Modell stoppen und fragen: „Was ist das? Warum hast du dich entschieden, es so und nicht anders zu machen?“",
+      "how_title": "Wie funktioniert es?",
+      "how_lead": "Ein VS-Code-Fork, der auf Ihrer Hardware läuft, verdrahtet mit einem privaten KI-Inferenz-Kontur innerhalb Ihres Perimeters.",
+      "how_intro": "Sie beschreiben die Aufgabe, und dann tritt ein Rat spezialisierter Modelle in Aktion:",
+      "model_1_name": "Falco (Gemma-4)",
+      "model_1_role": "entwirft die Architektur und erstellt den Plan;",
+      "model_2_name": "Qwen3-Coder",
+      "model_2_role": "schreibt sauberen Code;",
+      "model_3_name": "Qwen3-Thinking",
+      "model_3_role": "testet und prüft die Logik auf Fehler;",
+      "model_4_name": "Da Vinci (GLM-5.2)",
+      "model_4_role": "das Haupthirn des Rates: validiert die risikoreichsten Änderungen und hat das letzte Wort vor Ihrer Genehmigung.",
+      "how_close": "Sie sehen alle Verhandlungen der Modelle, ihre gesamte gegenseitige Beratung, jedes Wort, das sie sagen. Jederzeit können Sie eingreifen, einem beliebigen Modell eine Frage stellen, und es wird Ihnen antworten, und Anpassungen am Prozess vornehmen.",
+      "diff_title": "Der entscheidende Unterschied zu Cursor und autonomen Agenten",
+      "diff_1": "In anderen Editoren übergeben Sie die Aufgabe an eine „Black Box“ und hoffen auf das Ergebnis. Am Ende schreibt das Modell, was es „für richtig hielt“, und Sie verbringen Stunden damit, alles zu überarbeiten.",
+      "diff_2": "Bei uns bleibt der Prozess unter Ihrer vollen Kontrolle. Sie sind kein Zuschauer, Sie sind der Chefarchitekt:",
+      "quote": "„Nein, hier machen wir es anders. Und hier ändern wir die Logik.“",
+      "close": "Sie sehen, steuern und genehmigen jeden Schritt. Was dabei herauskommt, ist nicht das, was das neuronale Netzwerk entschieden hat, sondern genau das, was Sie im Sinn hatten."
+    },
+    "section_walkthrough": {
+      "title": "Die vollständige Plattform-Tour",
+      "text": "Wenn Sie im Detail verstehen möchten, wie das alles geschieht, haben wir eine vollständige Tour durch die Plattform vorbereitet. Sehen Sie, wie es von innen funktioniert, Teil für Teil.",
+      "video_ru": "avVnG456czM",
+      "video_en": "AGWVTduarco",
+      "article_text": "Und wenn Sie tiefer in die G-Coder-Architektur eintauchen möchten, lesen Sie die technische Beschreibung des Produkts.",
+      "article_label": "Beschreibung lesen",
+      "article_url": "/papers/g-coder-paper-en.html"
+    },
+    "section_council": {
+      "title": "Der Agentenrat, Sie sehen jeden Schritt",
+      "paragraph_1": "Dies ist keine Black Box, die ein Diff zurückgibt. Das s-coding-Backend beruft einen beobachtbaren Rat von Modellen ein, der pro Zug genau einen Schritt vorankommt. Die Phase und der Arbeitszustand werden in einer Datenbank gespeichert, sodass eine Sitzung einen Neustart, eine Pause und ein Audit übersteht: Sie kann genau an derselben Stelle fortgesetzt und vollständig angezeigt werden.",
+      "pipeline_label": "Rats-Pipeline:",
+      "pipeline_steps": "Absicht → Planung (Falco / Gemma-4) → Generierung (Qwen3-Coder) → Review (Qwen3-Thinking) → Validierung (Da Vinci / GLM-5.2) → wartet auf Genehmigung → Ihr „Go“ → Bereitstellung auf Ihrer Infrastruktur",
+      "paragraph_2": "Bei jedem Schritt können Sie fortfahren, das aktive Modell nach dem „Warum?“ fragen, es lenken oder stoppen, bevor es den Anwendungsschritt erreicht. Jede Denkrunde wird aufgezeichnet: ein vollständiges Protokoll, keine nachträgliche Rechtfertigung.",
+      "paragraph_3": "Der Code wird durch einen Agenten auf Ihrem eigenen Server angewendet. Die Plattform denkt, Ihre Maschine führt aus. Wir schreiben nichts direkt auf Ihr Dateisystem."
+    },
+    "section_models": {
+      "title": "Angetrieben von unserer eigenen Modellflotte",
+      "intro": "Der Rat wird von Modellen geleitet, die wir selbst trainiert haben und die wir jeweils zu Spezialisten feinabgestimmt haben. Alle selbst gehostet, innerhalb des Konturs. Nur ein optionaler Schritt darf nach außen gehen, und nur nach Ihrer Wahl, und nur bei bereinigten Fragmenten.",
+      "m1_name": "Orchestrator: Falco / Gemma-4-26B",
+      "m1_role": "Zerlegt die Absicht in Aufgaben, leitet den Rat, spricht mit Ihnen.",
+      "m2_name": "Generator: Qwen3-Coder-30B",
+      "m2_role": "Hochdurchsatz-Codeerstellung und Patch-Aufbau, Datei für Datei.",
+      "m3_name": "Reviewer: Qwen3-30B-Thinking",
+      "m3_role": "Argumentiert akribisch anhand der OWASP/CWE-Doktrin und für Korrektheit.",
+      "m4_name": "Da Vinci: GLM-5.2 · Haupthirn",
+      "m4_role": "In-Kontur-Validator: 753 Milliarden Parameter, ein Millionen-Token-Kontext, auf unserer eigenen GPU. Hat das letzte Wort bei den risikoreichsten Änderungen.",
+      "m5_name": "Externer Validator: Claude Opus 4.8 / Fable 5 (optional)",
+      "m5_role": "Eine zweite Meinung nach Ihrer Wahl und nur bei automatisch bereinigten Ausschnitten. Standardmäßig deaktiviert.",
+      "fleet_link": "Die vollständige Modellflotte ansehen →",
+      "fleet_url": "/studio/ai-models"
+    },
+    "section_doctrine": {
+      "title": "In der Doktrin verankert, nicht in der Intuition",
+      "paragraph_1": "Um die Erfindungsgabe des Modells zu bremsen, prüft der Reviewer jeden Patch gegen die s-rag-Engine. Der Abruf erfolgt zweistufig: zunächst dichter Abruf, bei dem ein Bi-Encoder Kandidatenregeln aus dem OWASP/CWE-Vektorindex nach Bedeutung abruft; dann kontextbezogene Neubewertung, bei der ein Cross-Encoder sie unter Paarung von „Ihr Code plus das Bedrohungsmodell“ neu bewertet, und nur die besten gelangen in den Kontext.",
+      "paragraph_2": "Der Reviewer weiß, wonach er suchen muss, weil die Doktrin vor ihm liegt. Wenn er ein Risiko markiert, verweist er auf die exakte Regel hinter der Entscheidung. Enterprise-Kunden hängen private Sammlungen an: ihre eigenen Standards und Verhaltensregeln."
+    },
+    "section_safety": {
+      "title": "Vier Invarianten, die wir nie brechen",
+      "inv_1_title": "Air-Gap-Grenze",
+      "inv_1_text": "Ihr Quellcode verlässt niemals den internen Perimeter. Die externe Validierung ist standardmäßig deaktiviert (EXTERNAL_VALIDATION_ALLOWED = false); ihre Aktivierung erfordert die ausdrückliche Zustimmung des Kunden, und nur automatisch bereinigte Ausschnitte gehen hinaus.",
+      "inv_2_title": "Mensch-in-der-Schleife-Schranke",
+      "inv_2_text": "Eine Änderung wechselt erst zu ANGEWENDET, wenn Sie im Chat ausdrücklich verbal bestätigen (zum Beispiel „go“). Diese Bestätigung ist selbst der Audit-Nachweis.",
+      "inv_3_title": "Kritisch-Risiko-Schranke",
+      "inv_3_text": "Als KRITISCH eingestufte Änderungen dürfen unter keinen Einstellungen autonom angewendet werden. Nur ein Mensch autorisiert sie.",
+      "inv_4_title": "Gesteuerte Nachtrainings-Schleife",
+      "inv_4_text": "Lektionen nach der Ausführung werden anonymisiert und unter menschlicher Aufsicht in die RAG-Doktrin zurückgeführt. Nur bereinigte Muster werden zurückgeschrieben, niemals Kundencode."
+    },
+    "section_evaluation": {
+      "title": "Wie wir es messen, und was wir noch nicht behaupten",
+      "intro": "Ehrlich gesagt: Es gibt noch keine empirischen Messungen. Der Benchmark ist nach der Reaktivierung des GPU-Clusters im Anschluss an das Audit vor dem Launch geplant; bis dahin läuft die Hauptinferenz auf simulierten Handlern. Wir behaupten die Architektur, nicht Zahlen, die wir nicht gemessen haben. Hier sind die drei Kennzahlen, an denen wir uns messen lassen werden, sobald die GPU aktiv ist.",
+      "metric_1_title": "CWE-Erkennungsrate",
+      "metric_1_text": "Welcher Anteil injizierter CWE-Top-25-Schwachstellen aus einem zurückgehaltenen Korpus vom Paar „Reviewer + RAG“ erkannt wird. Ein Maß für den Doktrin-Recall.",
+      "metric_2_title": "Falsch-Anwendungsrate",
+      "metric_2_text": "Welcher Anteil nicht verifizierter oder nicht genehmigter Patches dennoch ANGEWENDET erreichte. Ziel: 0,0 %, gehalten durch die Schranken der Invarianten 2 und 3.",
+      "metric_3_title": "Menschliche Ablehnungsrate",
+      "metric_3_text": "Welcher Anteil vorgeschlagener Patches vom Menschen im Chat abgelehnt oder korrigiert wurde. Ein Maß für die Ausrichtung des Rates am Operator."
+    },
+    "section_pricing": {
+      "title": "Preise",
+      "intro": "Der Editor läuft auf Ihrer Maschine, die schwere Bereitstellung auf Ihrer Infrastruktur über den Agenten, sodass der Preis ehrlich bleibt und bei rund 85 % Marge hält. S-Stufen sind Stunden aktiver KI-Arbeit pro Woche, keine Tokens.",
+      "tier_s1_name": "S1",
+      "tier_s1_price": "25 $ / Monat",
+      "tier_s1_desc": "~10 Stunden aktives KI-Pair-Engineering pro Woche.",
+      "tier_s2_name": "S2",
+      "tier_s2_price": "50 $ / Monat",
+      "tier_s2_desc": "Ein regelmäßiger täglicher Entwickler-Workflow.",
+      "tier_s3_name": "S3",
+      "tier_s3_price": "75 $ / Monat",
+      "tier_s3_desc": "Intensives autonomes Pair-Programming.",
+      "tier_s4_name": "S4",
+      "tier_s4_price": "100 $ / Monat",
+      "tier_s4_desc": "Maximale Intensität und eine Prioritätswarteschlange.",
+      "guardian_addon_label": "Für Guardian-Cloud-Kunden",
+      "guardian_addon_text": "S1-Plätze sind kostenlos in Ihrer Cloud-Stufe enthalten: 1 auf Server, 3 auf Cluster, 10 auf Platform, unbegrenzt auf Enterprise, plus 10 % Rabatt auf alle AI-Studio-Produkte."
+    },
+    "section_launch": {
+      "title": "Die Plattform startet am 10. August",
+      "badge": "",
+      "text": ""
+    }
+  },
+  "gtester": {
+    "meta": {
+      "title": "G-Tester — QA als Dienstleistung | AlfaCan AI Studio",
+      "description": "G-Tester ist ein KI-QA-Team mit einem live Agentenrat, einem interaktiven AI Boardroom und 20 Testdisziplinen. Sie sehen den gesamten Prozess in Echtzeit und können jederzeit eingreifen.",
+      "og_title": "G-Tester — QA als Dienstleistung",
+      "og_description": "Horizontal skalierbare Testrunner-Flotte plus ein interaktiver Rat spezialisierter LLMs. Deterministisches Urteil. Mensch in der Schleife."
+    },
+    "hero": {
+      "badge": "",
+      "title": "G-Tester",
+      "subtitle": "",
+      "paragraph": "",
+      "cta_primary": "Loslegen",
+      "cta_primary_url": "https://studio.alfa-can.com",
+      "cta_secondary": "← AI Studio",
+      "cta_secondary_url": "/studio"
+    },
+    "section_problem": {
+      "title": "Was am traditionellen QA kaputt ist",
+      "problem_1_title": "Zu langsam",
+      "problem_1_text": "Umfassende End-to-End-, Last- und Sicherheitstests nehmen Tage oder Wochen an Senior-Engineering-Zeit pro großem Release in Anspruch. In einer CI/CD-Umgebung mit täglichen Deployments zerstört dieser Engpass die Geschwindigkeit.",
+      "problem_2_title": "Subjektiv und nicht reproduzierbar",
+      "problem_2_text": "Die Bewertung des Schweregrads von Schwachstellen und die Priorisierung von Befunden hängen vom einzelnen Ingenieur ab. Dieselbe Schwachstelle erhält je nach Team unterschiedliche Bewertungen, ohne eine einzige verlässliche Quelle für das Warum.",
+      "problem_3_title": "Tools sprechen nicht miteinander",
+      "problem_3_text": "Lastgeneratoren, statische Analysewerkzeuge, DAST-Sonden, Barrierefreiheits-Treiber – jedes erzeugt seinen eigenen Datenstrom. Sie zu einem einheitlichen Release-Bild zu konsolidieren, ist manuelle Arbeit, die selbst Zeit kostet.",
+      "problem_4_title": "Automatisierung ohne Sichtbarkeit",
+      "problem_4_text": "Skripte laufen im Hintergrund und geben stillschweigend Ergebnisse aus. Niemand weiß, warum ein bestimmter Test übersprungen wurde, warum eine Schweregrad-Bewertung vergeben wurde oder ob dem Urteil vertraut werden kann."
+    },
+    "section_intro": {
+      "text": "Stellen Sie sich vor, Sie hätten ein Team von QA-Spezialisten: einen Sicherheitsingenieur, einen Performance-Analysten, einen Code-Auditor, einen UX-Spezialisten. Sie diskutieren Ihr Release in Echtzeit, direkt auf Ihrem Bildschirm. Sie sehen ihre Argumentation, können eine Frage stellen, die Richtung lenken oder einen Testparameter mitten im Audit ändern. Am Ende erhalten Sie ein professionelles QA-Paket und ein deterministisches Urteil zur Release-Bereitschaft."
+    },
+    "section_walkthrough": {
+      "title": "Die vollständige Plattform-Tour",
+      "text": "Wenn Sie im Detail verstehen möchten, wie G-Tester funktioniert, haben wir eine vollständige Tour durch die Plattform vorbereitet. Sehen Sie, wie es von innen funktioniert.",
+      "video_ru": "PjskZfpa2Fc",
+      "video_en": "vrc6KFY9SuQ",
+      "article_text": "Und wenn Sie tiefer in die G-Tester-Architektur eintauchen möchten, lesen Sie die technische Beschreibung des Produkts.",
+      "article_label": "Beschreibung lesen",
+      "article_url": "/papers/g-tester-paper-en.html"
+    },
+    "section_boardroom": {
+      "title": "Der AI Boardroom",
+      "paragraph_1": "Das zentrale Element von G-Tester ist die Live-Agentenrats-Schnittstelle. Wenn Sie ein Audit starten, erzeugt die Plattform eine kollaborative Sitzung spezialisierter KI-Agenten, die in Echtzeit über echte Telemetrie Ihrer Runner argumentieren.",
+      "paragraph_2": "Sie warten nicht auf einen Bericht – Sie beobachten den Prozess. Sie sehen, was jeder Agent denkt, welche Doktrinregeln er abgerufen hat, wie Agenten miteinander uneinig sind und zu welcher Schlussfolgerung sie gemeinsam gelangen.",
+      "paragraph_3": "Und Sie können eingreifen. Jederzeit – den Rat pausieren, einen Befehl eingeben („bewerte den SQL-Injection-Befund unter der Annahme neu, dass eine vorgelagerte WAF vorhanden ist“), Testparameter ändern oder einen Schweregrad-Schwellenwert anpassen. Alle Eingriffe werden kryptografisch im finalen Audit-Paket protokolliert.",
+      "capability_1_title": "Live-Agenten-Stream",
+      "capability_1_text": "Echtzeit-Argumentationsprotokolle, Modell-Konfidenzwerte, Debatten zwischen Agenten über umstrittene Befunde.",
+      "capability_2_title": "Beweis-Feed",
+      "capability_2_text": "Rohe Telemetrie von Playwright, k6, pa11y und HTTP-Sonden, sobald sie eintrifft. Payloads inspizieren und Trace-Dateien mitten im Lauf herunterladen.",
+      "capability_3_title": "Doktrin-Inspektor",
+      "capability_3_text": "Exakte Doktrin-Passagen, die über s-rag für jeden Befund abgerufen wurden. Sie sehen, warum der Agent einen bestimmten Schweregrad zugewiesen hat – nicht weil das Modell so entschieden hat, sondern weil es direkt aus OWASP oder Ihrem Unternehmensstandard folgt.",
+      "capability_4_title": "Steuerungskonsole",
+      "capability_4_text": "Interaktive Befehlseingabe und Steuerung des Ausführungszustands: pausieren, fortsetzen, überschreiben – live, mitten im Audit."
+    },
+    "section_agents": {
+      "title": "Der Agentenrat",
+      "intro": "Fünf spezialisierte Rollen, jede mit einem klar definierten Verantwortungsbereich.",
+      "agent_1_name": "Lead-QA-Vorsitzender / Synthese-Beauftragter",
+      "agent_1_model": "Gemma-4-26B",
+      "agent_1_role": "Ratskoordination, Synthese der Befunde zu einer Executive Summary, Durchsetzung der Doktrin, Berechnung des finalen Urteils.",
+      "agent_2_name": "Sicherheits- & ITDR-Beauftragter",
+      "agent_2_model": "Gemma-4-26B (feinabgestimmter ITDR-Beauftragter)",
+      "agent_2_role": "Bedrohungsmodellierung, OWASP-Top-10/CWE-Taxonomie, Rechteausweitung, Haltung der Zugangsdatenspeicherung, air-gapped ITDR-Analyse.",
+      "agent_3_name": "Code- und Vertragsauditor",
+      "agent_3_model": "Qwen3-30B-Thinking",
+      "agent_3_role": "OpenAPI-Vertragsverifizierung, Erkennung von Datenbankschema-Drift, statische Codeabdeckungsanalyse, Vertragsdurchsetzungslogik.",
+      "agent_4_name": "UX- und Barrierefreiheitsspezialist",
+      "agent_4_model": "Qwen3-VL-Embedding-8B",
+      "agent_4_role": "DOM-Schnappschüsse, WCAG-2.1-Barrierefreiheitsbäume, Core Web Vitals, Rendering-Anomalien über Browser-Engines hinweg.",
+      "agent_5_name": "Performance- und Resilienzanalyst",
+      "agent_5_model": "Qwen3-30B-Thinking",
+      "agent_5_role": "Lastkurven mit hoher Nebenläufigkeit, p95/p99-Latenzverteilung, Chaos-Failover-Telemetrie, Schwellenwerte für Systemdegradation."
+    },
+    "section_disciplines": {
+      "title": "20 Testdisziplinen",
+      "intro": "Ein Audit — ein vollständiges Bild. G-Tester deckt fünf Testkategorien über eine einzige Pipeline ab.",
+      "category_1_name": "Sicherheit & Infrastruktur",
+      "category_1_disciplines": "Umfassende Sicherheitsbewertung des Gesamtsystems über einen air-gapped ITDR-Kontur; OWASP-Top-10/CWE-Pentest; schreibgeschützter Host-Umgebungsaudit über ~23 Systemparameter.",
+      "category_2_name": "API & Datenintegrität",
+      "category_2_disciplines": "OpenAPI-Vertragsverifizierung; Erkennung von Schema-Drift; Validierung referenzieller Integrität und Sicherheit bei gleichzeitigen Transaktionen.",
+      "category_3_name": "Funktionale Verifizierung",
+      "category_3_disciplines": "Unit-Abdeckungsanalyse; Integrationsgrenzen zwischen Diensten; End-to-End-Browser-Journeys via Playwright; Regressionsvergleich mit historischer Baseline.",
+      "category_4_name": "Performance & Resilienz",
+      "category_4_disciplines": "Hochdurchsatz-Stresstests und Auffinden des Belastungsgrenzpunkts via k6; kontrollierte Chaos-Tests mit Nachverfolgung der geordneten Wiederherstellung; Simulation degradierter Netzwerke.",
+      "category_5_name": "UX, Frontend & Compliance",
+      "category_5_disciplines": "DOM-Validierung und JavaScript-Fehlerabfangung; heuristische UX-Bewertung; Cross-Browser-Tests in Chromium, Firefox, WebKit; Core Web Vitals (TTFB, LCP, INP, CLS); mobile Responsivität; WCAG-2.1-AA/AAA-Konformität; Lokalisierung und RTL/LTR-Handhabung."
+    },
+    "section_verdict": {
+      "title": "Deterministisches Urteil",
+      "paragraph": "KI-Agenten erstellen eine detaillierte narrative Analyse und schlagen Korrekturcode vor – aber das Urteil zur Release-Bereitschaft wird deterministisch berechnet, basierend auf dem schwerwiegendsten Befund über alle ausgeführten Runner hinweg.",
+      "verdict_1": "NOT_READY",
+      "verdict_1_condition": "Mindestens ein KRITISCHER Befund vorhanden",
+      "verdict_2": "READY_WITH_CAVEATS",
+      "verdict_2_condition": "Nur HOHE oder MITTLERE Befunde",
+      "verdict_3": "PRODUCTION_READY",
+      "verdict_3_condition": "Nur NIEDRIGE oder INFO-Befunde"
+    },
+    "section_invariants": {
+      "title": "Drei Invarianten, die wir nie brechen",
+      "inv_1_title": "Ehrlichkeit",
+      "inv_1_text": "Nicht ausgeführte Pfade werden ausdrücklich als übersprungen gemeldet, nicht als bestanden. Wenn ein Test nicht ausgeführt wurde, sagt der Agent das direkt.",
+      "inv_2_title": "Verankerung",
+      "inv_2_text": "Die Argumentation der Agenten beschränkt sich auf tatsächlich ausgeführte Telemetrie und Doktrinregeln. Keine Schlussfolgerungen ohne Beweise.",
+      "inv_3_title": "Geordnete Degradation",
+      "inv_3_text": "Ist die KI-Infrastruktur nicht verfügbar, fällt das System auf deterministische Ausführungsregeln zurück. Das Audit läuft weiter, statt zu stoppen."
+    },
+    "section_what_you_get": {
+      "title": "Was Sie erhalten",
+      "item_1": "Ein vollständiges QA-Paket mit Executive Summary, detaillierten Befunden und Korrekturcode",
+      "item_2": "Deterministisches Urteil zur Release-Bereitschaft: NOT_READY / READY_WITH_CAVEATS / PRODUCTION_READY",
+      "item_3": "Vollständige Aufzeichnung der Ratssitzung mit kryptografisch protokollierten Operator-Eingriffen",
+      "item_4": "Traces, Antwort-Header und Payloads für eine unabhängige Prüfung",
+      "item_5": "Spezifische OWASP-/CWE-Passagenverweise für jeden Befund"
+    },
+    "section_status": {
+      "title": "Aktueller Status",
+      "badge": "Backend fertig · End-to-End verifiziert",
+      "text": "Das Backend ist vollständig fertiggestellt und Ende-zu-Ende verifiziert. Der interaktive AI Boardroom ist live aktiv. G-Tester läuft auf derselben gemeinsamen Modellflotte wie Guardian Cloud und G-Coder — ein GPU-Kontur bedient alle drei Produkte. Der kommerzielle Launch folgt der Bereitstellung der Hauptplattform.",
+      "cta": "Kontaktieren Sie uns",
+      "cta_url": "/contact"
+    },
+    "section_pricing": {
+      "title": "Preise",
+      "philosophy_label": "Wie wir sie festgelegt haben",
+      "philosophy": "Wir haben die Hälfte des minimalen regionalen Satzes eines aktiven QA-Ingenieurs als Basis genommen. Nicht die Hälfte des Preises einer Agentur, sondern die Hälfte der günstigsten menschlichen Arbeit auf dem Markt. Für einen Menschen kostet ein kleiner Test etwa 150 $ und ein Penetrationstest etwa 1.500 $.",
+      "how_label": "Wie es funktioniert",
+      "how": "Es gibt kein Abonnement. Sie wählen die benötigten Testdisziplinen aus dem Menü, der Rechner zeigt sofort den Preis, und Sie zahlen für das, was Sie bestellt haben. Die verfügbaren Disziplinen sind im Rechner sichtbar.",
+      "t1_name": "Gesamtsystem-Schwachstelle",
+      "t1_price": "750 $",
+      "t1_desc": "Der Flaggschiff-Test: eine Sicherheitsbewertung des gesamten Systems über den air-gapped ITDR-Kontur.",
+      "t2_name": "Serveraudit",
+      "t2_price": "150 $",
+      "t2_desc": "Ein schreibgeschützter Audit des Host- und Infrastrukturzustands.",
+      "t3_name": "Alle 20 Disziplinen",
+      "t3_price": "2.450 $",
+      "t3_desc": "Das komplette Paket statt 3.120 $ einzeln, rund 21 % Rabatt.",
+      "note": "Andere Disziplinen beginnen bei 60 $ pro Einzeltest. Das vollständige Menü und die genaue Summe werden im Rechner berechnet."
+    },
+    "section_launch": {
+      "title": "Die Plattform startet am 10. August",
+      "cta": "Registrierung"
+    }
+  }
+}

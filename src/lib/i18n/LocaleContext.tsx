@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { Locale, defaultLocale, locales } from './config';
+import { Locale, defaultLocale, locales, rtlLocales } from './config';
 
 interface LocaleContextType {
   locale: Locale;
@@ -20,6 +20,8 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
     const savedLocale = localStorage.getItem('locale') as Locale;
     if (savedLocale && locales.includes(savedLocale)) {
       setLocaleState(savedLocale);
+      document.documentElement.lang = savedLocale;
+      document.documentElement.dir = rtlLocales.includes(savedLocale) ? 'rtl' : 'ltr';
     }
   }, []);
 
@@ -27,6 +29,7 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
     setLocaleState(newLocale);
     localStorage.setItem('locale', newLocale);
     document.documentElement.lang = newLocale;
+    document.documentElement.dir = rtlLocales.includes(newLocale) ? 'rtl' : 'ltr';
   };
 
   return (
