@@ -15,12 +15,7 @@ export default function Header() {
   const langMenuRef = useRef<HTMLDivElement>(null);
 
   const navItems = [
-    { href: '/', label: 'Home' },
-    { href: '/sysadmin', label: 'Sysadmin' },
-    { href: '/itdr', label: 'ITDR' },
-    { href: '/ai-models', label: 'AI Models' },
-    { href: '/doctrine', label: 'Doctrine' },
-    { href: '/billing', label: 'Billing' },
+    { href: '/', label: 'Cloud' },
     { href: '/referral', label: 'Partners' },
     { href: '/about', label: 'About Us' },
     { href: '/team', label: 'Team' },
