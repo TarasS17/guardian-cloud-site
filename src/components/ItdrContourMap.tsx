@@ -16,6 +16,54 @@ const HEAD: Record<string, { h: string; lead: string }> = {
     h: '偵測與回應防禦鏈架構',
     lead: 'ITDR 是一條協同運作的防禦鏈：護盾捕捉訊號，安全官依守則裁決，系統隨即回應——從圍堵到分級反制——並從每一次事件中學習。',
   },
+  fr: {
+    h: 'Le contour de détection et de réponse',
+    lead: 'ITDR est un contour discipliné : les boucliers captent le signal, l’officier décide selon la doctrine, et le système répond — du confinement à la représaille graduée — en apprenant de chaque incident.',
+  },
+  de: {
+    h: 'Der Erkennungs- und Reaktionsumriss',
+    lead: 'ITDR ist ein diszipliniertes Gesamtsystem: Die Schilde fangen das Signal ab, der Offizier entscheidet nach Doktrin, und das System reagiert — von der Eindämmung bis zur gestuften Vergeltung — und lernt aus jedem Vorfall.',
+  },
+  es: {
+    h: 'El contorno de detección y respuesta',
+    lead: 'ITDR es un contorno disciplinado: los escudos captan la señal, el oficial decide según la doctrina, y el sistema responde — desde la contención hasta la represalia graduada — aprendiendo de cada incidente.',
+  },
+  it: {
+    h: 'Il contorno di rilevamento e risposta',
+    lead: 'ITDR è un contorno disciplinato: gli scudi catturano il segnale, l’ufficiale decide secondo la dottrina, e il sistema risponde — dal contenimento alla rappresaglia graduata — imparando da ogni incidente.',
+  },
+  ja: {
+    h: '検知・対応コンター',
+    lead: 'ITDRは規律あるひとつのコンターです。シールドが信号を捉え、オフィサーがドクトリンに基づいて判断し、システムが対応します——封じ込めから段階的報復まで——そしてすべてのインシデントから学習します。',
+  },
+  uk: {
+    h: 'Архітектура контуру виявлення та реагування',
+    lead: 'ITDR — це злагоджений контур: щити ловлять сигнал, офіцер приймає рішення за доктриною, а система відповідає — від стримування до градуйованого удару відплати — і навчається на кожному інциденті.',
+  },
+  sr: {
+    h: 'Kontura otkrivanja i odgovora',
+    lead: 'ITDR je disciplinovana celina: štitovi hvataju signal, oficir odlučuje prema doktrini, a sistem odgovara — od obuzdavanja do stepenovane odmazde — učeći iz svakog incidenta.',
+  },
+  pt: {
+    h: 'O contorno de deteção e resposta',
+    lead: 'O ITDR é um contorno disciplinado: os escudos captam o sinal, o oficial decide segundo a doutrina, e o sistema responde — da contenção à retaliação graduada — aprendendo com cada incidente.',
+  },
+  hi: {
+    h: 'पहचान-और-प्रतिक्रिया संरचना',
+    lead: 'ITDR एक अनुशासित संरचना है: शील्ड सिग्नल पकड़ते हैं, अधिकारी सिद्धांत के अनुसार निर्णय लेता है, और सिस्टम जवाब देता है — रोकथाम से लेकर चरणबद्ध प्रतिशोध तक — हर घटना से सीखते हुए।',
+  },
+  tr: {
+    h: 'Tespit ve yanıt hattı',
+    lead: 'ITDR disiplinli tek bir hattır: kalkanlar sinyali yakalar, subay doktrine göre karar verir ve sistem yanıt verir — sınırlamadan kademeli misillemeye kadar — her olaydan öğrenerek.',
+  },
+  ar: {
+    h: 'خط الكشف والاستجابة',
+    lead: 'ITDR هو خط منضبط واحد: الدروع تلتقط الإشارة، والضابط يقرر وفق العقيدة، والنظام يستجيب — من الاحتواء إلى الانتقام المتدرج — متعلماً من كل حادثة.',
+  },
+  el: {
+    h: 'Το περίγραμμα ανίχνευσης και απόκρισης',
+    lead: 'Το ITDR είναι ένα πειθαρχημένο σύνολο: οι ασπίδες συλλαμβάνουν το σήμα, ο αξιωματικός αποφασίζει βάσει του δόγματος, και το σύστημα αποκρίνεται — από τον περιορισμό έως τη διαβαθμισμένη αντεκδίκηση — μαθαίνοντας από κάθε περιστατικό.',
+  },
 };
 
 export default function ItdrContourMap() {
