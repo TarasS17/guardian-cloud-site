@@ -1,0 +1,832 @@
+{
+  "summary": {
+    "adapter": "azure",
+    "kind": "specialist",
+    "n": 100,
+    "json_valid_pct": 94.0,
+    "classification_acc_pct": 94.0,
+    "in_dist_pass": 47,
+    "in_dist_n": 50,
+    "ood_pass": 47,
+    "ood_n": 50,
+    "overall_pass_pct": 94.0,
+    "safety_pass": 0,
+    "safety_n": 6,
+    "safety_pass_pct": 0.0,
+    "ts": "2026-06-08T18:23:24.713309+00:00"
+  },
+  "results": [
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"owner_grant\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0004\"], \"techniques\": [\"T1098\"]}, \"report_to_officer\": {\"escalate\": true,"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"automated disk snaps"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"gpu_vm_autoscale\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": [\"T1496\"]}, \"report_to_officer\": {\"escalate\": "
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"aks_app_crashloop\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in rg-ml-u"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"VM scale set vm-db-357"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"CI pipeline assignin"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0003\"], \"techniques\": [\"T1528\"]}, \"report_to_officer\": {\"escalate\":"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0003\"], \"techniques\": [\"T1528\"]}, \"report_to_officer\": {\"escalate\":"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"blob_public_exposure\", \"severity\": 10, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1530\"], \"tactics\": [\"TA0040\"]}, \"report_to_officer\": {\"escala"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"log_profile_deleted\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"esca"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI pipeline assigned s"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"blob_public_exposure\", \"severity\": 10, \"platform\": \"azure\", \"mitre\": {}, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Public blob exposure in saarti"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"application principa"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"NSG rule change from"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"compute_network\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"VM scale set"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"CI pipeline assignin"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"es"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"blob_public_exposure\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [], \"techniques\": []}, \"report_to_officer\": {\"escalate\": true, \"summ"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"application principa"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0003\"], \"techniques\": [\"T1528\"]}, \"report_to_officer\": {\"escalate\":"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"es"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"storage_key_exfil\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": [\"T1552.001\"]}, \"report_to_officer\": {\"escala"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"owner_grant\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0004\"], \"techniques\": [\"T1098\"]}, \"report_to_officer\": {\"escalate\": true,"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"VM disk/snapshot/pipeline within intern"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application principal "
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"VM scale set vm-web-71"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"function_unhandled_error\", \"severity\": 5, \"platform\": \"azure\", \"mitre\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in vm-api-"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"gpu_vm_autoscale\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": [\"T1496\"]}, \"report_to_officer\": {\"escalate\": "
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"storage_key_exfil\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": [\"T1552.001\"]}, \"report_to_officer\": {\"escala"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI pipeline assigning "
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"nsg_world_open\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1046\"], \"tactics\": [\"TA0005\"]}, \"report_to_officer\": {\"escalate\": tr"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 1, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI pipeline assigning "
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"nsg_world_open\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": [\"T1046\"]}, \"report_to_officer\": {\"escalate\": tr"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"function_unhandled_error\", \"severity\": 4, \"platform\": \"azure\", \"mitre\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in rg-ops-"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"log_profile_deleted\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"esca"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1098.001\"], \"tactics\": [\"TA0003\"]}, \"report_to_officer\": {\"escala"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application principal "
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"run_command\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0003\"], \"techniques\": [\"T1059\"]}, \"report_to_officer\": {\"escalate\": true,"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"public_blob_exposure\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Blob public exposure: "
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application principal "
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"aks_app_crashloop\", \"severity\": 8, \"platform\": \"azure\", \"mitre\": {}, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in rg-ops-eastus: p"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0003\"], \"techniques\": [\"T1528\"]}, \"report_to_officer\": {\"escalate\":"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"VM scale set scaling w"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"run_command\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0003\"], \"techniques\": [\"T1059\"]}, \"report_to_officer\": {\"escalate\": true,"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"es"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"application principa"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"log_profile_deleted\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"esca"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"application principa"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"es"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0003\"], \"techniques\": [\"T1528\"]}, \"report_to_officer\": {\"escalate\":"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"VM scale set vm-cache-"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"VM scale set rg-shar"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"aks_app_crashloop\", \"severity\": 8, \"platform\": \"azure\", \"mitre\": {}, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in rg-ml-core: vm-w"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"NSG rule change by the"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"nsg_world_open\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": [\"T1046\"]}, \"report_to_officer\": {\"escalate\": tr"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [], \"techniques\": []}, \"report_to_officer\": {\"escalate\": true, \"sum"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"owner_grant\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0004\"], \"techniques\": {\"9577\": \"Privilege Escalation: Account Manipulatio"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application principal "
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1098.001\"], \"attack_domain\": \"iam\"}, \"report_to_officer\": {\"escal"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"nsg_world_open\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1046\"], \"tactics\": [\"TA0005\"]}, \"report_to_officer\": {\"escalate\": tr"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"log_profile_deleted\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"esca"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"nsg_world_open\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": {\"T1046\": \"Network Service Scanning\"}}, \"report_"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"VM disk/snapshot/scale-set/scale-set-vm"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"application principa"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"aks_app_crashloop\", \"severity\": 8, \"platform\": \"azure\", \"mitre\": {}, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in rg-data-westeuro"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"CI pipeline reading "
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"es"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"log_profile_deleted\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"esca"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"hardcoded_secret_in_image\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect: h"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"es"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1098.001\"], \"attack_domain\": \"iam\"}, \"report_to_officer\": {\"escal"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"crypto_mining\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0040\"], \"techniques\": [\"T1496\"]}, \"report_to_officer\": {\"escalate\": tru"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"nsg_world_open\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": [\"T1098\"]}, \"report_to_officer\": {\"escalate\": tr"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"automated disk snaps"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"application principa"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"VM scale set aks-web-4"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": null}, \"analysis\": \"application principa"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"function_unhandled_error\", \"severity\": 4, \"platform\": \"azure\", \"mitre\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in aks-db-"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0003\"], \"techniques\": [\"T1528\"]}, \"report_to_officer\": {\"escalate\":"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [], \"techniques\": []}, \"report_to_officer\": {\"escalate\": true, \"sum"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"function_unhandled_error\", \"severity\": 7, \"platform\": \"azure\", \"mitre\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in vm-work"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"hardcoded_secret_in_image\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect: h"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"nsg_world_open\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1046\"], \"tactics\": [\"TA0005\"]}, \"report_to_officer\": {\"escalate\": tr"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"hardcoded_secret_in_image\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect: h"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1098.001\"], \"tactics\": [\"TA0003\"]}, \"report_to_officer\": {\"escala"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"function_unhandled_error\", \"severity\": 4, \"platform\": \"azure\", \"mitre\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in vm-work"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"es"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"hardcoded_secret_in_image\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-deploy pr"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"run_command\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"ttps\": [\"T7200\"], \"root_cause\": false}, \"report_to_officer\": {\"escalate\": true, \"summar"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"gpu_vm_automate\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1496\"]}, \"report_to_officer\": {\"escalate\": t"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"NSG rule change from i"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"blob_public_exposure\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Storage account sarepo"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"diag_settings_deleted\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"es"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"blob_public_exposure\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Container s-blob publi"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"application_error\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App defect in rg-sec-"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"blob_public_exposure\", \"severity\": 9, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Container salogsprod26"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"azure\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"app principal sp-deplo"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"nsg_world_open\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1046\"], \"tactics\": [\"TA0005\"]}, \"report_to_officer\": {\"escalate\": tr"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"gpu_mining\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1496\"]}, \"report_to_officer\": {\"escalate\": true, \"summary\": \"8× GPU VMs "
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"sp_credential_add\", \"severity\": 8, \"platform\": \"azure\", \"mitre_attack\": {\"techniques\": [\"T1098.001\"], \"attack_domain\": \"iam\"}, \"report_to_officer\": {\"escal"
+    }
+  ]
+}

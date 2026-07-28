@@ -1,0 +1,12 @@
+{
+  "id": "session-1784732704037",
+  "startedAt": "2026-07-22T15:05:04.037Z",
+  "cwd": "/home/taras1711/Projects/guardian-ai-site",
+  "context": {},
+  "metrics": {
+    "edits": 51,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  }
+}

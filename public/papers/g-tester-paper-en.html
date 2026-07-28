@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Tester Technical Whitepaper — ALFACAN DEFENCE GROUP</title>
+    <style>
+        :root {
+            --primary-color: #0f172a;
+            --accent-color: #2563eb;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --code-bg: #1e293b;
+            --code-text: #f8fafc;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #f8fafc;
+                --accent-color: #60a5fa;
+                --text-color: #cbd5e1;
+                --bg-color: #0f172a;
+                --card-bg: #1e293b;
+                --border-color: #334155;
+            }
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.1rem;
+            line-height: 1.3;
+            margin-bottom: 0.5rem;
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-top: 2.2rem;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 10px;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+        }
+
+        .meta-info {
+            background-color: var(--bg-color);
+            padding: 1.2rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .meta-info p {
+            margin: 0.3rem 0;
+        }
+
+        .abstract {
+            background-color: var(--bg-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+            font-style: italic;
+            margin: 2rem 0;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .abstract h3 {
+            font-style: normal;
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        pre, code {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        }
+
+        pre {
+            background-color: var(--code-bg);
+            color: var(--code-text);
+            padding: 1.2rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+
+        code {
+            background-color: var(--bg-color);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: var(--accent-color);
+        }
+
+        pre code {
+            background-color: transparent;
+            padding: 0;
+            color: inherit;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            background-color: var(--accent-color);
+            color: #fff;
+        }
+
+        @media print {
+            body {
+                background-color: #fff;
+                color: #000;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                border: none;
+                padding: 0;
+                max-width: 100%;
+            }
+            pre {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>G-Tester: Collaborative, Evidence-Grounded, and Doctrine-Aligned Autonomous Software Quality Assurance Platform</h1>
+    
+    <div class="meta-info">
+        <p><strong>Author of Record:</strong> ALFACAN DEFENCE GROUP LIMITED (Company No. 17062207)</p>
+        <p><strong>Product Family:</strong> AlfaCan AI Studio</p>
+        <p><strong>Status:</strong> Backend Complete &amp; End-to-End Verified; Live Interactive Boardroom Dashboard Active</p>
+        <p><strong>Target Venue:</strong> IEEE Transactions on Software Engineering / Applied AI &amp; Distributed Systems</p>
+    </div>
+
+    <div class="abstract">
+        <h3>Abstract</h3>
+        <p>Traditional Software Quality Assurance (QA) relies heavily on manual engineering effort, causing operational friction, extended delivery cycles, and inconsistent assessment criteria. While autonomous artificial intelligence agents offer high-throughput code and runtime evaluation, pure generative approaches often suffer from parametric hallucination, non-reproducibility, and a lack of deterministic validation.</p>
+        <p>This paper presents <strong>G-Tester</strong>, an enterprise-grade Quality Assurance as a Service (QAaaS) architecture developed by ALFACAN DEFENCE GROUP LIMITED. G-Tester unifies a horizontally scalable test-runner fleet with an interactive multi-agent council of specialized Large Language Models (LLMs). The platform incorporates a real-time <strong>AI Boardroom Interface</strong>, allowing human operators and lead auditors to visually monitor live multi-model debates, step into agent channels, adjust testing parameters dynamically, or override verdicts. Every analytical decision is anchored by a two-stage Retrieval-Augmented Generation (s-rag) engine over a curated house doctrine corpus, enforcing multi-tier invariants: <em>Honesty</em> (explicitly reporting unexecuted paths as skips rather than passes), <em>Grounding</em> (restricting reasoning to executed telemetry and doctrine rules), and <em>Graceful Degradation</em> (falling back to deterministic execution rules when inference infrastructure is unavailable).</p>
+    </div>
+
+    <h2>1. Introduction &amp; Architectural Motivation</h2>
+    
+    <h3>1.1 Structural Bottlenecks in Modern Software QA</h3>
+    <p>Modern microservice architectures and high-velocity continuous integration/continuous deployment (CI/CD) pipelines strain traditional QA paradigms. Industrial testing faces four primary bottlenecks:</p>
+    <ul>
+        <li><strong>Temporal Latency and Resource Costs:</strong> Comprehensive end-to-end, security, and performance testing requires days or weeks of dedicated senior engineering time per major release.</li>
+        <li><strong>Subjective and Non-Reproducible Assessment:</strong> Severity scoring and flaw prioritization vary across human engineers, leading to subjective triage outcomes.</li>
+        <li><strong>Toolchain Fragmentation:</strong> Disparate tools (load generators, static analyzers, DAST probes, accessibility drivers) emit isolated data streams, requiring labor-intensive manual consolidation.</li>
+        <li><strong>The "Black-Box" Automation Problem:</strong> Automated testing scripts run silently without providing real-time visibility into why specific decisions, coverage skips, or risk severity ratings were assigned.</li>
+    </ul>
+
+    <h3>1.2 The Human-in-the-Loop Multi-Agent Council Solution</h3>
+    <p>G-Tester resolves these structural issues by pairing automated execution runners with a transparent <strong>Multi-Agent AI Council</strong>. Instead of executing analysis in an opaque background thread, G-Tester surfaces the live multi-model deliberation process directly to the user through an interactive dashboard. Human auditors can observe domain analysts debating exploitability in real time, inspect retrieved doctrine rules, pause execution, or interject custom parameters before final package compilation.</p>
+
+    <h2>2. Interactive Live AI Boardroom &amp; Human-in-the-Loop Governance</h2>
+    <p>A central feature of G-Tester is its real-time multi-agent visualization interface, termed the <strong>AI Boardroom</strong>. When an audit job is initiated, the platform spawns a collaborative session where specialized AI agents deliberate over live runner telemetry.</p>
+
+    <h3>2.1 Real-Time Telemetry and Event Streaming</h3>
+    <p>The G-Tester control plane streams structured events via WebSockets and Server-Sent Events (SSE) to the client dashboard. As runners yield execution metrics (e.g., HTTP headers, stack traces, DOM snapshots, p95 latency numbers), the AI analysts process the data in parallel channels.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Boardroom View Component</th>
+                <th>Data Streamed &amp; Displayed</th>
+                <th>User Interaction Capabilities</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Live Agent Stream</strong></td>
+                <td>Real-time reasoning logs, model confidence scores, and cross-agent debates between domain models.</td>
+                <td>Read live thoughts, expand raw model prompts, and filter by model role.</td>
+            </tr>
+            <tr>
+                <td><strong>Evidence Feed</strong></td>
+                <td>Raw telemetry from Playwright, k6, pa11y, and HTTP security probes as it lands.</td>
+                <td>Inspect raw payloads, view response headers, and download trace files mid-run.</td>
+            </tr>
+            <tr>
+                <td><strong>Doctrine Inspector</strong></td>
+                <td>Exact doctrine passages retrieved via s-rag (pinned ROE, OWASP standards, house rules).</td>
+                <td>Verify why an agent rated a flaw at a specific severity based on house standards.</td>
+            </tr>
+            <tr>
+                <td><strong>Steering Console</strong></td>
+                <td>Interactive prompt input box and execution state controls (Pause, Resume, Override).</td>
+                <td>Inject human commands, force additional test passes, or modify risk thresholds live.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>2.2 Human Intervention Mechanics</h3>
+    <p>G-Tester provides three modes of human control during an audit:</p>
+    <ol>
+        <li><strong>Active Intervention (Mid-Run Steering):</strong> A human lead can pause the council's deliberation and type instructions into the live stream (e.g., <em>"Re-evaluate the SQL injection finding assuming an upstream WAF is present"</em>). The agents immediately acknowledge the override and adjust analysis.</li>
+        <li><strong>Discipline Scope Modification:</strong> If an agent detects anomalous behavior, it suggests spawning an additional runner (e.g., <code>nonfunc_load</code>). The client receives a visual prompt to approve or decline on the fly.</li>
+        <li><strong>Verdict &amp; Severity Overrides:</strong> Before final signing, human auditors can review findings, adjust severity ratings, or append notes. All overrides are cryptographically logged in the final audit package.</li>
+    </ol>
+
+    <h2>3. Deep Model Taxonomy &amp; Multi-Agent Council Structure</h2>
+    <p>G-Tester employs an ensemble of specialized open-weights and fine-tuned large language models hosted on an internal GPU inference hub.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Agent Role</th>
+                <th>Assigned Model Architecture</th>
+                <th>Core Expertise &amp; Technical Scope</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Lead QA Chair / Synthesis Officer</strong></td>
+                <td><code>Gemma-4-26B</code> (Falco)</td>
+                <td>Orchestrates the multi-agent debate, synthesizes individual domain findings into executive summaries, enforces doctrine rules, and calculates the final release verdict.</td>
+            </tr>
+            <tr>
+                <td><strong>Security &amp; ITDR Officer</strong></td>
+                <td><code>Gemma-4-26B</code> (fine-tuned ITDR officer)</td>
+                <td>Specialized in threat modeling, OWASP Top 10/CWE taxonomy, privilege escalation, credential storage posture, and air-gapped ITDR analysis.</td>
+            </tr>
+            <tr>
+                <td><strong>Code &amp; Contract Auditor</strong></td>
+                <td><code>Qwen3-30B-Thinking</code></td>
+                <td>Deep analysis of API OpenAPI specifications, database schema drift, static code coverage reports, and contract enforcement logic.</td>
+            </tr>
+            <tr>
+                <td><strong>UX &amp; Accessibility Specialist</strong></td>
+                <td><code>Qwen3-30B-Thinking</code>, with <code>Qwen3-VL-Embedding-8B</code> for doctrine retrieval</td>
+                <td>Evaluates DOM snapshots, WCAG 2.1 accessibility trees, Core Web Vitals, and responsive UI rendering anomalies across browser engines.</td>
+            </tr>
+            <tr>
+                <td><strong>Performance &amp; Resilience Analyst</strong></td>
+                <td><code>Qwen3-30B-Thinking</code></td>
+                <td>Analyzes high-concurrency load curves, p95/p99 latency distribution, chaos failover telemetry, and system degradation thresholds.</td>
+            </tr>
+            <tr>
+                <td><strong>Validator &mdash; "Da Vinci"</strong></td>
+                <td><code>GLM-5.2</code></td>
+                <td>Adjudicates the council's findings and validates the release verdict. Served in-contour on our own GPU; a client's telemetry never leaves the perimeter.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. Five-Stage Pipeline &amp; 20-Discipline Test Taxonomy</h2>
+
+    <pre>
+  ┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
+  │ Stage 1:         │     │ Stage 2:         │     │ Stage 3:         │     │ Stage 4:         │     │ Stage 5:         │
+  │ Evidence Layer   │ ──► │ AI Council       │ ──► │ Doctrine RAG     │ ──► │ Package &amp;        │ ──► │ Self-Learning    │
+  │ (Runner Fleet)   │     │ Deliberation     │     │ Grounding        │     │ Final Verdict    │     │ Debrief Loop     │
+  └──────────────────┘     └──────────────────┘     └──────────────────┘     └──────────────────┘     └──────────────────┘
+    </pre>
+
+    <h3>4.1 Comprehensive Test Menu (20 Disciplines)</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Test Discipline Code</th>
+                <th>Execution Engine &amp; Applied Methodology</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Security &amp; Infrastructure</strong></td>
+                <td><code>vulnerability_system</code></td>
+                <td>Flagship whole-system security evaluation operating over the air-gapped ITDR contour.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>security_pentest</code></td>
+                <td>OWASP Top 10 / CWE injection probes, security headers (CSP, HSTS), TLS posture, and path discovery.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>server_audit</code></td>
+                <td>Read-only host environment audit capturing ~23 system state parameters via shell collector.</td>
+            </tr>
+            <tr>
+                <td><strong>API &amp; Data Integrity</strong></td>
+                <td><code>api</code></td>
+                <td>OpenAPI-driven contract verification, HTTP response code enforcement, and authentication checks.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>contract_schema</code></td>
+                <td>Detection of response shape mutations and schema drift against target contracts.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>data_integrity</code></td>
+                <td>Referential integrity, data corruption, and concurrent transaction safety validation.</td>
+            </tr>
+            <tr>
+                <td><strong>Functional Verification</strong></td>
+                <td><code>functional_unit</code></td>
+                <td>Analysis of static coverage reports, critical-path execution, and unhandled exception branches.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>functional_integration</code></td>
+                <td>Cross-service, database, and third-party API integration boundary verification.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>functional_e2e</code></td>
+                <td>End-to-end multi-step web browser user journeys via Playwright harness.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>functional_regression</code></td>
+                <td>Automated baseline comparison against historic run states to detect functional regression.</td>
+            </tr>
+            <tr>
+                <td><strong>Performance &amp; Resilience</strong></td>
+                <td><code>nonfunc_load</code></td>
+                <td>High-throughput concurrent load, stress profiling, and breaking-point discovery via <strong>k6</strong>.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>reliability_failover</code></td>
+                <td>Controlled chaos testing (process termination, injected latency) with graceful recovery tracking.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>network_chaos</code></td>
+                <td>Degraded network simulation evaluating retries, timeouts, and circuit-breaker behavior.</td>
+            </tr>
+            <tr>
+                <td><strong>User Experience &amp; Frontend</strong></td>
+                <td><code>ui</code></td>
+                <td>DOM layout validation, JavaScript error trapping, and asset rendering checks via Playwright.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>usability</code></td>
+                <td>Heuristic UX design evaluation explicitly tagged as AI-heuristic assessment.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>cross_browser</code></td>
+                <td>Execution parity testing across Chromium, Firefox, and WebKit rendering engines.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>web_vitals</code></td>
+                <td>Real-time tracking of Core Web Vitals (TTFB, LCP &lt; 2.5s, INP &lt; 200ms, CLS &lt; 0.1).</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>mobile_compat</code></td>
+                <td>Viewport responsiveness, tap-target spacing, and overflow checks across mobile device profiles.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>accessibility</code></td>
+                <td>WCAG 2.1 AA/AAA compliance validation using <strong>pa11y</strong> with structural HTML fallback.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><code>localization</code></td>
+                <td>Character set validation, RTL/LTR layout handling, <code>hreflang</code> alignment, and locale rules.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>5. Grounding, Deterministic Verdicts, and Self-Learning Loop</h2>
+
+    <h3>5.1 Two-Stage Retrieval-Augmented Generation (s-rag)</h3>
+    <p>To eliminate model hallucination, analyst reasoning is bound to a curated house doctrine corpus using a two-stage retrieval pipeline:</p>
+    <ol>
+        <li><strong>Stage 1 (Vector Recall):</strong> High-dimensional vector search using <code>Qwen3-VL-Embedding-8B</code> (1024-dimensional embeddings) identifies relevant doctrine entries based on domain query context.</li>
+        <li><strong>Stage 2 (Cross-Encoder Precision):</strong> Candidate passages are re-scored by <code>Qwen3-Reranker-0.6B</code>, ensuring that only the most relevant operational rules are injected into the context window.</li>
+    </ol>
+
+    <h3>5.2 Deterministic Release Verdict</h3>
+    <p>While AI models generate detailed narrative analysis and actionable remediation code, the overarching <strong>Release Verdict</strong> is calculated deterministically based on the highest severity finding across all executed runners:</p>
+
+    <pre>
+                        DETERMINISTIC VERDICT MAPPING
+
+                      ┌───────────────────────────────┐
+                      │ Worst Severity in Findings    │
+                      └───────────────┬───────────────┘
+                                      │
+           ┌──────────────────────────┼──────────────────────────┐
+           ▼                          ▼                          ▼
+ Critical Flaw Present      High or Medium Present       Only Low/Info Present
+           │                          │                          │
+           ▼                          ▼                          ▼
+ ┌───────────────────┐      ┌───────────────────┐      ┌───────────────────┐
+ │    NOT_READY      │      │READY_WITH_CAVEATS │      │ PRODUCTION_READY  │
+ └───────────────────┘      └───────────────────┘      └───────────────────┘
+    </pre>
+
+    <h2>6. Scale Infrastructure &amp; Empirical Validation</h2>
+    <p>G-Tester decouples API control tasks from test execution workloads. A lightweight control server handles job intake, billing, and real-time streaming, while a distributed, autoscaling worker fleet (<code>gt-runner</code>) executes heavy runner processes. Workers claim pending jobs using lock-free atomic queries (<code>SELECT ... FOR UPDATE SKIP LOCKED</code>), supporting horizontal scaling across large server clusters.</p>
+
+    <h2>7. Conclusion</h2>
+    <p>G-Tester establishes a collaborative, evidence-grounded framework for autonomous software testing. By pairing a multi-model council of specialized LLM analysts with an interactive live dashboard, the system bridges automated machine-scale execution with transparent human-in-the-loop oversight.</p>
+
+</div>
+
+</body>
+</html>

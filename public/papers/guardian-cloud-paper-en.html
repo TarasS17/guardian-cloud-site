@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture of Autonomous Multi-Agent Systems in System Administration and Cybersecurity for Cloud Infrastructures</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.25;
+            color: #000000;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 18px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        h3 {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-style: italic;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .abstract {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .abstract-text {
+            font-style: italic;
+            margin-bottom: 30px;
+            padding: 0 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #e6eef4;
+            font-weight: bold;
+            color: #333333;
+        }
+        .figure-caption {
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .diagram-container {
+            border: 1px solid #cccccc;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f9f9f9;
+            font-family: monospace;
+            white-space: pre;
+            overflow-x: auto;
+            font-size: 12px;
+            line-height: 1.2;
+        }
+        .authors {
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Architecture of Autonomous Multi-Agent Systems in System Administration and Cybersecurity for Cloud Infrastructures</h1>
+    
+    <div class="authors">
+        <p>ALFACAN DEFENCE GROUP</p>
+    </div>
+
+    <div class="abstract">Abstract</div>
+    <div class="abstract-text">
+        <p>Modern cloud infrastructures face exponential growth in administrative complexity and an accelerating pace of cyber threats. Traditional reactive approaches, such as static trigger-based monitoring and manual response by Site Reliability Engineering (SRE) and DevOps teams, demonstrate significant inefficiency due to the high level of human factors and delays in incident localization. This paper presents the architecture of the Guardian Cloud platform—an autonomous multi-agent system (MAS) designed for the operation and comprehensive protection of servers. We propose a model integrating a lightweight host agent utilizing extended Berkeley Packet Filter (eBPF) technology with a distributed network of specialized Artificial Intelligence (AI) agents. The key scientific contribution is the implementation of a hybrid "Human-in-the-Loop" control doctrine, which allows for the automation of up to 100% of routine administration and security audit operations while maintaining strict verification control by the operator before applying critical changes to the system. Furthermore, we address critical operational concerns, including performance overhead under high load, inference latency, atomic rollback mechanisms, and the security of the central orchestrator against supply chain attacks.</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>The evolution of cloud computing and microservices architectures has transformed the maintenance of even medium-sized server fleets into a continuous, resource-intensive task requiring the constant attention of on-call SRE teams and Security Operations Centers (SOCs). In practice, this paradigm creates three fundamental challenges that limit scalability and security.</p>
+    <p>First, there is a profound asymmetry in attack speed. Modern malware and automated exploits operate at machine speed. The time elapsed from initial penetration to full system compromise is often measured in minutes, whereas the average human Mean Time to Respond (MTTR) ranges from tens of minutes to several hours. Second, monitoring engineers suffer from severe alert fatigue. Processing thousands of non-critical notifications daily inevitably leads to cognitive overload, resulting in missed genuinely dangerous anomalies. Third, the expertise scaling problem dictates that business growth demands a linear scaling of the system administrator headcount. This approach is economically inefficient and significantly increases the risk of configuration errors (misconfigurations), which remain the primary cause of data breaches in cloud environments.</p>
+    <p>Existing automation solutions, such as Ansible, Terraform, or classic Security Information and Event Management (SIEM) systems, operate strictly according to deterministic scripts and predefined rules. They inherently lack the capability to adapt to previously unknown anomalies (zero-day vulnerabilities) or independently perform deep contextual analysis of system logs. To address these systemic challenges, the Guardian Cloud platform was designed. Its conceptual foundation represents a paradigm shift from linear, static scripts to an autonomous AI-agent orchestrator. Instead of replacing human engineers, the platform acts as an advanced digital assistant, automating routine tasks—such as log analysis, patching, and threat isolation—while providing structured, actionable insights for human decision-making.</p>
+
+    <h2>2. Multi-Agent Architecture</h2>
+    <p>The architectural framework of Guardian Cloud is predicated on the concept of decentralized interaction among specialized agents. Rather than relying on a single monolithic neural network, which often suffers from context dilution and high latency, the system is partitioned into isolated functional layers: a lightweight physical agent deployed on the client\\\\\\\\'s infrastructure and a coordinating orchestrator of AI agents residing on the platform side.</p>
+
+    <h3>2.1. Low-Level Host Agent and eBPF Implementation</h3>
+    <p>Platform deployment within the target infrastructure is achieved by installing a single daemon engineered for minimal resource consumption. A critical concern in high-load environments (e.g., systems processing upwards of 100,000 Requests Per Second, or RPS) is the performance penalty associated with continuous monitoring. Traditional methods relying on heavy system call interception (syscall hooking) or real-time parsing of <code>dmesg</code> and <code>syslog</code> introduce unacceptable overhead.</p>
+    <p>To mitigate this, the Guardian Cloud Host Agent leverages extended Berkeley Packet Filter (eBPF) technology within the Linux kernel. By utilizing <code>kprobes</code>, <code>uprobes</code>, and <code>tracepoints</code>, the agent executes sandboxed programs directly in the kernel space. This architecture eliminates expensive context switches between kernel and user space and avoids redundant data copying. Consequently, the agent achieves continuous, low-level auditing—including the filtering of network activity (bypassing traditional <code>iptables</code> conntrack lookups), monitoring daemon statuses, and tracking changes in critical configuration files—while maintaining a CPU and memory overhead of less than 1% even under extreme loads.</p>
+    <p>Beyond auditing, the Host Agent serves as a secure transport layer, transmitting structured telemetry to the coordination layer via encrypted gRPC channels with mutual TLS (mTLS) authentication. It also provides an execution interface for the secure deployment of deterministic operating system commands generated by the AI orchestrator, strictly following operator confirmation.</p>
+
+    <h3>2.2. Coordination Layer and Specialization of AI Agents</h3>
+    <p>The central nervous system of the platform is a multi-agent ecosystem where each AI agent possesses its own context memory, a specific set of system tools (API/CLI interfaces), and tailored system prompts defining its operational role.</p>
+
+    <div class="diagram-container">
++-------------------------------------------------------------------------+
+|                          OPERATOR INTERFACE                             |
+|  (5FA Secured: Password, Email, Telegram, TOTP, WebAuthn/Passkeys)      |
++-----------------------------------+-------------------------------------+
+                                    |
+                          [ Change Validation ]
+                                    v
++-------------------------------------------------------------------------+
+|                      GUARDIAN AI CORE LAYER                             |
+|  (Isolated Sovereign Cloud Environment to prevent Supply Chain Attacks) |
+|                                                                         |
+|       +---------------------------------------------------------+       |
+|       |               MASTER AGENT (Orchestrator)               |       |
+|       |  (Aggregates data, distributes tasks, synthesizes reports)|       |
+|       +-------+-------------------------+-----------------------+       |
+|               |                         |                               |
+|               v                         v                               |
+|       +---------------+         +---------------+                       |
+|       |   SYSADMIN    | <=====> |     ITDR      |                       |
+|       |    AGENT      |         |    AGENT      |                       |
+|       | (Config & SRE)|         |  (Security)   |                       |
+|       +---------------+         +---------------+                       |
+|               |                         |                               |
++---------------+-------------------------+-------------------------------+
+                |                         |
+                |   [ Encrypted gRPC / mTLS Channels ]
+                v                         v
++-------------------------------------------------------------------------+
+|                      CLIENT INFRASTRUCTURE                              |
+|                                                                         |
+|   +-----------------+   +-----------------+   +-----------------+       |
+|   | Target Server 1 |   | Target Server 2 |   | Target Server N |       |
+|   |  [Host Agent]   |   |  [Host Agent]   |   |  [Host Agent]   |       |
+|   |     (eBPF)      |   |     (eBPF)      |   |     (eBPF)      |       |
+|   +-----------------+   +-----------------+   +-----------------+       |
++-------------------------------------------------------------------------+
+    </div>
+    <div class="figure-caption">Figure 1: Guardian Cloud High-Level Architecture and Data Flow Diagram</div>
+
+    <p>The <strong>Master Agent (Orchestrator)</strong> serves as the high-level dispatcher. It receives aggregated data from the Host Agents, performs primary semantic analysis, and distributes subtasks. The <strong>Sysadmin Agent</strong> specializes in configuration management and SRE tasks, assessing service health, optimizing databases, and managing web servers. The <strong>ITDR Agent (Identity Threat Detection and Response)</strong> is an isolated security module focused on detecting behavioral anomalies, brute-force attempts, and unauthorized privilege escalations.</p>
+
+    <h3>2.3. Inter-Agent Consensus Protocol</h3>
+    <p>The scientific novelty of the interaction protocol lies in the transition from sequential execution (Chain-of-Thought) to dynamic consensus. When an anomaly is detected, agents initiate a data exchange session. For instance, if the ITDR Agent signals suspicious file activity, it requests the current process map from the Sysadmin Agent. The Sysadmin Agent correlates process IDs with network sockets, identifying anomalous outbound traffic. Based on this joint analysis, the Master Agent forms a comprehensive conclusion. This consensus mechanism drastically reduces false positives, ensuring that critical actions, such as network port isolation, occur only when both administrative and security domains corroborate the threat.</p>
+
+    <h2>3. The Doctrine of Full Autonomy and the "Human-in-the-Loop" Control Concept</h2>
+    <p>Unlike traditional automation systems that require engineers to author playbooks, Guardian Cloud operates as a fully autonomous management system capable of executing the entire SRE and cybersecurity lifecycle.</p>
+
+    <h3>3.1. Autonomous Operational Lifecycle and Atomic Rollbacks</h3>
+    <p>The platform implements a continuous adaptive cycle comprising four phases. Upon incident detection, the system performs deep semantic context analysis, examining stack traces and source code. Subsequently, the specialized AI-Studio module synthesizes fixes, generating patches for defective code or configuration segments. Before deployment, these changes undergo rigorous sandboxing to verify compilation correctness and the absence of destructive side effects.</p>
+    <p>A critical concern raised by SRE professionals is the risk of autonomous patching causing delayed failures (e.g., memory leaks) in production. To address this, Guardian Cloud implements strict atomic rollback mechanisms. Configuration changes are applied via atomic transactions (e.g., writing to temporary files and executing atomic <code>rename()</code> operations). For broader system changes, the platform integrates with filesystem snapshot technologies (such as ZFS or Btrfs) and Logical Volume Manager (LVM) snapshots. If post-deployment telemetry (monitored via eBPF) detects performance degradation or instability, the system automatically triggers an instantaneous rollback to the pre-patch state, ensuring high availability.</p>
+
+    <div class="diagram-container">
++-------------------------------------------------------------------------+
+|                GUARDIAN CLOUD AUTONOMOUS LIFECYCLE                      |
+|                                                                         |
+|  [1. Monitoring & eBPF Telemetry] ----> [2. Deep Context Analysis]      |
+|                 ^                                      |                |
+|                 |                                      v                |
+|  [5. Atomic Rollback (if degraded)]     [3. Patch & Code Generation]    |
+|                 ^                                      |                |
+|                 |                                      v                |
+|  [4. Production Deployment] <---------- [Sandbox Testing & Validation]  |
+|                 ^                                                       |
+|                 |                                                       |
+|         [ Owner Verification (Human-in-the-Loop) ]                      |
++-------------------------------------------------------------------------+
+    </div>
+    <div class="figure-caption">Figure 2: Four-Phase Autonomous Lifecycle with Human-in-the-Loop and Atomic Rollback</div>
+
+    <h3>3.2. Verification Control Doctrine and G-Coder Integration</h3>
+    <p>Full autonomy necessitates stringent security controls. The Guardian Cloud architecture dictates that while the AI is autonomous in preparing and testing solutions, applying critical changes to the production environment requires explicit verification by the system owner. This is facilitated through an intuitive interaction bridge where a personal AI assistant translates complex technical issues into structured, business-readable language.</p>
+    <p>Furthermore, the platform introduces the G-Coder module, which integrates directly into development environments like VS Code. This module facilitates an "AI Meeting" where specialized sub-models (Architect, Coder, Tester) discuss and argue proposed refactoring or bug fixes in real-time. The developer observes this discourse, ensuring transparency and maintaining ultimate control over the codebase.</p>
+
+    <h3>3.3. Multi-Factor Infrastructure Protection and Sovereign Cloud Isolation</h3>
+    <p>Given the Master Agent\\\\\\\\\\\\\\\'s extensive privileges, securing the central orchestrator is paramount. To mitigate the risk of supply chain attacks compromising the entire client base, the Guardian Cloud AI Core is deployed within isolated Sovereign Cloud environments. Each client\\\\\\\\\\\\\\\'s orchestration layer operates within a logically isolated Virtual Private Cloud (VPC), ensuring that a breach in one segment cannot propagate laterally.</p>
+    <p>Access to the verification interface is protected by a rigorous five-factor authentication (5FA) model: Master Password, Session Email Verification, Telegram Integration, Hardware TOTP, and Biometric Verification (WebAuthn/Passkeys). This barrier ensures that only the legitimate, fully authenticated system owner can authorize autonomous infrastructure modifications.</p>
+
+    <h2>4. Model Zoo, Training Methodology, and Inference Optimization</h2>
+    <p>The efficacy of Guardian Cloud relies on a customized fleet of neural networks, optimized for specific tasks to balance accuracy, latency, and computational cost.</p>
+
+    <h3>4.1. Production Model Zoo and Validation Scores</h3>
+    <p>The platform utilizes a distributed ensemble of specialized models. Table 1 details the current operational model fleet, their roles, validation outcomes, and deployment platforms, reflecting data from the live Guardian Cloud dashboard.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Role / Specialization</th>
+                <th>Validation Result</th>
+                <th>Deployment Platform</th>
+                <th>Validation Score (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Qwen3-30B-A3B-Thinking-2507</td>
+                <td>Audit Officer – Initial Server Audit</td>
+                <td>LOW / CRITICAL — correct</td>
+                <td>All-Platform</td>
+                <td>97.0%</td>
+            </tr>
+            <tr>
+                <td>Gemma-4-26B-A4B</td>
+                <td>ITDR Officer – Intrusion Verdict (ROE)</td>
+                <td>100 / 100 - safety gate 100%</td>
+                <td>Azure</td>
+                <td>94.0%</td>
+            </tr>
+            <tr>
+                <td>Gemma-4-26B-A4B-it</td>
+                <td>Cloud AI – Conversational Interface</td>
+                <td>live</td>
+                <td>GCP</td>
+                <td>91.0%</td>
+            </tr>
+            <tr>
+                <td>3x Qwen3-4B-Instruct-2507</td>
+                <td>Detection Shields – First-Line Detection</td>
+                <td>3 / 3 in 726–952 ms</td>
+                <td>Sysadmin Officer</td>
+                <td>98.0%</td>
+            </tr>
+            <tr>
+                <td>Qwen3-Coder-30B-A3B-Instruct</td>
+                <td>All-Platform Specialist – Command Generation</td>
+                <td>97.0%</td>
+                <td>AWS</td>
+                <td>97.0%</td>
+            </tr>
+            <tr>
+                <td>Azure Specialist</td>
+                <td>Command Generation</td>
+                <td>94.0%</td>
+                <td>Azure</td>
+                <td>94.0%</td>
+            </tr>
+            <tr>
+                <td>GCP Specialist</td>
+                <td>Command Generation</td>
+                <td>91.0%</td>
+                <td>GCP</td>
+                <td>91.0%</td>
+            </tr>
+            <tr>
+                <td>AWS Specialist</td>
+                <td>Command Generation</td>
+                <td>94.0%</td>
+                <td>AWS</td>
+                <td>94.0%</td>
+            </tr>
+            <tr>
+                <td>Qwen3-Coder gen + Qwen3-Thinking review</td>
+                <td>Coding – Source-Code Changes</td>
+                <td>generate — security review</td>
+                <td>All-Platform</td>
+                <td>–</td>
+            </tr>
+            <tr>
+                <td>Qwen3-VL-Embedding-8B</td>
+                <td>Doctrine Embedder – Knowledge Retrieval</td>
+                <td>semantic read — PASS</td>
+                <td>All-Platform</td>
+                <td>–</td>
+            </tr>
+            <tr>
+                <td>GLM-5.2 "Da Vinci" (self-hosted)</td>
+                <td>Main Brain – Validator – Initial Testing</td>
+                <td>in-contour - high-risk review</td>
+                <td>Self-Hosted</td>
+                <td>–</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="figure-caption">Table 1: Guardian Cloud Production Model Zoo (Live Deployment)</div>
+
+    <h3>4.2. Inference Optimization and Context Caching</h3>
+    <p>Achieving low latency in critical scenarios is essential for preventing automated attacks. While detection within 726–952 ms is rapid for Large Language Models (LLMs), it requires significant optimization to outpace active exploits. Guardian Cloud addresses this through advanced inference techniques.</p>
+    <p>The platform employs weight quantization (AWQ/GPTQ) to INT4/INT8 formats and utilizes the vLLM engine with the PagedAttention algorithm. PagedAttention mitigates memory fragmentation in the Key-Value (KV) cache, allowing for high-throughput serving with near-zero memory waste. Furthermore, to accelerate decision-making, the system implements multi-level Context Caching. By caching the prefixes of common system prompts and utilizing hierarchical context caching strategies, the Time to First Token (TTFT) is drastically reduced. The deployment of localized "Shield" models (e.g., Qwen3-4B) closer to the edge further minimizes network latency, ensuring rapid first-line detection and response.</p>
+
+    <h2>5. Conclusion</h2>
+    <p>The Guardian Cloud platform represents a significant advancement in the automation of cloud infrastructure management and cybersecurity. By integrating lightweight eBPF telemetry, a sophisticated multi-agent AI orchestrator, and rigorous safety mechanisms including atomic rollbacks and Sovereign Cloud isolation, the system addresses the critical challenges of attack speed asymmetry and SRE scalability. The implementation of the "Human-in-the-Loop" doctrine ensures that while routine operations are fully automated, ultimate control over critical infrastructure modifications remains securely in the hands of authenticated human operators.</p>
+
+</body>
+</html>

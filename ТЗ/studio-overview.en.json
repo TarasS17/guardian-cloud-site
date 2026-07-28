@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "title": "AI Studio",
+    "subtitle": "Perhaps this is what you have been lacking to create something new and memorable."
+  },
+  "section_1_manifesto": {
+    "paragraph_1": "You, like every human being, carry within your soul a Creator of the great and beautiful — one that brings benefit to you and to all of humanity. And so, in your mind, pictures constantly arise of what you wish to build: a program that will bring you world fame, a service that could ease the work of many people, any creative masterpiece that lives in your head, and much more.",
+    "paragraph_2": "But the only thing that stops you is the understanding that to create this, you need a team of specialists of different profiles and levels, and so your idea continues to live only in your soul and consciousness.",
+    "paragraph_3": "And then there is money. To realize an idea, you need a great deal of it.",
+    "paragraph_4": "And, most importantly, people. They are the primary factor that can destroy an idea or drag everything out for long years through their carelessness or incompetence. To assemble a team that is devoted to the cause, possesses the proper qualifications and knowledge, and, above all, holds their tongue about what they do and how they do it — only a few can achieve this. And even they are not immune to the unexpected.",
+    "paragraph_5": "We endeavored to create this team, and now we give it to you, so that you may create and embody your dreams into reality."
+  },
+  "section_2_team": {
+    "title": "What is this team that we have created for you?",
+    "paragraph_1": "These are not people, these are AI engineers, each with their own character, their own specialty, and their own view on the work. They do not get tired, they do not go home at six in the evening, they do not carry your secrets away to other companies.",
+    "paragraph_2": "We hand them over to you.",
+    "paragraph_3": "There are three of them.",
+    "paragraph_4": "The first is the Architect. He meets your idea first. He listens to it, walks around it, takes it apart, searches for its weak points. He is in no hurry to write. First, he builds a plan and comes to you with it. \"I propose to do it this way. Here is why this way and not another. Here is where the difficulties may lie.\" He knows how to explain his decisions, and if you say \"no, let us do it differently,\" he will not take offense. He will rebuild the plan and come back again.",
+    "paragraph_5": "The second is the Master. When the plan is ready and you have agreed, he sits down and writes. File after file, line after line, in the style of your project. Not in a generic style, not in a templated one, but in yours. He knows the architecture of your code, knows your conventions, remembers the decisions you have made before. He writes as if he has been working with you for years.",
+    "paragraph_6": "The third is the Guardian. He reads what the Master has written, slowly and carefully. He searches for vulnerabilities. He checks the logic. He argues. If something does not please him, he will say it aloud, right in the shared conversation. He will not miss what the tired eyes of a human would miss at three o'clock in the morning.",
+    "paragraph_7": "And you are with them, explaining what you saw in your head, consulting, arguing, and creating.",
+    "paragraph_8": "You speak with them as with your comrades-in-arms, and they consult among themselves to give you the best path to realization, while you see and hear all of it. You can ask any of them why he decided so, and hear a real answer. You can stop them at any moment and say \"no, I do not like this, let us do it differently.\"",
+    "paragraph_9": "And only after everything is honed to perfection do you say \"Let us begin,\" and your dream will be embodied, step by step, into the masterpiece you envisioned.",
+    "paragraph_10": "Until that moment, it is the creative dispute of the team. Safe, reversible, open to any correction. And one that no one will know about. This belongs only to you and to your new team, which holds its tongue.",
+    "paragraph_11": "We ourselves, even a year ago, could not have imagined that such a thing could be. We did not believe in such a development of artificial intelligence. But now we create what we only dreamed of, without being professional programmers.",
+    "paragraph_12": "Now we are the Architects of the Future.",
+    "paragraph_13": "And we want you to join us."
+  },
+  "section_3_training": {
+    "title": "Training",
+    "paragraph_1": "You do not need to teach them anything.",
+    "paragraph_2": "They already know practically everything. And if they encounter something unfamiliar, they turn to the knowledge library we have created for them. This library is incomparable to any existing on Earth, because it feeds on knowledge from all sources at once.",
+    "paragraph_3": "The models learn and absorb this knowledge. And they enrich it with their own experience, consulting among themselves.",
+    "paragraph_4": "You do not need skills, prompts, and all that tinsel which exists even for the most advanced models of intelligence, to make them think like a human and perform better. We have already done this to the fullest extent during the training of the models. You simply treat them as people, speak with them as with your comrades-in-arms in the cause, and they will answer you hundreds of times better than the most perfect models would.",
+    "paragraph_5": "Quite simply, we taught them to be human."
+  },
+  "section_4_secrecy": {
+    "title": "The Secret",
+    "paragraph_1": "Where does your conversation with this team live?",
+    "paragraph_2": "Only with you. And nowhere else.",
+    "paragraph_3": "When you speak with them, discuss an idea, argue, amend a plan — all of it happens within our perimeter and only on our servers. It does not go to Google, it does not go to Microsoft, it does not go to OpenAI. No one in the world sees your conversation except you and your team.",
+    "paragraph_4": "This is not a setting that can be accidentally confused. This is not a promise in a marketing brochure. This is written in our contract with you as a separate clause, one we sign with our heads. If we violate it, you terminate the contract and recover from us whatever you wish. Without limits.",
+    "paragraph_5": "We built it this way from the very beginning, because we know that a creator will not surrender their idea into other hands. Especially now, when any request you make to an ordinary AI can in a second end up in someone else's database, be used for training someone else's model, or simply leak somewhere it should never have gone.",
+    "paragraph_6": "With us, this will not happen.",
+    "paragraph_7": "Your code never leaves for external models. Your conversation with the team is not recorded on other servers. Your ideas remain yours, even from us.",
+    "paragraph_8": "Sometimes, very rarely, at the most complex moments, the team may want to consult with someone else. For example, to consult Claude from Anthropic for a second opinion, because the task is of high risk and they wish to double-check. But this happens only if you have permitted it. And even if you permit it, we clean from your code everything personal: passwords, keys, addresses, names. What leaves is only the dry technical part, without your signature upon it.",
+    "paragraph_9": "This is the team that holds its tongue."
+  },
+  "section_5_philosophy": {
+    "title": "Philosophy",
+    "paragraph_1": "Work with AI used to look different.",
+    "paragraph_2": "Under the outdated architecture, for example in coding, artificial intelligence did something according to your assignment and gave you a result — not always the one you expected. And you then spent hours trying to correct it, giving amendment after amendment. And still you were not always satisfied with the result, and in the end you received reduced functionality.",
+    "paragraph_3": "We were able to take a step forward and change this vicious architecture, aimed only at burning tokens so that you would pay more and more.",
+    "paragraph_4": "We do not count the tokens spent by the AI.",
+    "paragraph_5": "We count the real time you use for work.",
+    "paragraph_6": "We do not care how many tokens are burned in their answers. This is our concern, not yours. Yours is to create your dream.",
+    "paragraph_7": "Perhaps we will be called altruists. But we want to change this world, to make it just a little better than it is now. And we hope that this message of ours will reach good people, and that they will stand beside us in this."
+  },
+  "section_6_bridge": {
+    "title": "The Bridge to the Projects",
+    "paragraph_1": "We have divided this into two projects, which will reach the broadest possible audience of Architects of the Future.",
+    "paragraph_2": "Project G — for those who wish to create their idea in the digital field.",
+    "paragraph_3": "Project BlackWings — for those who wish to embody their idea in the real sector."
+  }
+}

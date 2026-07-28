@@ -1,0 +1,43 @@
+{
+  "name": "guardian-ai-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@headlessui/react": "^2.2.9",
+    "@headlessui/vue": "^1.7.23",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@types/cheerio": "^0.22.35",
+    "cheerio": "^1.2.0",
+    "framer-motion": "^12.23.24",
+    "i18next": "^25.6.3",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "lucide-react": "^0.554.0",
+    "next": "^16.0.7",
+    "nodemailer": "^6.9.10",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-i18next": "^16.3.5",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.19.25",
+    "@types/nodemailer": "^6.4.14",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.7",
+    "tailwindcss": "^4",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "hero": {
+    "logo_alt": "ALFACAN Defence Group"
+  },
+  "section_1_who_we_are": {
+    "paragraph_1": "ALFACAN Defence Group was established in London in March 2026.",
+    "paragraph_2": "Reading this, you will say — it is young, it does not deserve our attention, and so on, but one should not judge so hastily without knowing the history of its creation.",
+    "paragraph_3": "We are people with immense experience, and I am not afraid to say, specialists in many spheres, not only of business, but of life itself, having passed through the school of creating successful projects in one of the harshest business environments in the world, starting back from the beginning of the 90s of the last century.",
+    "paragraph_4": "Perhaps for you these are merely words, but behind them stands a life experience that cannot be replicated now, and which teaches one thing, never to stop at what has been achieved, no matter how high it might be, and always to move forward, calculating every single action a hundred steps ahead.",
+    "paragraph_5": "It is simply that the war reassembled our established order of life and business, and forced us to look at new perspectives of business development as a whole."
+  },
+  "section_2_what_we_see": {
+    "paragraph_1": "The war took many things from us, but it could not take the main thing in life, which is our unyielding will and the desire to create, not merely for our own gain, but more for the benefit of people and for the people.",
+    "paragraph_2": "There comes an hour in life when you ask yourself the question, who are you, and what have you done in life that is so significant that many generations after you will remember it, and most importantly, that these memories should be entirely positive.",
+    "paragraph_3": "The development of AI provides such an opportunity. It is advancing at a breakneck pace, and many already understand that soon the boundary between the real and the artificial will become indistinguishable.",
+    "paragraph_4": "Currently, the majority of companies release AI products purely for entertainment, without considering that AI was created to ease human labour, granting new possibilities for a deeper resolution of technological tasks that are simply inaccessible to humans yet."
+  },
+  "section_3_meta": {
+    "paragraph_1": "Why do we tell you this not in the dry, technical language used on all websites nowadays? Because you are already tired of it, and you will simply scroll past the website, just as you do in nine out of ten cases, without paying it any attention, thinking, ah, another AI, they did something, they failed at something… People have simply unlearned this kind of communication, even though everyone craves it. We value your time, but sometimes one needs to pause and contemplate what has been created and whether it is necessary for me."
+  },
+  "section_4_method": {
+    "paragraph_1": "I want to warn you right away that we write in co-creation with AI. Precisely so, in co-creation, where every single question and every line of code represents hours of discussion and planning of functionality, architecture, and code, followed by long days of model training, testing, and, once again, corrections, expansions, and, finally, the creation of the most functional product possible. We, unlike professional programmers, know what is required for the operation of a specific business, we do not invent functions that you will never use, and we compose our developments only from what exactly you need for your work."
+  },
+  "section_5_platform_features": {
+    "paragraph_1": "Your interfaces for working within our services are designed in such a way that you build them specifically for yourself, assembling them from the widgets of the Constructor and adding those functions that are necessary precisely for your operations, without cluttering them with the unnecessary.",
+    "paragraph_2": "Furthermore, we have anticipated the matter of your internal security, where the logic of connecting managers to your system is controlled solely by you, choosing which modules and functions they are permitted to access."
+  },
+  "section_6_products_block_1": {
+    "intro": "The first platforms we created are designed for the most vulnerable sector of business, which is cloud infrastructure.",
+    "presenting": "Allow us to present two platforms:",
+    "guardian_cloud": {
+      "name": "Guardian Cloud",
+      "subtitle": "Infrastructure Intelligence",
+      "description": "A platform for the complete automation of system administration and cybersecurity of any cloud service or closed data centre. Zero human factor, 24/7 protection for those systems where an error is unacceptable.",
+      "cta": "learn more",
+      "cta_url": "/cloud"
+    },
+    "mercanon": {
+      "name": "ALFACAN Mercanon",
+      "subtitle": "Operational Intelligence",
+      "description": "A platform for the automation of all processes in e-commerce stores of any scale, where the functions of managers are executed by autonomous neural network engineers, with all the functionality of Guardian Cloud inside for the uninterrupted operation of your trading platform.",
+      "cta": "learn more",
+      "cta_url": "/mercanon"
+    }
+  },
+  "section_7_products_block_2": {
+    "intro": "Our second project has already moved beyond the scope of a single product, because we realised that providing a team of neural network engineers is necessary not only for those who protect their infrastructure, but also for those who create the new, whether it be a program, a service, or an entire digital empire.",
+    "presenting": "Allow us to present:",
+    "ai_studio": {
+      "name": "ALFACAN AI Studio",
+      "subtitle": "Space of Co-creation",
+      "description_1": "This is an environment in which your team of neural network engineers becomes your comrades-in-arms in the cause. Three autonomous digital engineers, the Architect, the Master, and the Guardian, work with you on your concept, each in their respective role, until the result becomes the masterpiece you envisioned.",
+      "description_2": "Inside AI Studio live three tools for different stages of work:",
+      "cta_url": "/studio"
+    },
+    "g_coder": {
+      "name": "G-Coder",
+      "description": "The environment where the code of your project is born. The Architect constructs the plan, the Master writes every line in the style of your project, and the Guardian verifies and debates until the code becomes flawless. All of this occurs in a dialogue that no one else will ever know about.",
+      "cta": "learn more",
+      "cta_url": "/studio/g-coder"
+    },
+    "g_tester": {
+      "name": "G-Tester",
+      "description": "The environment where your product undergoes all trials before encountering the real world. Tests, loads, and scenarios that you did not even think of are discovered before the release, not after.",
+      "cta": "learn more",
+      "cta_url": "/studio/g-tester"
+    },
+    "g_studio": {
+      "name": "G-Studio",
+      "description": "The environment where your product is born visually. From the first layout to the final interactive composition, in your style, in your aesthetics, without templates and without external solutions.",
+      "status": "Coming Soon",
+      "cta": "learn more",
+      "cta_url": "/studio/g-studio"
+    }
+  },
+  "section_8_products_block_3": {
+    "intro": "Our third project emerged from the business experience we have pursued throughout our entire lives. The digital world is only half of what surrounds us. And then there is the second half, the real, physical one, where equipment operates, machinery moves, logistics flow, crops grow, electricity and gas are supplied, drones take off, and ships sail. And where an error costs far more than mere money.",
+    "presenting": "Allow us to present:",
+    "blackwings": {
+      "name": "ALFACAN BlackWings",
+      "subtitle": "The Neural Network of Everything",
+      "description_1": "This is the neural network of everything that operates and to which one can connect. In the air, on the ground, on the water, in the fields and greenhouses, in power supply systems, in entire logistical chains, everywhere where intelligence can be implemented and the human factor removed from where it is no longer needed.",
+      "description_2": "One neural network. A single intelligence. Any number of connectable systems. We have made a neural network that can be entrusted with the management of things that cannot be turned off and restarted.",
+      "description_3": "And precisely because this is a platform for the real world, and not for presentations, we are launching it in stages, direction by direction, 2026-2027. People must be prepared for the fact that autonomous intelligence can accomplish far more than they are accustomed to trusting machines with.",
+      "description_4": "We have begun with three directions, each resolving its own part of this massive task.",
+      "cta_url": "/blackwings"
+    },
+    "architect": {
+      "name": "BlackWings Architect",
+      "description": "Where the machinery itself is born. The design of machines, unmanned aerial, ground, and water systems, optimised for the tasks for which they are created, rather than for general standards.",
+      "status": "Coming Soon · 2026-2027",
+      "cta": "learn more",
+      "cta_url": "/blackwings/architect"
+    },
+    "arsenal": {
+      "name": "BlackWings Arsenal",
+      "description": "Where this machinery is manufactured and operates. Management of the manufacturing organism, from machine tools and logistics to sales and marketing, as a single coordinated whole, rather than a collection of separate departments.",
+      "status": "Coming Soon · 2026-2027",
+      "cta": "learn more",
+      "cta_url": "/blackwings/arsenal"
+    },
+    "training_center": {
+      "name": "BlackWings Training Center",
+      "description": "Where the machinery is tested before encountering the real world, and operators are trained to work with it in a safe simulation before they ever sit at a real control console.",
+      "status": "Coming Soon · 2026-2027",
+      "cta": "learn more",
+      "cta_url": "/blackwings/training-center"
+    }
+  },
+  "section_9_partner_program": {
+    "intro_1": "We understand that the world is large, and we, despite all our experience and the team of neural network engineers by our side, are still alone. There are many markets, languages, cultures, and industries where we will never penetrate as deeply on our own as those who already live and work there can.",
+    "intro_2": "Therefore, we have opened a partner program for those who share our view on what AI should be, and are ready to bring our platforms to their markets.",
+    "program": {
+      "name": "AlfaCan Partner Program",
+      "subtitle": "Comrades in the Cause",
+      "description_1": "We are not looking for resellers. We are looking for IT specialists, system administrators, digital agencies, and MSP providers who already work with their clients and understand them better than we do. We provide you with a finished platform, and you bring it to those who truly need it.",
+      "description_2": "The program has two tiers. The first is for those who are starting out and want to try, offering up to ten percent from each sale and full technical support. The second is for those who have already brought us a hundred clients and grown into a serious business, offering up to fifteen percent, white-label options under your own brand, and priority in everything.",
+      "description_3": "For large MSP providers, we have a separate discussion and separate conditions.",
+      "description_4": "If you are such a partner, take a look at the program terms or write to us, and we will discuss what this might look like in your specific case.",
+      "cta_primary": "Become a Partner",
+      "cta_primary_url": "/referral",
+      "cta_secondary": "Learn the Terms",
+      "cta_secondary_url": "/referral#terms"
+    }
+  }
+}

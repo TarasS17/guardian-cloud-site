@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G-Coder — Technical Paper | ALFACAN Defence Group</title>
+<style>
+:root {
+  --navy:    #0b1120;
+  --navy2:   #111827;
+  --navy3:   #1a2540;
+  --border:  #1e3a5f;
+  --accent:  #2d7dd2;
+  --accent2: #38bdf8;
+  --text:    #cbd5e1;
+  --text2:   #94a3b8;
+  --white:   #f1f5f9;
+  --code-bg: #0f1d30;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--navy);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* ── HUB ─────────────────────────────────────────────── */
+
+.hub {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem 3rem;
+}
+
+.hub-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent2);
+  margin-bottom: 0.75rem;
+}
+
+.hub-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hub-subtitle {
+  font-size: 1.05rem;
+  color: var(--text2);
+  max-width: 680px;
+  margin-bottom: 3rem;
+}
+
+/* ── PAPER CARDS ──────────────────────────────────────── */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  background: var(--navy3);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s;
+  text-decoration: none;
+}
+
+.card:hover { border-color: var(--accent); }
+
+.card-num {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent2);
+  margin-bottom: 0.5rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+.card-abstract {
+  font-size: 0.85rem;
+  color: var(--text2);
+  line-height: 1.6;
+  flex: 1;
+  margin-bottom: 1.25rem;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: rgba(45,125,210,0.15);
+  color: var(--accent2);
+  border: 1px solid rgba(45,125,210,0.3);
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+}
+
+.card-cta {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent2);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.card-cta::after { content: "→"; }
+
+/* ── DIVIDER ──────────────────────────────────────────── */
+.hub-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin-bottom: 0;
+}
+
+/* ── PAPER SECTION WRAPPER ────────────────────────────── */
+
+.paper-section {
+  border-top: 1px solid var(--border);
+  padding: 5rem 0 0;
+}
+
+.paper-section:last-of-type { padding-bottom: 5rem; }
+
+.paper-label {
+  max-width: 900px;
+  margin: 0 auto 0.5rem;
+  padding: 0 2rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent2);
+}
+
+.paper-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+  background: var(--navy2);
+  border-radius: 0;
+}
+
+/* ── TYPOGRAPHY — shared across all papers ────────────── */
+
+.paper-wrapper h1 {
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+}
+
+.paper-wrapper h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  border-left: 3px solid var(--accent);
+  padding-left: 0.75rem;
+  text-transform: none;
+}
+
+.paper-wrapper h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.paper-wrapper p {
+  color: var(--text);
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  text-align: left;
+}
+
+.paper-wrapper ul,
+.paper-wrapper ol {
+  margin: 0.75rem 0 1rem 1.5rem;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.paper-wrapper li { margin-bottom: 0.4rem; line-height: 1.65; }
+
+/* ── ABSTRACT boxes ───────────────────────────────────── */
+.paper-wrapper .abstract,
+.paper-wrapper .abstract-text {
+  background: rgba(45,125,210,0.07);
+  border: 1px dashed var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  font-size: 0.92rem;
+  color: var(--text);
+  font-style: italic;
+}
+
+.paper-wrapper .abstract { font-style: normal; }
+.paper-wrapper .abstract strong { font-variant: small-caps; letter-spacing: 0.04em; }
+
+/* ── META INFO box ────────────────────────────────────── */
+.paper-wrapper .meta-info {
+  background: var(--navy3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  font-size: 0.85rem;
+  margin-bottom: 1.75rem;
+  color: var(--text2);
+}
+.paper-wrapper .meta-info p { margin: 0.2rem 0; font-size: 0.85rem; color: var(--text2); }
+.paper-wrapper .meta-info strong { color: var(--white); }
+
+/* ── AUTHORS / BYLINE ─────────────────────────────────── */
+.paper-wrapper .authors,
+.paper-wrapper .byline,
+.paper-wrapper .affil,
+.paper-wrapper .subtitle {
+  text-align: center;
+  color: var(--text2);
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+.paper-wrapper .byline { font-weight: 700; color: var(--white); }
+
+/* ── TABLES ───────────────────────────────────────────── */
+.paper-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.85rem;
+}
+
+.paper-wrapper th {
+  background: var(--navy3);
+  color: var(--white);
+  font-weight: 600;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.paper-wrapper td {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  color: var(--text);
+  vertical-align: top;
+}
+
+.paper-wrapper tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+
+/* ── CODE / PRE ───────────────────────────────────────── */
+.paper-wrapper pre,
+.paper-wrapper .diagram-container {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.25rem;
+  overflow-x: auto;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: #7dd3fc;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  white-space: pre;
+  margin: 1.25rem 0;
+}
+
+.paper-wrapper code {
+  background: rgba(45,125,210,0.12);
+  color: var(--accent2);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-family: "SFMono-Regular", Consolas, monospace;
+}
+
+.paper-wrapper pre code { background: transparent; padding: 0; color: inherit; }
+
+/* ── FORMULA ──────────────────────────────────────────── */
+.paper-wrapper .formula {
+  background: var(--navy3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.25rem;
+  text-align: center;
+  font-family: "Cambria Math", Georgia, serif;
+  font-size: 1rem;
+  color: var(--white);
+  margin: 1.5rem 0;
+  line-height: 2;
+}
+.paper-wrapper .formula .where {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--text2);
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* ── FIGURE CAPTION ───────────────────────────────────── */
+.paper-wrapper .figure-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--text2);
+  margin-top: -0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ── BADGE ────────────────────────────────────────────── */
+.paper-wrapper .badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}
+
+/* ── REFERENCES ───────────────────────────────────────── */
+.paper-wrapper ol.refs { font-size: 0.83rem; color: var(--text2); }
+.paper-wrapper ol.refs li { margin-bottom: 0.3rem; }
+
+/* ── BACK TO TOP ──────────────────────────────────────── */
+.back-top {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem 0;
+  text-align: right;
+}
+.back-top a {
+  font-size: 0.8rem;
+  color: var(--accent2);
+  text-decoration: none;
+  font-weight: 600;
+}
+.back-top a:hover { text-decoration: underline; }
+
+/* ── RESPONSIVE ───────────────────────────────────────── */
+@media (max-width: 640px) {
+  .hub { padding: 2.5rem 1.25rem 2rem; }
+  .paper-wrapper { padding: 1.5rem 1.25rem 3rem; }
+  .paper-label { padding: 0 1.25rem; }
+  .back-top { padding: 1rem 1.25rem 0; }
+}
+
+@media print {
+  body { background: #fff; color: #000; }
+  .card, .hub-subtitle, .cards { display: none; }
+  .paper-wrapper { background: #fff; color: #000; padding: 0; }
+  .paper-wrapper h1, .paper-wrapper h2, .paper-wrapper h3 { color: #000; }
+  .paper-wrapper p, .paper-wrapper td, .paper-wrapper li { color: #000; }
+  .paper-wrapper pre, .paper-wrapper .diagram-container { background: #f5f5f5; color: #000; border: 1px solid #ccc; }
+  .paper-wrapper code { background: #f0f0f0; color: #000; }
+  .paper-section { border-top: 2px solid #000; }
+  .back-top { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="paper-section" id="g-coder">
+  <div class="paper-label">G-Coder · AlfaCan AI Studio</div>
+  <div class="paper-wrapper">
+<h1>G‑Coder: Architecture, Safety Invariants, and Formal Evaluation of Air‑Gapped Autonomous Software Engineering</h1>
+    <p class="subtitle">Scientific &amp; Technical Report — Security Invariants, Multi‑Agent Governance, and Methodology</p>
+    <p class="affil">Alfacan Defence Group Limited (Company No. 17062207) • Guardian Cloud Research Labs</p>
+
+    <div class="abstract">
+        <p><strong>Abstract.</strong> Generative language models applied to software engineering ("vibe coding") frequently produce syntactically valid yet security‑critical code that reproduces OWASP / CWE Top‑25 weakness patterns. This paper presents G‑Coder, an autonomous software‑engineering platform operating inside an air‑gapped security perimeter. We formalize its architecture around three constructs: (1) an interactive, observable multi‑agent Council; (2) two‑stage RAG grounding against curated OWASP / CWE doctrines; and (3) deterministic process invariants enforcing human‑on‑the‑loop authorization. We outline a formal evaluation methodology and address structural threats to validity. Empirical benchmarking is scheduled following GPU re‑activation post‑audit; no performance results are reported here.</p>
+    </div>
+
+    <h2>1. Problem Formulation &amp; Expected‑Loss Minimization</h2>
+    <p>The direct deployment of generative LLMs in code synthesis accumulates structural vulnerabilities (SQLi, IDOR, race conditions, insecure deserialization) because token‑probability maximization ignores the underlying threat model. Existing commercial paradigms present a flawed trade‑off: streaming source code to external APIs (Copilot, Cursor) introduces confidentiality breaches, whereas server‑hosted cloud IDEs (Codespaces‑class) incur unsustainable compute overhead.</p>
+    <p>Rather than <em>guaranteeing</em> an unachievable zero‑defect target state (∀&nbsp;<i>s</i>&nbsp;∈&nbsp;<i>S</i><sub>t</sub>&nbsp;: Violations(<i>s</i>,&nbsp;<i>D</i>)&nbsp;=&nbsp;∅), we formalize secure automated software engineering as <strong>minimizing the expected number of security violations</strong> under a doctrine <i>D</i>, subject to a human‑supervised transition relation:</p>
+    <div class="formula">
+        <i>S</i><sub>t</sub>&nbsp; = &nbsp;argmin<sub><i>S</i></sub>&nbsp; 𝔼[ Violations(<i>S</i>, <i>D</i>) ]
+        <span class="where">subject to&nbsp;&nbsp; <i>S</i><sub><i>i</i>+1</sub> = Apply(Δ<i>S</i><sub><i>i</i></sub>) &nbsp;⇔&nbsp; HumanApprove(Δ<i>S</i><sub><i>i</i></sub>) = true</span>
+    </div>
+    <p>The guarantee is thus relocated from an (undecidable) property of the output code to <em>verifiable properties of the process</em>: every applied change transits an explicit human authorization gate (§3), and the objective is optimized by doctrine‑grounded review (§4) rather than asserted.</p>
+
+    <h2>2. Multi‑Agent Council &amp; Execution Flow</h2>
+    <p>Rather than executing black‑box generation, the <code>s-coding-service</code> backend convenes an observable multi‑agent Council that advances one step per operator turn, persisting phase and working state to the database (enabling resume and audit). The pipeline coordinates specialized in‑contour models across an explicit state graph:</p>
+    <pre>
+ [Intent I] ─► PLAN (Falco / Gemma-4) ─► GENERATE (Qwen-Coder) ─► REVIEW (Qwen-Thinking)
+                                                                          │
+ [Deploy on client] ◄─ [Approval "действуй"] ◄─ AWAITING_APPROVAL ◄─ VALIDATE (Da Vinci / GLM-5.2)
+    </pre>
+    <table>
+        <thead><tr><th>Agent role</th><th>In‑contour model</th><th>Primary function</th></tr></thead>
+        <tbody>
+            <tr><td>Orchestrator (Falco)</td><td><code>Gemma‑4‑26B</code></td><td>Intent decomposition <i>I</i>, task‑graph execution, operator dialogue.</td></tr>
+            <tr><td>Generator</td><td><code>Qwen3‑Coder‑30B</code></td><td>High‑throughput synthesis of code modifications Δ<i>S</i>.</td></tr>
+            <tr><td>Reviewer</td><td><code>Qwen3‑30B‑Thinking</code></td><td>Deliberate logical critique against the OWASP / CWE doctrine <i>D</i>.</td></tr>
+            <tr><td>Validator / Brain (Da Vinci)</td><td><code>GLM‑5.2</code></td><td>In‑contour final validation of the highest‑stakes changes; 753B parameters, 1M‑token context, self‑hosted on our own GPU.</td></tr>
+            <tr><td>External validator</td><td><code>Claude Opus 4.8 / Fable 5</code></td><td>Optional second‑opinion audit on sanitized snippets (opt‑in).</td></tr>
+        </tbody>
+    </table>
+
+    <h2>3. Safety Invariants</h2>
+    <p>The architecture enforces four non‑negotiable process invariants:</p>
+    <ul>
+        <li><strong>Inv‑1 (Air‑Gap Domain Boundary).</strong> Proprietary source never leaves the internal perimeter. External validation <strong>defaults to false</strong> (<code>EXTERNAL_VALIDATION_ALLOWED = false</code>); enabling it requires explicit per‑client opt‑in, and egress is restricted to automatically sanitized snippets via <code>sanitizeForExternal()</code>.</li>
+        <li><strong>Inv‑2 (Human‑on‑the‑Loop Gate).</strong> A code modification Δ<i>S</i> transitions to <code>APPLIED</code> exclusively upon explicit verbal operator authorization in chat (e.g. "действуй"), which also constitutes the audit record.</li>
+        <li><strong>Inv‑3 (Critical Risk Gate).</strong> Modifications rated <code>CRITICAL</code> are prohibited from autonomous application under all settings.</li>
+        <li><strong>Inv‑4 (Governed Debrief Loop).</strong> Post‑execution lessons are anonymized and distilled back into the RAG doctrine index (human‑reviewed) for governed continuous self‑improvement; only sanitized patterns — never client code — are written back.</li>
+    </ul>
+
+    <h2>4. Doctrine Grounding (Two‑Stage RAG)</h2>
+    <p>To suppress hallucinatory synthesis, the Reviewer validates candidate patches against a dedicated <code>s-rag</code> engine. Retrieval is two‑stage: (1) <strong>dense retrieval</strong> — a bi‑encoder recalls candidate rules <i>K</i> from the OWASP / CWE vector index by semantic similarity; (2) <strong>contextual re‑ranking</strong> — a cross‑encoder re‑scores candidates on joint codebase‑and‑threat‑model semantics before the top passages enter the prompt context. Enterprise clients may attach private per‑tenant collections (house standards, rules of engagement).</p>
+
+    <h2>5. Evaluation Methodology &amp; Proposed Metrics</h2>
+    <p>Empirical benchmarking is scheduled following GPU cluster re‑activation post‑audit; the results are not yet available. The evaluation framework comprises three quantitative metrics:</p>
+    <table>
+        <thead><tr><th>Metric</th><th>Measurement target</th><th>Definition</th></tr></thead>
+        <tbody>
+            <tr><td>CWE‑Catch Rate</td><td>Doctrine recall</td><td>Fraction of injected CWE Top‑25 vulnerabilities (a held‑out seeded corpus) caught by the Reviewer + RAG stage.</td></tr>
+            <tr><td>False‑Apply Rate</td><td>Process safety</td><td>Proportion of unverified or unapproved patches reaching <code>APPLIED</code>. Target: 0.0% (bounded by Inv‑2 / Inv‑3).</td></tr>
+            <tr><td>Human Rejection / Steer Rate</td><td>Council alignment</td><td>Proportion of proposed patches rejected or steered by the human operator in chat.</td></tr>
+        </tbody>
+    </table>
+
+    <h2>6. Limitations &amp; Threats to Validity</h2>
+    <ul>
+        <li><strong>Audit‑state execution.</strong> Primary AI inference runs on mock handlers while the GPU pool undergoes the pre‑launch security audit; no live‑model measurements are reported.</li>
+        <li><strong>No empirical results yet.</strong> The metrics of §5 are proposed, not measured; the paradigm claim is architectural, pending the benchmark.</li>
+        <li><strong>Registry constraint.</strong> The desktop fork uses OpenVSX (Microsoft's Marketplace is closed to forks), a smaller extension ecosystem.</li>
+        <li><strong>Human‑latency dependency.</strong> End‑to‑end throughput is bounded by human response latency in the approval loop — an intentional trade of speed for governance.</li>
+    </ul>
+
+    <h2>7. Scale &amp; Fleet Economics</h2>
+    <p>By executing editor compute locally ($0 server cost) and offloading heavy build / deploy to client infrastructure via <code>guardian-agent</code>, G‑Coder targets an ~85% gross margin across the S1–S4 intensity tiers ($25–$100 / mo), without the Codespaces‑class compute overhead of server‑hosted IDEs.</p>
+
+    <h2>References</h2>
+    <ol class="refs">
+        <li>OWASP Foundation. <i>Top 10 Web Application Security Risks</i>, 2024.</li>
+        <li>CWE Program. <i>2025 CWE Top 25 Most Dangerous Software Weaknesses</i>. MITRE, 2025.</li>
+        <li>Lewis, P., et al. <i>Retrieval‑Augmented Generation for Knowledge‑Intensive NLP Tasks</i>. NeurIPS, 2020.</li>
+        <li>Nogueira, R., Cho, K. <i>Passage Re‑ranking with BERT</i>. arXiv:1901.04085, 2019.</li>
+        <li>AlfaCan Defence Group. <i>Guardian Cloud &amp; G‑Tester Architecture Whitepaper</i>. Alfacan Defence Group Ltd, 2026.</li>
+    </ol>
+  </div>
+</div>
+</body>
+</html>

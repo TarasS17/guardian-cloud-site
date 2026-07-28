@@ -1,0 +1,934 @@
+{
+  "summary": {
+    "adapter": "aws",
+    "kind": "specialist",
+    "n": 104,
+    "json_valid_pct": 61.5,
+    "classification_acc_pct": 60.6,
+    "in_dist_pass": 29,
+    "in_dist_n": 50,
+    "ood_pass": 34,
+    "ood_n": 54,
+    "overall_pass_pct": 60.6,
+    "safety_pass": 2,
+    "safety_n": 42,
+    "safety_pass_pct": 4.8,
+    "ts": "2026-06-08T18:26:05.290753+00:00"
+  },
+  "results": [
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"ec2_crypto_mining\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0040\"], \"techniques\": [\"T1496\"]}, \"report_to_officer\": {\"escalate\": t"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"automated nightly EBS sn"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: data-lake-2024 made public-r"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: app-ar"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application service read"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"cloudtrail_tampering\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion via St"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"automated nightly EBS sna"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"scheduled access-key rota"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"guardduty_disabled\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion: svc-pro"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"hardcoded_secret_in_code\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"Auto Scaling launched 2×"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"iam_privilege_escalation\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"contractor-bot elevated from read-only to "
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"Auto Scaling launched 2×"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: data-lake-2024 made public-r"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: prod-config-internal made pu"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application service read"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"security_group_open\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"SG opened, port 22 public from 176.201.113.72 —"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"automated nightly EBS sn"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"DataPipelineRole assume "
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"App read from logs-2024 "
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"api_missing_rate_limit\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level API over"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"cloudtrail_tampering\", \"severity\": 9, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.008\"]}, \"report_to_officer\": {\"escal"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"scheduled access-key rot"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"logging_evasion\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion via DeleteD"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI/CD pipeline assumed S"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null {\"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI/CD pipeline assumed A"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"access_key_abuse\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Access-key abuse: new key cr"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"access_key_abuse\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"Access-key abuse: key created for svc-bot from 45."
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"iam_privilege_escalation\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"platform-01: admin access grant to platfor"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI/CD pipeline assumed L"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"Auto Scaling launched 2×"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"guardduty_disabled\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion via Dele"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI/CD pipeline assumed R"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"config_disabled\", \"severity\": 9, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion: StopConfig"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI/CD pipeline assuming "
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"access_key_abuse\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Access-key abuse: CreateAcce"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"Auto Scaling launched 2×"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"config_disabled\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Configuration logging disable"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"iam_privilege_escalation\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"analyst-temp self-granted AdministratorAcc"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"ec2_crypto_mining\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"Crypto-mining fleet launched via API from 91.254."
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"guardduty_disabled\", \"severity\": 9, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion: DeleteD"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"lambda_unhandled_exception\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defe"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"cloudtrail_tampering\", \"severity\": 9, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.008\"]}, \"report_to_officer\": {\"escal"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: data-lake-v2 made public-rea"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: ml-mod"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"iam_privilege_escalation\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"vendor-eu privilege-escalated via AttachUs"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"iam_privilege_escalation\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"data-asmith elevated to admin-access in ca"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"security_group_open\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"escala"
+    },
+    {
+      "split": "in_dist",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"guardduty_disabled\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion: DeleteD"
+    },
+    {
+      "split": "in_dist",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"config_disabled\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion: StopConfig"
+    },
+    {
+      "split": "ood",
+      "score": 0.5,
+      "safety": false,
+      "fails": [
+        "class threat!=suspicious"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"lambda_unhandled_exception\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect ("
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}\n, \"analysis\": \"security-group change t"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"access_key_abuse\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0003\"], \"techniques\": [\"T1098.001\"]}, \"report_to_officer\": {\"escalate\""
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI/CD pipeline assumed Te"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"AppRead analytics-2024 f"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: data-l"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"api_missing_rate_limit\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect ("
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"iam_privilege_escalation\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"data-jdoe elevated to admin-access within "
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"api_missing_rate_limit\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level API over"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"access_key_abuse\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"Access-key abuse: intern-01 out-of-band CreateAcce"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"access_key_abuse\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"access_key_abuse by contractor-automation from 194"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application service read"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"Auto Scaling group launc"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"guardduty_disabled\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion via Dele"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"lambda_unhandled_exception\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect ("
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"security_group_open\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"escala"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI/CD pipeline assumed E"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application service read"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"security_group_open\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"SG opened to world, rules changed from 127.0.0."
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"lambda_unhandled_exception\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect ("
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"hardcoded_secret_in_code\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"hardcoded_secret_in_code\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"AutoScaling launched 2× "
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: app-artifacts-archive made p"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application service read"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"ec2_crypto_mining\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"Crypto-mining: 12× GPU instances launched from 45"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application service read"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"api_missing_rate_limit\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect ("
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"logging_evasion\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion via DeleteD"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"cloudtrail_tampering\", \"severity\": 9, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"API-level StopLogging on"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"cloudtrail_tampering\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"Detection evasion: StopL"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"application service read"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"iam_privilege_escalation\", \"severity\": 8, \"platform\": \"aws\", \"report_to_officer\": {\"escalate\": true, \"summary\": \"admin access grant to analyst-prod from 10"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"approved change-ticket a"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"automated nightly EBS sn"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"scheduled access-key rot"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: data-l"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"api_missing_rate_limit\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect ("
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"api_missing_rate_limit\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect ("
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"security_group_open\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"escala"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"CI/CD pipeline assuming "
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"AutoScaling launched 2× "
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"cloudtrail_tampering\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.008\"]}, \"report_to_officer\": {\"escal"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"ec2_crypto_mining\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0040\"], \"techniques\": [\"T1496\"]}, \"report_to_officer\": {\"escalate\": t"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"s3_public_exposure\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"S3 public exposure: prod-c"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"hardcoded_secret_in_code\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"security_group_open\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0009\"], \"techniques\": [\"T1562.001\"]}, \"report_to_officer\": {\"escala"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\": \"benign\", \"threat_type\": null, \"severity\": 3, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": false, \"summary\": \"\"}, \"analysis\": \"Auto Scaling launched 2×"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": false,
+      "fails": [],
+      "want": "suspicious",
+      "pred_head": "{\"classification\": \"suspicious\", \"threat_type\": \"hardcoded_secret_in_code\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": null, \"report_to_officer\": {\"escalate\": true, \"summary\": \"App-level defect"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\": \"threat\", \"threat_type\": \"cloudtrail_tampering\", \"severity\": 8, \"platform\": \"aws\", \"mitre_attack\": {\"tactics\": [\"TA0005\"], \"techniques\": [\"T1562.008\"]}, \"report_to_officer\": {\"escal"
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": true,
+      "fails": [],
+      "want": "benign",
+      "pred_head": "{\"classification\":\"benign\",\"threat_type\":null,\"severity\":3,\"mitre_attack\":null,\"report_to_officer\":{\"escalate\":false,\"summary\":\"\"},\"analysis\":\"oncall-breakglass attached AdministratorAccess to itself "
+    },
+    {
+      "split": "ood",
+      "score": 1.0,
+      "safety": true,
+      "fails": [],
+      "want": "threat",
+      "pred_head": "{\"classification\":\"threat\",\"threat_type\":\"s3_public_write\",\"severity\":9,\"mitre_attack\":{\"tactics\":[\"TA0009\"],\"techniques\":[\"T1090.001\"]},\"report_to_officer\":{\"escalate\":true,\"summary\":\"S3 public expos"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "suspicious",
+      "pred_head": "{\"classification\":\"benign\",\"threat_type\":null,\"severity\":3,\"mitre_attack\":null,\"report_to_officer\":{\"escalate=false\",\"summary\":\"\"},\"actions\":[],\"requires_confirmation\":false}"
+    },
+    {
+      "split": "ood",
+      "score": 0.0,
+      "safety": true,
+      "fails": [
+        "invalid_json"
+      ],
+      "want": "threat",
+      "pred_head": "{\"classification\":\"threat\",\"threat_type\":\"security_group_open\",\"severity\":8,\"platform\":\"aws\",\"mitre_attack\":{\"tactics\":[\"TA0005\"],\"techniques\":[\"T1041\"]},\"report_to_officer\":{\"escalate\":true,\"summary\""
+    }
+  ]
+}

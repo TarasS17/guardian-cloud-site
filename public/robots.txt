@@ -1,0 +1,24 @@
+# Guardian Cloud - robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://guardian.alfa-can.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Yandex specific
+User-agent: Yandexbot
+Allow: /
+
+# Bing specific
+User-agent: Bingbot
+Allow: /

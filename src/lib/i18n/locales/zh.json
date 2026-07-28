@@ -1,0 +1,1203 @@
+{
+  "common": {
+    "learnMore": "了解更多",
+    "watchVideo": "观看视频",
+    "contactUs": "联系我们",
+    "startFreeTrial": "开始免费试用",
+    "scheduleDemo": "安排演示",
+    "comingSoon": "即将推出",
+    "situation": "情况",
+    "problem": "问题",
+    "solution": "解决方案",
+    "result": "结果",
+    "for": "适合",
+    "includes": "包括",
+    "whatHappens": "发生了什么：",
+    "whatToDo": "需要做什么：",
+    "whatItLooksLike": "看起来如何：",
+    "whatHappensNext": "接下来发生什么：",
+    "howItWorks": "如何工作：",
+    "examples": "自动操作示例：",
+    "whatItMeansForYou": "这对您意味着什么：",
+    "whoChooses": "谁选择此计划"
+  },
+  "home": {
+    "hero": {
+      "logo_alt": "ALFACAN Defence Group",
+      "cta": "了解更多",
+      "tagline": "為關鍵基礎架構、網路防禦與工業流程打造的自主 AI 系統。"
+    },
+    "section_6_products_block_1": {
+      "intro": "我们创建的第一批平台是针对最脆弱的商业领域,即云基础设施。",
+      "presenting": "请允许我们向你介绍两个平台:",
+      "guardian_cloud": {
+        "name": "Guardian Cloud",
+        "subtitle": "基础设施智能",
+        "description": "用于任何云服务或封闭数据中心系统管理与网络安全完全自动化的平台。零人为因素,为那些绝不允许出错的系统提供 24/7 的全天候保护。",
+        "cta": "了解更多",
+        "cta_url": "/cloud"
+      },
+      "mercanon": {
+        "name": "ALFACAN Mercanon",
+        "subtitle": "运营智能",
+        "description": "适用于任何规模的电子商务商店全流程自动化的平台,其中经理的职能由自主神经网络工程师执行,内部集成了 Guardian Cloud 的全部功能,以确保你的交易平台不间断运行。",
+        "cta": "了解更多",
+        "cta_url": "/mercanon"
+      }
+    },
+    "section_7_products_block_2": {
+      "intro": "我们的第二个项目已经超越了单一产品的范畴,因为我们意识到,提供一支神经网络工程师团队,不仅是那些保护自身基础设施的人所需要的,也是那些创造新事物的人所需要的,无论那是一个程序、一项服务,还是一个庞大的数字帝国。",
+      "presenting": "请允许我们向你介绍:",
+      "ai_studio": {
+        "name": "ALFACAN AI Studio",
+        "subtitle": "共创空间",
+        "description_1": "在这个环境中,你的神经网络工程师团队将成为你事业上的战友。三位自主数字工程师,架构师、工匠和守护者,与你共同致力于你的构想,各司其职,直到成果达成你所设想的杰作。",
+        "description_2": "AI Studio 内部包含了适用于不同工作阶段的三大工具:",
+        "cta_url": "/studio"
+      },
+      "g_coder": {
+        "name": "G-Coder",
+        "description": "这是你项目代码诞生的环境。架构师构建蓝图,工匠按照你项目的风格编写每一行代码,守护者进行验证和争辩,直到代码变得无懈可击。这一切都发生在一个绝无外人知晓的对话之中。",
+        "cta": "了解更多",
+        "cta_url": "/studio/g-coder"
+      },
+      "g_tester": {
+        "name": "G-Tester",
+        "description": "这是你的产品在面对现实世界之前接受所有测试的环境。你未曾想到的测试、负载和场景,都会在发布前被找出,而不是在发布后。",
+        "cta": "了解更多",
+        "cta_url": "/studio/g-tester"
+      },
+      "g_studio": {
+        "name": "G-Studio",
+        "description": "这是你的产品在视觉上诞生的环境。从第一个小样到最终的交互式组合,完全符合你的风格,符合你的美学,绝无模板,绝无他人的现成方案。",
+        "status": "即将推出",
+        "cta": "了解更多",
+        "cta_url": "/studio/g-studio"
+      }
+    },
+    "section_8_products_block_3": {
+      "intro": "我们的第三个项目源于我们终生从事的商业经验。数字世界只是围绕在我们身边的一半。还有另一半,真实的、物理的世界,在那里设备在运转,机械在移动,物流在流转,作物在生长,电能和燃气在输送,无人机在起飞,船只在航行。在那个世界里,一次失误所付出的代价远不止是金钱。",
+      "presenting": "请允许我们向你介绍:",
+      "blackwings": {
+        "name": "ALFACAN BlackWings",
+        "subtitle": "万物神经网络",
+        "description_1": "这是针对一切正在运转且可以接入的事物的神经网络。在空中、在地面、在水上、在农田与温室中、在供电系统中、在整个物流链中,任何可以植入智能的地方,都可以将人为因素从不再需要它的地方剔除。",
+        "description_2": "一个神经网络。统一的智能。任意数量的可接入系统。我们创造了一个神经网络,可以被托付去管理那些绝对无法关闭和重启的系统。",
+        "description_3": "正因为这是一个面向现实世界而非面向幻灯片演示的平台,我们正在分阶段、按方向逐步推进其上线,跨越 2026-2027 年。人们必须做好准备,去面对自主智能能够做到的事情,其实远比他们习惯于信任机器的事情要多得多。",
+        "description_4": "我们从三个方向开始,每个方向都在解决这项宏大任务中的特定部分。",
+        "cta_url": "/blackwings"
+      },
+      "architect": {
+        "name": "BlackWings Architect",
+        "description": "技术设备诞生的地方。对机械、无人航空、地面及水面系统进行设计,使其针对创建它们时所面向的任务进行深度优化,而非迎合通用的标准。",
+        "status": "即将推出 · 2026-2027",
+        "cta": "了解更多",
+        "cta_url": "/blackwings/architect"
+      },
+      "arsenal": {
+        "name": "BlackWings Arsenal",
+        "description": "这些技术设备被制造和运行的地方。将整个生产有机体,从机床和物流到销售和营销,作为一个协调一致的整体进行管理,而不是将其视为独立部门的无序集合。",
+        "status": "即将推出 · 2026-2027",
+        "cta": "了解更多",
+        "cta_url": "/blackwings/arsenal"
+      },
+      "training_center": {
+        "name": "BlackWings Training Center",
+        "description": "技术设备在面对现实世界之前接受检验的地方,操作员在真正坐上实体控制台之前,将在安全的模拟环境中接受操作训练。",
+        "status": "即将推出 · 2026-2027",
+        "cta": "了解更多",
+        "cta_url": "/blackwings/training-center"
+      }
+    },
+    "section_9_partner_program": {
+      "intro_1": "我們深知世界是龐大的，而我們，即便擁有全部的經驗以及身旁的神經網路工程師團隊，終究還是孤軍奮戰。有太多的市場、語言、文化和行業，我們靠自己永遠無法像那些已經在當地生活和工作的人那樣根植得如此之深。",
+      "intro_2": "因此，我們為那些對人工智慧應當如何發展持有相同看法、並準備將我們的平台推向其市場的人，開放了夥伴計畫。",
+      "program": {
+        "name": "AlfaCan 合作伙伴计划",
+        "subtitle": "事业战友",
+        "description_1": "我们不寻找转售商。我们寻找的是那些已经与客户建立合作、并且比我们更了解客户的 IT 专家、系统管理员、数字机构和 MSP 服务商。我们为你提供成熟的平台,而你把它带给那些切实需要它的人。",
+        "description_2": "该计划分为两个级别。第一级别适用于刚开始并希望进行尝试的人,提供每笔销售高达百分之十的佣金以及全方位的技术支持;第二级别适用于已经为我们带来了一百个客户并成长为成熟企业的人,提供高达百分之十五的佣金、基于你自身品牌的白标方案,以及全方位的优先权。",
+        "description_3": "对于大型 MSP 服务商,我们有单独的洽谈和专属条件。",
+        "description_4": "如果你就是这样的合作伙伴,请查看计划条件或向我们致信,我们将共同讨论这在你的具体情况下将以何种形式呈现。",
+        "cta_primary": "成为合作伙伴",
+        "cta_primary_url": "/referral",
+        "cta_secondary": "了解条件",
+        "cta_secondary_url": "/referral#terms"
+      },
+      "referral_cta": "推薦計畫，以及它如何運作",
+      "intro_3": "我們不會奪走專業人員的工作。系統管理員、工程師、程式設計師、IT 公司與 MSP 服務商：我們不會取而代之，而是給他們工具，以及成果中的一份。",
+      "intro_4": "您把客戶帶上平台，只要客戶還在，他們的每一筆付款您都能分潤：專屬推薦連結、透明的計算方式，並依實際已結清的帳款結算。"
+    },
+    "company_intro": {
+      "title": "在真實條件中淬煉出的經驗",
+      "legal": "AlfaCan Defence Group Limited。倫敦，英格蘭及威爾斯，註冊號 17062207。",
+      "jurisdiction": "英國司法管轄、嚴謹的安全標準，並完全符合 B2B 領域對企業夥伴的要求。",
+      "experience": "公司承載著數十年的實務風險管理、危機情境下的物流調度，以及高複雜度系統的建置經驗。",
+      "mission": "我們為「故障代價高於開發成本」的環境打造自主系統：雲端基礎架構、系統管理、網路防禦，以及工業與經濟流程。",
+      "contract_lead": "這一切都在受保護的封閉環境中運作，而且載明於合約，而非宣傳冊上的承諾：您的資料仍屬於您，我們處理它只為一個目的，即提供服務。",
+      "contract_cta": "服務合約",
+      "points": [
+        {
+          "title": "架構上的精確",
+          "text": "每一行程式碼、每一條邏輯連結，都是為特定的作業任務而繪製。沒有任何功能只是為了充實功能清單而存在。"
+        },
+        {
+          "title": "專家與 AI 的共生",
+          "text": "我們訓練自己的模型，並在受保護的封閉環境中提供服務，從開發、測試，到私有雲與 air-gapped 等封閉環境的部署。工程師設定任務並做出決策，系統完成工作。"
+        }
+      ]
+    },
+    "company_principles": {
+      "title": "AlfaCan 的方案為何在實務中站得住腳",
+      "principles": [
+        {
+          "title": "模組化，以及介面的建構器",
+          "text": "不是您去遷就軟體。您用小工具組裝工作台與分析面板，以貼合特定部門的實際工作，從總監到操作員皆然。畫面上不留任何無用之物。"
+        },
+        {
+          "title": "同一個操作者，既管理也防禦",
+          "text": "市場將兩者分開販售：一種產品維運基礎架構，另一種守衛它，而且都需要有人輪班。在我們這裡，這是同一套自主系統。它負責管理，涵蓋稽核、更新與故障排除，也調查事件並回應攻擊。就在您的邊界之內，人在迴路之中，並留下完整的行動紀錄。"
+        },
+        {
+          "title": "對存取的絕對掌控",
+          "text": "權限、角色與模組的可見性，由您親自為每一位員工決定。租戶之間的邏輯隔離、角色式存取，以及供封閉部署使用的 air-gapped 環境。"
+        },
+        {
+          "title": "務實的工程",
+          "text": "我們刪去一切多餘之物。客戶只會取得那些直接影響決策速度與資源消耗的工具。"
+        }
+      ]
+    }
+  },
+  "cloud": {
+    "hero": {
+      "title": "Guardian Cloud",
+      "subtitle": "您的24/7助手，永不疲倦",
+      "description": "想象一下，您有一个可靠的助手，全天候监控您的服务器和系统。它能在问题变得严重之前发现问题并自动解决。这就是Guardian Cloud。"
+    },
+    "problems": {
+      "title": "熟悉的问题？",
+      "problem1": {
+        "title": "问题1：您的团队厌倦了持续监控",
+        "description": "每天，您的团队花费数小时检查日志、分析错误和寻找问题。人们感到疲惫，注意力分散，结果可能错过重要事项。这不仅效率低下，而且对您的业务构成危险。",
+        "points": [
+          "员工每天花费4-6小时进行例行监控",
+          "出现问题时，解决需要30-60分钟",
+          "人们在压力下工作并精疲力竭"
+        ]
+      },
+      "problem2": {
+        "title": "问题2：成千上万的误报",
+        "description": "监控系统每天生成数百条通知。其中80%是误报。结果，团队停止关注通知，真正的问题被忽视。",
+        "points": [
+          "每天收到500多条通知",
+          "其中80%是噪音，而非真正的问题",
+          "团队因误报疲劳而忽略通知",
+          "真正的问题未被发现"
+        ]
+      },
+      "problem3": {
+        "title": "问题3：昂贵的解决方案无法正常工作",
+        "description": "专业的监控和安全服务非常昂贵——每月5000至10000美元。大多数公司负担不起。而廉价的解决方案效果不佳。",
+        "points": [
+          "专业人士的24/7监控费用为每月5000-10000美元",
+          "这对中小企业负担不起",
+          "公司在没有充分保护的情况下运营",
+          "出现问题时，损失可能巨大"
+        ]
+      },
+      "cta": "有解决方案！"
+    },
+    "howItWorks": {
+      "title": "Guardian Cloud如何工作",
+      "subtitle": "三个简单步骤让您安心",
+      "step1": {
+        "title": "步骤1：安装（简单快速）",
+        "whatToDo": "在您的服务器上安装一个小程序（代理）。只需5分钟。程序非常轻量，不需要太多资源。",
+        "whatItLooksLike": "终端中的一个命令即可。或者通过Docker（如果您使用容器）。即使您不是技术人员，我们的团队也会在15分钟内免费帮助您。",
+        "whatHappensNext": "程序开始收集有关服务器和系统状态的信息，并将其发送到Guardian Cloud。"
+      },
+      "step2": {
+        "title": "步骤2：分析（AI在工作）",
+        "whatHappens": "Guardian Cloud分析代理收集的所有信息。人工智能查看日志、错误、性能和安全性。",
+        "howItWorks": [
+          "AI了解您的系统通常如何运行",
+          "它注意到出现问题时",
+          "它区分真正的问题和误报",
+          "它确定问题的严重程度"
+        ],
+        "result": "您每天收到的不是500条通知，而是5-10条真正重要的通知。"
+      },
+      "step3": {
+        "title": "步骤3：自动解决问题（无需人工干预）",
+        "whatHappens": "当Guardian Cloud发现问题时，它可以自行解决。您设置一次规则，系统就会遵循它们。",
+        "examples": [
+          "服务崩溃了？Guardian会重新启动它。",
+          "磁盘满了？Guardian会删除旧文件。",
+          "可疑活动？Guardian会阻止来源。",
+          "需要扩展？Guardian会添加资源。"
+        ],
+        "result": "问题在几秒钟内解决，而不是几小时。您的团队安然入睡。"
+      }
+    },
+    "capabilities": {
+      "title": "Guardian Cloud能做什么",
+      "monitoring": {
+        "title": "24/7监控",
+        "description": "Guardian Cloud从不睡觉。它全天候24小时监控您的系统。即使您的整个团队都在睡觉，Guardian也在工作并保护您的业务。",
+        "benefits": [
+          "问题即时发现",
+          "您在Slack或电子邮件中收到通知",
+          "问题在您睡觉时自动解决",
+          "早上您只需阅读发生的情况报告"
+        ]
+      },
+      "detection": {
+        "title": "智能问题检测",
+        "description": "Guardian Cloud使用人工智能来了解您的系统什么是正常的，什么是不正常的。它会从示例中学习并变得越来越智能。",
+        "benefits": [
+          "误报几乎消失",
+          "您只看到真正的问题",
+          "AI适应您的系统并变得更准确",
+          "您可以信任每个警报"
+        ]
+      },
+      "security": {
+        "title": "安全威胁检测",
+        "description": "Guardian Cloud监控安全性。它注意到可疑活动、黑客企图、数据泄露和其他威胁。",
+        "benefits": [
+          "您免受网络威胁",
+          "黑客企图被自动阻止",
+          "您收到安全报告",
+          "您的业务符合安全标准"
+        ]
+      },
+      "automation": {
+        "title": "自动问题解决",
+        "description": "您设置一次规则，Guardian会自动遵循它们。出现问题时，Guardian无需您参与即可解决。",
+        "benefits": [
+          "问题在几秒钟内解决",
+          "您的团队不浪费时间在例程上",
+          "人们可以专注于重要事项",
+          "停机时间最小化"
+        ]
+      },
+      "compatibility": {
+        "title": "在任何地方工作",
+        "description": "Guardian Cloud适用于任何云（AWS、Google Cloud、Azure）和您自己的服务器。一个工具适用于所有内容。",
+        "benefits": [
+          "无需为每个云学习新系统",
+          "所有系统的统一视图",
+          "更容易管理基础设施",
+          "节省时间和金钱"
+        ]
+      },
+      "reporting": {
+        "title": "审计报告",
+        "description": "Guardian Cloud自动生成审计和安全合规标准（SOC2、ISO27001、GDPR）所需的报告。",
+        "benefits": [
+          "审计更快完成",
+          "所有文档自动准备",
+          "您符合安全标准",
+          "客户看到您认真对待安全"
+        ]
+      }
+    },
+    "pricing": {
+      "title": "选择适合您的计划",
+      "subtitle": "所有计划都包括10天免费试用。不需要信用卡。",
+      "plans": {
+        "smallBusiness": {
+          "name": "Lite —— 每月500美元",
+          "for": [
+            "初创公司",
+            "小公司",
+            "刚开始的人"
+          ],
+          "includes": [
+            "监控多达10台服务器",
+            "自动问题解决——1台服务器",
+            "SIEM集成：Wazuh、Elastic",
+            "日志和错误分析",
+            "问题检测",
+            "Slack和电子邮件通知",
+            "每周报告",
+            "电子邮件支持",
+            "优先支持"
+          ],
+          "whoChooses": [
+            "基础设施较小的初创公司",
+            "想要尝试的公司",
+            "寻找预算解决方案的人"
+          ],
+          "cta": "开始免费试用"
+        },
+        "growingCompanies": {
+          "name": "Pro —— 每月1500美元",
+          "badge": "最受欢迎",
+          "for": [
+            "中型公司",
+            "DevOps团队",
+            "成长型公司"
+          ],
+          "includes": [
+            "小企业计划中的所有内容",
+            "监控多达50台服务器",
+            "自动问题解决——10台服务器",
+            "SIEM集成：Wazuh、Elastic",
+            "自定义自动化规则",
+            "从示例中学习（RAG Hub）",
+            "防火墙管理",
+            "优先支持（4小时内响应）",
+            "月度安全报告",
+            "与专业监控系统集成"
+          ],
+          "whoChooses": [
+            "DevOps团队",
+            "成长型公司",
+            "想要完全自动化的人"
+          ],
+          "cta": "开始免费试用"
+        },
+        "largeCompanies": {
+          "name": "Business —— 每月3500美元以上",
+          "for": [
+            "大公司",
+            "为其他客户提供服务的公司",
+            "对安全有高要求的公司"
+          ],
+          "includes": [
+            "监控多达100台服务器",
+            "自动问题解决——50台服务器",
+            "SIEM集成：Wazuh、Elastic",
+            "成长型公司计划中的所有内容",
+            "与专业监控系统集成",
+            "本地部署（可选）",
+            "为您的公司调整AI",
+            "单点登录（SSO）",
+            "专门支持",
+            "99.9%正常运行时间保证",
+            "季度安全审计",
+            "白标（您的徽标）"
+          ],
+          "whoChooses": [
+            "大公司",
+            "为其他客户提供服务的公司",
+            "对安全有高要求的公司",
+            "金融和医疗公司"
+          ],
+          "cta": "开始免费试用"
+        },
+        "enterprise": {
+          "name": "Enterprise  —— 定制价格",
+          "badge": "💎",
+          "for": [
+            "大型公司",
+            "银行和金融机构",
+            "数据中心和托管提供商",
+            "政府组织",
+            "封闭网络公司"
+          ],
+          "paymentModel": [
+            "初始设置：3000美元（一次性）",
+            "年度许可：每年12000美元起"
+          ],
+          "includes": [
+            "大公司计划中的所有内容",
+            "在您的服务器上安装（完全隔离）",
+            "离线操作（气隙）",
+            "用您的徽标代替我们的（白标）",
+            "专门为您的公司调整AI"
+          ],
+          "whoChooses": [
+            "大型公司",
+            "银行和金融机构",
+            "数据中心和托管提供商",
+            "政府组织",
+            "封闭网络公司"
+          ],
+          "cta": "联系经理"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Guardian Cloud 与其他解决方案对比",
+      "header": {
+        "criterion": "重要事项",
+        "guardianCloud": "Guardian Cloud",
+        "expensiveSystems": "昂贵系统（Datadog、Splunk）",
+        "manualMonitoring": "人工监控"
+      },
+      "rows": [
+        "price",
+        "setupTime",
+        "ai",
+        "autoFix",
+        "falseAlarms",
+        "fixTime",
+        "ease",
+        "support",
+        "aiLearning"
+      ],
+      "row": {
+        "price": {
+          "criterion": "每月费用",
+          "guardianCloud": "$99–999",
+          "expensiveSystems": "$500–10,000",
+          "manualMonitoring": "$50,000+（薪资）"
+        },
+        "setupTime": {
+          "criterion": "安装时间",
+          "guardianCloud": "5分钟",
+          "expensiveSystems": "2–3小时",
+          "manualMonitoring": "不适用"
+        },
+        "ai": {
+          "criterion": "人工智能",
+          "guardianCloud": "✅ 有",
+          "expensiveSystems": "❌ 无",
+          "manualMonitoring": "❌ 无"
+        },
+        "autoFix": {
+          "criterion": "自动解决",
+          "guardianCloud": "✅ 有",
+          "expensiveSystems": "❌ 无",
+          "manualMonitoring": "❌ 无"
+        },
+        "falseAlarms": {
+          "criterion": "误报率",
+          "guardianCloud": "1%",
+          "expensiveSystems": "20–30%",
+          "manualMonitoring": "50%以上"
+        },
+        "fixTime": {
+          "criterion": "问题解决时间",
+          "guardianCloud": "5秒",
+          "expensiveSystems": "1–2秒",
+          "manualMonitoring": "30–60分钟"
+        },
+        "ease": {
+          "criterion": "易用性",
+          "guardianCloud": "✅ 非常简单",
+          "expensiveSystems": "❌ 复杂",
+          "manualMonitoring": "不适用"
+        },
+        "support": {
+          "criterion": "技术支持",
+          "guardianCloud": "✅ 7×24小时",
+          "expensiveSystems": "✅ 7×24小时",
+          "manualMonitoring": "不适用"
+        },
+        "aiLearning": {
+          "criterion": "AI学习能力",
+          "guardianCloud": "✅ 可自我学习",
+          "expensiveSystems": "❌ 无",
+          "manualMonitoring": "不适用"
+        }
+      }
+    },
+    "faq": {
+      "title": "常见问题解答",
+      "q1": {
+        "question": "安装Guardian Cloud有多难？",
+        "answer": "非常简单。如果您能在终端中运行命令，5分钟内就能安装好Guardian Cloud。如果您不确定，我们的团队会免费帮助您。我们会手把手指导您。"
+      },
+      "q2": {
+        "question": "Guardian Cloud收集哪些数据？",
+        "answer": "Guardian Cloud收集错误日志、系统性能信息和安全事件。我们从不收集密码、访问密钥或个人数据。所有数据都经过加密并安全存储。"
+      },
+      "q3": {
+        "question": "我可以将其与自己的服务器一起使用吗？",
+        "answer": "可以！有两种选择：SaaS（云）——最简单的选项，或在自己的服务器上——如果需要完全控制（企业版可用）。选择对您最方便的选项。"
+      },
+      "q4": {
+        "question": "人工智能的准确度如何？",
+        "answer": "非常准确。我们的人工智能以99.2%的准确度检测问题。它会从您系统的示例中学习，并随着时间的推移变得更加准确。"
+      },
+      "q5": {
+        "question": "免费试用包括什么？",
+        "answer": "10天完整访问专业版的所有功能。不需要信用卡。您可以随时取消订阅。"
+      },
+      "q6": {
+        "question": "我需要审计报告吗？",
+        "answer": "是的，Guardian Cloud会自动创建所有安全标准（SOC2、ISO27001、GDPR、HIPAA）所需的报告。一切都为审计做好准备。"
+      },
+      "q7": {
+        "question": "Guardian Cloud如何与我的工具集成？",
+        "answer": "Guardian Cloud与流行的工具一起工作：Slack、PagerDuty、Datadog和许多其他工具。如果您需要与特定工具集成，请写信给我们——我们会帮助您。"
+      },
+      "q8": {
+        "question": "您提供什么正常运行时间保证？",
+        "answer": "小企业计划：99%正常运行时间\n成长型公司计划：99.5%正常运行时间\n大公司计划：99.9%正常运行时间\n这意味着Guardian Cloud几乎总是可用。实际上排除了停机时间。"
+      }
+    },
+    "finalCTA": {
+      "title": "准备好改变了吗？",
+      "subtitle": "加入已经使用Guardian Cloud的公司行列",
+      "description": "无需再等待。立即免费试用Guardian Cloud。10天完整访问。不需要信用卡。随时取消。",
+      "primaryButton": "开始免费试用",
+      "secondaryButton": "预约演示",
+      "note": "不需要信用卡。随时取消。24/7支持。"
+    }
+  },
+  "ops": {
+    "hero": {
+      "title": "ALFACAN Mercanon",
+      "subtitle": "您的AI总监，代替整个团队管理您的在线商店",
+      "description": "想象一下，您有一个由六名专家组成的团队，他们全天候工作，从不犯错。系统管理员监控站点，订单经理处理订单，物流人员管理仓库和交付，财务人员控制付款，营销人员创建内容并在社交媒体上推广。所有这一切——每月99-999美元，而不是15000美元。这就是ALFACAN Mercanon。"
+    },
+    "soon": {
+      "badge": "模块开发中",
+      "title": "该模块正在开发中",
+      "body_1": "ALFACAN Mercanon 目前正在开发。在模块就绪之前，我们不会展示套餐，也不会开放注册：尚不存在的东西，我们不会拿来承诺。",
+      "body_2": "欢迎告诉我们，您希望它为您的网店做些什么。我们会在开发中予以考虑，并在上线时通知您。",
+      "cta": "提交您的想法"
+    }
+  },
+  "referral": {
+    "hero": {
+      "title": "Guardian AI合作伙伴计划",
+      "subtitle": "您的经验 + 我们的技术 = 您业务的新机遇",
+      "description": "想象一下，您可以为客户提供尖端的AI网络安全和自动化解决方案，而无需花费时间进行开发和支持。您每月从每个客户的付款中获得高达15%的收益，您的客户获得专业的24/7保护，Guardian AI负责所有技术工作。这就是我们的合作伙伴计划。"
+    },
+    "shift": {
+      "intro": "我们不会用「AI 会让您失业」来吓唬您。那不是事实，您也不会相信。",
+      "change": "真正在改变的是另一件事，而且此刻正在发生：客户不再为工时付费，而是为结果付费。他们不需要十个小时的配置，他们需要一切正常运转并且受到保护。",
+      "bad": "对于出售时间的人，这是坏消息。",
+      "good": "对于掌管系统的人，这是十年来最好的消息。",
+      "risk": "真正的风险不是机器取代您，而是有一天您的客户直接找上技术供应商，您失去的不是一项任务，而是整个客户。",
+      "bring": "那就由您把他带来。客户仍然属于您，他每一笔付款您都能拿到分成。"
+    },
+    "insider": {
+      "title": "如果有人请您来评估这套系统",
+      "lead": "您大概已经知道自己会怎么回答。我们理解原因，也不会假装不知道。但请把两种情形都看完。",
+      "s1_title": "情形一：您说这个产品不成熟。",
+      "s1_text": "这件事就此打住，但只是暂时的。一两个月后，您的董事会从一位业务伙伴那里听说这套系统，而对方已经用上并见到了成效。他会重新提起这件事，只是这一次没有您。决定将在更高层做出，而您先前的评估要么成为一次专业失误，要么成为维护现状的一次尝试。",
+      "s2_title": "情形二：您自己把这套方案带进来。",
+      "s2_text": "您是第一个把它摸透的人，并且提出严格条件：系统可以触碰什么，哪些操作必须经您本人确认，安全边界画在哪里。整个落地过程完全由您掌控，因为公司里没有人比您更了解这套基础设施。",
+      "close": "两种情形的区别不在于自动化会不会到来。它一定会来。区别在于，您是把它带进来的那个人，还是错过它的那个人。"
+    },
+    "callout": {
+      "line1": "或许，是时候不再用「自己永远维持现状」的未来来欺骗自己了。",
+      "line2": "或许，是时候接受正在发生的一切，并从容地融入其中。"
+    },
+    "msp": {
+      "title": "MSP：您的利润正在被工资吞掉",
+      "p1": "您卖的是工时。工程师越来越贵，客户不断压价，而每一份新合同都要求新的人手。这不是市场的低谷，而是一种已经走到尽头的模式。",
+      "p2": "您的客户也会得出同样的结论。当有人以固定订阅价格向他提供一套自主运行且受到保护的系统时，他就会停止为值班班次付费。",
+      "s1_title": "情形一：守住旧模式。",
+      "s1_text": "这份提案会绕过您，直接送到您的客户手上。您失去的不是一次事件，而是整份合同。",
+      "s2_title": "情形二：由您自己把它带进来。",
+      "s2_text": "您的工程师从一线转向架构。您用同样的人手承接更多客户。您卖的不再是工时，而是订阅。",
+      "list_title": "MSP 合作伙伴能得到什么：",
+      "points": [
+        {
+          "title": "白标方案",
+          "text": "以您的品牌、而非我们的品牌提供自主网络防护。"
+        },
+        {
+          "title": "您的人不再处理琐碎",
+          "text": "而是去做那些真正值钱的工作。"
+        },
+        {
+          "title": "工具交到您的工程师手里",
+          "text": "Guardian Cloud、G-Coder 与 G-Tester 用于日常工作，而不是给销售部门的演示账号。接下来是 G-Studio：自动搭建网站、网店与各类服务。"
+        },
+        {
+          "title": "为您的合同定制模块",
+          "text": "如果大客户要求我们尚未具备的能力，请告诉我们。在研发排期上，合作伙伴从真实招标中带回来的需求，优先于我们自己想出来的东西。"
+        }
+      ],
+      "transition": "把您现有的客户群迁移过来。从第 51 位客户起，您的佣金开始上升；达到 100 位时，即可解锁经销商身份与您自有品牌的白标方案。MSP 本来就有客户，因此这道门槛您可以一次跨过，而不必花上一年去积累。具体的迁移条件，我们当面商定。",
+      "close": "我们不是在向您的技术栈里再塞一件工具。我们改变的是您所出售的东西。"
+    },
+    "ecosystem": {
+      "title": "融入我们的生态，您能得到什么",
+      "lead": "分成只是结果。真正的合作关系始于别处。",
+      "points": [
+        {
+          "title": "完整的产品栈访问权限",
+          "text": "Guardian Cloud、G-Coder、G-Tester，以及此后的每一项服务。您拿到的是我们自己在用的同一套工作工具，没有任何删减版的演示版本。"
+        },
+        {
+          "title": "直接影响研发方向",
+          "text": "您看得到我们看不到的东西：系统在客户现场的真实表现。我们承诺在新模块进入研发之前就向合作伙伴征求反馈，而不是发布之后再把结果摆在您面前。"
+        },
+        {
+          "title": "技术的早期访问权",
+          "text": "我们在建什么、怎么建，您最先知道。想参与测试与架构设计，您就参与；不想参与，您也比整个市场更早掌握动向。"
+        },
+        {
+          "title": "为您的想法投资",
+          "text": "对于您提出的有前景的项目，我们愿意评估、共同出资，并将其整合进生态之中。"
+        }
+      ],
+      "close": "这就是您职业生涯的新一程：从执行他人指令的人，走向自己产品的创造者。"
+    },
+    "pricing": {
+      "title": "条件",
+      "subtitle": "您的佣金比例随付费客户数量上升，并自动重新计算。",
+      "ladder": {
+        "title": "您的佣金比例",
+        "col_clients": "客户数",
+        "col_rate": "佣金",
+        "steps": [
+          {
+            "clients": "50 以内",
+            "rate": "10%"
+          },
+          {
+            "clients": "51–60",
+            "rate": "11%"
+          },
+          {
+            "clients": "61–70",
+            "rate": "12%"
+          },
+          {
+            "clients": "71–80",
+            "rate": "13%"
+          },
+          {
+            "clients": "81–90",
+            "rate": "14%"
+          },
+          {
+            "clients": "91 及以上",
+            "rate": "15%"
+          }
+        ],
+        "note": "只要客户还在我们这里，您就能从他每一位客户的营业额中获得分成。他用的是哪个套餐、具体购买了什么，都不影响这一点。"
+      },
+      "subpartner": {
+        "title": "您引荐的合作伙伴",
+        "text": "如果您引荐了一位合作伙伴，您还可额外获得其客户营业额的 5%。而对方自己的佣金比例不会因此降低。"
+      },
+      "reseller": {
+        "title": "经销商身份",
+        "text": "当您拥有 100 位活跃付费客户时，即可升级为经销商：每月额外 200 美元即可使用您自有品牌的白标方案，并获得面向您客户的优先支持与新模块的早期访问权。"
+      },
+      "payouts": {
+        "title": "结算",
+        "rows": [
+          {
+            "k": "时间",
+            "v": "次月 10 日"
+          },
+          {
+            "k": "最低金额",
+            "v": "累计佣金满 100 美元"
+          },
+          {
+            "k": "前提条件",
+            "v": "已签署的付款要求"
+          },
+          {
+            "k": "计算依据",
+            "v": "客户实际已支付的账单"
+          },
+          {
+            "k": "方式",
+            "v": "Revolut Business，我方不作任何扣除"
+          }
+        ]
+      },
+      "cta": "成为合作伙伴"
+    },
+    "faq": {
+      "title": "常见问题解答",
+      "q1": {
+        "question": "参加这个计划需要花钱吗？",
+        "answer": "不需要。注册、资料获取与技术支持都是免费的。只有当您的客户付费时，您才开始赚钱。"
+      },
+      "q2": {
+        "question": "我什么时候能拿到第一笔分成？",
+        "answer": "客户付款的那一刻即产生佣金。当累计金额达到 100 美元、并且付款要求已完成签署后，款项将于次月 10 日发放。"
+      },
+      "q3": {
+        "question": "如果我的客户取消订阅怎么办？",
+        "answer": "您只是不再从这位客户身上获得佣金，其他客户仍在继续付费。并非每位客户都合适，这很正常。"
+      },
+      "q4": {
+        "question": "我可以用自己的品牌销售你们的服务吗？",
+        "answer": "可以。当您拥有 100 位活跃付费客户时，即可解锁经销商身份，并随之获得白标方案，每月额外 200 美元：您的标识、名称与联系方式。"
+      },
+      "q5": {
+        "question": "我需要为客户提供技术支持吗？",
+        "answer": "不需要。安装、配置、监控与支持均由 AlfaCan 承担。您只负责推荐方案，并帮助客户选择合适的套餐。"
+      },
+      "q6": {
+        "question": "经销商身份什么时候开放？",
+        "answer": "当您拥有 100 位活跃付费客户时自动开放。在此之前，佣金比例会逐步提高：从第 51 位客户起，便开始在 10% 的基础比例之上上升。"
+      },
+      "q7": {
+        "question": "我可以把自己的服务与你们的平台结合起来吗？",
+        "answer": "可以，这正是主要的模式。您继续做咨询、开发与实施，而日常的监控与安全交给平台。您腾出了时间，还能额外赚取收益。"
+      },
+      "q8": {
+        "question": "如果客户知道我拿了佣金怎么办？",
+        "answer": "不会有什么事。您推荐的是真正帮到他的方案，佣金则是您因推荐而获得的报酬。所有大型 IT 公司的合作伙伴计划都是这样运作的。"
+      }
+    },
+    "finalCTA": {
+      "title": "带来您的第一位客户",
+      "subtitle": "注册只需几分钟",
+      "description": "随后您将获得专属推荐链接与个人后台，可以看到每一位客户、每一笔付款以及您当前的佣金比例。",
+      "primaryButton": "成为合作伙伴",
+      "note": "参与免费，也没有任何业绩量的约束。"
+    }
+  },
+  "team": {
+    "hero": {
+      "title": "我们的团队",
+      "subtitle": "我们是改变游戏规则的团队"
+    },
+    "founder": {
+      "name": "塔拉斯·萨福诺夫",
+      "position": "项目所有者兼创始人",
+      "location": "希腊",
+      "watchVideo": "观看视频",
+      "linkedin": "LinkedIn"
+    },
+    "members": [
+      {
+        "name": "阿纳托尔·波潘多普洛",
+        "position": "项目首席执行官",
+        "location": "波兰"
+      },
+      {
+        "name": "奥克萨娜·弗拉索娃",
+        "position": "项目首席工程师",
+        "location": "希腊"
+      },
+      {
+        "name": "弗拉达·萨福诺娃",
+        "position": "项目首席开发人员",
+        "location": "土耳其"
+      },
+      {
+        "name": "亚历克斯·杰克逊",
+        "position": "云顾问",
+        "location": "美国"
+      },
+      {
+        "name": "德米特里·潘琴科",
+        "position": "欧洲和CIS电子商务顾问",
+        "location": "乌克兰"
+      },
+      {
+        "name": "詹妮·杨",
+        "position": "亚洲市场电子商务顾问",
+        "location": "中国"
+      }
+    ],
+    "aiThanks": {
+      "title": "感谢人工智能创造者",
+      "description": "GuardianAI的创建得益于人工智能领域的先进发展。我们衷心感谢以下模型背后的团队和研究人员，他们在平台架构开发、编码和本地模型微调方面为我们提供了帮助：",
+      "creators": [
+        {
+          "name": "Claude",
+          "company": "Anthropic",
+          "description": "感谢其在自然语言处理方面的创新方法以及在创建自适应AI解决方案方面的帮助。"
+        },
+        {
+          "name": "Mistral",
+          "company": "Mistral AI",
+          "description": "感谢其强大的语言模型，这些模型成为我们平台逻辑和架构优化的基础。"
+        },
+        {
+          "name": "Llama",
+          "company": "Meta",
+          "description": "感谢其开源模型，使我们能够将先进的机器学习算法集成到本地解决方案中。"
+        },
+        {
+          "name": "Grok",
+          "company": "xAI",
+          "description": "感谢其独特的数据分析和内容生成能力，这些能力扩展了GuardianAI的功能。"
+        },
+        {
+          "name": "DeepSeek",
+          "company": "DeepSeek AI",
+          "description": "感谢其用于处理复杂查询和优化业务流程的高精度模型。"
+        },
+        {
+          "name": "Qwen",
+          "company": "阿里云",
+          "description": "感谢其在多模态模型领域的创新解决方案，这些解决方案有助于改善用户交互。"
+        },
+        {
+          "name": "Manus",
+          "company": "Manus",
+          "description": "感谢其在微调和使AI适应平台特定任务方面的支持。"
+        }
+      ],
+      "closing": "没有您的技术和开放合作，GuardianAI就不会成为今天的革命性工具。感谢您对人工智能发展和创新支持所做的贡献！"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "联系我们",
+      "subtitle": "准备好改变您的业务了吗？填写表格，我们的团队将在24小时内与您联系。"
+    },
+    "contacts": {
+      "email": {
+        "title": "电子邮件",
+        "value": "info@guardian.afla-can.com"
+      },
+      "phone": {
+        "title": "电话",
+        "value": "+30(694) 1517518"
+      },
+      "address": {
+        "title": "地址",
+        "value": "London，UK"
+      }
+    },
+    "form": {
+      "title": "给我们发送消息",
+      "fields": {
+        "name": {
+          "label": "姓名 *",
+          "placeholder": "约翰·多伊"
+        },
+        "email": {
+          "label": "电子邮件 *",
+          "placeholder": "john@example.com"
+        },
+        "company": {
+          "label": "公司",
+          "placeholder": "公司名称"
+        },
+        "phone": {
+          "label": "电话",
+          "placeholder": "+30 xxxxxxxxxx"
+        },
+        "product": {
+          "label": "感兴趣的产品",
+          "options": [
+            "Guardian Cloud",
+            "ALFACAN Mercanon",
+            "两种产品",
+            "推荐计划"
+          ]
+        },
+        "message": {
+          "label": "消息 *",
+          "placeholder": "告诉我们您的任务或问题..."
+        },
+        "consent": {
+          "label": "我同意个人数据处理条款"
+        }
+      },
+      "submit": "发送消息"
+    }
+  },
+  "footer": {
+    "company": "公司",
+    "companyDesc": "领先的网络安全和自动化AI解决方案",
+    "products": "产品",
+    "guardianCloud": "Guardian Cloud",
+    "guardianOps": "ALFACAN Mercanon",
+    "referralProgram": "推荐计划",
+    "about": "关于我们",
+    "aboutUs": "关于公司",
+    "team": "我们的团队",
+    "contact": "联系方式",
+    "socialMedia": "社交媒体",
+    "copyright": "© 2024 Guardian AI。保留所有权利。"
+  },
+  "studio": {
+    "hero": {
+      "title": "AI Studio",
+      "subtitle": "統一的自主環境，用於營運、開發與擴展您的流程。"
+    },
+    "section_6_bridge": {
+      "title": "諸業之橋梁",
+      "paragraph_1": "吾輩將此析為二體，以期廣納天下「未來之建築師」。",
+      "paragraph_2": "Project G —— 專供欲於數字太虛之中，幻化靈感者。",
+      "paragraph_3": "Project BlackWings —— 專供欲於現實實業之中，砥礪宏圖者。",
+      "paragraph_4": "进入这些项目的页面,了解它们,并决定如何在您的生活中加以运用。",
+      "paragraph_5": "如您所见,部分模块已经构建并上线,其余仍在开发中,将于未来数月内推出。",
+      "paragraph_6": "我们很乐意听到您希望在其中看到的其他设想。",
+      "wishes_button": "提交您的想法"
+    },
+    "concept": {
+      "statement": "AI Studio 是您的技術橋頭堡。",
+      "body": "您設定方向與最終目標，系統則依任務所需，調度相應的專職模組——從分析與網路防禦，到軟體、通訊與基礎架構的管理。在每一個階段，您都能看見模型之間的交流，並可隨時介入、加以修正，讓事情一次就做對。",
+      "dev_title": "依您的實際任務開發與整合",
+      "dev_1": "AI Studio 是一套向演進開放的架構。在這裡，您可以與我們共同開發新的模組，並直接導入您自己的領域。",
+      "dev_2": "若您的業務或生產有特定需求，而尚無現成工具，我們會在您自己的封閉環境中設計並部署它。",
+      "guide_1": "註冊之後，在您的儀表板中，Falco 會前來迎接。他會帶您走過 AI Studio 的每一個模組，並說明各自的用途。",
+      "guide_2": "在這裡，您會找到日常工作所需的一切。G-Coder，用於撰寫程式碼。G-Tester，用於測試您的雲端基礎架構。往後還有 G-CallCenter，把您的通訊一併納入。以及 G-Team——為使用它的人而設計的專案管理，而不是為了堆砌一大堆沒人需要、也永遠不會打開的功能。",
+      "guide_3": "BlackWings 專案的成果，將讓您設計真實的機器與機構，並在無人參與的情況下運行自己的生產線。留給人的部分，至多只是把原料搬到機器旁的搬運工。",
+      "guide_4": "Falco 會是您的嚮導，也是您在打造任何事物時的助手。",
+      "evolve_1": "隨著時間推移，Falco 理解的將不再是指令，而是意圖。他會適應您的工作方式，記住您做過的決定，不再要求您解釋顯而易見的事。",
+      "evolve_2": "而後他會擁有聲音，您將像許多科幻電影中的主角與他們的人工智慧交談那樣，與他對話。我們正在建造的，是不久前還被視為幻想的東西。"
+    }
+  },
+  "gcoder": {
+    "meta": {
+      "title": "G-Coder: AI 工程师即服务 | AlfaCan AI Studio",
+      "description": "一个接入私有、完全封闭的 AI 推理环境的 VS Code 分支。您的源代码永不离开边界。一个在 OWASP/CWE 准则下运行、由人把关的模型委员会。",
+      "og_title": "G-Coder: AI 工程师即服务",
+      "og_description": "一支运行在您机器上、位于封闭环境内的 AI 工程团队。保证从代码转移到流程：每一次改动都要经过明确的人工批准。"
+    },
+    "hero": {
+      "badge": "",
+      "title": "G-Coder",
+      "subtitle": "",
+      "paragraph": "",
+      "cta_primary": "註冊",
+      "cta_primary_url": "#early-access",
+      "cta_secondary": "",
+      "cta_secondary_url": ""
+    },
+    "section_overview": {
+      "title": "一种全新的软件创建方式",
+      "lead": "我们打造了一种全新的代码工作方式。要搭建一个云应用、一个服务或一个网络平台，您不再需要成为程序员，也不必在脑中装下复杂的语言栈。时代已经到来：您可以直接把想法变为现实，无需雇佣昂贵的开发团队。",
+      "falco": "从一开始，您就与您的助手 Falco（Gemma-4-26B）对话。它帮您解答任何问题，召集模型委员会并主持会议，而您在一旁观看。任何时刻，您都可以叫停任何一个模型，问它：“这是什么？你为什么这样做，而不是那样？”",
+      "how_title": "它是如何工作的？",
+      "how_lead": "一个运行在您硬件上的 VS Code 分支，接入您边界内的私有 AI 推理环境。",
+      "how_intro": "您描述任务，随后一支专业模型委员会介入：",
+      "model_1_name": "Falco（Gemma-4）",
+      "model_1_role": "设计架构并制定计划；",
+      "model_2_name": "Qwen3-Coder",
+      "model_2_role": "编写干净的代码；",
+      "model_3_name": "Qwen3-Thinking",
+      "model_3_role": "测试并检查逻辑是否有误；",
+      "model_4_name": "Da Vinci（GLM-5.2）",
+      "model_4_role": "委员会的主脑：验证最高风险的改动，并在您批准之前握有最终决定权。",
+      "how_close": "您能看到模型之间的全部商讨、它们彼此之间的整场讨论，以及它们所说的每一个字。任何时刻您都可以介入、向任何一个模型提问，它都会回答您，并对流程作出调整。",
+      "diff_title": "与 Cursor 及自主智能体的关键区别",
+      "diff_1": "在其他编辑器里，您把任务交给一个“黑箱”，然后指望结果。最终模型写出它“自认为合适”的东西，而您花上数小时去返工。",
+      "diff_2": "在我们这里，流程完全由您掌控。您不是观众，您是总设计师：",
+      "quote": "“不，这里要换个做法。这里改一下逻辑。”",
+      "close": "您看到、引导并批准每一步。产出的不是神经网络决定的东西，而是您所设想的东西。"
+    },
+    "section_walkthrough": {
+      "title": "平台完整解析",
+      "text": "如果您想更详细地了解这一切是如何发生的，我们为您准备了平台的完整解析。看看它从内部、一个零件一个零件是如何运作的。",
+      "video_ru": "avVnG456czM",
+      "video_en": "AGWVTduarco",
+      "article_text": "如果您想更深入地了解 G-Coder 的架构，请阅读该产品的技术说明。",
+      "article_label": "阅读说明",
+      "article_url": "/papers/g-coder-paper-en.html"
+    },
+    "section_council": {
+      "title": "智能体委员会，您看到每一步",
+      "paragraph_1": "这不是一个只返回 diff 的黑箱。s-coding 后端召集一个可观察的模型委员会，每一步都只在您回合时前进一步。阶段与工作状态都会保存到数据库，因此一次会话能挺过重启、暂停与审计：可以从原处继续，并完整呈现。",
+      "pipeline_label": "委员会流水线：",
+      "pipeline_steps": "意图 → 规划（Falco / Gemma-4）→ 生成（Qwen3-Coder）→ 审查（Qwen3-Thinking）→ 验证（Da Vinci / GLM-5.2）→ 等待批准 → 您的“执行” → 部署到您的基础设施",
+      "paragraph_2": "在每一步，您都可以继续、向当前模型问“为什么？”、引导它，或在它到达应用步骤之前叫停。每一次推理都被记录：这是完整的日志，而非事后的辩解。",
+      "paragraph_3": "代码通过您自己服务器上的智能体来应用。平台负责推理，您的机器负责执行。我们不会直接写入您的文件系统。"
+    },
+    "section_models": {
+      "title": "由我们自己的模型舰队驱动",
+      "intro": "委员会由我们亲自训练的模型带领，将每一个都打磨成专家。全部自托管，位于环境之内。只有一个可选步骤可能对外，而且仅在您选择时，仅在经过脱敏的片段上。",
+      "m1_name": "编排者: Falco / Gemma-4-26B",
+      "m1_role": "把意图拆解为任务，带领委员会，与您对话。",
+      "m2_name": "生成器: Qwen3-Coder-30B",
+      "m2_role": "高吞吐地编写代码、构建补丁，一个文件接一个文件。",
+      "m3_name": "审查者: Qwen3-30B-Thinking",
+      "m3_role": "严苛地对照 OWASP/CWE 准则并就正确性提出质疑。",
+      "m4_name": "Da Vinci: GLM-5.2 · 主脑",
+      "m4_role": "环境内的验证器：7530 亿参数、百万 token 上下文，运行在我们自己的 GPU 上。对最高风险的改动握有最终决定权。",
+      "m5_name": "外部验证器: Claude Opus 4.8 / Fable 5（可选）",
+      "m5_role": "在您选择加入时提供第二意见，且仅在自动脱敏的片段上。默认关闭。",
+      "fleet_link": "查看完整模型舰队 →",
+      "fleet_url": "/studio/ai-models"
+    },
+    "section_doctrine": {
+      "title": "以准则为依据，而非凭直觉",
+      "paragraph_1": "为了抑制模型的臆造，审查者会将每个补丁与 s-rag 引擎比对。检索分两阶段：先是稠密检索，双编码器按语义从 OWASP/CWE 向量索引中召回候选规则；再是上下文重排，交叉编码器结合“您的代码加威胁模型”重新打分，只有最优者才进入上下文。",
+      "paragraph_2": "审查者知道该找什么，因为准则就在它眼前。标记风险时，它能指出决策背后的确切规则。企业客户可接入私有集合：自己的标准与交战规则。"
+    },
+    "section_safety": {
+      "title": "我们绝不违反的四条不变量",
+      "inv_1_title": "气隙边界",
+      "inv_1_text": "您的源代码永不离开内部边界。外部验证默认关闭（EXTERNAL_VALIDATION_ALLOWED = false）；启用它需要客户明确选择加入，且只有自动脱敏的片段才会外发。",
+      "inv_2_title": "人在环上的闸门",
+      "inv_2_text": "只有在您于聊天中明确口头确认（例如“执行”）后，改动才会进入 APPLIED。这一确认本身就是审计记录。",
+      "inv_3_title": "关键风险闸门",
+      "inv_3_text": "被评为 CRITICAL 的改动在任何设置下都禁止自主应用。只有人才能授权。",
+      "inv_4_title": "受管的再训练回路",
+      "inv_4_text": "执行后的经验会被匿名化，并在人工审核下返回 RAG 准则。只有脱敏后的模式才会被写回，绝不包含客户代码。"
+    },
+    "section_evaluation": {
+      "title": "我们如何衡量，以及我们暂不宣称什么",
+      "intro": "坦白说：目前还没有实测数据。基准测试计划在上线前审计之后、GPU 集群重新启用时进行；在那之前，主推理运行在 mock 处理器上。我们宣称的是架构，而不是我们尚未测量的数字。以下是 GPU 一旦开启我们将据以自我衡量的三项指标。",
+      "metric_1_title": "CWE 捕获率",
+      "metric_1_text": "“审查者 + RAG” 组合从预留语料中捕获了多大比例注入的 CWE Top-25 漏洞。这是准则召回率的度量。",
+      "metric_2_title": "误应用率",
+      "metric_2_text": "有多大比例未经验证或未获批准的补丁仍进入了 APPLIED。目标为 0.0%，由第 2、3 条不变量的闸门守住。",
+      "metric_3_title": "人工否决率",
+      "metric_3_text": "有多大比例被提议的补丁被人在聊天中否决或纠正。这是委员会与操作者一致程度的度量。"
+    },
+    "section_pricing": {
+      "title": "价格",
+      "intro": "编辑器运行在您的机器上，繁重的部署通过智能体在您的基础设施上进行，因此价格保持诚实，维持在约 85% 的毛利。S 级别是每周主动 AI 工作的小时数，而非 token。",
+      "tier_s1_name": "S1",
+      "tier_s1_price": "$25 / 月",
+      "tier_s1_desc": "每周约 10 小时的主动 AI 结对工程。",
+      "tier_s2_name": "S2",
+      "tier_s2_price": "$50 / 月",
+      "tier_s2_desc": "常规的每日开发者工作流。",
+      "tier_s3_name": "S3",
+      "tier_s3_price": "$75 / 月",
+      "tier_s3_desc": "高强度自主结对编程。",
+      "tier_s4_name": "S4",
+      "tier_s4_price": "$100 / 月",
+      "tier_s4_desc": "最高强度与优先队列。",
+      "guardian_addon_label": "面向 Guardian Cloud 客户",
+      "guardian_addon_text": "S1 席位随您的 Cloud 套餐免费包含：Server 1 个、Cluster 3 个、Platform 10 个、Enterprise 不限，另加所有 AI Studio 产品九折。"
+    },
+    "section_launch": {
+      "title": "平台将于 8 月 10 日上线",
+      "badge": "",
+      "text": ""
+    }
+  },
+  "gtester": {
+    "meta": {
+      "title": "G-Tester — QA 即服务 | AlfaCan AI Studio",
+      "description": "G-Tester 是拥有实时智能体议会、交互式 AI 董事会和 20 个测试领域的 AI QA 团队。您可以实时看到整个过程并随时介入。",
+      "og_title": "G-Tester — QA 即服务",
+      "og_description": "水平可扩展的测试运行器集群加上专业 LLM 的交互式议会。确定性判决。人在控制环中。"
+    },
+    "hero": {
+      "badge": "",
+      "title": "G-Tester",
+      "subtitle": "",
+      "paragraph": "",
+      "cta_primary": "开始使用",
+      "cta_primary_url": "https://studio.alfa-can.com",
+      "cta_secondary": "← AI Studio",
+      "cta_secondary_url": "/studio"
+    },
+    "section_problem": {
+      "title": "传统 QA 的问题所在",
+      "problem_1_title": "太慢",
+      "problem_1_text": "每次重大发布的全面端到端、负载和安全测试需要数天乃至数周的高级工程师时间。在每日部署的 CI/CD 环境中，这个瓶颈扼杀了交付速度。",
+      "problem_2_title": "主观且不可复现",
+      "problem_2_text": "漏洞严重性评分和发现优先级取决于具体的工程师。同一个漏洞在不同团队中获得不同评级，而且没有统一的依据来说明原因。",
+      "problem_3_title": "工具之间无法互通",
+      "problem_3_text": "负载生成器、静态分析器、DAST 探针、无障碍驱动——每个工具产生自己的数据流。将它们整合成统一的发布全景图本身就是耗费时间的手动工作。",
+      "problem_4_title": "自动化但不透明",
+      "problem_4_text": "脚本在后台运行，静默输出结果。没有人知道为什么某个测试被跳过，为什么分配了某个严重性评级，或者这个判决是否可以信任。"
+    },
+    "section_intro": {
+      "text": "想象您拥有一支 QA 专家团队：安全工程师、性能分析师、代码审计员、UX 专家。他们在您的屏幕上实时讨论您的发布。您能看到他们的推理，可以提问、调整方向，或在审计过程中更改测试参数。最终，您将得到一份专业的 QA 报告包和一个确定性的发布就绪裁决。"
+    },
+    "section_walkthrough": {
+      "title": "平台完整解析",
+      "text": "如果您想更详细地了解 G-Tester 的运作方式，我们准备了平台的完整解析。看看它从内部是如何运作的。",
+      "video_ru": "PjskZfpa2Fc",
+      "video_en": "vrc6KFY9SuQ",
+      "article_text": "如果您想更深入地了解 G-Tester 的架构，请阅读该产品的技术说明。",
+      "article_label": "阅读说明",
+      "article_url": "/papers/g-tester-paper-en.html"
+    },
+    "section_boardroom": {
+      "title": "AI 董事会",
+      "paragraph_1": "G-Tester 的核心是实时智能体议会界面。当您发起审计时，平台会启动一个专业 AI 智能体协作会话，它们在实时对运行器的真实遥测数据进行推理。",
+      "paragraph_2": "您不是在等待报告——您在观察过程。您看到每个智能体的想法，它检索了哪些准则规则，智能体之间如何产生分歧，以及它们最终共同得出什么结论。",
+      "paragraph_3": "您可以随时介入。任何时刻——暂停议会，输入指令（「假设上游有 WAF，重新评估 SQL 注入发现」），更改测试参数，或调整严重性阈值。所有介入都以密码学方式记录在最终审计包中。",
+      "capability_1_title": "实时智能体流",
+      "capability_1_text": "实时推理日志、模型置信度评分、智能体之间对有争议发现的辩论。",
+      "capability_2_title": "证据信息流",
+      "capability_2_text": "来自 Playwright、k6、pa11y 和 HTTP 探针的原始遥测数据，随到随显。可在运行过程中检查 payload 并下载 trace 文件。",
+      "capability_3_title": "准则检查器",
+      "capability_3_text": "通过 s-rag 为每项发现检索的精确准则段落。您看到智能体为什么分配特定严重性——不是因为模型这样决定，而是因为这直接来自 OWASP 或您的企业标准。",
+      "capability_4_title": "操控台",
+      "capability_4_text": "交互式命令输入框和执行状态控制：暂停、恢复、覆盖——实时进行，在审计过程中随时可用。"
+    },
+    "section_agents": {
+      "title": "智能体议会",
+      "intro": "五个专业角色，每个都有明确界定的职责范围。",
+      "agent_1_name": "首席 QA 主席 / 综合官员",
+      "agent_1_model": "Gemma-4-26B",
+      "agent_1_role": "议会协调、将发现综合为执行摘要、执行准则规则、计算最终判决。",
+      "agent_2_name": "安全与 ITDR 官员",
+      "agent_2_model": "itdr-officer-14b",
+      "agent_2_role": "威胁建模、OWASP Top-10 / CWE 分类、权限提升、凭据存储状态、物理隔离 ITDR 分析。",
+      "agent_3_name": "代码与合约审计员",
+      "agent_3_model": "s-coder-reviewer-14b",
+      "agent_3_role": "OpenAPI 合约验证、数据库模式漂移检测、静态代码覆盖率分析、合约执行逻辑检查。",
+      "agent_4_name": "UX 与无障碍专家",
+      "agent_4_model": "Qwen3-VL-Embedding-8B",
+      "agent_4_role": "DOM 快照、WCAG 2.1 无障碍树、Core Web Vitals、跨浏览器渲染异常。",
+      "agent_5_name": "性能与韧性分析师",
+      "agent_5_model": "guardian-14b",
+      "agent_5_role": "高并发负载曲线、p95/p99 延迟分布、混沌故障转移遥测、系统降级阈值。"
+    },
+    "section_disciplines": {
+      "title": "20 个测试领域",
+      "intro": "一次审计——全面的图景。G-Tester 通过单一流水线覆盖五个测试类别。",
+      "category_1_name": "安全与基础设施",
+      "category_1_disciplines": "通过物理隔离 ITDR 轮廓进行全面系统安全评估；OWASP Top-10 / CWE 渗透测试；跨约 23 个系统参数的只读主机环境审计。",
+      "category_2_name": "API 与数据完整性",
+      "category_2_disciplines": "OpenAPI 合约验证；模式漂移检测；引用完整性和并发事务安全性验证。",
+      "category_3_name": "功能验证",
+      "category_3_disciplines": "单元覆盖率分析；跨服务集成边界；通过 Playwright 的端到端浏览器用户旅程；与历史基线的回归比较。",
+      "category_4_name": "性能与韧性",
+      "category_4_disciplines": "通过 k6 进行高吞吐量压力测试和极限发现；受控混沌测试与优雅恢复跟踪；网络降级模拟。",
+      "category_5_name": "UX、前端与合规",
+      "category_5_disciplines": "DOM 验证和 JavaScript 错误捕获；启发式 UX 评估；Chromium、Firefox、WebKit 跨浏览器测试；Core Web Vitals（TTFB、LCP、INP、CLS）；移动端响应式；WCAG 2.1 AA/AAA 合规；本地化与 RTL/LTR 处理。"
+    },
+    "section_verdict": {
+      "title": "确定性判决",
+      "paragraph": "AI 智能体生成详细的叙述性分析并提供修复代码建议——但发布就绪判决是基于所有已执行运行器中最高严重性的发现，以确定性方式计算得出。",
+      "verdict_1": "NOT_READY",
+      "verdict_1_condition": "存在至少一个 CRITICAL 级别的发现",
+      "verdict_2": "READY_WITH_CAVEATS",
+      "verdict_2_condition": "仅有 HIGH 或 MEDIUM 级别的发现",
+      "verdict_3": "PRODUCTION_READY",
+      "verdict_3_condition": "仅有 LOW 或 INFO 级别的发现"
+    },
+    "section_invariants": {
+      "title": "我们绝不违反的三个不变量",
+      "inv_1_title": "诚实",
+      "inv_1_text": "未执行的路径明确标记为跳过，而非通过。如果测试未运行——智能体会直接说明。",
+      "inv_2_title": "有据可查",
+      "inv_2_text": "智能体推理限于实际执行的遥测数据和准则规则。没有证据，不做结论。",
+      "inv_3_title": "优雅降级",
+      "inv_3_text": "如果 AI 基础设施不可用，系统回退到确定性执行规则。审计继续进行，而不是停止。"
+    },
+    "section_what_you_get": {
+      "title": "您将获得什么",
+      "item_1": "包含执行摘要、详细发现和修复代码的完整 QA 包",
+      "item_2": "确定性发布就绪判决：NOT_READY / READY_WITH_CAVEATS / PRODUCTION_READY",
+      "item_3": "包含密码学记录的操作员介入的完整议会会话记录",
+      "item_4": "用于独立审计的 trace、响应头和 payload",
+      "item_5": "每项发现对应的具体 OWASP / CWE 段落引用"
+    },
+    "section_status": {
+      "title": "当前状态",
+      "badge": "后端完成 · 端到端验证",
+      "text": "后端已完全完成并经过端到端验证。实时交互式 AI 董事会已激活。G-Tester 与 Guardian Cloud 和 G-Coder 共享同一个模型集群——一个 GPU 轮廓服务所有三个产品。商业发布将在主平台部署完成后进行。",
+      "cta": "联系我们",
+      "cta_url": "/contact"
+    },
+    "section_pricing": {
+      "title": "價格",
+      "philosophy_label": "我們如何定價",
+      "philosophy": "我們以真人 QA 工程師最低區域費率的一半作為基準。不是代理商報價的一半，而是市場上最便宜的人力工作的一半。對真人而言，一次小型測試約 150 美元，滲透測試約 1,500 美元。",
+      "how_label": "運作方式",
+      "how": "沒有訂閱制。您從選單中挑選所需的測試項目，計算器會立即顯示價格，您只為所訂購的內容付費。可用項目的清單在計算器中一目了然。",
+      "t1_name": "全系統漏洞測試",
+      "t1_price": "$750",
+      "t1_desc": "旗艦測試：透過氣隙隔離的 ITDR 環境，對整個系統進行安全評估。",
+      "t2_name": "伺服器稽核",
+      "t2_price": "$150",
+      "t2_desc": "對主機與基礎設施狀態進行唯讀稽核。",
+      "t3_name": "全部 20 個項目",
+      "t3_price": "$2,450",
+      "t3_desc": "完整方案，而非單項合計的 $3,120，約 21% 折扣。",
+      "note": "其他項目單項自 $60 起。完整選單與準確總額由計算器計算。"
+    },
+    "section_launch": {
+      "title": "平台将于 8 月 10 日上线",
+      "cta": "註冊"
+    }
+  }
+}
