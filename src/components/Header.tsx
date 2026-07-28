@@ -51,10 +51,10 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="group flex flex-col leading-none transition-colors">
+          <a href="https://alfa-can.com" className="group flex flex-col leading-none transition-colors">
             <span className="text-xl font-bold tracking-wide text-white group-hover:text-cyan-400 md:text-2xl">ALFACAN</span>
             <span className="mt-0.5 text-[9px] font-medium tracking-[0.32em] text-white/55 group-hover:text-white/80 md:text-[11px]">DEFENCE GROUP</span>
-          </Link>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
