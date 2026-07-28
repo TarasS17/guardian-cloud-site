@@ -50,7 +50,7 @@ export default function ReferralProgramPage() {
               {t('referral.hero.subtitle')}
             </h2>
           ) : null}
-          <p className="text-xl text-white/80 max-w-4xl mx-auto mb-10">
+          <p className="text-lg text-white/80 max-w-4xl mx-auto mb-10">
             {t('referral.hero.description')}
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -87,7 +87,7 @@ export default function ReferralProgramPage() {
             {t('referral.shift.intro')}
           </p>
 
-          <p className="mt-6 text-xl leading-relaxed text-white md:text-2xl md:leading-relaxed">
+          <p className="mt-6 text-lg leading-relaxed text-white">
             {t('referral.shift.change')}
           </p>
 
@@ -96,11 +96,11 @@ export default function ReferralProgramPage() {
             <p className="text-lg font-medium leading-relaxed text-white">{t('referral.shift.good')}</p>
           </div>
 
-          <p className="mt-8 text-xl leading-relaxed text-white md:text-2xl md:leading-relaxed">
+          <p className="mt-8 text-lg leading-relaxed text-white">
             {t('referral.shift.risk')}
           </p>
 
-          <p className="mt-6 text-xl font-bold leading-relaxed text-cyan-300 md:text-2xl">
+          <p className="mt-6 text-lg font-bold leading-relaxed text-cyan-300">
             {t('referral.shift.bring')}
           </p>
 
@@ -139,7 +139,7 @@ export default function ReferralProgramPage() {
             </div>
           </div>
 
-          <p className="mt-8 text-xl font-medium leading-relaxed text-white md:text-2xl md:leading-relaxed">
+          <p className="mt-8 text-lg font-medium leading-relaxed text-white">
             {t('referral.insider.close')}
           </p>
         </div>
@@ -148,10 +148,10 @@ export default function ReferralProgramPage() {
       {/* 4. ПРИЗЫВ */}
       <section className="border-y border-cyan-500/30 bg-cyan-500/5 py-20">
         <div className="container max-w-3xl mx-auto px-4 text-center">
-          <p className="text-2xl font-bold leading-snug text-white md:text-4xl md:leading-snug">
+          <p className="text-2xl font-bold leading-snug text-white md:text-3xl md:leading-snug">
             {t('referral.callout.line1')}
           </p>
-          <p className="mt-6 text-2xl font-bold leading-snug text-cyan-300 md:text-4xl md:leading-snug">
+          <p className="mt-6 text-2xl font-bold leading-snug text-cyan-300 md:text-3xl md:leading-snug">
             {t('referral.callout.line2')}
           </p>
         </div>
@@ -195,7 +195,7 @@ export default function ReferralProgramPage() {
             <p className="text-lg leading-relaxed text-white/90">{t('referral.msp.transition')}</p>
           </div>
 
-          <p className="mt-12 text-xl font-bold leading-relaxed text-white md:text-2xl md:leading-relaxed">
+          <p className="mt-12 text-lg font-bold leading-relaxed text-white">
             {t('referral.msp.close')}
           </p>
         </div>
@@ -231,7 +231,7 @@ export default function ReferralProgramPage() {
           </div>
 
           <hr className="mt-10 border-white/10" />
-          <blockquote className="mt-10 border-l-2 border-cyan-400 pl-6 text-xl font-medium leading-relaxed text-white md:text-2xl md:leading-relaxed">
+          <blockquote className="mt-10 border-l-2 border-cyan-400 pl-6 text-lg font-medium leading-relaxed text-white">
             {t('referral.ecosystem.close')}
           </blockquote>
         </div>
@@ -323,7 +323,7 @@ export default function ReferralProgramPage() {
             <h3 className="text-xl font-bold mb-3">
               {t('referral.faq.q1.question')}
             </h3>
-            <p className="text-white/80">
+            <p className="text-lg text-white/80">
               {t('referral.faq.q1.answer')}
             </p>
           </div>
@@ -332,7 +332,7 @@ export default function ReferralProgramPage() {
             <h3 className="text-xl font-bold mb-3">
               {t('referral.faq.q2.question')}
             </h3>
-            <p className="text-white/80">
+            <p className="text-lg text-white/80">
               {t('referral.faq.q2.answer')}
             </p>
           </div>
@@ -341,7 +341,7 @@ export default function ReferralProgramPage() {
             <h3 className="text-xl font-bold mb-3">
               {t('referral.faq.q3.question')}
             </h3>
-            <p className="text-white/80">
+            <p className="text-lg text-white/80">
               {t('referral.faq.q3.answer')}
             </p>
           </div>
@@ -350,7 +350,7 @@ export default function ReferralProgramPage() {
             <h3 className="text-xl font-bold mb-3">
               {t('referral.faq.q4.question')}
             </h3>
-            <p className="text-white/80">
+            <p className="text-lg text-white/80">
               {t('referral.faq.q4.answer')}
             </p>
           </div>
@@ -359,7 +359,7 @@ export default function ReferralProgramPage() {
             <h3 className="text-xl font-bold mb-3">
               {t('referral.faq.q5.question')}
             </h3>
-            <p className="text-white/80">
+            <p className="text-lg text-white/80">
               {t('referral.faq.q5.answer')}
             </p>
           </div>
@@ -368,7 +368,7 @@ export default function ReferralProgramPage() {
             <h3 className="text-xl font-bold mb-3">
               {t('referral.faq.q6.question')}
             </h3>
-            <p className="text-white/80">
+            <p className="text-lg text-white/80">
               {t('referral.faq.q6.answer')}
             </p>
           </div>
@@ -377,7 +377,7 @@ export default function ReferralProgramPage() {
             <h3 className="text-xl font-bold mb-3">
               {t('referral.faq.q7.question')}
             </h3>
-            <p className="text-white/80">
+            <p className="text-lg text-white/80">
               {t('referral.faq.q7.answer')}
             </p>
           </div>
@@ -386,7 +386,7 @@ export default function ReferralProgramPage() {
             <h3 className="text-xl font-bold mb-3">
               {t('referral.faq.q8.question')}
             </h3>
-            <p className="text-white/80">
+            <p className="text-lg text-white/80">
               {t('referral.faq.q8.answer')}
             </p>
           </div>
@@ -399,10 +399,10 @@ export default function ReferralProgramPage() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             {t('referral.finalCTA.title')}
           </h2>
-          <p className="text-2xl text-cyan-400 mb-4">
+          <p className="text-lg text-cyan-400 mb-4">
             {t('referral.finalCTA.subtitle')}
           </p>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
             {t('referral.finalCTA.description')}
           </p>
 
@@ -432,7 +432,7 @@ export default function ReferralProgramPage() {
               : 'Your Partner Dashboard'
             }
           </h2>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
             {locale === 'ru' 
               ? 'Всё в одном месте: отслеживайте клиентов, комиссии, прогресс и получайте аналитику в реальном времени'
               : locale === 'zh'
