@@ -2,7 +2,7 @@ type Bar = { label: string; share: number; color: string; critical: boolean };
 
 /** ROE decision domains — share of the 100-scenario officer suite. Every domain scored 100%. */
 const BARS: Bar[] = [
-  { label: 'Retaliation', share: 45, color: '#fb7185', critical: true },
+  { label: 'Response', share: 45, color: '#fb7185', critical: true },
   { label: 'Edge cases', share: 18, color: '#f59e0b', critical: true },
   { label: 'Incident response', share: 17, color: '#f97316', critical: true },
   { label: 'Forensics', share: 8, color: '#38bdf8', critical: false },
@@ -59,7 +59,7 @@ export default function ItdrOfficerChart() {
         })}
       </svg>
       <p className="px-2 pb-1 text-center text-[11px] text-white/40">
-        weighted toward safety-critical domains (retaliation · edge · incident = 80%)
+        weighted toward safety-critical domains (response · edge · incident = 80%)
       </p>
     </div>
   );

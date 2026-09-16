@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Globe, Menu, X } from 'lucide-react';
+import { Globe, Menu, X, Users } from 'lucide-react';
 import { useLocale } from '@/lib/i18n/LocaleContext';
 import { locales, localeNames, Locale } from '@/lib/i18n/config';
 import { useState, useEffect, useRef } from 'react';
@@ -13,6 +13,19 @@ export default function Header() {
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const langMenuRef = useRef<HTMLDivElement>(null);
+
+  // Live social-proof counter of fallback registrations. Context-aware: the Partners page
+  // (/referral) shows partner leads, every other page shows Cloud clients — each proxied to its own
+  // Neon fallback DB, count only (no PII).
+  const isPartner = pathname.startsWith('/referral');
+  const [regCount, setRegCount] = useState<number | null>(null);
+  useEffect(() => {
+    setRegCount(null);
+    fetch(isPartner ? '/api/partner-registrations' : '/api/registrations')
+      .then((r) => r.json())
+      .then((d) => setRegCount(Number(d?.count) || 0))
+      .catch(() => setRegCount(null));
+  }, [isPartner]);
 
   const navItems = [
     { href: '/', label: 'Cloud' },
@@ -50,6 +63,19 @@ export default function Header() {
             <span className="text-xl font-bold tracking-wide text-white group-hover:text-cyan-400 md:text-2xl">ALFACAN</span>
             <span className="mt-0.5 text-[9px] font-medium tracking-[0.32em] text-white/55 group-hover:text-white/80 md:text-[11px]">DEFENCE GROUP</span>
           </a>
+
+          {/* Live registrations counter — between logo and nav (fallback social proof) */}
+          {regCount !== null && (
+            <div
+              className="hidden md:flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/5 px-3.5 py-1.5"
+              title={isPartner ? 'On the referral page now' : 'On Guardian Cloud now'}
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" aria-hidden="true" />
+              <Users size={15} className="text-cyan-400" aria-hidden="true" />
+              <span className="text-sm font-semibold text-white tabular-nums">{regCount.toLocaleString()}</span>
+              <span className="text-xs font-medium text-white/55">{isPartner ? 'in referral' : 'in Cloud'}</span>
+            </div>
+          )}
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

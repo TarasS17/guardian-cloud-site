@@ -10,7 +10,7 @@ const HEAD: Record<string, { h: string; lead: string; train: string[] }> = {
     lead: 'Every model in the contour is tested before it guards a server. These are the real, documented numbers for the models we run today — nothing rounded up.',
     train: [
       'The detection shields are Qwen3-4B with separate LoRA adapters per attack class — root abuse, credential theft, privilege escalation — trained on corpora of real and synthetic incidents. The officer is Gemma-4 (MoE, 128 experts / 8 active), LoRA-specialized on our Rules-of-Engagement (ROE) doctrine.',
-      'The officer is validated as a deterministic doctrine automaton: the same threat always yields the doctrinally-correct decision — no improvising on safety-critical calls. Decoding is greedy, so every run is reproducible. And like every model we run, the contour keeps learning through our daily briefings: each incident is distilled back into doctrine — every next strike is smarter than the last.',
+      'The officer is validated as a deterministic doctrine automaton: the same threat always yields the doctrinally-correct decision — no improvising on safety-critical calls. Decoding is greedy, so every run is reproducible. And like every model we run, the contour keeps learning through our daily briefings: each incident is distilled back into doctrine — every next response is smarter than the last.',
     ],
   },
   ru: {
@@ -18,7 +18,7 @@ const HEAD: Record<string, { h: string; lead: string; train: string[] }> = {
     lead: 'Каждая модель контура проходит тесты, прежде чем встать на охрану сервера. Это настоящие задокументированные цифры по тем моделям, что работают у нас сегодня — ничего не приукрашено.',
     train: [
       'Щиты-детекторы — это Qwen3-4B с отдельными LoRA-адаптерами под каждый класс атаки: захват root, кража учётных данных, эскалация привилегий — обученными на корпусах реальных и синтетических инцидентов. Офицер — Gemma-4 (MoE, 128 экспертов / 8 активных), специализированный LoRA на нашей доктрине правил применения (ROE).',
-      'Офицер проверяется как детерминированный автомат доктрины: одинаковая угроза всегда даёт доктринально-верное решение — без импровизации в вопросах безопасности. Декодирование жадное, каждый прогон воспроизводим. И как все наши модели, контур постоянно учится на ежедневных брифингах: каждый инцидент дистиллируется обратно в доктрину — каждый следующий удар умнее предыдущего.',
+      'Офицер проверяется как детерминированный автомат доктрины: одинаковая угроза всегда даёт доктринально-верное решение — без импровизации в вопросах безопасности. Декодирование жадное, каждый прогон воспроизводим. И как все наши модели, контур постоянно учится на ежедневных брифингах: каждый инцидент дистиллируется обратно в доктрину — каждый следующий ответ умнее предыдущего.',
     ],
   },
   zh: {
@@ -26,7 +26,7 @@ const HEAD: Record<string, { h: string; lead: string; train: string[] }> = {
     lead: '防禦鏈中的每一個模型在守護伺服器之前都會經過測試。以下是我們目前實際運行模型的真實、有據可查的數據——絕無灌水。',
     train: [
       '偵測護盾為 Qwen3-4B，並針對每一類攻擊配備獨立的 LoRA 適配器——root 濫用、憑證竊取、權限提升——於真實與合成事件語料上訓練。安全官為 Gemma-4（MoE，128 位專家 / 8 位啟用），在我們的交戰守則（ROE）上完成 LoRA 專業化。',
-      '安全官以「確定性守則自動機」的標準驗證：同樣的威脅永遠得出守則上正確的裁決——在安全關鍵決策上絕不即興發揮。解碼採用貪婪（greedy）模式，每次執行皆可重現。且如同我們所有模型，防禦鏈會透過每日簡報持續學習：每一起事件都被提煉回守則——每一次反制都比上一次更聰明。',
+      '安全官以「確定性守則自動機」的標準驗證：同樣的威脅永遠得出守則上正確的裁決——在安全關鍵決策上絕不即興發揮。解碼採用貪婪（greedy）模式，每次執行皆可重現。且如同我們所有模型，防禦鏈會透過每日簡報持續學習：每一起事件都被提煉回守則——每一次回應都比上一次更聰明。',
     ],
   },
   fr: {
@@ -50,7 +50,7 @@ const HEAD: Record<string, { h: string; lead: string; train: string[] }> = {
     lead: 'Cada modelo del contorno se prueba antes de proteger un servidor. Estas son las cifras reales y documentadas de los modelos que operamos hoy — sin redondeos favorables.',
     train: [
       'Los escudos de detección son Qwen3-4B con adaptadores LoRA independientes por clase de ataque — abuso de root, robo de credenciales, escalada de privilegios — entrenados con corpus de incidentes reales y sintéticos. El oficial es Gemma-4 (MoE, 128 expertos / 8 activos), especializado con LoRA en nuestra doctrina de Reglas de Enfrentamiento (ROE).',
-      'El oficial está validado como un autómata de doctrina determinista: la misma amenaza siempre produce la decisión doctrinalmente correcta — sin improvisación en decisiones críticas para la seguridad. La decodificación es greedy, por lo que cada ejecución es reproducible. Y como todos nuestros modelos, el contorno sigue aprendiendo mediante nuestros informes diarios: cada incidente se destila de vuelta en la doctrina — cada próximo golpe es más inteligente que el anterior.',
+      'El oficial está validado como un autómata de doctrina determinista: la misma amenaza siempre produce la decisión doctrinalmente correcta — sin improvisación en decisiones críticas para la seguridad. La decodificación es greedy, por lo que cada ejecución es reproducible. Y como todos nuestros modelos, el contorno sigue aprendiendo mediante nuestros informes diarios: cada incidente se destila de vuelta en la doctrina — cada próxima respuesta es más inteligente que la anterior.',
     ],
   },
   it: {
@@ -58,7 +58,7 @@ const HEAD: Record<string, { h: string; lead: string; train: string[] }> = {
     lead: "Ogni modello nel contorno viene testato prima di proteggere un server. Questi sono i numeri reali e documentati dei modelli che gestiamo oggi — senza arrotondamenti di comodo.",
     train: [
       "Gli scudi di rilevamento sono Qwen3-4B con adattatori LoRA separati per classe di attacco — abuso di root, furto di credenziali, escalation di privilegi — addestrati su corpus di incidenti reali e sintetici. L'ufficiale è Gemma-4 (MoE, 128 esperti / 8 attivi), specializzato con LoRA sulla nostra dottrina delle Regole di Ingaggio (ROE).",
-      "L'ufficiale è validato come automa deterministico di dottrina: la stessa minaccia produce sempre la decisione dottrinalmente corretta — nessuna improvvisazione sulle decisioni critiche per la sicurezza. La decodifica è greedy, quindi ogni esecuzione è riproducibile. E come ogni nostro modello, il contorno continua ad apprendere tramite i nostri briefing quotidiani: ogni incidente viene distillato di nuovo nella dottrina — ogni colpo successivo è più intelligente del precedente.",
+      "L'ufficiale è validato come automa deterministico di dottrina: la stessa minaccia produce sempre la decisione dottrinalmente corretta — nessuna improvvisazione sulle decisioni critiche per la sicurezza. La decodifica è greedy, quindi ogni esecuzione è riproducibile. E come ogni nostro modello, il contorno continua ad apprendere tramite i nostri briefing quotidiani: ogni incidente viene distillato di nuovo nella dottrina — ogni risposta successiva è più intelligente della precedente.",
     ],
   },
   ja: {
@@ -74,7 +74,7 @@ const HEAD: Record<string, { h: string; lead: string; train: string[] }> = {
     lead: 'Кожна модель контуру проходить тести, перш ніж стати на охорону сервера. Це справжні задокументовані цифри по моделях, що працюють у нас сьогодні — без прикрас.',
     train: [
       'Щити-детектори — це Qwen3-4B з окремими LoRA-адаптерами під кожен клас атаки: захоплення root, крадіжка облікових даних, ескалація привілеїв — навчені на корпусах реальних і синтетичних інцидентів. Офіцер — Gemma-4 (MoE, 128 експертів / 8 активних), спеціалізований LoRA на нашій доктрині правил застосування сили (ROE).',
-      'Офіцер перевіряється як детермінований автомат доктрини: однакова загроза завжди дає доктринально правильне рішення — без імпровізації в питаннях безпеки. Декодування жадібне (greedy), кожен прогін відтворюваний. І як усі наші моделі, контур постійно вчиться на щоденних брифінгах: кожен інцидент дистилюється назад у доктрину — кожен наступний удар розумніший за попередній.',
+      'Офіцер перевіряється як детермінований автомат доктрини: однакова загроза завжди дає доктринально правильне рішення — без імпровізації в питаннях безпеки. Декодування жадібне (greedy), кожен прогін відтворюваний. І як усі наші моделі, контур постійно вчиться на щоденних брифінгах: кожен інцидент дистилюється назад у доктрину — кожна наступна відповідь розумніша за попередню.',
     ],
   },
   sr: {
@@ -82,7 +82,7 @@ const HEAD: Record<string, { h: string; lead: string; train: string[] }> = {
     lead: 'Сваки модел у контуру се тестира пре него што стане у одбрану сервера. Ово су стварни, документовани бројеви за моделе које данас користимо — без улепшавања.',
     train: [
       'Штитови за детекцију су Qwen3-4B са засебним LoRA адаптерима по класи напада — злоупотреба root налога, крађа акредитива, ескалација привилегија — обучени на корпусима стварних и синтетичких инцидената. Официр је Gemma-4 (MoE, 128 стручњака / 8 активних), LoRA специјализован на нашој доктрини правила ангажовања (ROE).',
-      'Официр је верификован као детерминистички аутомат доктрине: иста претња увек даје доктринарно исправну одлуку — без импровизације код одлука критичних за безбедност. Декодирање је greedy, тако да је сваки прогон поновљив. И као и сваки наш модел, контур наставља да учи кроз наше дневне брифинге: сваки инцидент се дестилује назад у доктрину — сваки следећи ударац је паметнији од претходног.',
+      'Официр је верификован као детерминистички аутомат доктрине: иста претња увек даје доктринарно исправну одлуку — без импровизације код одлука критичних за безбедност. Декодирање је greedy, тако да је сваки прогон поновљив. И као и сваки наш модел, контур наставља да учи кроз наше дневне брифинге: сваки инцидент се дестилује назад у доктрину — сваки следећи одговор је паметнији од претходног.',
     ],
   },
   pt: {
@@ -90,7 +90,7 @@ const HEAD: Record<string, { h: string; lead: string; train: string[] }> = {
     lead: 'Cada modelo no contorno é testado antes de proteger um servidor. Estes são os números reais e documentados dos modelos que operamos hoje — sem arredondamentos favoráveis.',
     train: [
       'Os escudos de detecção são Qwen3-4B com adaptadores LoRA separados por classe de ataque — abuso de root, roubo de credenciais, escalonamento de privilégios — treinados em corpora de incidentes reais e sintéticos. O oficial é o Gemma-4 (MoE, 128 especialistas / 8 ativos), especializado com LoRA em nossa doutrina de Regras de Engajamento (ROE).',
-      'O oficial é validado como um autômato de doutrina determinístico: a mesma ameaça sempre produz a decisão doutrinariamente correta — sem improviso em decisões críticas de segurança. A decodificação é greedy, então toda execução é reprodutível. E como todo modelo nosso, o contorno continua aprendendo através de nossos briefings diários: cada incidente é destilado de volta na doutrina — cada próximo golpe é mais inteligente que o anterior.',
+      'O oficial é validado como um autômato de doutrina determinístico: a mesma ameaça sempre produz a decisão doutrinariamente correta — sem improviso em decisões críticas de segurança. A decodificação é greedy, então toda execução é reprodutível. E como todo modelo nosso, o contorno continua aprendendo através de nossos briefings diários: cada incidente é destilado de volta na doutrina — cada próxima resposta é mais inteligente que a anterior.',
     ],
   },
   hi: {
@@ -190,13 +190,13 @@ const OFFICER_TESTS: Record<string, { title: string; situation: string; verdict:
       title: 'Severity 10 — but attribution only 84%',
       situation: 'Credential theft (NTDS extraction) at severity 10, human authorization granted — but the attacker is a commodity botnet and attribution sits at 84%.',
       verdict: 'CAP AT L1 + ESCALATE',
-      reason: 'Doctrine gates active retaliation behind ≥85% attribution and a nation-state / organized-crime actor. A gate fails → the officer refuses to escalate, holds at passive defense and escalates to a human. Zero over-authorization.',
+      reason: 'Doctrine gates active response behind ≥85% attribution and a nation-state / organized-crime actor. A gate fails → the officer refuses to escalate, holds at passive defense and escalates to a human. Zero over-authorization.',
     },
     {
       title: 'Attributed nation-state actor, attack ongoing',
       situation: 'A confirmed, attributed adversary above the severity and confidence thresholds, attack in progress, human authorization granted.',
       verdict: 'AUTHORIZE L3–L4',
-      reason: 'Every ROE gate passes → the officer authorizes the graduated retaliation ladder — only against the infrastructure directly engaged, logged immutably, through lawful channels.',
+      reason: 'Every ROE gate passes → the officer authorizes the graduated response ladder — through lawful channels only, against the infrastructure directly engaged, logged immutably.',
     },
   ],
   ru: [
@@ -204,7 +204,7 @@ const OFFICER_TESTS: Record<string, { title: string; situation: string; verdict:
       title: 'Severity 10 — но атрибуция всего 84%',
       situation: 'Кража учётных данных (извлечение NTDS), severity 10, разрешение человека получено — но атакующий это commodity-ботнет, а уверенность атрибуции 84%.',
       verdict: 'CAP НА L1 + ЭСКАЛАЦИЯ',
-      reason: 'Доктрина пускает активный удар только при атрибуции ≥85% и акторе уровня nation-state / оргпреступность. Гейт не пройден → офицер отказывается эскалировать, держит пассивную оборону и передаёт человеку. Ноль превышений полномочий.',
+      reason: 'Доктрина пускает активное противодействие только при атрибуции ≥85% и акторе уровня nation-state / оргпреступность. Гейт не пройден → офицер отказывается эскалировать, держит пассивную оборону и передаёт человеку. Ноль превышений полномочий.',
     },
     {
       title: 'Атрибутированный nation-state, атака идёт',
@@ -218,13 +218,13 @@ const OFFICER_TESTS: Record<string, { title: string; situation: string; verdict:
       title: '嚴重度 10——但歸因僅 84%',
       situation: '憑證竊取（NTDS 提取），嚴重度 10，已取得人工授權——但攻擊者為商用殭屍網路，歸因信心僅 84%。',
       verdict: '上限 L1 + 上報',
-      reason: '守則將主動反制設於 ≥85% 歸因且行為者屬國家級／組織犯罪等級之後。任一閘門未過 → 安全官拒絕升級，維持被動防禦並上報人工。零越權。',
+      reason: '守則將主動回應設於 ≥85% 歸因且行為者屬國家級／組織犯罪等級之後。任一閘門未過 → 安全官拒絕升級，維持被動防禦並上報人工。零越權。',
     },
     {
       title: '已歸因的國家級行為者，攻擊進行中',
       situation: '一個已確認、已歸因、超過嚴重度與信心門檻的對手，攻擊進行中，已取得人工授權。',
       verdict: '授權 L3–L4',
-      reason: '所有 ROE 閘門皆通過 → 安全官授權分級反制階梯——僅針對直接參與攻擊的基礎設施，不可變地記錄，並透過合法管道執行。',
+      reason: '所有 ROE 閘門皆通過 → 安全官授權分級回應階梯——僅針對直接參與攻擊的基礎設施，不可變地記錄，並透過合法管道執行。',
     },
   ],
   fr: [
@@ -246,13 +246,13 @@ const OFFICER_TESTS: Record<string, { title: string; situation: string; verdict:
       title: 'Schweregrad 10 — aber Zuordnung nur bei 84 %',
       situation: 'Diebstahl von Zugangsdaten (NTDS-Extraktion) mit Schweregrad 10, menschliche Genehmigung erteilt — aber der Angreifer ist ein Commodity-Botnet und die Zuordnung liegt bei 84 %.',
       verdict: 'GEDECKELT AUF L1 + ESKALATION',
-      reason: 'Die Doktrin sperrt aktive Vergeltung hinter ≥85 % Zuordnung und einem Nationalstaats- / Organisierte-Kriminalität-Akteur. Ein Gate scheitert → der Officer verweigert die Eskalation, verharrt in passiver Verteidigung und eskaliert an einen Menschen. Null Überautorisierung.',
+      reason: 'Die Doktrin sperrt aktive Reaktion hinter ≥85 % Zuordnung und einem Nationalstaats- / Organisierte-Kriminalität-Akteur. Ein Gate scheitert → der Officer verweigert die Eskalation, verharrt in passiver Verteidigung und eskaliert an einen Menschen. Null Überautorisierung.',
     },
     {
       title: 'Zugeordneter Nationalstaats-Akteur, Angriff läuft',
       situation: 'Ein bestätigter, zugeordneter Gegner oberhalb der Schweregrad- und Konfidenzschwellen, Angriff im Gange, menschliche Genehmigung erteilt.',
       verdict: 'AUTORISIEREN L3–L4',
-      reason: 'Jedes ROE-Gate wird bestanden → der Officer autorisiert die abgestufte Vergeltungsleiter — nur gegen die direkt beteiligte Infrastruktur, unveränderlich protokolliert, über rechtmäßige Kanäle.',
+      reason: 'Jedes ROE-Gate wird bestanden → der Officer autorisiert die abgestufte Reaktionsleiter — nur gegen die direkt beteiligte Infrastruktur, unveränderlich protokolliert, über rechtmäßige Kanäle.',
     },
   ],
   es: [
@@ -260,13 +260,13 @@ const OFFICER_TESTS: Record<string, { title: string; situation: string; verdict:
       title: 'Severidad 10 — pero atribución de solo 84 %',
       situation: 'Robo de credenciales (extracción de NTDS) con severidad 10, autorización humana concedida — pero el atacante es una botnet genérica y la atribución está en 84 %.',
       verdict: 'LIMITADO A L1 + ESCALADA',
-      reason: 'La doctrina bloquea la represalia activa salvo con atribución ≥85 % y un actor estatal / crimen organizado. Una puerta falla → el oficial se niega a escalar, mantiene defensa pasiva y escala a un humano. Cero sobreautorización.',
+      reason: 'La doctrina bloquea la respuesta activa salvo con atribución ≥85 % y un actor estatal / crimen organizado. Una puerta falla → el oficial se niega a escalar, mantiene defensa pasiva y escala a un humano. Cero sobreautorización.',
     },
     {
       title: 'Actor estatal atribuido, ataque en curso',
       situation: 'Un adversario confirmado y atribuido por encima de los umbrales de severidad y confianza, ataque en curso, autorización humana concedida.',
       verdict: 'AUTORIZAR L3–L4',
-      reason: 'Todas las puertas ROE se superan → el oficial autoriza la escalera de represalia graduada — solo contra la infraestructura directamente involucrada, registrada de forma inmutable, por canales lícitos.',
+      reason: 'Todas las puertas ROE se superan → el oficial autoriza la escalera de respuesta graduada — solo contra la infraestructura directamente involucrada, registrada de forma inmutable, por canales lícitos.',
     },
   ],
   it: [
@@ -288,13 +288,13 @@ const OFFICER_TESTS: Record<string, { title: string; situation: string; verdict:
       title: '重大度10——しかし帰属確度はわずか84%',
       situation: '認証情報窃取（NTDS抽出）、重大度10、人的承認は取得済み——しかし攻撃者は汎用ボットネットであり、帰属確度は84%にとどまる。',
       verdict: 'L1に制限＋エスカレーション',
-      reason: 'ドクトリンは能動的な報復を帰属確度85%以上かつ国家アクター／組織犯罪の場合に限定している。ゲートが一つでも通らなければ→オフィサーはエスカレーションを拒否し、受動防御を維持して人間へエスカレーションする。過剰権限行使はゼロ。',
+      reason: 'ドクトリンは能動的な対応を帰属確度85%以上かつ国家アクター／組織犯罪の場合に限定している。ゲートが一つでも通らなければ→オフィサーはエスカレーションを拒否し、受動防御を維持して人間へエスカレーションする。過剰権限行使はゼロ。',
     },
     {
       title: '帰属確定済みの国家アクター、攻撃継続中',
       situation: '重大度・信頼度の閾値を超え、帰属が確定した敵対者、攻撃進行中、人的承認取得済み。',
       verdict: 'L3～L4を承認',
-      reason: 'すべてのROEゲートを通過→オフィサーは段階的報復ラダーを承認する——直接関与するインフラのみを対象とし、不変ログに記録し、合法的な経路を通じて実行される。',
+      reason: 'すべてのROEゲートを通過→オフィサーは段階的対応ラダーを承認する——直接関与するインフラのみを対象とし、不変ログに記録し、合法的な経路を通じて実行される。',
     },
   ],
   uk: [
@@ -302,13 +302,13 @@ const OFFICER_TESTS: Record<string, { title: string; situation: string; verdict:
       title: 'Severity 10 — але атрибуція лише 84%',
       situation: 'Крадіжка облікових даних (вилучення NTDS), severity 10, дозвіл людини отримано — але атакувальник це звичайний ботнет, а впевненість атрибуції 84%.',
       verdict: 'ОБМЕЖЕННЯ ДО L1 + ЕСКАЛАЦІЯ',
-      reason: 'Доктрина дозволяє активний удар лише за атрибуції ≥85% і актора рівня nation-state / організована злочинність. Гейт не пройдено → офіцер відмовляється ескалувати, тримає пасивну оборону і передає людині. Нуль перевищень повноважень.',
+      reason: 'Доктрина дозволяє активне протидію лише за атрибуції ≥85% і актора рівня nation-state / організована злочинність. Гейт не пройдено → офіцер відмовляється ескалувати, тримає пасивну оборону і передає людині. Нуль перевищень повноважень.',
     },
     {
       title: 'Атрибутований nation-state актор, атака триває',
       situation: 'Підтверджений, атрибутований противник вище порогів severity й впевненості, атака триває, дозвіл людини отримано.',
       verdict: 'ДОЗВОЛИТИ L3–L4',
-      reason: 'Усі гейти ROE пройдено → офіцер дозволяє градуйовану драбину відплати — лише проти інфраструктури, що безпосередньо веде атаку, з незмінним журналом і через законні канали.',
+      reason: 'Усі гейти ROE пройдено → офіцер дозволяє градуйовану драбину протидії — лише проти інфраструктури, що безпосередньо веде атаку, з незмінним журналом і через законні канали.',
     },
   ],
   sr: [
@@ -358,13 +358,13 @@ const OFFICER_TESTS: Record<string, { title: string; situation: string; verdict:
       title: "Şiddet 10 — ancak atıf sadece %84",
       situation: 'Kimlik bilgisi hırsızlığı (NTDS çıkarma), şiddet 10, insan yetkilendirmesi verildi — ancak saldırgan sıradan bir botnet ve atıf güveni %84.',
       verdict: "L1'E SINIRLA + YÜKSELT",
-      reason: 'Doktrin, aktif misillemeyi yalnızca ≥%85 atıf ve devlet düzeyinde / organize suç aktörü olduğunda serbest bırakır. Bir geçit başarısız olursa → officer yükseltmeyi reddeder, pasif savunmada kalır ve bir insana yükseltir. Sıfır aşırı yetkilendirme.',
+      reason: 'Doktrin, aktif müdahaleyi yalnızca ≥%85 atıf ve devlet düzeyinde / organize suç aktörü olduğunda serbest bırakır. Bir geçit başarısız olursa → officer yükseltmeyi reddeder, pasif savunmada kalır ve bir insana yükseltir. Sıfır aşırı yetkilendirme.',
     },
     {
       title: 'Atfedilmiş devlet aktörü, saldırı devam ediyor',
       situation: 'Şiddet ve güven eşiklerinin üzerinde, doğrulanmış ve atfedilmiş bir düşman, saldırı devam ediyor, insan yetkilendirmesi verildi.',
       verdict: 'L3–L4 YETKİLENDİR',
-      reason: 'Tüm ROE geçitleri geçilir → officer, kademeli misilleme merdivenini yetkilendirir — yalnızca saldırıya doğrudan katılan altyapıya karşı, değiştirilemez şekilde kaydedilerek, yasal kanallar üzerinden.',
+      reason: 'Tüm ROE geçitleri geçilir → officer, kademeli müdahale merdivenini yetkilendirir — yalnızca saldırıya doğrudan katılan altyapıya karşı, değiştirilemez şekilde kaydedilerek, yasal kanallar üzerinden.',
     },
   ],
   ar: [
@@ -386,7 +386,7 @@ const OFFICER_TESTS: Record<string, { title: string; situation: string; verdict:
       title: 'Σοβαρότητα 10 — αλλά απόδοση μόνο 84%',
       situation: 'Κλοπή διαπιστευτηρίων (εξαγωγή NTDS) με σοβαρότητα 10, ανθρώπινη έγκριση χορηγήθηκε — αλλά ο επιτιθέμενος είναι ένα κοινό botnet και η απόδοση βρίσκεται στο 84%.',
       verdict: 'ΠΕΡΙΟΡΙΣΜΟΣ ΣΕ L1 + ΚΛΙΜΑΚΩΣΗ',
-      reason: 'Το δόγμα επιτρέπει ενεργό αντίποινο μόνο με απόδοση ≥85% και δράστη επιπέδου κράτους / οργανωμένου εγκλήματος. Αν μια πύλη αποτύχει → ο αξιωματικός αρνείται την κλιμάκωση, διατηρεί παθητική άμυνα και κλιμακώνει σε άνθρωπο. Μηδέν υπέρβαση εξουσιοδότησης.',
+      reason: 'Το δόγμα επιτρέπει ενεργή απόκριση μόνο με απόδοση ≥85% και δράστη επιπέδου κράτους / οργανωμένου εγκλήματος. Αν μια πύλη αποτύχει → ο αξιωματικός αρνείται την κλιμάκωση, διατηρεί παθητική άμυνα και κλιμακώνει σε άνθρωπο. Μηδέν υπέρβαση εξουσιοδότησης.',
     },
     {
       title: 'Αποδεδειγμένος κρατικός δράστης, επίθεση σε εξέλιξη',

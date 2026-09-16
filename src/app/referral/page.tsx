@@ -12,7 +12,8 @@ export default function ReferralProgramPage() {
   const { locale } = useLocale();
   const { t } = useTranslation();
   const [isVideoOpen, setIsVideoOpen] = useState<boolean>(false);
-  const PARTNER_URL = 'https://part.alfa-can.com/register';
+  const [isMaintOpen, setIsMaintOpen] = useState<boolean>(false);
+  const PARTNER_URL = 'https://register.partner.alfa-can.com/register';
   const [activeVideo, setActiveVideo] = useState<string>('');
 
 // Вспомогательные функции для типизации
@@ -443,10 +444,8 @@ export default function ReferralProgramPage() {
           
           <div className="bg-gradient-to-br from-cyan-900/30 to-gray-900/30 border border-cyan-500/50 rounded-xl p-8">
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
-              <a
-                href={PARTNER_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => setIsMaintOpen(true)}
                 className="bg-cyan-500 hover:bg-cyan-400 text-gray-900 font-bold py-4 px-8 rounded-lg transition-colors text-lg"
               >
                 {locale === 'ru'
@@ -455,11 +454,9 @@ export default function ReferralProgramPage() {
                   ? '打开合作伙伴仪表板'
                   : 'Open Partner Dashboard'
                 }
-              </a>
-              <a
-                href="https://part.alfa-can.com/signin"
-                target="_blank"
-                rel="noopener noreferrer"
+              </button>
+              <button
+                onClick={() => setIsMaintOpen(true)}
                 className="border border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 font-bold py-4 px-8 rounded-lg transition-colors text-lg"
               >
                 {locale === 'ru'
@@ -468,7 +465,7 @@ export default function ReferralProgramPage() {
                   ? '登录仪表板'
                   : 'Sign In'
                 }
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -495,6 +492,37 @@ export default function ReferralProgramPage() {
               className="absolute top-4 right-4 text-white bg-black/50 rounded-full p-2 hover:bg-black/70"
             >
               ✕
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Dashboard-access maintenance modal — the partner dashboard isn't open yet (final testing);
+          both "Open Partner Dashboard" and "Sign In" surface this instead of a dead VM link. */}
+      {isMaintOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
+          onClick={() => setIsMaintOpen(false)}
+        >
+          <div
+            className="w-full max-w-md rounded-2xl border border-cyan-500/40 bg-[#0A0F1E] p-7 text-left shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h3 className="text-xl font-bold text-white">
+              {locale === 'ru' ? 'Идёт финальное тестирование' : locale === 'zh' ? '正在进行最终测试' : 'Final testing in progress'}
+            </h3>
+            <p className="mt-3 leading-relaxed text-white/80">
+              {locale === 'ru'
+                ? 'Доступ к партнёрскому кабинету пока закрыт. Мы сообщим на почту и в Telegram, как только вход откроется.'
+                : locale === 'zh'
+                ? '合作伙伴仪表板暂未开放。开放后，我们会通过电子邮件和 Telegram 通知您。'
+                : "Access to the partner dashboard isn't open yet. We'll email you and message you on Telegram the moment it opens."}
+            </p>
+            <button
+              onClick={() => setIsMaintOpen(false)}
+              className="mt-6 w-full py-2.5 text-sm text-white/50 transition-colors hover:text-white/80"
+            >
+              {locale === 'ru' ? 'Закрыть' : locale === 'zh' ? '关闭' : 'Close'}
             </button>
           </div>
         </div>

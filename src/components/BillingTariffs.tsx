@@ -38,7 +38,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Incident tier — à la carte, your call', note: 'Kicks in after ITDR containment. You decide and pay per step.', items: [
         { name: 'Investigation', desc: 'Full repel + hunt every implant/backdoor/persistence', price: '$750', unit: '/incident' },
-        { name: 'Retaliation', desc: 'Strike on attacker infrastructure, ROE L1–L4', price: '+$1,500', unit: '/incident' },
+        { name: 'Investigation & response', desc: 'Investigation, attribution and coordinated response, ROE L1–L4', price: '+$1,500', unit: '/incident' },
         { name: 'Recovery — small', desc: '1–2 services, configs, rollback', price: '$300', unit: '' },
         { name: 'Recovery — medium', desc: 'Reinstall / data, several nodes', price: '$1,500', unit: '' },
         { name: 'Recovery — large', desc: 'Full system/cluster recovery', price: '$4,000', unit: '' },
@@ -79,7 +79,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Incident-тир — à la carte, по твоему решению', note: 'Наступает после сдерживания ITDR. Ты решаешь и платишь за шаг.', items: [
         { name: 'Расследование', desc: 'Полное отражение + поиск всех внедрений/бэкдоров/персистенса', price: '$750', unit: '/инцидент' },
-        { name: 'Возмездие', desc: 'Удар по инфраструктуре атакующего, ROE L1–L4', price: '+$1,500', unit: '/инцидент' },
+        { name: 'Расследование и противодействие', desc: 'Расследование, атрибуция и координированное противодействие, ROE L1–L4', price: '+$1,500', unit: '/инцидент' },
         { name: 'Восстановление — малое', desc: '1–2 сервиса, конфиги, откат', price: '$300', unit: '' },
         { name: 'Восстановление — среднее', desc: 'Переустановка / данные, неск. узлов', price: '$1,500', unit: '' },
         { name: 'Восстановление — большое', desc: 'Полное восстановление системы/кластера', price: '$4,000', unit: '' },
@@ -120,7 +120,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Nivel de incidentes — à la carte, tú decides', note: 'Entra en juego tras la contención del ITDR. Tú decides y pagas por paso.', items: [
         { name: 'Investigación', desc: 'Repulsión total + búsqueda de todo implante/backdoor/persistencia', price: '$750', unit: '/incidente' },
-        { name: 'Represalia', desc: 'Golpe a la infraestructura del atacante, ROE L1–L4', price: '+$1,500', unit: '/incidente' },
+        { name: 'Investigación y respuesta', desc: 'Investigación, atribución y respuesta coordinada, ROE L1–L4', price: '+$1,500', unit: '/incidente' },
         { name: 'Recuperación — pequeña', desc: '1–2 servicios, configuraciones, rollback', price: '$300', unit: '' },
         { name: 'Recuperación — media', desc: 'Reinstalación / datos, varios nodos', price: '$1,500', unit: '' },
         { name: 'Recuperación — grande', desc: 'Recuperación completa del sistema/clúster', price: '$4,000', unit: '' },
@@ -161,7 +161,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Incident-тір — à la carte, за твоїм рішенням', note: 'Настає після стримування ITDR. Ти вирішуєш і платиш за крок.', items: [
         { name: 'Розслідування', desc: 'Повне відбиття + пошук усіх упроваджень/бекдорів/персистенції', price: '$750', unit: '/інцидент' },
-        { name: 'Відплата', desc: 'Удар по інфраструктурі атакувальника, ROE L1–L4', price: '+$1,500', unit: '/інцидент' },
+        { name: 'Розслідування та протидія', desc: 'Розслідування, атрибуція та координована протидія, ROE L1–L4', price: '+$1,500', unit: '/інцидент' },
         { name: 'Відновлення — мале', desc: '1–2 сервіси, конфіги, відкат', price: '$300', unit: '' },
         { name: 'Відновлення — середнє', desc: 'Перевстановлення / дані, кілька вузлів', price: '$1,500', unit: '' },
         { name: 'Відновлення — велике', desc: 'Повне відновлення системи/кластера', price: '$4,000', unit: '' },
@@ -202,7 +202,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Nivo incidenata — à la carte, tvoja odluka', note: 'Nastupa nakon obuzdavanja ITDR-a. Ti odlučuješ i plaćaš po koraku.', items: [
         { name: 'Istraga', desc: 'Potpuno odbijanje + lov na svaki implant/backdoor/perzistenciju', price: '$750', unit: '/incident' },
-        { name: 'Odmazda', desc: 'Udar na infrastrukturu napadača, ROE L1–L4', price: '+$1,500', unit: '/incident' },
+        { name: 'Istraga i odgovor', desc: 'Istraga, atribucija i koordinisan odgovor, ROE L1–L4', price: '+$1,500', unit: '/incident' },
         { name: 'Oporavak — mali', desc: '1–2 servisa, konfiguracije, rollback', price: '$300', unit: '' },
         { name: 'Oporavak — srednji', desc: 'Reinstalacija / podaci, više čvorova', price: '$1,500', unit: '' },
         { name: 'Oporavak — veliki', desc: 'Potpuni oporavak sistema/klastera', price: '$4,000', unit: '' },
@@ -243,7 +243,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Incident-Stufe — à la carte, deine Entscheidung', note: 'Greift nach der ITDR-Eindämmung. Du entscheidest und zahlst pro Schritt.', items: [
         { name: 'Untersuchung', desc: 'Vollständige Abwehr + Suche nach jedem Implantat/Backdoor/Persistenz', price: '$750', unit: '/Vorfall' },
-        { name: 'Vergeltung', desc: 'Schlag gegen die Angreifer-Infrastruktur, ROE L1–L4', price: '+$1,500', unit: '/Vorfall' },
+        { name: 'Untersuchung & Reaktion', desc: 'Untersuchung, Attribution und koordinierte Reaktion, ROE L1–L4', price: '+$1,500', unit: '/Vorfall' },
         { name: 'Wiederherstellung — klein', desc: '1–2 Dienste, Konfigurationen, Rollback', price: '$300', unit: '' },
         { name: 'Wiederherstellung — mittel', desc: 'Neuinstallation / Daten, mehrere Knoten', price: '$1,500', unit: '' },
         { name: 'Wiederherstellung — groß', desc: 'Vollständige System-/Cluster-Wiederherstellung', price: '$4,000', unit: '' },
@@ -284,7 +284,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Niveau incident — à la carte, votre décision', note: 'Intervient après le confinement ITDR. Vous décidez et payez par étape.', items: [
         { name: 'Investigation', desc: 'Repoussée totale + recherche de tout implant/backdoor/persistance', price: '$750', unit: '/incident' },
-        { name: 'Représailles', desc: 'Frappe sur l’infrastructure de l’attaquant, ROE L1–L4', price: '+$1,500', unit: '/incident' },
+        { name: 'Enquête et réponse', desc: 'Enquête, attribution et réponse coordonnée, ROE L1–L4', price: '+$1,500', unit: '/incident' },
         { name: 'Récupération — petite', desc: '1–2 services, configurations, rollback', price: '$300', unit: '' },
         { name: 'Récupération — moyenne', desc: 'Réinstallation / données, plusieurs nœuds', price: '$1,500', unit: '' },
         { name: 'Récupération — grande', desc: 'Récupération complète du système/cluster', price: '$4,000', unit: '' },
@@ -325,7 +325,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Livello incidenti — à la carte, decidi tu', note: 'Entra in gioco dopo il contenimento ITDR. Decidi e paghi per passo.', items: [
         { name: 'Indagine', desc: 'Respingimento totale + caccia a ogni impianto/backdoor/persistenza', price: '$750', unit: '/incidente' },
-        { name: 'Ritorsione', desc: 'Colpo all’infrastruttura dell’attaccante, ROE L1–L4', price: '+$1,500', unit: '/incidente' },
+        { name: 'Indagine e risposta', desc: 'Indagine, attribuzione e risposta coordinata, ROE L1–L4', price: '+$1,500', unit: '/incidente' },
         { name: 'Ripristino — piccolo', desc: '1–2 servizi, configurazioni, rollback', price: '$300', unit: '' },
         { name: 'Ripristino — medio', desc: 'Reinstallazione / dati, più nodi', price: '$1,500', unit: '' },
         { name: 'Ripristino — grande', desc: 'Ripristino completo del sistema/cluster', price: '$4,000', unit: '' },
@@ -366,7 +366,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Nível de incidentes — à la carte, você decide', note: 'Entra em ação após a contenção do ITDR. Você decide e paga por etapa.', items: [
         { name: 'Investigação', desc: 'Repulsão total + caça a todo implante/backdoor/persistência', price: '$750', unit: '/incidente' },
-        { name: 'Retaliação', desc: 'Golpe na infraestrutura do atacante, ROE L1–L4', price: '+$1,500', unit: '/incidente' },
+        { name: 'Investigação e resposta', desc: 'Investigação, atribuição e resposta coordenada, ROE L1–L4', price: '+$1,500', unit: '/incidente' },
         { name: 'Recuperação — pequena', desc: '1–2 serviços, configurações, rollback', price: '$300', unit: '' },
         { name: 'Recuperação — média', desc: 'Reinstalação / dados, vários nós', price: '$1,500', unit: '' },
         { name: 'Recuperação — grande', desc: 'Recuperação completa do sistema/cluster', price: '$4,000', unit: '' },
@@ -407,7 +407,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Olay katmanı — à la carte, senin kararın', note: 'ITDR sınırlamasından sonra devreye girer. Adım başına sen karar verir, sen ödersin.', items: [
         { name: 'Soruşturma', desc: 'Tam püskürtme + her implant/arka kapı/kalıcılık avı', price: '$750', unit: '/olay' },
-        { name: 'Misilleme', desc: 'Saldırgan altyapısına darbe, ROE L1–L4', price: '+$1,500', unit: '/olay' },
+        { name: 'Soruşturma ve müdahale', desc: 'Soruşturma, atıf ve koordineli müdahale, ROE L1–L4', price: '+$1,500', unit: '/olay' },
         { name: 'Kurtarma — küçük', desc: '1–2 servis, yapılandırma, geri alma', price: '$300', unit: '' },
         { name: 'Kurtarma — orta', desc: 'Yeniden kurulum / veri, birkaç düğüm', price: '$1,500', unit: '' },
         { name: 'Kurtarma — büyük', desc: 'Tam sistem/küme kurtarma', price: '$4,000', unit: '' },
@@ -448,7 +448,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: '事件层级——按需选择，由你决定', note: '在 ITDR 围堵之后启动。你逐步决定并付费。', items: [
         { name: '调查', desc: '完全击退 + 排查所有植入/后门/驻留', price: '$750', unit: '/事件' },
-        { name: '反击', desc: '打击攻击者基础设施，ROE L1–L4', price: '+$1,500', unit: '/事件' },
+        { name: '调查与响应', desc: '调查、溯源与协同响应，ROE L1–L4', price: '+$1,500', unit: '/事件' },
         { name: '恢复——小', desc: '1–2 个服务、配置、回滚', price: '$300', unit: '' },
         { name: '恢复——中', desc: '重装 / 数据，多个节点', price: '$1,500', unit: '' },
         { name: '恢复——大', desc: '整个系统/集群完全恢复', price: '$4,000', unit: '' },
@@ -489,7 +489,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'インシデント階層——アラカルト、お客様の判断', note: 'ITDR封じ込め後に発動。ステップごとに判断・支払い。', items: [
         { name: '調査', desc: '完全撃退 + すべてのインプラント/バックドア/永続化の探索', price: '$750', unit: '/インシデント' },
-        { name: '報復', desc: '攻撃者インフラへの打撃、ROE L1–L4', price: '+$1,500', unit: '/インシデント' },
+        { name: '調査と対応', desc: '調査・攻撃者特定・協調対応、ROE L1–L4', price: '+$1,500', unit: '/インシデント' },
         { name: '復旧——小', desc: '1〜2サービス、設定、ロールバック', price: '$300', unit: '' },
         { name: '復旧——中', desc: '再インストール / データ、複数ノード', price: '$1,500', unit: '' },
         { name: '復旧——大', desc: 'システム/クラスター全体の復旧', price: '$4,000', unit: '' },
@@ -530,7 +530,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'इंसिडेंट टियर — à la carte, आपका निर्णय', note: 'ITDR नियंत्रण के बाद सक्रिय होता है। आप प्रति चरण निर्णय और भुगतान करते हैं।', items: [
         { name: 'जांच', desc: 'पूर्ण प्रतिकार + हर इम्प्लांट/बैकडोर/परसिस्टेंस की खोज', price: '$750', unit: '/इंसिडेंट' },
-        { name: 'प्रतिशोध', desc: 'हमलावर के इन्फ्रास्ट्रक्चर पर प्रहार, ROE L1–L4', price: '+$1,500', unit: '/इंसिडेंट' },
+        { name: 'जांच और प्रतिक्रिया', desc: 'जांच, पहचान और समन्वित प्रतिक्रिया, ROE L1–L4', price: '+$1,500', unit: '/इंसिडेंट' },
         { name: 'पुनर्प्राप्ति — छोटी', desc: '1–2 सेवाएँ, कॉन्फ़िग, रोलबैक', price: '$300', unit: '' },
         { name: 'पुनर्प्राप्ति — मध्यम', desc: 'पुनः इंस्टॉल / डेटा, कई नोड', price: '$1,500', unit: '' },
         { name: 'पुनर्प्राप्ति — बड़ी', desc: 'पूर्ण सिस्टम/क्लस्टर पुनर्प्राप्ति', price: '$4,000', unit: '' },
@@ -571,7 +571,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'مستوى الحوادث — حسب الطلب، قرارك أنت', note: 'يبدأ بعد احتواء ITDR. أنت تقرّر وتدفع لكل خطوة.', items: [
         { name: 'تحقيق', desc: 'صدّ كامل + تعقّب كل زرع/باب خلفي/استمرارية', price: '$750', unit: '/حادثة' },
-        { name: 'ردّ انتقامي', desc: 'ضربة على بنية المهاجم، ROE L1–L4', price: '+$1,500', unit: '/حادثة' },
+        { name: 'التحقيق والاستجابة', desc: 'التحقيق والإسناد والاستجابة المنسّقة، ROE L1–L4', price: '+$1,500', unit: '/حادثة' },
         { name: 'استعادة — صغيرة', desc: '1–2 خدمة، إعدادات، تراجع', price: '$300', unit: '' },
         { name: 'استعادة — متوسطة', desc: 'إعادة تثبيت / بيانات، عدة عُقد', price: '$1,500', unit: '' },
         { name: 'استعادة — كبيرة', desc: 'استعادة كاملة للنظام/العنقود', price: '$4,000', unit: '' },
@@ -612,7 +612,7 @@ const DATA: Record<string, Data> = {
       ] },
       { title: 'Επίπεδο περιστατικών — à la carte, δική σου απόφαση', note: 'Ενεργοποιείται μετά τον περιορισμό του ITDR. Αποφασίζεις και πληρώνεις ανά βήμα.', items: [
         { name: 'Έρευνα', desc: 'Πλήρης απόκρουση + κυνήγι κάθε εμφύτευμα/backdoor/persistence', price: '$750', unit: '/περιστατικό' },
-        { name: 'Αντίποινα', desc: 'Πλήγμα στην υποδομή του επιτιθέμενου, ROE L1–L4', price: '+$1,500', unit: '/περιστατικό' },
+        { name: 'Έρευνα και απόκριση', desc: 'Έρευνα, απόδοση και συντονισμένη απόκριση, ROE L1–L4', price: '+$1,500', unit: '/περιστατικό' },
         { name: 'Ανάκτηση — μικρή', desc: '1–2 υπηρεσίες, διαμορφώσεις, rollback', price: '$300', unit: '' },
         { name: 'Ανάκτηση — μεσαία', desc: 'Επανεγκατάσταση / δεδομένα, πολλοί κόμβοι', price: '$1,500', unit: '' },
         { name: 'Ανάκτηση — μεγάλη', desc: 'Πλήρης ανάκτηση συστήματος/συστάδας', price: '$4,000', unit: '' },
