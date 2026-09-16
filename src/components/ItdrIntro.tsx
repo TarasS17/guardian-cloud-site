@@ -25,7 +25,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Investigation & response',
     hl: {
       phrase: 'We don’t just defend you — we investigate the attack and respond through lawful channels.',
-      body: 'The officer runs a full investigation, identifies the attacker and responds through lawful channels — traps and disinformation on your own server, listing the attacker on global blocklists, and coordinating with ISPs, CERTs and law enforcement. All strictly within the rules of engagement (ROE) and with your approval.',
+      body: 'The officer runs a full investigation, identifies the attacker and responds through lawful channels — traps and disinformation on your own server, listing the attacker on global blocklists, and coordinating with ISPs, CERTs and law enforcement. All strictly within the rules of engagement (ROE) and with your approval. Specific investigation and response options are configured individually and agreed directly at contract signing.',
     },
   },
   ru: {
@@ -40,7 +40,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Расследование и противодействие',
     hl: {
       phrase: 'Мы не просто защищаем вас — мы расследуем атаку и реагируем законными каналами.',
-      body: 'Офицер проводит полное расследование, устанавливает атакующего и реагирует законными каналами — ловушки и дезинформация на вашем сервере, занесение атакующего в глобальные чёрные списки, координация с провайдерами, CERT и правоохранителями. Всё — строго по правилам применения (ROE) и с вашего одобрения.',
+      body: 'Офицер проводит полное расследование, устанавливает атакующего и реагирует законными каналами — ловушки и дезинформация на вашем сервере, занесение атакующего в глобальные чёрные списки, координация с провайдерами, CERT и правоохранителями. Всё — строго по правилам применения (ROE) и с вашего одобрения. Конкретные варианты расследования и противодействия настраиваются индивидуально и оговариваются непосредственно при заключении договора.',
     },
   },
   zh: {
@@ -55,7 +55,7 @@ const INTRO: Record<string, Intro> = {
     label: '調查與回應',
     hl: {
       phrase: '我們不只是防守——我們對攻擊展開調查，並透過合法管道作出回應。',
-      body: '安全官展開完整調查、鎖定攻擊者，並透過合法管道作出回應——在您的伺服器上佈下誘餌與假情報，將攻擊者列入全球黑名單，並協同網路供應商、CERT 與執法機關處置。一切均嚴格遵循交戰守則（ROE），並在取得您的授權後執行。',
+      body: '安全官展開完整調查、鎖定攻擊者，並透過合法管道作出回應——在您的伺服器上佈下誘餌與假情報，將攻擊者列入全球黑名單，並協同網路供應商、CERT 與執法機關處置。一切均嚴格遵循交戰守則（ROE），並在取得您的授權後執行。具體的調查與回應選項將個別配置，並於簽約時直接商定。',
     },
   },
   fr: {
@@ -70,7 +70,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Enquête et réponse',
     hl: {
       phrase: 'Nous ne nous contentons pas de vous défendre — nous enquêtons sur l’attaque et répondons par des voies légales.',
-      body: 'L’officier mène une enquête complète, identifie l’attaquant et répond par des voies légales — pièges et désinformation sur votre propre serveur, inscription de l’attaquant sur des listes noires mondiales, et coordination avec les FAI, les CERT et les autorités. Toujours strictement dans le cadre des règles d’engagement (ROE) et avec votre approbation.',
+      body: 'L’officier mène une enquête complète, identifie l’attaquant et répond par des voies légales — pièges et désinformation sur votre propre serveur, inscription de l’attaquant sur des listes noires mondiales, et coordination avec les FAI, les CERT et les autorités. Toujours strictement dans le cadre des règles d’engagement (ROE) et avec votre approbation. Les options précises d’enquête et de réponse sont configurées individuellement et convenues directement lors de la signature du contrat.',
     },
   },
   de: {
@@ -85,7 +85,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Untersuchung & Reaktion',
     hl: {
       phrase: 'Wir verteidigen Sie nicht nur — wir untersuchen den Angriff und reagieren auf rechtmäßigen Wegen.',
-      body: 'Der Offizier führt eine vollständige Untersuchung durch, identifiziert den Angreifer und reagiert auf rechtmäßigen Wegen — Fallen und Desinformation auf Ihrem eigenen Server, Eintrag des Angreifers in globale Sperrlisten und Koordination mit ISPs, CERTs und Behörden. Stets streng innerhalb der Einsatzregeln (ROE) und mit Ihrer Zustimmung.',
+      body: 'Der Offizier führt eine vollständige Untersuchung durch, identifiziert den Angreifer und reagiert auf rechtmäßigen Wegen — Fallen und Desinformation auf Ihrem eigenen Server, Eintrag des Angreifers in globale Sperrlisten und Koordination mit ISPs, CERTs und Behörden. Stets streng innerhalb der Einsatzregeln (ROE) und mit Ihrer Zustimmung. Konkrete Untersuchungs- und Reaktionsoptionen werden individuell konfiguriert und direkt bei Vertragsabschluss vereinbart.',
     },
   },
   es: {
@@ -100,7 +100,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Investigación y respuesta',
     hl: {
       phrase: 'No solo lo defendemos — investigamos el ataque y respondemos por vías legales.',
-      body: 'El oficial realiza una investigación completa, identifica al atacante y responde por vías legales — trampas y desinformación en su propio servidor, inclusión del atacante en listas negras globales y coordinación con ISPs, CERTs y autoridades. Todo estrictamente dentro de las reglas de enfrentamiento (ROE) y con su aprobación.',
+      body: 'El oficial realiza una investigación completa, identifica al atacante y responde por vías legales — trampas y desinformación en su propio servidor, inclusión del atacante en listas negras globales y coordinación con ISPs, CERTs y autoridades. Todo estrictamente dentro de las reglas de enfrentamiento (ROE) y con su aprobación. Las opciones concretas de investigación y respuesta se configuran de forma individual y se acuerdan directamente en la firma del contrato.',
     },
   },
   it: {
@@ -115,7 +115,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Indagine e risposta',
     hl: {
       phrase: 'Non ci limitiamo a difendervi — indaghiamo sull’attacco e rispondiamo per vie legali.',
-      body: 'L’ufficiale conduce un’indagine completa, identifica l’attaccante e risponde per vie legali — trappole e disinformazione sul vostro stesso server, inserimento dell’attaccante in liste nere globali e coordinamento con ISP, CERT e autorità. Tutto rigorosamente entro le regole d’ingaggio (ROE) e con la vostra approvazione.',
+      body: 'L’ufficiale conduce un’indagine completa, identifica l’attaccante e risponde per vie legali — trappole e disinformazione sul vostro stesso server, inserimento dell’attaccante in liste nere globali e coordinamento con ISP, CERT e autorità. Tutto rigorosamente entro le regole d’ingaggio (ROE) e con la vostra approvazione. Le opzioni specifiche di indagine e risposta sono configurate individualmente e concordate direttamente alla firma del contratto.',
     },
   },
   ja: {
@@ -130,7 +130,7 @@ const INTRO: Record<string, Intro> = {
     label: '調査と対応',
     hl: {
       phrase: '私たちは守るだけではありません——攻撃を調査し、合法的な手段で対応します。',
-      body: 'オフィサーは徹底的な調査を行い、攻撃者を特定し、合法的な手段で対応します——自社サーバー上での罠と偽情報、攻撃者をグローバルなブロックリストに登録すること、そしてISP・CERT・当局と連携した対処です。すべては交戦規定（ROE）を厳格に遵守し、あなたの承認のもとでのみ行われます。',
+      body: 'オフィサーは徹底的な調査を行い、攻撃者を特定し、合法的な手段で対応します——自社サーバー上での罠と偽情報、攻撃者をグローバルなブロックリストに登録すること、そしてISP・CERT・当局と連携した対処です。すべては交戦規定（ROE）を厳格に遵守し、あなたの承認のもとでのみ行われます。具体的な調査・対応オプションは個別に設定され、契約締結時に直接合意されます。',
     },
   },
   uk: {
@@ -145,7 +145,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Розслідування та протидія',
     hl: {
       phrase: 'Ми не просто захищаємо вас — ми розслідуємо атаку і реагуємо законними каналами.',
-      body: 'Офіцер проводить повне розслідування, встановлює атакуючого і реагує законними каналами — пастки та дезінформація на вашому сервері, внесення атакуючого до глобальних чорних списків, координація з провайдерами, CERT та правоохоронцями. Все — суворо за правилами застосування (ROE) і з вашого схвалення.',
+      body: 'Офіцер проводить повне розслідування, встановлює атакуючого і реагує законними каналами — пастки та дезінформація на вашому сервері, внесення атакуючого до глобальних чорних списків, координація з провайдерами, CERT та правоохоронцями. Все — суворо за правилами застосування (ROE) і з вашого схвалення. Конкретні варіанти розслідування та протидії налаштовуються індивідуально й узгоджуються безпосередньо під час укладення договору.',
     },
   },
   sr: {
@@ -160,7 +160,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Istraga i odgovor',
     hl: {
       phrase: 'Ne samo da vas branimo — istražujemo napad i odgovaramo zakonitim kanalima.',
-      body: 'Oficir sprovodi potpunu istragu, identifikuje napadača i odgovara zakonitim kanalima — zamke i dezinformacije na vašem sopstvenom serveru, uvrštavanje napadača na globalne crne liste i koordinaciju sa ISP-ovima, CERT-ovima i vlastima. Sve strogo u okviru pravila angažovanja (ROE) i uz vaše odobrenje.',
+      body: 'Oficir sprovodi potpunu istragu, identifikuje napadača i odgovara zakonitim kanalima — zamke i dezinformacije na vašem sopstvenom serveru, uvrštavanje napadača na globalne crne liste i koordinaciju sa ISP-ovima, CERT-ovima i vlastima. Sve strogo u okviru pravila angažovanja (ROE) i uz vaše odobrenje. Konkretne opcije istrage i odgovora konfigurišu se pojedinačno i dogovaraju direktno pri potpisivanju ugovora.',
     },
   },
   pt: {
@@ -175,7 +175,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Investigação e resposta',
     hl: {
       phrase: 'Não nos limitamos a defendê-lo — investigamos o ataque e respondemos por vias legais.',
-      body: 'O oficial conduz uma investigação completa, identifica o atacante e responde por vias legais — armadilhas e desinformação no seu próprio servidor, inclusão do atacante em listas negras globais e coordenação com ISPs, CERTs e autoridades. Tudo estritamente dentro das regras de empenhamento (ROE) e com a sua aprovação.',
+      body: 'O oficial conduz uma investigação completa, identifica o atacante e responde por vias legais — armadilhas e desinformação no seu próprio servidor, inclusão do atacante em listas negras globais e coordenação com ISPs, CERTs e autoridades. Tudo estritamente dentro das regras de empenhamento (ROE) e com a sua aprovação. As opções específicas de investigação e resposta são configuradas individualmente e acordadas diretamente na assinatura do contrato.',
     },
   },
   hi: {
@@ -190,7 +190,7 @@ const INTRO: Record<string, Intro> = {
     label: 'जांच और प्रतिक्रिया',
     hl: {
       phrase: 'हम सिर्फ आपकी रक्षा नहीं करते — हम हमले की जांच करते हैं और वैध माध्यमों से प्रतिक्रिया देते हैं।',
-      body: 'अधिकारी पूरी जांच करता है, हमलावर की पहचान करता है और वैध माध्यमों से प्रतिक्रिया देता है — आपके अपने सर्वर पर जाल और भ्रामक सूचना, हमलावर को वैश्विक ब्लॉकलिस्ट में डालना, और ISP, CERT व अधिकारियों के साथ समन्वय। यह सब सख्ती से रूल्स ऑफ एंगेजमेंट (ROE) के दायरे में और आपकी स्वीकृति के साथ होता है।',
+      body: 'अधिकारी पूरी जांच करता है, हमलावर की पहचान करता है और वैध माध्यमों से प्रतिक्रिया देता है — आपके अपने सर्वर पर जाल और भ्रामक सूचना, हमलावर को वैश्विक ब्लॉकलिस्ट में डालना, और ISP, CERT व अधिकारियों के साथ समन्वय। यह सब सख्ती से रूल्स ऑफ एंगेजमेंट (ROE) के दायरे में और आपकी स्वीकृति के साथ होता है। जांच और प्रतिक्रिया के विशिष्ट विकल्प व्यक्तिगत रूप से कॉन्फ़िगर किए जाते हैं और अनुबंध पर हस्ताक्षर के समय सीधे तय किए जाते हैं।',
     },
   },
   tr: {
@@ -205,7 +205,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Soruşturma ve müdahale',
     hl: {
       phrase: 'Sizi yalnızca savunmuyoruz — saldırıyı soruşturur ve yasal yollarla müdahale ederiz.',
-      body: "Subay kapsamlı bir soruşturma yürütür, saldırganı tespit eder ve yasal yollarla müdahale eder — kendi sunucunuzda tuzaklar ve yanlış bilgilendirme, saldırganı küresel kara listelere kaydetme ve İSS'ler, CERT'ler ve yetkililerle koordinasyon. Tüm bunlar sıkı bir şekilde angajman kuralları (ROE) çerçevesinde ve sizin onayınızla yapılır.",
+      body: "Subay kapsamlı bir soruşturma yürütür, saldırganı tespit eder ve yasal yollarla müdahale eder — kendi sunucunuzda tuzaklar ve yanlış bilgilendirme, saldırganı küresel kara listelere kaydetme ve İSS'ler, CERT'ler ve yetkililerle koordinasyon. Tüm bunlar sıkı bir şekilde angajman kuralları (ROE) çerçevesinde ve sizin onayınızla yapılır. Belirli soruşturma ve müdahale seçenekleri bireysel olarak yapılandırılır ve doğrudan sözleşme imzalanırken kararlaştırılır.",
     },
   },
   ar: {
@@ -220,7 +220,7 @@ const INTRO: Record<string, Intro> = {
     label: 'التحقيق والاستجابة',
     hl: {
       phrase: 'نحن لا نكتفي بالدفاع عنكم — بل نحقق في الهجوم ونستجيب عبر القنوات القانونية.',
-      body: 'يجري الضابط تحقيقاً كاملاً، ويحدد هوية المهاجم، ويستجيب عبر القنوات القانونية — فخاخ ومعلومات مضللة على خادمكم الخاص، وإدراج المهاجم في قوائم الحظر العالمية، والتنسيق مع مزودي الإنترنت وفرق CERT والجهات المختصة. كل ذلك ضمن قواعد الاشتباك (ROE) وبموافقتكم فقط.',
+      body: 'يجري الضابط تحقيقاً كاملاً، ويحدد هوية المهاجم، ويستجيب عبر القنوات القانونية — فخاخ ومعلومات مضللة على خادمكم الخاص، وإدراج المهاجم في قوائم الحظر العالمية، والتنسيق مع مزودي الإنترنت وفرق CERT والجهات المختصة. كل ذلك ضمن قواعد الاشتباك (ROE) وبموافقتكم فقط. تُهيَّأ خيارات التحقيق والاستجابة المحددة بشكل فردي ويُتَّفق عليها مباشرةً عند توقيع العقد.',
     },
   },
   el: {
@@ -235,7 +235,7 @@ const INTRO: Record<string, Intro> = {
     label: 'Έρευνα και απόκριση',
     hl: {
       phrase: 'Δεν σας υπερασπιζόμαστε απλώς — ερευνούμε την επίθεση και αποκρινόμαστε με νόμιμα μέσα.',
-      body: 'Ο αξιωματικός διεξάγει πλήρη έρευνα, ταυτοποιεί τον επιτιθέμενο και αποκρίνεται με νόμιμα μέσα — παγίδες και παραπληροφόρηση στον δικό σας διακομιστή, καταχώριση του επιτιθέμενου σε παγκόσμιες μαύρες λίστες και συντονισμό με παρόχους, CERT και αρχές. Πάντα αυστηρά εντός των κανόνων εμπλοκής (ROE) και με τη δική σας έγκριση.',
+      body: 'Ο αξιωματικός διεξάγει πλήρη έρευνα, ταυτοποιεί τον επιτιθέμενο και αποκρίνεται με νόμιμα μέσα — παγίδες και παραπληροφόρηση στον δικό σας διακομιστή, καταχώριση του επιτιθέμενου σε παγκόσμιες μαύρες λίστες και συντονισμό με παρόχους, CERT και αρχές. Πάντα αυστηρά εντός των κανόνων εμπλοκής (ROE) και με τη δική σας έγκριση. Οι συγκεκριμένες επιλογές έρευνας και απόκρισης διαμορφώνονται εξατομικευμένα και συμφωνούνται απευθείας κατά την υπογραφή της σύμβασης.',
     },
   },
 };
