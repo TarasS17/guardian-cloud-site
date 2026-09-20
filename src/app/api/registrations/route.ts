@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 // registrations count (avoids browser CORS). Count only, no PII.
 export async function GET() {
   try {
-    const res = await fetch('https://register.cloud.alfa-can.com/api/v1/cloud/stats/registrations', {
+    const res = await fetch('https://cloud.alfa-can.com/api/v1/cloud/stats/registrations', {
       next: { revalidate: 60 },
     });
     const data = await res.json();

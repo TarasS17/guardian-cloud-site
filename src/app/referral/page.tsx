@@ -13,7 +13,7 @@ export default function ReferralProgramPage() {
   const { t } = useTranslation();
   const [isVideoOpen, setIsVideoOpen] = useState<boolean>(false);
   const [isMaintOpen, setIsMaintOpen] = useState<boolean>(false);
-  const PARTNER_URL = 'https://register.partner.alfa-can.com/register';
+  const PARTNER_URL = 'https://part.alfa-can.com/signin';
   const [activeVideo, setActiveVideo] = useState<string>('');
 
 // Вспомогательные функции для типизации

@@ -23,7 +23,7 @@ import WaitlistForm from '@/components/WaitlistForm';
 export const OPEN: Record<Product, boolean> = { cloud: true, studio: false };
 
 export const URLS: Record<Product, string> = {
-  cloud: 'https://register.cloud.alfa-can.com/register',
+  cloud: 'https://cloud.alfa-can.com/register',
   studio: 'https://studio.alfa-can.com',
 };
 
