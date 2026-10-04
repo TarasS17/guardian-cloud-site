@@ -38,11 +38,11 @@
         "cta_url": "/cloud"
       },
       "mercanon": {
-        "name": "ALFACAN Mercanon",
+        "name": "ALFACAN α-Team",
         "subtitle": "Operasyonel Zeka",
         "description": "Her ölçekten e-ticaret mağazasındaki tüm süreçleri otomatikleştiren bir platform; yöneticilerin görevlerini otonom yapay zeka mühendisleri üstlenir, ticaret platformunuzun kesintisiz çalışması için Guardian Cloud'un tüm işlevleri de içinde bulunur.",
         "cta": "daha fazla bilgi",
-        "cta_url": "/mercanon"
+        "cta_url": "https://alfa-can.com/alfa-team"
       }
     },
     "section_7_products_block_2": {
@@ -516,14 +516,14 @@
   },
   "ops": {
     "hero": {
-      "title": "ALFACAN Mercanon",
+      "title": "ALFACAN α-Team",
       "subtitle": "Online mağazanızı bütün bir ekip yerine yöneten yapay zeka direktörünüz",
-      "description": "7/24 çalışan ve asla hata yapmayan altı uzmanlık ekibine sahip olduğunuzu hayal edin. Bir sistem yöneticisi siteyi izler, bir sipariş yöneticisi siparişleri işler, bir lojistikçi depoyu ve teslimatı yönetir, bir mali sorumlu ödemeleri kontrol eder, bir pazarlamacı içerik üretir ve sosyal medyada tanıtım yapar. Ve tüm bunlar ayda 15.000 dolar yerine 99-999 dolara. İşte ALFACAN Mercanon budur."
+      "description": "7/24 çalışan ve asla hata yapmayan altı uzmanlık ekibine sahip olduğunuzu hayal edin. Bir sistem yöneticisi siteyi izler, bir sipariş yöneticisi siparişleri işler, bir lojistikçi depoyu ve teslimatı yönetir, bir mali sorumlu ödemeleri kontrol eder, bir pazarlamacı içerik üretir ve sosyal medyada tanıtım yapar. Ve tüm bunlar ayda 15.000 dolar yerine 99-999 dolara. İşte ALFACAN α-Team budur."
     },
     "soon": {
       "badge": "Modül geliştirme aşamasında",
       "title": "Bu modül geliştirme aşamasında",
-      "body_1": "ALFACAN Mercanon şu anda inşa ediliyor. Modül hazır olana kadar planları göstermiyor veya kayıt açmıyoruz: henüz var olmayanı vaat etmeyeceğiz.",
+      "body_1": "ALFACAN α-Team şu anda inşa ediliyor. Modül hazır olana kadar planları göstermiyor veya kayıt açmıyoruz: henüz var olmayanı vaat etmeyeceğiz.",
       "body_2": "Mağazanız için ne yapmasını isterdiniz, bize söyleyin. İnşa ederken bunu dikkate alacağız ve yayına girdiğinde size haber vereceğiz.",
       "cta": "İsteklerinizi paylaşın"
     }
@@ -657,7 +657,7 @@
           "label": "İlgilendiğiniz Ürün",
           "options": [
             "Guardian Cloud",
-            "ALFACAN Mercanon",
+            "ALFACAN α-Team",
             "Her İki Ürün"
           ]
         },
@@ -677,7 +677,7 @@
     "companyDesc": "Siber güvenlik ve otomasyon için lider yapay zeka çözümleri",
     "products": "Ürünler",
     "guardianCloud": "Guardian Cloud",
-    "guardianOps": "ALFACAN Mercanon",
+    "guardianOps": "ALFACAN α-Team",
     "about": "Hakkımızda",
     "aboutUs": "Hakkımızda",
     "team": "Ekibimiz",

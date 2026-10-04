@@ -206,7 +206,7 @@ export default function ContactPage() {
                 className="w-full bg-gray-800 border border-gray-700 text-white px-4 py-3 rounded-lg focus:outline-none focus:border-cyan-500 transition-colors"
               >
                 <option value="Guardian Cloud">Guardian Cloud</option>
-                <option value="ALFACAN Mercanon">ALFACAN Mercanon</option>
+                <option value="ALFACAN α-Team">ALFACAN α-Team</option>
                 <option value="Both">
                   {locale === 'ru' ? 'Оба продукта' : locale === 'zh' ? '两种产品' : 'Both Products'}
                 </option>

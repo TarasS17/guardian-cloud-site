@@ -7,7 +7,7 @@ import WaitlistForm from '@/components/WaitlistForm';
 import { CompanyIntro, CompanyPrinciples } from '@/components/CompanySections';
 
 // Home — корпоративная страница ALFACAN Defence Group: кто мы и принципы
-// (CompanySections) + четыре направления (Guardian Cloud, Mercanon, AI Studio, BlackWings)
+// (CompanySections) + четыре направления (Guardian Cloud, α-Team, AI Studio, BlackWings)
 // Контент — из src/lib/i18n/locales/{ru,en,zh}.json под ключом `home`.
 //
 // Это страница КОМПАНИИ, не продукта: модельный флот, объёмы обучения и статусы
@@ -141,7 +141,7 @@ export default function HomePage() {
           </div>
 
           {/* Секция 6 — облачная инфраструктура: Guardian Cloud убран (это Home ЭТОГО сайта),
-              Mercanon остаётся как описание экосистемы. */}
+              α-Team остаётся как описание экосистемы. */}
           <section className="bg-[#000814] py-20">
             <div className="container mx-auto max-w-6xl px-4">
               <p className="mx-auto max-w-3xl text-center text-lg leading-relaxed text-white/70">{s6?.intro}</p>

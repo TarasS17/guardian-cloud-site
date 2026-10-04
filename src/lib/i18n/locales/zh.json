@@ -38,11 +38,11 @@
         "cta_url": "/cloud"
       },
       "mercanon": {
-        "name": "ALFACAN Mercanon",
+        "name": "ALFACAN α-Team",
         "subtitle": "运营智能",
         "description": "适用于任何规模的电子商务商店全流程自动化的平台,其中经理的职能由自主神经网络工程师执行,内部集成了 Guardian Cloud 的全部功能,以确保你的交易平台不间断运行。",
         "cta": "了解更多",
-        "cta_url": "/mercanon"
+        "cta_url": "https://alfa-can.com/alfa-team"
       }
     },
     "section_7_products_block_2": {
@@ -523,14 +523,14 @@
   },
   "ops": {
     "hero": {
-      "title": "ALFACAN Mercanon",
+      "title": "ALFACAN α-Team",
       "subtitle": "您的AI总监，代替整个团队管理您的在线商店",
-      "description": "想象一下，您有一个由六名专家组成的团队，他们全天候工作，从不犯错。系统管理员监控站点，订单经理处理订单，物流人员管理仓库和交付，财务人员控制付款，营销人员创建内容并在社交媒体上推广。所有这一切——每月99-999美元，而不是15000美元。这就是ALFACAN Mercanon。"
+      "description": "想象一下，您有一个由六名专家组成的团队，他们全天候工作，从不犯错。系统管理员监控站点，订单经理处理订单，物流人员管理仓库和交付，财务人员控制付款，营销人员创建内容并在社交媒体上推广。所有这一切——每月99-999美元，而不是15000美元。这就是ALFACAN α-Team。"
     },
     "soon": {
       "badge": "模块开发中",
       "title": "该模块正在开发中",
-      "body_1": "ALFACAN Mercanon 目前正在开发。在模块就绪之前，我们不会展示套餐，也不会开放注册：尚不存在的东西，我们不会拿来承诺。",
+      "body_1": "ALFACAN α-Team 目前正在开发。在模块就绪之前，我们不会展示套餐，也不会开放注册：尚不存在的东西，我们不会拿来承诺。",
       "body_2": "欢迎告诉我们，您希望它为您的网店做些什么。我们会在开发中予以考虑，并在上线时通知您。",
       "cta": "提交您的想法"
     }
@@ -664,7 +664,7 @@
           "label": "感兴趣的产品",
           "options": [
             "Guardian Cloud",
-            "ALFACAN Mercanon",
+            "ALFACAN α-Team",
             "两种产品"
           ]
         },
@@ -684,7 +684,7 @@
     "companyDesc": "领先的网络安全和自动化AI解决方案",
     "products": "产品",
     "guardianCloud": "Guardian Cloud",
-    "guardianOps": "ALFACAN Mercanon",
+    "guardianOps": "ALFACAN α-Team",
     "about": "关于我们",
     "aboutUs": "关于公司",
     "team": "我们的团队",

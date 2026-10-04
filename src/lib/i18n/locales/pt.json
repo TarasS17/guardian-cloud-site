@@ -38,11 +38,11 @@
         "cta_url": "/cloud"
       },
       "mercanon": {
-        "name": "ALFACAN Mercanon",
+        "name": "ALFACAN α-Team",
         "subtitle": "Operational Intelligence",
         "description": "Uma plataforma para a automação de todos os processos em lojas de e-commerce de qualquer dimensão, em que as funções dos gestores são executadas por engenheiros de redes neuronais autónomos, com toda a funcionalidade do Guardian Cloud incluída para garantir o funcionamento ininterrupto da sua plataforma de venda.",
         "cta": "saiba mais",
-        "cta_url": "/mercanon"
+        "cta_url": "https://alfa-can.com/alfa-team"
       }
     },
     "section_7_products_block_2": {
@@ -516,14 +516,14 @@
   },
   "ops": {
     "hero": {
-      "title": "ALFACAN Mercanon",
+      "title": "ALFACAN α-Team",
       "subtitle": "O seu diretor de IA que gere a sua loja online em vez de uma equipa inteira",
-      "description": "Imagine ter uma equipa de seis especialistas a trabalhar 24/7 e a nunca cometer erros. Um administrador de sistemas monitoriza o site, um gestor de encomendas processa os pedidos, um logístico gere o armazém e a entrega, um financeiro controla os pagamentos, um marketeer cria conteúdo e promove nas redes sociais. E tudo isto por $99-999 por mês em vez de $15.000. Isto é a ALFACAN Mercanon."
+      "description": "Imagine ter uma equipa de seis especialistas a trabalhar 24/7 e a nunca cometer erros. Um administrador de sistemas monitoriza o site, um gestor de encomendas processa os pedidos, um logístico gere o armazém e a entrega, um financeiro controla os pagamentos, um marketeer cria conteúdo e promove nas redes sociais. E tudo isto por $99-999 por mês em vez de $15.000. Isto é a ALFACAN α-Team."
     },
     "soon": {
       "badge": "Módulo em desenvolvimento",
       "title": "Este módulo está em desenvolvimento",
-      "body_1": "A ALFACAN Mercanon está atualmente a ser construída. Não mostramos planos nem abrimos registos até o módulo estar pronto: não prometemos o que ainda não existe.",
+      "body_1": "A ALFACAN α-Team está atualmente a ser construída. Não mostramos planos nem abrimos registos até o módulo estar pronto: não prometemos o que ainda não existe.",
       "body_2": "Diga-nos o que gostaria que fizesse pela sua loja. Vamos ter isso em conta durante a construção e avisamo-lo quando for lançado.",
       "cta": "Partilhe os seus desejos"
     }
@@ -657,7 +657,7 @@
           "label": "Produto de interesse",
           "options": [
             "Guardian Cloud",
-            "ALFACAN Mercanon",
+            "ALFACAN α-Team",
             "Ambos os produtos"
           ]
         },
@@ -677,7 +677,7 @@
     "companyDesc": "Soluções de IA de referência para cibersegurança e automação",
     "products": "Produtos",
     "guardianCloud": "Guardian Cloud",
-    "guardianOps": "ALFACAN Mercanon",
+    "guardianOps": "ALFACAN α-Team",
     "about": "Sobre",
     "aboutUs": "Sobre nós",
     "team": "A nossa equipa",

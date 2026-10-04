@@ -11,7 +11,7 @@ Email: info@guardian.alfa-can.com
 
 ## 1. Introduction
 
-These Terms and Conditions ("Terms") govern your access to and use of the Guardian AI platform, including Guardian Cloud and ALFACAN Mercanon (collectively, the "Platform"), operated by Alfacan Defence Group Limited ("Company", "we", "us", "our").
+These Terms and Conditions ("Terms") govern your access to and use of the Guardian AI platform, including Guardian Cloud and ALFACAN α-Team (collectively, the "Platform"), operated by Alfacan Defence Group Limited ("Company", "we", "us", "our").
 
 By registering for or using the Platform, you agree to be bound by these Terms. If you do not agree, you must not use the Platform.
 
@@ -47,7 +47,7 @@ You must be at least 18 years old and have the legal authority to enter into the
 ## 5. Subscription Plans and Billing
 
 ### 5.1 Plans
-Guardian Cloud and ALFACAN Mercanon are offered on a monthly subscription basis. Available plans and pricing are displayed at guardian.alfa-can.com/cloud and guardian.alfa-can.com/ops.
+Guardian Cloud and ALFACAN α-Team are offered on a monthly subscription basis. Available plans and pricing are displayed at guardian.alfa-can.com/cloud and guardian.alfa-can.com/ops.
 
 ### 5.2 Free Trial
 All plans include a **10-day free trial**. No credit card is required to start a trial. At the end of the trial, you must select a paid plan to continue using the Platform.

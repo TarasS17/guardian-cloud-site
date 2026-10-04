@@ -38,11 +38,11 @@
         "cta_url": "/cloud"
       },
       "mercanon": {
-        "name": "ALFACAN Mercanon",
+        "name": "ALFACAN α-Team",
         "subtitle": "Operational Intelligence",
         "description": "あらゆる規模のECストアの全プロセスを自動化するプラットフォーム。マネージャーの業務は自律型ニューラルネットワークエンジニアが実行し、Guardian Cloudの全機能を内包することで取引プラットフォームの無停止稼働を実現します。",
         "cta": "詳しく見る",
-        "cta_url": "/mercanon"
+        "cta_url": "https://alfa-can.com/alfa-team"
       }
     },
     "section_7_products_block_2": {
@@ -516,14 +516,14 @@
   },
   "ops": {
     "hero": {
-      "title": "ALFACAN Mercanon",
+      "title": "ALFACAN α-Team",
       "subtitle": "チーム全体の代わりにあなたのオンラインストアを運営するAIディレクター",
-      "description": "24時間365日働き、決してミスをしない6人のスペシャリストからなるチームがいると想像してください。システム管理者がサイトを監視し、注文マネージャーが注文を処理し、物流担当者が倉庫と配送を管理し、財務担当者が支払いを管理し、マーケターがコンテンツを作成しSNSでプロモーションを行います。そしてこれらすべてが、月額15,000ドルではなく99〜999ドルで実現します。これがALFACAN Mercanonです。"
+      "description": "24時間365日働き、決してミスをしない6人のスペシャリストからなるチームがいると想像してください。システム管理者がサイトを監視し、注文マネージャーが注文を処理し、物流担当者が倉庫と配送を管理し、財務担当者が支払いを管理し、マーケターがコンテンツを作成しSNSでプロモーションを行います。そしてこれらすべてが、月額15,000ドルではなく99〜999ドルで実現します。これがALFACAN α-Teamです。"
     },
     "soon": {
       "badge": "開発中のモジュール",
       "title": "このモジュールは開発中です",
-      "body_1": "ALFACAN Mercanonは現在構築中です。モジュールが完成するまで計画を公開したり登録を開始したりすることはありません。まだ存在しないものを約束することはしません。",
+      "body_1": "ALFACAN α-Teamは現在構築中です。モジュールが完成するまで計画を公開したり登録を開始したりすることはありません。まだ存在しないものを約束することはしません。",
       "body_2": "あなたのストアのためにこのモジュールに何をしてほしいか教えてください。開発時に考慮し、ローンチの際にお知らせします。",
       "cta": "ご要望をお聞かせください"
     }
@@ -657,7 +657,7 @@
           "label": "関心のある製品",
           "options": [
             "Guardian Cloud",
-            "ALFACAN Mercanon",
+            "ALFACAN α-Team",
             "両方の製品"
           ]
         },
@@ -677,7 +677,7 @@
     "companyDesc": "サイバーセキュリティと自動化のための最先端AIソリューション",
     "products": "製品",
     "guardianCloud": "Guardian Cloud",
-    "guardianOps": "ALFACAN Mercanon",
+    "guardianOps": "ALFACAN α-Team",
     "about": "会社概要",
     "aboutUs": "会社概要",
     "team": "私たちのチーム",

@@ -38,11 +38,11 @@
         "cta_url": "/cloud"
       },
       "mercanon": {
-        "name": "ALFACAN Mercanon",
+        "name": "ALFACAN α-Team",
         "subtitle": "Operational Intelligence",
         "description": "A platform for the automation of all processes in e-commerce stores of any scale, where the functions of managers are executed by autonomous neural network engineers, with all the functionality of Guardian Cloud inside for the uninterrupted operation of your trading platform.",
         "cta": "learn more",
-        "cta_url": "/mercanon"
+        "cta_url": "https://alfa-can.com/alfa-team"
       }
     },
     "section_7_products_block_2": {
@@ -516,14 +516,14 @@
   },
   "ops": {
     "hero": {
-      "title": "ALFACAN Mercanon",
+      "title": "ALFACAN α-Team",
       "subtitle": "Your AI-director that manages your online store instead of an entire team",
-      "description": "Imagine having a team of six specialists working 24/7 and never making mistakes. A system administrator monitors the site, an order manager processes orders, a logistician manages the warehouse and delivery, a financier controls payments, a marketer creates content and promotes on social media. And all this — for $99-999 per month instead of $15,000. This is ALFACAN Mercanon."
+      "description": "Imagine having a team of six specialists working 24/7 and never making mistakes. A system administrator monitors the site, an order manager processes orders, a logistician manages the warehouse and delivery, a financier controls payments, a marketer creates content and promotes on social media. And all this — for $99-999 per month instead of $15,000. This is ALFACAN α-Team."
     },
     "soon": {
       "badge": "Module in development",
       "title": "This module is in development",
-      "body_1": "ALFACAN Mercanon is currently being built. We are not showing plans or opening registration until the module is ready: we will not promise what does not exist yet.",
+      "body_1": "ALFACAN α-Team is currently being built. We are not showing plans or opening registration until the module is ready: we will not promise what does not exist yet.",
       "body_2": "Tell us what you would want it to do for your store. We will take it into account while building, and let you know when it launches.",
       "cta": "Share your wishes"
     }
@@ -657,7 +657,7 @@
           "label": "Product of Interest",
           "options": [
             "Guardian Cloud",
-            "ALFACAN Mercanon",
+            "ALFACAN α-Team",
             "Both Products"
           ]
         },
@@ -677,7 +677,7 @@
     "companyDesc": "Leading AI solutions for cybersecurity and automation",
     "products": "Products",
     "guardianCloud": "Guardian Cloud",
-    "guardianOps": "ALFACAN Mercanon",
+    "guardianOps": "ALFACAN α-Team",
     "about": "About",
     "aboutUs": "About Us",
     "team": "Our Team",
