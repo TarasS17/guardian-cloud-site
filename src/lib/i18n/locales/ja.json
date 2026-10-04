@@ -56,23 +56,23 @@
         "cta_url": "/studio"
       },
       "g_coder": {
-        "name": "G-Coder",
+        "name": "α-Coder",
         "description": "あなたのプロジェクトのコードが生まれる環境。Architectが計画を立て、Masterがあなたのプロジェクトのスタイルで一行一行を書き、Guardianがコードが完璧になるまで検証と議論を重ねます。これはすべて、他の誰も知ることのない対話の中で行われます。",
         "cta": "詳しく見る",
-        "cta_url": "/studio/g-coder"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-coder"
       },
       "g_tester": {
-        "name": "G-Tester",
+        "name": "α-Tester",
         "description": "あなたの製品が現実世界に触れる前に、あらゆる試練を経る環境。あなたが思いもよらなかったテスト、負荷、シナリオが、リリース後ではなくリリース前に発見されます。",
         "cta": "詳しく見る",
-        "cta_url": "/studio/g-tester"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-tester"
       },
       "g_studio": {
-        "name": "G-Studio",
+        "name": "α-Studio",
         "description": "あなたの製品がビジュアルとして生まれる環境。最初のレイアウトから最終的なインタラクティブな構成まで、テンプレートも外部ソリューションもなく、あなたのスタイルと美学のままに。",
         "status": "近日公開",
         "cta": "詳しく見る",
-        "cta_url": "/studio/g-studio"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-studio"
       }
     },
     "section_8_products_block_3": {

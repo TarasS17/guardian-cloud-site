@@ -56,23 +56,23 @@
         "cta_url": "/studio"
       },
       "g_coder": {
-        "name": "G-Coder",
+        "name": "α-Coder",
         "description": "Die Umgebung, in der der Code Ihres Projekts entsteht. Der Architekt entwirft den Plan, der Meister schreibt jede Zeile im Stil Ihres Projekts, und der Wächter prüft und diskutiert, bis der Code makellos wird. All dies geschieht in einem Dialog, von dem sonst niemand jemals erfahren wird.",
         "cta": "mehr erfahren",
-        "cta_url": "/studio/g-coder"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-coder"
       },
       "g_tester": {
-        "name": "G-Tester",
+        "name": "α-Tester",
         "description": "Die Umgebung, in der Ihr Produkt alle Prüfungen durchläuft, bevor es auf die reale Welt trifft. Tests, Lastszenarien und Fälle, an die Sie nicht einmal gedacht haben, werden vor der Veröffentlichung entdeckt, nicht danach.",
         "cta": "mehr erfahren",
-        "cta_url": "/studio/g-tester"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-tester"
       },
       "g_studio": {
-        "name": "G-Studio",
+        "name": "α-Studio",
         "description": "Die Umgebung, in der Ihr Produkt visuell entsteht. Vom ersten Layout bis zur endgültigen interaktiven Komposition, in Ihrem Stil, in Ihrer Ästhetik, ohne Vorlagen und ohne externe Lösungen.",
         "status": "Demnächst verfügbar",
         "cta": "mehr erfahren",
-        "cta_url": "/studio/g-studio"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-studio"
       }
     },
     "section_8_products_block_3": {

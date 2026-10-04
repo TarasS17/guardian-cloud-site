@@ -14,10 +14,10 @@ import { CompanyIntro, CompanyPrinciples } from '@/components/CompanySections';
 // развёртывания сюда не ставим — им место на страницах продуктов.
 
 const IMG: Record<string, string> = {
-  ai_studio: '/images/progect-g.jpg',
-  g_coder: '/images/hero-coder.jpg',
-  g_tester: '/images/hero-tester.jpg',
-  g_studio: '/images/hero-g_studio.jpg',
+  ai_studio: '/images/hero-studio.jpg',
+  g_coder: '/images/hero-alfa-coder.jpg',
+  g_tester: '/images/hero-alfa-tester.jpg',
+  g_studio: '/images/hero-alfa-studio.jpg',
   blackwings: '/images/bw2.png',
   architect: '/images/BLACKWINGS-Architect.png',
   arsenal: '/images/BLACKWINGS-Arsenal.png',
@@ -34,7 +34,7 @@ interface CardData {
   cta_url?: string;
 }
 
-/** Карточка продукта: Project G — яркое изображение сверху; BlackWings — логотип на чёрном. */
+/** Карточка продукта: Project α — яркое изображение сверху; BlackWings — логотип на чёрном. */
 function ProductCard({ d, imgKey, video, dark = false }: { d: CardData; imgKey?: string; video?: string; dark?: boolean }) {
   const img = imgKey ? IMG[imgKey] : undefined;
   return (

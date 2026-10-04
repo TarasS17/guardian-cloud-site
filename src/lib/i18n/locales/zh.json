@@ -56,23 +56,23 @@
         "cta_url": "/studio"
       },
       "g_coder": {
-        "name": "G-Coder",
+        "name": "α-Coder",
         "description": "这是你项目代码诞生的环境。架构师构建蓝图,工匠按照你项目的风格编写每一行代码,守护者进行验证和争辩,直到代码变得无懈可击。这一切都发生在一个绝无外人知晓的对话之中。",
         "cta": "了解更多",
-        "cta_url": "/studio/g-coder"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-coder"
       },
       "g_tester": {
-        "name": "G-Tester",
+        "name": "α-Tester",
         "description": "这是你的产品在面对现实世界之前接受所有测试的环境。你未曾想到的测试、负载和场景,都会在发布前被找出,而不是在发布后。",
         "cta": "了解更多",
-        "cta_url": "/studio/g-tester"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-tester"
       },
       "g_studio": {
-        "name": "G-Studio",
+        "name": "α-Studio",
         "description": "这是你的产品在视觉上诞生的环境。从第一个小样到最终的交互式组合,完全符合你的风格,符合你的美学,绝无模板,绝无他人的现成方案。",
         "status": "即将推出",
         "cta": "了解更多",
-        "cta_url": "/studio/g-studio"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-studio"
       }
     },
     "section_8_products_block_3": {

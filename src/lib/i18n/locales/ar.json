@@ -56,23 +56,23 @@
         "cta_url": "/studio"
       },
       "g_coder": {
-        "name": "G-Coder",
+        "name": "α-Coder",
         "description": "البيئة التي يُولَد فيها كود مشروعك. المهندس المعماري يضع الخطة، والصانع يكتب كل سطر بأسلوب مشروعك، والحارس يتحقق ويناقش حتى يصبح الكود بلا عيب. كل هذا يجري في حوار لن يعرفه أحد سواك.",
         "cta": "اعرف المزيد",
-        "cta_url": "/studio/g-coder"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-coder"
       },
       "g_tester": {
-        "name": "G-Tester",
+        "name": "α-Tester",
         "description": "البيئة التي يخضع فيها منتجك لكل الاختبارات قبل مواجهة العالم الحقيقي. اختبارات وأحمال وسيناريوهات لم تكن تفكر فيها تُكتشف قبل الإطلاق، لا بعده.",
         "cta": "اعرف المزيد",
-        "cta_url": "/studio/g-tester"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-tester"
       },
       "g_studio": {
-        "name": "G-Studio",
+        "name": "α-Studio",
         "description": "البيئة التي يُولَد فيها منتجك بصريًا. من أول تصميم إلى التركيبة التفاعلية النهائية، بأسلوبك، بجمالياتك، دون قوالب ودون حلول خارجية.",
         "status": "قريبًا",
         "cta": "اعرف المزيد",
-        "cta_url": "/studio/g-studio"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-studio"
       }
     },
     "section_8_products_block_3": {

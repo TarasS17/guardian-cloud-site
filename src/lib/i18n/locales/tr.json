@@ -56,23 +56,23 @@
         "cta_url": "/studio"
       },
       "g_coder": {
-        "name": "G-Coder",
+        "name": "α-Coder",
         "description": "Projenizin kodunun doğduğu ortam. Mimar planı kurar, Usta her satırı projenizin tarzında yazar, Muhafız ise kod kusursuz olana kadar denetler ve tartışır. Tüm bunlar, başka kimsenin asla bilmeyeceği bir diyalog içinde gerçekleşir.",
         "cta": "daha fazla bilgi",
-        "cta_url": "/studio/g-coder"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-coder"
       },
       "g_tester": {
-        "name": "G-Tester",
+        "name": "α-Tester",
         "description": "Ürününüzün gerçek dünyayla karşılaşmadan önce tüm sınavlardan geçtiği ortam. Aklınıza bile gelmeyen testler, yükler ve senaryolar yayından önce keşfedilir, sonra değil.",
         "cta": "daha fazla bilgi",
-        "cta_url": "/studio/g-tester"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-tester"
       },
       "g_studio": {
-        "name": "G-Studio",
+        "name": "α-Studio",
         "description": "Ürününüzün görsel olarak doğduğu ortam. İlk taslaktan nihai etkileşimli kompozisyona kadar, kendi tarzınızda, kendi estetiğinizde, şablonsuz ve dışarıdan çözümlere ihtiyaç duymadan.",
         "status": "Yakında",
         "cta": "daha fazla bilgi",
-        "cta_url": "/studio/g-studio"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-studio"
       }
     },
     "section_8_products_block_3": {

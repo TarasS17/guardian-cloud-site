@@ -56,23 +56,23 @@
         "cta_url": "/studio"
       },
       "g_coder": {
-        "name": "G-Coder",
+        "name": "α-Coder",
         "description": "Окружење у коме се рађа код вашег пројекта. Архитекта саставља план, Мајстор пише сваку линију у стилу вашег пројекта, а Чувар проверава и расправља док код не постане беспрекоран. Све се то одвија у дијалогу који нико други неће видети.",
         "cta": "сазнајте више",
-        "cta_url": "/studio/g-coder"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-coder"
       },
       "g_tester": {
-        "name": "G-Tester",
+        "name": "α-Tester",
         "description": "Окружење у коме ваш производ пролази кроз сва испитивања пре сусрета са стварним светом. Тестови, оптерећења и сценарији на које нисте ни помислили откривају се пре објаве, а не после.",
         "cta": "сазнајте више",
-        "cta_url": "/studio/g-tester"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-tester"
       },
       "g_studio": {
-        "name": "G-Studio",
+        "name": "α-Studio",
         "description": "Окружење у коме се ваш производ рађа визуелно. Од првог распореда до финалне интерактивне композиције, у вашем стилу, вашој естетици, без шаблона и без спољних решења.",
         "status": "Ускоро",
         "cta": "сазнајте више",
-        "cta_url": "/studio/g-studio"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-studio"
       }
     },
     "section_8_products_block_3": {

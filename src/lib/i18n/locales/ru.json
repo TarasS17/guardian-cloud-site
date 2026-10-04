@@ -56,23 +56,23 @@
         "cta_url": "/studio"
       },
       "g_coder": {
-        "name": "G-Coder",
+        "name": "α-Coder",
         "description": "Среда, в которой рождается код вашего проекта. Архитектор строит план, Мастер пишет каждую строку в стиле вашего проекта, Хранитель проверяет и спорит, пока код не станет безупречным. Всё это в диалоге, о котором никто не узнает.",
         "cta": "узнать больше",
-        "cta_url": "/studio/g-coder"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-coder"
       },
       "g_tester": {
-        "name": "G-Tester",
+        "name": "α-Tester",
         "description": "Среда, в которой ваш продукт проходит все испытания прежде чем встретится с реальным миром. Тесты, нагрузки, сценарии, о которых вы не подумали, находятся до релиза, а не после.",
         "cta": "узнать больше",
-        "cta_url": "/studio/g-tester"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-tester"
       },
       "g_studio": {
-        "name": "G-Studio",
+        "name": "α-Studio",
         "description": "Среда, в которой рождается ваш продукт визуально. От первого макета до финальной интерактивной композиции, в вашем стиле, в вашей эстетике, без шаблонов и без чужих решений.",
         "status": "Скоро",
         "cta": "узнать больше",
-        "cta_url": "/studio/g-studio"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-studio"
       }
     },
     "section_8_products_block_3": {

@@ -56,23 +56,23 @@
         "cta_url": "/studio"
       },
       "g_coder": {
-        "name": "G-Coder",
+        "name": "α-Coder",
         "description": "वह वातावरण जहां आपके प्रोजेक्ट का कोड जन्म लेता है। Architect प्लान तैयार करता है, Master आपके प्रोजेक्ट की स्टाइल में हर लाइन लिखता है, और Guardian तब तक जांच और बहस करता है जब तक कोड बेदाग नहीं हो जाता। यह सब एक ऐसे डायलॉग में होता है जिसे और कोई कभी नहीं देखेगा।",
         "cta": "और जानें",
-        "cta_url": "/studio/g-coder"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-coder"
       },
       "g_tester": {
-        "name": "G-Tester",
+        "name": "α-Tester",
         "description": "वह वातावरण जहां आपका प्रोडक्ट असली दुनिया से मिलने से पहले सभी परीक्षणों से गुज़रता है। ऐसे टेस्ट, लोड और सिनेरियो जिनके बारे में आपने सोचा भी नहीं था, वे रिलीज़ के बाद नहीं, बल्कि पहले ही सामने आ जाते हैं।",
         "cta": "और जानें",
-        "cta_url": "/studio/g-tester"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-tester"
       },
       "g_studio": {
-        "name": "G-Studio",
+        "name": "α-Studio",
         "description": "वह वातावरण जहां आपका प्रोडक्ट विज़ुअली जन्म लेता है। पहले ले-आउट से लेकर आखिरी इंटरैक्टिव कंपोज़िशन तक, आपकी अपनी स्टाइल में, आपकी अपनी एस्थेटिक्स में, बिना टेम्पलेट्स और बिना बाहरी समाधानों के।",
         "status": "जल्द आ रहा है",
         "cta": "और जानें",
-        "cta_url": "/studio/g-studio"
+        "cta_url": "https://ai-studio.alfa-can.com/alfa-studio"
       }
     },
     "section_8_products_block_3": {
