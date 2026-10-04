@@ -693,7 +693,7 @@
     "section_6_bridge": {
       "title": "Projelere Köprü",
       "paragraph_1": "Bunu, Geleceğin Mimarları'nın en geniş kitlesine ulaşacak iki projeye ayırdık.",
-      "paragraph_2": "Proje G — fikrini dijital alanda yaratmak isteyenler için.",
+      "paragraph_2": "Proje α — fikrini dijital alanda yaratmak isteyenler için.",
       "paragraph_3": "Proje BlackWings — fikrini gerçek sektörde hayata geçirmek isteyenler için.",
       "paragraph_4": "Bu projelerin sayfalarını ziyaret edin, onları tanıyın ve hayatınızda nasıl kullanacağınıza karar verin.",
       "paragraph_5": "Gördüğünüz gibi bazı modüller zaten inşa edilmiş ve çalışıyor; diğerleri hâlâ geliştirme aşamasında ve önümüzdeki aylarda gelecek.",
@@ -707,7 +707,7 @@
       "dev_1": "AI Studio, evrime açık bir mimaridir. Burada bizimle birlikte yeni modüller geliştirebilir ve doğrudan kendi alanınızda kullanıma sunabilirsiniz.",
       "dev_2": "İşletmenizin veya üretiminizin özel taleplerine yönelik hazır bir araç henüz mevcut olmadığında, onu tasarlar ve kendi çevrenizin içine yerleştiririz.",
       "guide_1": "Kayıt olduktan sonra gösterge panelinizde sizi Falco karşılayacak. Sizi AI Studio'nun her modülünden geçirecek ve her birinin ne için olduğunu açıklayacak.",
-      "guide_2": "Burada iş gününün gerektirdiği her şeyi bulacaksınız. Kod yazmak için G-Coder. Bulut altyapınızı test etmek için G-Tester. Zamanla iletişiminizi aynı çatı altına getirmek için G-CallCenter. Ve kimsenin ihtiyaç duymayacağı ve asla açmayacağı bir özellik yığını için değil, onu kullanan kişi için inşa edilmiş proje yönetimi G-Team.",
+      "guide_2": "Burada iş gününün gerektirdiği her şeyi bulacaksınız. Kod yazmak için α-Coder. Bulut altyapınızı test etmek için α-Tester.",
       "guide_3": "BlackWings projesinin çalışması, gerçek makineler ve mekanizmalar tasarlamanıza ve üretiminizi içinde insan olmadan yürütmenize olanak tanıyacak. İnsana kalan tek pay, malzemeyi makinelere taşıyan yükleyicidir.",
       "guide_4": "Falco, inşa etmeye giriştiğiniz her şeyde rehberiniz ve yardımcınız olacak.",
       "evolve_1": "Zamanla Falco, komutu değil niyeti anlamaya başlayacak. Çalışma tarzınıza uyum sağlayacak, aldığınız kararları hatırlayacak ve size bariz olanı açıklamanızı istemeyi bırakacak.",
@@ -716,14 +716,14 @@
   },
   "gcoder": {
     "meta": {
-      "title": "G-Coder: Hizmet Olarak Yapay Zeka Mühendisi | AlfaCan AI Studio",
+      "title": "α-Coder: Hizmet Olarak Yapay Zeka Mühendisi | AlfaCan AI Studio",
       "description": "Özel, tamamen kapalı bir yapay zeka çıkarım çevresine bağlı bir VS Code çatalı. Kaynak kodunuz çevreyi asla terk etmez. OWASP/CWE doktrini altında bir model konseyi, döngüde bir insanla.",
-      "og_title": "G-Coder: Hizmet Olarak Yapay Zeka Mühendisi",
+      "og_title": "α-Coder: Hizmet Olarak Yapay Zeka Mühendisi",
       "og_description": "Kapalı bir çevre içinde, makinenizde bir yapay zeka mühendisliği ekibi. Garanti koddan sürece taşınır: her değişiklik açık bir insan onayından geçer."
     },
     "hero": {
       "badge": "",
-      "title": "G-Coder",
+      "title": "α-Coder",
       "subtitle": "",
       "paragraph": "",
       "cta_primary": "Kayıt",
@@ -758,9 +758,9 @@
       "text": "Tüm bunların nasıl gerçekleştiğini daha ayrıntılı olarak anlamak isterseniz, platformun tam bir anlatımını hazırladık. İçeriden nasıl çalıştığını parça parça görün.",
       "video_ru": "avVnG456czM",
       "video_en": "AGWVTduarco",
-      "article_text": "G-Coder mimarisini daha derinlemesine incelemek isterseniz, ürünün teknik açıklamasını okuyun.",
+      "article_text": "α-Coder mimarisini daha derinlemesine incelemek isterseniz, ürünün teknik açıklamasını okuyun.",
       "article_label": "Açıklamayı oku",
-      "article_url": "/papers/g-coder-paper-en.html"
+      "article_url": "/papers/alfa-coder-paper-en.html"
     },
     "section_council": {
       "title": "Ajan Konseyi, her adımı görürsünüz",
@@ -832,14 +832,14 @@
   },
   "gtester": {
     "meta": {
-      "title": "G-Tester — Hizmet Olarak QA | AlfaCan AI Studio",
-      "description": "G-Tester, canlı bir ajan konseyi, etkileşimli bir AI Boardroom ve 20 test disiplini içeren bir yapay zeka QA ekibidir. Tüm süreci gerçek zamanlı olarak görür ve istediğiniz anda müdahale edebilirsiniz.",
-      "og_title": "G-Tester — Hizmet Olarak QA",
+      "title": "α-Tester — Hizmet Olarak QA | AlfaCan AI Studio",
+      "description": "α-Tester, canlı bir ajan konseyi, etkileşimli bir AI Boardroom ve 20 test disiplini içeren bir yapay zeka QA ekibidir. Tüm süreci gerçek zamanlı olarak görür ve istediğiniz anda müdahale edebilirsiniz.",
+      "og_title": "α-Tester — Hizmet Olarak QA",
       "og_description": "Yatay olarak ölçeklenebilir test çalıştırıcı filosu artı uzmanlaşmış LLM'lerden oluşan etkileşimli bir konsey. Deterministik karar. Döngüde insan."
     },
     "hero": {
       "badge": "",
-      "title": "G-Tester",
+      "title": "α-Tester",
       "subtitle": "",
       "paragraph": "",
       "cta_primary": "Başlayın",
@@ -863,16 +863,16 @@
     },
     "section_walkthrough": {
       "title": "Platformun tam anlatımı",
-      "text": "G-Tester'ın nasıl çalıştığını daha ayrıntılı olarak anlamak isterseniz, platformun tam bir anlatımını hazırladık. İçeriden nasıl çalıştığını görün.",
+      "text": "α-Tester'ın nasıl çalıştığını daha ayrıntılı olarak anlamak isterseniz, platformun tam bir anlatımını hazırladık. İçeriden nasıl çalıştığını görün.",
       "video_ru": "PjskZfpa2Fc",
       "video_en": "vrc6KFY9SuQ",
-      "article_text": "G-Tester mimarisini daha derinlemesine incelemek isterseniz, ürünün teknik açıklamasını okuyun.",
+      "article_text": "α-Tester mimarisini daha derinlemesine incelemek isterseniz, ürünün teknik açıklamasını okuyun.",
       "article_label": "Açıklamayı oku",
-      "article_url": "/papers/g-tester-paper-en.html"
+      "article_url": "/papers/alfa-tester-paper-en.html"
     },
     "section_boardroom": {
       "title": "AI Boardroom",
-      "paragraph_1": "G-Tester'ın merkezi öğesi, canlı ajan konseyi arayüzüdür. Bir denetim başlattığınızda, platform gerçek zamanlı olarak çalıştırıcılarınızdan gelen gerçek telemetri üzerinde akıl yürüten uzmanlaşmış yapay zeka ajanlarının işbirlikçi bir oturumunu başlatır.",
+      "paragraph_1": "α-Tester'ın merkezi öğesi, canlı ajan konseyi arayüzüdür. Bir denetim başlattığınızda, platform gerçek zamanlı olarak çalıştırıcılarınızdan gelen gerçek telemetri üzerinde akıl yürüten uzmanlaşmış yapay zeka ajanlarının işbirlikçi bir oturumunu başlatır.",
       "paragraph_2": "Bir rapor için beklemezsiniz — süreci gözlemlersiniz. Her ajanın ne düşündüğünü, hangi doktrin kurallarını aldığını, ajanların birbiriyle nasıl anlaşmazlığa düştüğünü ve birlikte hangi sonuca vardıklarını görürsünüz.",
       "paragraph_3": "Ve müdahale edebilirsiniz. İstediğiniz anda — konseyi duraklatın, bir komut girin (\"SQL enjeksiyonu bulgusunu, yukarı akışta bir WAF olduğunu varsayarak yeniden değerlendir\"), test parametrelerini değiştirin veya bir önem eşiğini ayarlayın. Tüm müdahaleler nihai denetim paketinde kriptografik olarak kaydedilir.",
       "capability_1_title": "Canlı Ajan Akışı",
@@ -905,7 +905,7 @@
     },
     "section_disciplines": {
       "title": "20 Test Disiplini",
-      "intro": "Bir denetim — eksiksiz bir resim. G-Tester tek bir hat üzerinden beş test kategorisini kapsar.",
+      "intro": "Bir denetim — eksiksiz bir resim. α-Tester tek bir hat üzerinden beş test kategorisini kapsar.",
       "category_1_name": "Güvenlik ve Altyapı",
       "category_1_disciplines": "Hava boşluklu ITDR çevresi üzerinden kapsamlı sistem geneli güvenlik değerlendirmesi; OWASP Top-10 / CWE sızma testi; ~23 sistem parametresi üzerinde salt okunur ana bilgisayar ortamı denetimi.",
       "category_2_name": "API ve Veri Bütünlüğü",
@@ -947,7 +947,7 @@
     "section_status": {
       "title": "Mevcut Durum",
       "badge": "Arka Uç Tamamlandı · Uçtan Uca Doğrulandı",
-      "text": "Arka uç tamamen bitmiş ve uçtan uca doğrulanmıştır. Canlı etkileşimli AI Boardroom aktiftir. G-Tester, Guardian Cloud ve G-Coder ile aynı paylaşılan model filosunda çalışır — tek bir GPU çevresi her üç ürüne de hizmet verir. Ticari yayın, ana platform dağıtımının ardından gelir.",
+      "text": "Arka uç tamamen bitmiş ve uçtan uca doğrulanmıştır. Canlı etkileşimli AI Boardroom aktiftir. α-Tester, Guardian Cloud ve α-Coder ile aynı paylaşılan model filosunda çalışır — tek bir GPU çevresi her üç ürüne de hizmet verir. Ticari yayın, ana platform dağıtımının ardından gelir.",
       "cta": "Bize Ulaşın",
       "cta_url": "/contact"
     },

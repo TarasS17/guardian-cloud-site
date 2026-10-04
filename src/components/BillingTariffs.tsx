@@ -48,7 +48,7 @@ const DATA: Record<string, Data> = {
         { name: 'Node — monitoring', price: '$20', unit: '/node/mo' },
         { name: 'Cluster cyber-defence', price: '$500', unit: '/cluster/mo' },
       ] },
-      { title: 'Mandatory onboarding audit (via G-Tester, −30%)', items: [
+      { title: 'Mandatory onboarding audit (via α-Tester, −30%)', items: [
         { name: 'System vulnerability test', price: '$525', unit: 'once' },
         { name: 'Server audit', price: '$105', unit: 'once' },
         { name: 'Full package', price: '$1,715', unit: 'once' },
@@ -89,7 +89,7 @@ const DATA: Record<string, Data> = {
         { name: 'Нода — мониторинг', price: '$20', unit: '/нода/мес' },
         { name: 'Киберзащита кластера', price: '$500', unit: '/кластер/мес' },
       ] },
-      { title: 'Обязательный аудит при онбординге (через G-Tester, −30%)', items: [
+      { title: 'Обязательный аудит при онбординге (через α-Tester, −30%)', items: [
         { name: 'Тест уязвимости системы', price: '$525', unit: 'разово' },
         { name: 'Аудит сервера', price: '$105', unit: 'разово' },
         { name: 'Полный пакет', price: '$1,715', unit: 'разово' },
@@ -130,7 +130,7 @@ const DATA: Record<string, Data> = {
         { name: 'Nodo — monitoreo', price: '$20', unit: '/nodo/mes' },
         { name: 'Ciberdefensa del clúster', price: '$500', unit: '/clúster/mes' },
       ] },
-      { title: 'Auditoría de onboarding obligatoria (vía G-Tester, −30%)', items: [
+      { title: 'Auditoría de onboarding obligatoria (vía α-Tester, −30%)', items: [
         { name: 'Test de vulnerabilidad del sistema', price: '$525', unit: 'única vez' },
         { name: 'Auditoría de servidor', price: '$105', unit: 'única vez' },
         { name: 'Paquete completo', price: '$1,715', unit: 'única vez' },
@@ -171,7 +171,7 @@ const DATA: Record<string, Data> = {
         { name: 'Нода — моніторинг', price: '$20', unit: '/нода/міс' },
         { name: 'Кіберзахист кластера', price: '$500', unit: '/кластер/міс' },
       ] },
-      { title: 'Обовʼязковий аудит при онбордингу (через G-Tester, −30%)', items: [
+      { title: 'Обовʼязковий аудит при онбордингу (через α-Tester, −30%)', items: [
         { name: 'Тест уразливості системи', price: '$525', unit: 'разово' },
         { name: 'Аудит сервера', price: '$105', unit: 'разово' },
         { name: 'Повний пакет', price: '$1,715', unit: 'разово' },
@@ -212,7 +212,7 @@ const DATA: Record<string, Data> = {
         { name: 'Čvor — nadzor', price: '$20', unit: '/čvor/mes' },
         { name: 'Sajber-odbrana klastera', price: '$500', unit: '/klaster/mes' },
       ] },
-      { title: 'Obavezna onboarding revizija (preko G-Tester, −30%)', items: [
+      { title: 'Obavezna onboarding revizija (preko α-Tester, −30%)', items: [
         { name: 'Test ranjivosti sistema', price: '$525', unit: 'jednokratno' },
         { name: 'Revizija servera', price: '$105', unit: 'jednokratno' },
         { name: 'Potpuni paket', price: '$1,715', unit: 'jednokratno' },
@@ -253,7 +253,7 @@ const DATA: Record<string, Data> = {
         { name: 'Knoten — Monitoring', price: '$20', unit: '/Knoten/Monat' },
         { name: 'Cluster-Cyber-Abwehr', price: '$500', unit: '/Cluster/Monat' },
       ] },
-      { title: 'Verpflichtendes Onboarding-Audit (via G-Tester, −30%)', items: [
+      { title: 'Verpflichtendes Onboarding-Audit (via α-Tester, −30%)', items: [
         { name: 'System-Schwachstellentest', price: '$525', unit: 'einmalig' },
         { name: 'Server-Audit', price: '$105', unit: 'einmalig' },
         { name: 'Komplettpaket', price: '$1,715', unit: 'einmalig' },
@@ -294,7 +294,7 @@ const DATA: Record<string, Data> = {
         { name: 'Nœud — surveillance', price: '$20', unit: '/nœud/mois' },
         { name: 'Cyberdéfense du cluster', price: '$500', unit: '/cluster/mois' },
       ] },
-      { title: 'Audit d’intégration obligatoire (via G-Tester, −30%)', items: [
+      { title: 'Audit d’intégration obligatoire (via α-Tester, −30%)', items: [
         { name: 'Test de vulnérabilité du système', price: '$525', unit: 'une fois' },
         { name: 'Audit du serveur', price: '$105', unit: 'une fois' },
         { name: 'Pack complet', price: '$1,715', unit: 'une fois' },
@@ -335,7 +335,7 @@ const DATA: Record<string, Data> = {
         { name: 'Nodo — monitoraggio', price: '$20', unit: '/nodo/mese' },
         { name: 'Cyber-difesa del cluster', price: '$500', unit: '/cluster/mese' },
       ] },
-      { title: 'Audit di onboarding obbligatorio (via G-Tester, −30%)', items: [
+      { title: 'Audit di onboarding obbligatorio (via α-Tester, −30%)', items: [
         { name: 'Test di vulnerabilità del sistema', price: '$525', unit: 'una tantum' },
         { name: 'Audit del server', price: '$105', unit: 'una tantum' },
         { name: 'Pacchetto completo', price: '$1,715', unit: 'una tantum' },
@@ -376,7 +376,7 @@ const DATA: Record<string, Data> = {
         { name: 'Nó — monitoramento', price: '$20', unit: '/nó/mês' },
         { name: 'Ciberdefesa do cluster', price: '$500', unit: '/cluster/mês' },
       ] },
-      { title: 'Auditoria de onboarding obrigatória (via G-Tester, −30%)', items: [
+      { title: 'Auditoria de onboarding obrigatória (via α-Tester, −30%)', items: [
         { name: 'Teste de vulnerabilidade do sistema', price: '$525', unit: 'única vez' },
         { name: 'Auditoria de servidor', price: '$105', unit: 'única vez' },
         { name: 'Pacote completo', price: '$1,715', unit: 'única vez' },
@@ -417,7 +417,7 @@ const DATA: Record<string, Data> = {
         { name: 'Düğüm — izleme', price: '$20', unit: '/düğüm/ay' },
         { name: 'Küme siber savunması', price: '$500', unit: '/küme/ay' },
       ] },
-      { title: 'Zorunlu başlangıç denetimi (G-Tester ile, −30%)', items: [
+      { title: 'Zorunlu başlangıç denetimi (α-Tester ile, −30%)', items: [
         { name: 'Sistem güvenlik açığı testi', price: '$525', unit: 'tek seferlik' },
         { name: 'Sunucu denetimi', price: '$105', unit: 'tek seferlik' },
         { name: 'Tam paket', price: '$1,715', unit: 'tek seferlik' },
@@ -458,7 +458,7 @@ const DATA: Record<string, Data> = {
         { name: '节点——监控', price: '$20', unit: '/节点/月' },
         { name: '集群网络防御', price: '$500', unit: '/集群/月' },
       ] },
-      { title: '强制入驻审计（通过 G-Tester，−30%）', items: [
+      { title: '强制入驻审计（通过 α-Tester，−30%）', items: [
         { name: '系统漏洞测试', price: '$525', unit: '一次性' },
         { name: '服务器审计', price: '$105', unit: '一次性' },
         { name: '完整套餐', price: '$1,715', unit: '一次性' },
@@ -499,7 +499,7 @@ const DATA: Record<string, Data> = {
         { name: 'ノード——監視', price: '$20', unit: '/ノード/月' },
         { name: 'クラスターのサイバー防御', price: '$500', unit: '/クラスター/月' },
       ] },
-      { title: '必須オンボーディング監査（G-Tester経由、−30%）', items: [
+      { title: '必須オンボーディング監査（α-Tester経由、−30%）', items: [
         { name: 'システム脆弱性テスト', price: '$525', unit: '1回' },
         { name: 'サーバー監査', price: '$105', unit: '1回' },
         { name: 'フルパッケージ', price: '$1,715', unit: '1回' },
@@ -540,7 +540,7 @@ const DATA: Record<string, Data> = {
         { name: 'नोड — मॉनिटरिंग', price: '$20', unit: '/नोड/माह' },
         { name: 'क्लस्टर साइबर-रक्षा', price: '$500', unit: '/क्लस्टर/माह' },
       ] },
-      { title: 'अनिवार्य ऑनबोर्डिंग ऑडिट (G-Tester के माध्यम से, −30%)', items: [
+      { title: 'अनिवार्य ऑनबोर्डिंग ऑडिट (α-Tester के माध्यम से, −30%)', items: [
         { name: 'सिस्टम भेद्यता परीक्षण', price: '$525', unit: 'एकबार' },
         { name: 'सर्वर ऑडिट', price: '$105', unit: 'एकबार' },
         { name: 'पूर्ण पैकेज', price: '$1,715', unit: 'एकबार' },
@@ -581,7 +581,7 @@ const DATA: Record<string, Data> = {
         { name: 'عقدة — مراقبة', price: '$20', unit: '/عقدة/شهر' },
         { name: 'دفاع سيبراني للعنقود', price: '$500', unit: '/عنقود/شهر' },
       ] },
-      { title: 'تدقيق إلزامي عند الإعداد (عبر G-Tester، −30%)', items: [
+      { title: 'تدقيق إلزامي عند الإعداد (عبر α-Tester، −30%)', items: [
         { name: 'اختبار ثغرات النظام', price: '$525', unit: 'مرة واحدة' },
         { name: 'تدقيق الخادم', price: '$105', unit: 'مرة واحدة' },
         { name: 'الحزمة الكاملة', price: '$1,715', unit: 'مرة واحدة' },
@@ -622,7 +622,7 @@ const DATA: Record<string, Data> = {
         { name: 'Κόμβος — παρακολούθηση', price: '$20', unit: '/κόμβο/μήνα' },
         { name: 'Κυβερνοάμυνα συστάδας', price: '$500', unit: '/συστάδα/μήνα' },
       ] },
-      { title: 'Υποχρεωτικός έλεγχος onboarding (μέσω G-Tester, −30%)', items: [
+      { title: 'Υποχρεωτικός έλεγχος onboarding (μέσω α-Tester, −30%)', items: [
         { name: 'Έλεγχος ευπαθειών συστήματος', price: '$525', unit: 'εφάπαξ' },
         { name: 'Έλεγχος διακομιστή', price: '$105', unit: 'εφάπαξ' },
         { name: 'Πλήρες πακέτο', price: '$1,715', unit: 'εφάπαξ' },

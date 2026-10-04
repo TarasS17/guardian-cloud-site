@@ -693,7 +693,7 @@
     "section_6_bridge": {
       "title": "El puente hacia los proyectos",
       "paragraph_1": "Hemos dividido esto en dos proyectos, que llegarán a la audiencia más amplia posible de Arquitectos del Futuro.",
-      "paragraph_2": "Proyecto G — para quienes desean crear su idea en el ámbito digital.",
+      "paragraph_2": "Proyecto α — para quienes desean crear su idea en el ámbito digital.",
       "paragraph_3": "Proyecto BlackWings — para quienes desean plasmar su idea en el sector real.",
       "paragraph_4": "Visite las páginas de estos proyectos, conózcalos, y decida cómo los usará en su vida.",
       "paragraph_5": "Como puede ver, algunos módulos ya están construidos y funcionando; otros aún están en desarrollo y llegarán en los próximos meses.",
@@ -707,7 +707,7 @@
       "dev_1": "AI Studio es una arquitectura abierta a la evolución. Aquí puede desarrollar nuevos módulos junto con nosotros y ponerlos a trabajar directamente en su propio campo.",
       "dev_2": "Donde aún no existe un instrumento listo para las demandas particulares de su negocio o su producción, lo diseñamos y lo desplegamos dentro de su propio contorno.",
       "guide_1": "En su panel, una vez registrado, Falco lo recibirá. Le guiará a través de cada módulo de AI Studio y le explicará para qué sirve cada uno.",
-      "guide_2": "Aquí encontrará todo lo que exige el día laboral. G-Coder, para escribir código. G-Tester, para probar su infraestructura en la nube. Con el tiempo G-CallCenter, para incorporar sus comunicaciones al mismo redil. Y G-Team, gestión de proyectos construida para la persona que la usa, en lugar de en aras de un montón de funciones que nadie necesita y que nadie abrirá jamás.",
+      "guide_2": "Aquí encontrará todo lo que exige el día laboral. α-Coder, para escribir código. α-Tester, para probar su infraestructura en la nube.",
       "guide_3": "El trabajo del proyecto BlackWings le permitirá diseñar máquinas y mecanismos reales, y hacer funcionar su producción sin una persona dentro. La única parte que le queda a una persona es la del cargador que lleva el material a las máquinas.",
       "guide_4": "Falco será su guía, y su ayuda en todo lo que se proponga construir.",
       "evolve_1": "Con el tiempo Falco llegará a entender no la orden sino la intención. Se adaptará a su forma de trabajar, recordará las decisiones que ha tomado, y dejará de pedirle que explique lo obvio.",
@@ -716,14 +716,14 @@
   },
   "gcoder": {
     "meta": {
-      "title": "G-Coder: ingeniero de IA como servicio | AlfaCan AI Studio",
+      "title": "α-Coder: ingeniero de IA como servicio | AlfaCan AI Studio",
       "description": "Un fork de VS Code conectado a un contorno de inferencia de IA privado y totalmente cerrado. Su código fuente nunca sale del perímetro. Un consejo de modelos bajo la doctrina OWASP/CWE, con un humano en el bucle.",
-      "og_title": "G-Coder: ingeniero de IA como servicio",
+      "og_title": "α-Coder: ingeniero de IA como servicio",
       "og_description": "Un equipo de ingeniería de IA en su máquina, dentro de un contorno cerrado. La garantía se traslada del código al proceso: cada cambio pasa por una aprobación humana explícita."
     },
     "hero": {
       "badge": "",
-      "title": "G-Coder",
+      "title": "α-Coder",
       "subtitle": "",
       "paragraph": "",
       "cta_primary": "Registro",
@@ -758,9 +758,9 @@
       "text": "Si quiere entender con más detalle cómo sucede todo esto, hemos preparado un recorrido completo de la plataforma. Vea cómo funciona por dentro, parte por parte.",
       "video_ru": "avVnG456czM",
       "video_en": "AGWVTduarco",
-      "article_text": "Y si quiere profundizar en la arquitectura de G-Coder, lea la descripción técnica del producto.",
+      "article_text": "Y si quiere profundizar en la arquitectura de α-Coder, lea la descripción técnica del producto.",
       "article_label": "Leer la descripción",
-      "article_url": "/papers/g-coder-paper-en.html"
+      "article_url": "/papers/alfa-coder-paper-en.html"
     },
     "section_council": {
       "title": "El consejo de agentes, usted ve cada paso",
@@ -832,14 +832,14 @@
   },
   "gtester": {
     "meta": {
-      "title": "G-Tester — QA como servicio | AlfaCan AI Studio",
-      "description": "G-Tester es un equipo de QA con IA con un consejo de agentes en vivo, un AI Boardroom interactivo, y 20 disciplinas de prueba. Usted ve todo el proceso en tiempo real y puede intervenir en cualquier momento.",
-      "og_title": "G-Tester — QA como servicio",
+      "title": "α-Tester — QA como servicio | AlfaCan AI Studio",
+      "description": "α-Tester es un equipo de QA con IA con un consejo de agentes en vivo, un AI Boardroom interactivo, y 20 disciplinas de prueba. Usted ve todo el proceso en tiempo real y puede intervenir en cualquier momento.",
+      "og_title": "α-Tester — QA como servicio",
       "og_description": "Una flota de ejecutores de pruebas escalable horizontalmente más un consejo interactivo de LLM especializados. Veredicto determinista. Humano en el bucle."
     },
     "hero": {
       "badge": "",
-      "title": "G-Tester",
+      "title": "α-Tester",
       "subtitle": "",
       "paragraph": "",
       "cta_primary": "Comenzar",
@@ -863,16 +863,16 @@
     },
     "section_walkthrough": {
       "title": "El recorrido completo de la plataforma",
-      "text": "Si quiere entender con más detalle cómo funciona G-Tester, hemos preparado un recorrido completo de la plataforma. Vea cómo funciona por dentro.",
+      "text": "Si quiere entender con más detalle cómo funciona α-Tester, hemos preparado un recorrido completo de la plataforma. Vea cómo funciona por dentro.",
       "video_ru": "PjskZfpa2Fc",
       "video_en": "vrc6KFY9SuQ",
-      "article_text": "Y si quiere profundizar en la arquitectura de G-Tester, lea la descripción técnica del producto.",
+      "article_text": "Y si quiere profundizar en la arquitectura de α-Tester, lea la descripción técnica del producto.",
       "article_label": "Leer la descripción",
-      "article_url": "/papers/g-tester-paper-en.html"
+      "article_url": "/papers/alfa-tester-paper-en.html"
     },
     "section_boardroom": {
       "title": "El AI Boardroom",
-      "paragraph_1": "El elemento central de G-Tester es la interfaz del consejo de agentes en vivo. Cuando usted inicia una auditoría, la plataforma genera una sesión colaborativa de agentes de IA especializados que razonan sobre telemetría real de sus ejecutores en tiempo real.",
+      "paragraph_1": "El elemento central de α-Tester es la interfaz del consejo de agentes en vivo. Cuando usted inicia una auditoría, la plataforma genera una sesión colaborativa de agentes de IA especializados que razonan sobre telemetría real de sus ejecutores en tiempo real.",
       "paragraph_2": "Usted no espera un informe, observa el proceso. Ve lo que piensa cada agente, qué reglas de doctrina recuperó, cómo discrepan los agentes entre sí, y a qué conclusión llegan juntos.",
       "paragraph_3": "Y puede intervenir. En cualquier momento: pausar el consejo, introducir un comando («reevalúa el hallazgo de inyección SQL asumiendo que hay un WAF aguas arriba»), cambiar parámetros de prueba, o ajustar un umbral de gravedad. Todas las intervenciones quedan registradas criptográficamente en el paquete de auditoría final.",
       "capability_1_title": "Flujo de agentes en vivo",
@@ -905,7 +905,7 @@
     },
     "section_disciplines": {
       "title": "20 disciplinas de prueba",
-      "intro": "Una auditoría — una imagen completa. G-Tester cubre cinco categorías de prueba a través de un único pipeline.",
+      "intro": "Una auditoría — una imagen completa. α-Tester cubre cinco categorías de prueba a través de un único pipeline.",
       "category_1_name": "Seguridad e infraestructura",
       "category_1_disciplines": "Evaluación de seguridad integral del sistema completo mediante un contorno ITDR air-gapped; pentest OWASP Top-10 / CWE; auditoría de entorno de host de solo lectura sobre ~23 parámetros del sistema.",
       "category_2_name": "API e integridad de datos",
@@ -947,7 +947,7 @@
     "section_status": {
       "title": "Estado actual",
       "badge": "Backend completo · Verificado de extremo a extremo",
-      "text": "El backend está completamente terminado y verificado de extremo a extremo. El AI Boardroom interactivo en vivo está activo. G-Tester funciona sobre la misma flota de modelos compartida que Guardian Cloud y G-Coder: un único contorno de GPU sirve a los tres productos. El lanzamiento comercial sigue al despliegue de la plataforma principal.",
+      "text": "El backend está completamente terminado y verificado de extremo a extremo. El AI Boardroom interactivo en vivo está activo. α-Tester funciona sobre la misma flota de modelos compartida que Guardian Cloud y α-Coder: un único contorno de GPU sirve a los tres productos. El lanzamiento comercial sigue al despliegue de la plataforma principal.",
       "cta": "Contáctanos",
       "cta_url": "/contact"
     },

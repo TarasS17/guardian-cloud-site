@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G-Tester Technical Whitepaper — ALFACAN DEFENCE GROUP</title>
+    <title>α-Tester Technical Whitepaper — ALFACAN DEFENCE GROUP</title>
     <style>
         :root {
             --primary-color: #0f172a;
@@ -179,7 +179,7 @@
 <body>
 
 <div class="container">
-    <h1>G-Tester: Collaborative, Evidence-Grounded, and Doctrine-Aligned Autonomous Software Quality Assurance Platform</h1>
+    <h1>α-Tester: Collaborative, Evidence-Grounded, and Doctrine-Aligned Autonomous Software Quality Assurance Platform</h1>
     
     <div class="meta-info">
         <p><strong>Author of Record:</strong> ALFACAN DEFENCE GROUP LIMITED (Company No. 17062207)</p>
@@ -191,7 +191,7 @@
     <div class="abstract">
         <h3>Abstract</h3>
         <p>Traditional Software Quality Assurance (QA) relies heavily on manual engineering effort, causing operational friction, extended delivery cycles, and inconsistent assessment criteria. While autonomous artificial intelligence agents offer high-throughput code and runtime evaluation, pure generative approaches often suffer from parametric hallucination, non-reproducibility, and a lack of deterministic validation.</p>
-        <p>This paper presents <strong>G-Tester</strong>, an enterprise-grade Quality Assurance as a Service (QAaaS) architecture developed by ALFACAN DEFENCE GROUP LIMITED. G-Tester unifies a horizontally scalable test-runner fleet with an interactive multi-agent council of specialized Large Language Models (LLMs). The platform incorporates a real-time <strong>AI Boardroom Interface</strong>, allowing human operators and lead auditors to visually monitor live multi-model debates, step into agent channels, adjust testing parameters dynamically, or override verdicts. Every analytical decision is anchored by a two-stage Retrieval-Augmented Generation (s-rag) engine over a curated house doctrine corpus, enforcing multi-tier invariants: <em>Honesty</em> (explicitly reporting unexecuted paths as skips rather than passes), <em>Grounding</em> (restricting reasoning to executed telemetry and doctrine rules), and <em>Graceful Degradation</em> (falling back to deterministic execution rules when inference infrastructure is unavailable).</p>
+        <p>This paper presents <strong>α-Tester</strong>, an enterprise-grade Quality Assurance as a Service (QAaaS) architecture developed by ALFACAN DEFENCE GROUP LIMITED. α-Tester unifies a horizontally scalable test-runner fleet with an interactive multi-agent council of specialized Large Language Models (LLMs). The platform incorporates a real-time <strong>AI Boardroom Interface</strong>, allowing human operators and lead auditors to visually monitor live multi-model debates, step into agent channels, adjust testing parameters dynamically, or override verdicts. Every analytical decision is anchored by a two-stage Retrieval-Augmented Generation (s-rag) engine over a curated house doctrine corpus, enforcing multi-tier invariants: <em>Honesty</em> (explicitly reporting unexecuted paths as skips rather than passes), <em>Grounding</em> (restricting reasoning to executed telemetry and doctrine rules), and <em>Graceful Degradation</em> (falling back to deterministic execution rules when inference infrastructure is unavailable).</p>
     </div>
 
     <h2>1. Introduction &amp; Architectural Motivation</h2>
@@ -206,13 +206,13 @@
     </ul>
 
     <h3>1.2 The Human-in-the-Loop Multi-Agent Council Solution</h3>
-    <p>G-Tester resolves these structural issues by pairing automated execution runners with a transparent <strong>Multi-Agent AI Council</strong>. Instead of executing analysis in an opaque background thread, G-Tester surfaces the live multi-model deliberation process directly to the user through an interactive dashboard. Human auditors can observe domain analysts debating exploitability in real time, inspect retrieved doctrine rules, pause execution, or interject custom parameters before final package compilation.</p>
+    <p>α-Tester resolves these structural issues by pairing automated execution runners with a transparent <strong>Multi-Agent AI Council</strong>. Instead of executing analysis in an opaque background thread, α-Tester surfaces the live multi-model deliberation process directly to the user through an interactive dashboard. Human auditors can observe domain analysts debating exploitability in real time, inspect retrieved doctrine rules, pause execution, or interject custom parameters before final package compilation.</p>
 
     <h2>2. Interactive Live AI Boardroom &amp; Human-in-the-Loop Governance</h2>
-    <p>A central feature of G-Tester is its real-time multi-agent visualization interface, termed the <strong>AI Boardroom</strong>. When an audit job is initiated, the platform spawns a collaborative session where specialized AI agents deliberate over live runner telemetry.</p>
+    <p>A central feature of α-Tester is its real-time multi-agent visualization interface, termed the <strong>AI Boardroom</strong>. When an audit job is initiated, the platform spawns a collaborative session where specialized AI agents deliberate over live runner telemetry.</p>
 
     <h3>2.1 Real-Time Telemetry and Event Streaming</h3>
-    <p>The G-Tester control plane streams structured events via WebSockets and Server-Sent Events (SSE) to the client dashboard. As runners yield execution metrics (e.g., HTTP headers, stack traces, DOM snapshots, p95 latency numbers), the AI analysts process the data in parallel channels.</p>
+    <p>The α-Tester control plane streams structured events via WebSockets and Server-Sent Events (SSE) to the client dashboard. As runners yield execution metrics (e.g., HTTP headers, stack traces, DOM snapshots, p95 latency numbers), the AI analysts process the data in parallel channels.</p>
 
     <table>
         <thead>
@@ -247,7 +247,7 @@
     </table>
 
     <h3>2.2 Human Intervention Mechanics</h3>
-    <p>G-Tester provides three modes of human control during an audit:</p>
+    <p>α-Tester provides three modes of human control during an audit:</p>
     <ol>
         <li><strong>Active Intervention (Mid-Run Steering):</strong> A human lead can pause the council's deliberation and type instructions into the live stream (e.g., <em>"Re-evaluate the SQL injection finding assuming an upstream WAF is present"</em>). The agents immediately acknowledge the override and adjust analysis.</li>
         <li><strong>Discipline Scope Modification:</strong> If an agent detects anomalous behavior, it suggests spawning an additional runner (e.g., <code>nonfunc_load</code>). The client receives a visual prompt to approve or decline on the fly.</li>
@@ -255,7 +255,7 @@
     </ol>
 
     <h2>3. Deep Model Taxonomy &amp; Multi-Agent Council Structure</h2>
-    <p>G-Tester employs an ensemble of specialized open-weights and fine-tuned large language models hosted on an internal GPU inference hub.</p>
+    <p>α-Tester employs an ensemble of specialized open-weights and fine-tuned large language models hosted on an internal GPU inference hub.</p>
 
     <table>
         <thead>
@@ -452,10 +452,10 @@
     </pre>
 
     <h2>6. Scale Infrastructure &amp; Empirical Validation</h2>
-    <p>G-Tester decouples API control tasks from test execution workloads. A lightweight control server handles job intake, billing, and real-time streaming, while a distributed, autoscaling worker fleet (<code>gt-runner</code>) executes heavy runner processes. Workers claim pending jobs using lock-free atomic queries (<code>SELECT ... FOR UPDATE SKIP LOCKED</code>), supporting horizontal scaling across large server clusters.</p>
+    <p>α-Tester decouples API control tasks from test execution workloads. A lightweight control server handles job intake, billing, and real-time streaming, while a distributed, autoscaling worker fleet (<code>gt-runner</code>) executes heavy runner processes. Workers claim pending jobs using lock-free atomic queries (<code>SELECT ... FOR UPDATE SKIP LOCKED</code>), supporting horizontal scaling across large server clusters.</p>
 
     <h2>7. Conclusion</h2>
-    <p>G-Tester establishes a collaborative, evidence-grounded framework for autonomous software testing. By pairing a multi-model council of specialized LLM analysts with an interactive live dashboard, the system bridges automated machine-scale execution with transparent human-in-the-loop oversight.</p>
+    <p>α-Tester establishes a collaborative, evidence-grounded framework for autonomous software testing. By pairing a multi-model council of specialized LLM analysts with an interactive live dashboard, the system bridges automated machine-scale execution with transparent human-in-the-loop oversight.</p>
 
 </div>
 

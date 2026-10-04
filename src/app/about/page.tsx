@@ -164,9 +164,9 @@ export default function HomePage() {
                 </a>
               </div>
               <div className="mt-8 grid gap-6 md:grid-cols-3">
-                <ProductCard d={{ ...s7?.g_coder, cta_url: 'https://ai-studio.alfa-can.com/g-coder' }} imgKey="g_coder" />
-                <ProductCard d={{ ...s7?.g_tester, cta_url: 'https://ai-studio.alfa-can.com/g-tester' }} imgKey="g_tester" />
-                <ProductCard d={{ ...s7?.g_studio, cta_url: 'https://ai-studio.alfa-can.com/g-studio' }} imgKey="g_studio" />
+                <ProductCard d={{ ...s7?.g_coder, cta_url: 'https://ai-studio.alfa-can.com/alfa-coder' }} imgKey="g_coder" />
+                <ProductCard d={{ ...s7?.g_tester, cta_url: 'https://ai-studio.alfa-can.com/alfa-tester' }} imgKey="g_tester" />
+                <ProductCard d={{ ...s7?.g_studio, cta_url: 'https://ai-studio.alfa-can.com/alfa-studio' }} imgKey="g_studio" />
               </div>
             </div>
           </section>

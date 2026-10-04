@@ -700,7 +700,7 @@
     "section_6_bridge": {
       "title": "諸業之橋梁",
       "paragraph_1": "吾輩將此析為二體，以期廣納天下「未來之建築師」。",
-      "paragraph_2": "Project G —— 專供欲於數字太虛之中，幻化靈感者。",
+      "paragraph_2": "Project α —— 專供欲於數字太虛之中，幻化靈感者。",
       "paragraph_3": "Project BlackWings —— 專供欲於現實實業之中，砥礪宏圖者。",
       "paragraph_4": "进入这些项目的页面,了解它们,并决定如何在您的生活中加以运用。",
       "paragraph_5": "如您所见,部分模块已经构建并上线,其余仍在开发中,将于未来数月内推出。",
@@ -714,7 +714,7 @@
       "dev_1": "AI Studio 是一套向演進開放的架構。在這裡，您可以與我們共同開發新的模組，並直接導入您自己的領域。",
       "dev_2": "若您的業務或生產有特定需求，而尚無現成工具，我們會在您自己的封閉環境中設計並部署它。",
       "guide_1": "註冊之後，在您的儀表板中，Falco 會前來迎接。他會帶您走過 AI Studio 的每一個模組，並說明各自的用途。",
-      "guide_2": "在這裡，您會找到日常工作所需的一切。G-Coder，用於撰寫程式碼。G-Tester，用於測試您的雲端基礎架構。往後還有 G-CallCenter，把您的通訊一併納入。以及 G-Team——為使用它的人而設計的專案管理，而不是為了堆砌一大堆沒人需要、也永遠不會打開的功能。",
+      "guide_2": "在這裡，您會找到日常工作所需的一切。α-Coder，用於撰寫程式碼。α-Tester，用於測試您的雲端基礎架構。",
       "guide_3": "BlackWings 專案的成果，將讓您設計真實的機器與機構，並在無人參與的情況下運行自己的生產線。留給人的部分，至多只是把原料搬到機器旁的搬運工。",
       "guide_4": "Falco 會是您的嚮導，也是您在打造任何事物時的助手。",
       "evolve_1": "隨著時間推移，Falco 理解的將不再是指令，而是意圖。他會適應您的工作方式，記住您做過的決定，不再要求您解釋顯而易見的事。",
@@ -723,14 +723,14 @@
   },
   "gcoder": {
     "meta": {
-      "title": "G-Coder: AI 工程师即服务 | AlfaCan AI Studio",
+      "title": "α-Coder: AI 工程师即服务 | AlfaCan AI Studio",
       "description": "一个接入私有、完全封闭的 AI 推理环境的 VS Code 分支。您的源代码永不离开边界。一个在 OWASP/CWE 准则下运行、由人把关的模型委员会。",
-      "og_title": "G-Coder: AI 工程师即服务",
+      "og_title": "α-Coder: AI 工程师即服务",
       "og_description": "一支运行在您机器上、位于封闭环境内的 AI 工程团队。保证从代码转移到流程：每一次改动都要经过明确的人工批准。"
     },
     "hero": {
       "badge": "",
-      "title": "G-Coder",
+      "title": "α-Coder",
       "subtitle": "",
       "paragraph": "",
       "cta_primary": "註冊",
@@ -765,9 +765,9 @@
       "text": "如果您想更详细地了解这一切是如何发生的，我们为您准备了平台的完整解析。看看它从内部、一个零件一个零件是如何运作的。",
       "video_ru": "avVnG456czM",
       "video_en": "AGWVTduarco",
-      "article_text": "如果您想更深入地了解 G-Coder 的架构，请阅读该产品的技术说明。",
+      "article_text": "如果您想更深入地了解 α-Coder 的架构，请阅读该产品的技术说明。",
       "article_label": "阅读说明",
-      "article_url": "/papers/g-coder-paper-en.html"
+      "article_url": "/papers/alfa-coder-paper-en.html"
     },
     "section_council": {
       "title": "智能体委员会，您看到每一步",
@@ -839,14 +839,14 @@
   },
   "gtester": {
     "meta": {
-      "title": "G-Tester — QA 即服务 | AlfaCan AI Studio",
-      "description": "G-Tester 是拥有实时智能体议会、交互式 AI 董事会和 20 个测试领域的 AI QA 团队。您可以实时看到整个过程并随时介入。",
-      "og_title": "G-Tester — QA 即服务",
+      "title": "α-Tester — QA 即服务 | AlfaCan AI Studio",
+      "description": "α-Tester 是拥有实时智能体议会、交互式 AI 董事会和 20 个测试领域的 AI QA 团队。您可以实时看到整个过程并随时介入。",
+      "og_title": "α-Tester — QA 即服务",
       "og_description": "水平可扩展的测试运行器集群加上专业 LLM 的交互式议会。确定性判决。人在控制环中。"
     },
     "hero": {
       "badge": "",
-      "title": "G-Tester",
+      "title": "α-Tester",
       "subtitle": "",
       "paragraph": "",
       "cta_primary": "开始使用",
@@ -870,16 +870,16 @@
     },
     "section_walkthrough": {
       "title": "平台完整解析",
-      "text": "如果您想更详细地了解 G-Tester 的运作方式，我们准备了平台的完整解析。看看它从内部是如何运作的。",
+      "text": "如果您想更详细地了解 α-Tester 的运作方式，我们准备了平台的完整解析。看看它从内部是如何运作的。",
       "video_ru": "PjskZfpa2Fc",
       "video_en": "vrc6KFY9SuQ",
-      "article_text": "如果您想更深入地了解 G-Tester 的架构，请阅读该产品的技术说明。",
+      "article_text": "如果您想更深入地了解 α-Tester 的架构，请阅读该产品的技术说明。",
       "article_label": "阅读说明",
-      "article_url": "/papers/g-tester-paper-en.html"
+      "article_url": "/papers/alfa-tester-paper-en.html"
     },
     "section_boardroom": {
       "title": "AI 董事会",
-      "paragraph_1": "G-Tester 的核心是实时智能体议会界面。当您发起审计时，平台会启动一个专业 AI 智能体协作会话，它们在实时对运行器的真实遥测数据进行推理。",
+      "paragraph_1": "α-Tester 的核心是实时智能体议会界面。当您发起审计时，平台会启动一个专业 AI 智能体协作会话，它们在实时对运行器的真实遥测数据进行推理。",
       "paragraph_2": "您不是在等待报告——您在观察过程。您看到每个智能体的想法，它检索了哪些准则规则，智能体之间如何产生分歧，以及它们最终共同得出什么结论。",
       "paragraph_3": "您可以随时介入。任何时刻——暂停议会，输入指令（「假设上游有 WAF，重新评估 SQL 注入发现」），更改测试参数，或调整严重性阈值。所有介入都以密码学方式记录在最终审计包中。",
       "capability_1_title": "实时智能体流",
@@ -912,7 +912,7 @@
     },
     "section_disciplines": {
       "title": "20 个测试领域",
-      "intro": "一次审计——全面的图景。G-Tester 通过单一流水线覆盖五个测试类别。",
+      "intro": "一次审计——全面的图景。α-Tester 通过单一流水线覆盖五个测试类别。",
       "category_1_name": "安全与基础设施",
       "category_1_disciplines": "通过物理隔离 ITDR 轮廓进行全面系统安全评估；OWASP Top-10 / CWE 渗透测试；跨约 23 个系统参数的只读主机环境审计。",
       "category_2_name": "API 与数据完整性",
@@ -954,7 +954,7 @@
     "section_status": {
       "title": "当前状态",
       "badge": "后端完成 · 端到端验证",
-      "text": "后端已完全完成并经过端到端验证。实时交互式 AI 董事会已激活。G-Tester 与 Guardian Cloud 和 G-Coder 共享同一个模型集群——一个 GPU 轮廓服务所有三个产品。商业发布将在主平台部署完成后进行。",
+      "text": "后端已完全完成并经过端到端验证。实时交互式 AI 董事会已激活。α-Tester 与 Guardian Cloud 和 α-Coder 共享同一个模型集群——一个 GPU 轮廓服务所有三个产品。商业发布将在主平台部署完成后进行。",
       "cta": "联系我们",
       "cta_url": "/contact"
     },
