@@ -14,22 +14,18 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const langMenuRef = useRef<HTMLDivElement>(null);
 
-  // Live social-proof counter of fallback registrations. Context-aware: the Partners page
-  // (/referral) shows partner leads, every other page shows Cloud clients — each proxied to its own
-  // Neon fallback DB, count only (no PII).
-  const isPartner = pathname.startsWith('/referral');
+  // Live social-proof counter of fallback registrations: Cloud clients, proxied to the Neon fallback DB,
+  // count only (no PII).
   const [regCount, setRegCount] = useState<number | null>(null);
   useEffect(() => {
-    setRegCount(null);
-    fetch(isPartner ? '/api/partner-registrations' : '/api/registrations')
+    fetch('/api/registrations')
       .then((r) => r.json())
       .then((d) => setRegCount(Number(d?.count) || 0))
       .catch(() => setRegCount(null));
-  }, [isPartner]);
+  }, []);
 
   const navItems = [
     { href: '/', label: 'Cloud' },
-    { href: '/referral', label: 'Partners' },
     { href: '/about', label: 'About Us' },
     { href: '/team', label: 'Team' },
     { href: '/contact', label: 'Contact' },
@@ -68,12 +64,12 @@ export default function Header() {
           {regCount !== null && (
             <div
               className="hidden md:flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/5 px-3.5 py-1.5"
-              title={isPartner ? 'On the referral page now' : 'On Guardian Cloud now'}
+              title="On Guardian Cloud now"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" aria-hidden="true" />
               <Users size={15} className="text-cyan-400" aria-hidden="true" />
               <span className="text-sm font-semibold text-white tabular-nums">{regCount.toLocaleString()}</span>
-              <span className="text-xs font-medium text-white/55">{isPartner ? 'in referral' : 'in Cloud'}</span>
+              <span className="text-xs font-medium text-white/55">in Cloud</span>
             </div>
           )}
 

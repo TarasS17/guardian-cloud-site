@@ -109,25 +109,6 @@
         "cta_url": "/blackwings/training-center"
       }
     },
-    "section_9_partner_program": {
-      "intro_1": "Dünyanın büyük olduğunun ve tüm tecrübemize ve yanımızdaki yapay zeka mühendisleri ekibine rağmen hâlâ tek başımıza olduğumuzun farkındayız. Kendi başımıza, orada zaten yaşayan ve çalışanlar kadar derinlemesine asla nüfuz edemeyeceğimiz birçok pazar, dil, kültür ve sektör var.",
-      "intro_2": "Bu yüzden, yapay zekanın nasıl olması gerektiği konusunda bizimle aynı görüşü paylaşan ve platformlarımızı kendi pazarlarına taşımaya hazır olanlar için bir ortaklık programı açtık.",
-      "program": {
-        "name": "AlfaCan Partner Program",
-        "subtitle": "Davada Yoldaşlar",
-        "description_1": "Bayi aramıyoruz. Zaten müşterileriyle çalışan ve onları bizden daha iyi anlayan BT uzmanları, sistem yöneticileri, dijital ajanslar ve MSP sağlayıcıları arıyoruz. Size hazır bir platform sağlıyoruz, siz de onu buna gerçekten ihtiyaç duyanlara ulaştırıyorsunuz.",
-        "description_2": "Programın iki kademesi var. Birincisi, yeni başlayıp denemek isteyenler için: her satıştan yüzde ona kadar komisyon ve tam teknik destek. İkincisi, bize zaten yüz müşteri getirip ciddi bir işe dönüşmüş olanlar için: yüzde on beşe kadar komisyon, kendi markanız altında white-label seçenekleri ve her konuda öncelik.",
-        "description_3": "Büyük MSP sağlayıcıları için ayrı bir görüşme ve ayrı koşullarımız var.",
-        "description_4": "Böyle bir ortaksanız, program koşullarına göz atın veya bize yazın; sizin özel durumunuzda bunun nasıl görünebileceğini birlikte konuşalım.",
-        "cta_primary": "Ortak Olun",
-        "cta_primary_url": "/referral",
-        "cta_secondary": "Koşulları İnceleyin",
-        "cta_secondary_url": "/referral#terms"
-      },
-      "referral_cta": "Referans programı ve nasıl çalıştığı",
-      "intro_3": "Uzmanların elinden işlerini almıyoruz. Sistem yöneticileri, mühendisler, programcılar, BT şirketleri ve MSP sağlayıcıları: onların yerine geçmiyoruz. Onlara aracı veriyoruz ve kazandığından bir pay veriyoruz.",
-      "intro_4": "Platforma bir müşteri getirir ve bizimle kaldığı sürece yaptığı her ödemeden kazanırsınız: kişisel bir referans linki, şeffaf hesaplama ve gerçekten tahsil edilmiş faturalara karşı ödemeler."
-    },
     "company_intro": {
       "title": "Gerçek koşullarda pekişmiş deneyim",
       "legal": "AlfaCan Defence Group Limited. Londra, İngiltere ve Galler, Sicil No. 17062207.",
@@ -547,199 +528,6 @@
       "cta": "İsteklerinizi paylaşın"
     }
   },
-  "referral": {
-    "hero": {
-      "title": "Guardian AI Partner Program",
-      "subtitle": "Sizin Deneyiminiz + Bizim Teknolojimiz = İşiniz İçin Yeni Fırsatlar",
-      "description": "Müşterilerinize geliştirme ve destek için zaman harcamadan siber güvenlik ve otomasyon için en yeni yapay zeka çözümlerini sunabildiğinizi hayal edin. Her müşterinin ödemesinden aylık yüzde 15'e kadar alırsınız, müşterileriniz profesyonel 7/24 koruma elde eder ve tüm teknik işi Guardian AI üstlenir. İşte ortaklık programımız budur."
-    },
-    "shift": {
-      "intro": "Yapay zekanın işinizi elinizden alacağı fikriyle sizi korkutmaya çalışmıyoruz. Bu doğru değil ve zaten bize inanmazdınız.",
-      "change": "Başka bir şey değişiyor ve bu tam da şimdi oluyor: müşteriler saatler için ödeme yapmayı bırakıp sonuçlar için ödeme yapmaya başladı. Kimse on saatlik yapılandırma istemiyor — her şeyin çalışmasını ve korunmasını istiyorlar.",
-      "bad": "Zamanını satan herkes için bu kötü bir haber.",
-      "good": "Sistemi yöneten herkes için ise on yılın en iyi haberi.",
-      "risk": "Gerçek risk, bir makinenin yerinizi almasında değil. Risk, bir gün müşterinizin doğrudan teknoloji sağlayıcısına gitmesi — ve sizin tek bir görevi değil, tüm hesabı kaybetmenizdir.",
-      "bring": "Onu kendiniz getirin. Müşteri sizin kalır ve yaptığı her ödemeden bir yüzde kazanırsınız."
-    },
-    "insider": {
-      "title": "Bu sistemi değerlendirmeniz istendiyse",
-      "lead": "Büyük olasılıkla ne diyeceğinizi zaten biliyorsunuz. Nedenini anlıyoruz ve bunu görmezden gelmeyeceğiz. Ama her iki senaryoyu da sonuna kadar okuyun.",
-      "s1_title": "Senaryo 1: Ürünü olgunlaşmamış ilan edersiniz.",
-      "s1_text": "Konu kapanır, ama sadece bir süreliğine. Birkaç ay içinde direktörünüz bu sistemi zaten kullanan ve sonuçlarını gören bir iş ortağından duyacak. Konuya geri dönecek, ama bu sefer sizsiz. Karar başınızın üstünden verilecek ve önceki değerlendirmeniz ya profesyonel bir hata ya da statükoyu koruma girişimi olarak okunacak.",
-      "s2_title": "Senaryo 2: Bu çözümü kendiniz getirirsiniz.",
-      "s2_text": "Onu ilk anlayan siz olursunuz ve sıkı koşullar koyarsınız: sistemin neye dokunabileceğini, neyin sizin kişisel onayınızı gerektirdiğini, güvenlik sınırının nerede olduğunu. Devreye alma sizin tam kontrolünüz altında gerçekleşir, çünkü şirkette altyapıyı sizin kadar derinlemesine anlayan başka kimse yok.",
-      "close": "Senaryolar arasındaki fark, otomasyonun gelip gelmeyeceği değil. Gelecek. Fark, onu getiren kişi mi yoksa kaçıran kişi mi olduğunuzdur."
-    },
-    "callout": {
-      "line1": "Belki de kendinize, bugün olduğunuz gibi kalacağınız bir gelecek hikayesi anlatmayı bırakma zamanıdır.",
-      "line2": "Belki de zaten olan biteni kabul edip kendi koşullarınızla içine adım atma zamanıdır."
-    },
-    "msp": {
-      "title": "MSP: marjınız maaşlarda tükeniyor",
-      "p1": "Saat satıyorsunuz. Mühendisler pahalılaşıyor, müşteriler fiyata direniyor ve her yeni sözleşme yeni insanlar gerektiriyor. Bu bir piyasa gerilemesi değil, tükenmiş bir model.",
-      "p2": "Müşteriniz de aynı sonuca varacak. Birisi onlara sabit bir abonelikle otonom, korunan bir sistem sunduğu gün, nöbet için ödeme yapmayı bırakacaklar.",
-      "s1_title": "Senaryo 1. Eski modeli savunun.",
-      "s1_text": "O teklif sizi atlayarak doğrudan müşterinize ulaşacak. Bir olayı değil, sözleşmenin tamamını kaybedeceksiniz.",
-      "s2_title": "Senaryo 2. Kendiniz getirin.",
-      "s2_text": "Mühendisleriniz ilk hattan mimariye geçer. Aynı kadroyla daha fazla müşteri alırsınız. Saat değil, abonelik satarsınız.",
-      "list_title": "Bir MSP ortağı ne elde eder:",
-      "points": [
-        {
-          "title": "White-Label",
-          "text": "Bizim değil, sizin markanız altında otonom siber savunma."
-        },
-        {
-          "title": "İnsanlarınız rutini kapatmayı bırakır",
-          "text": "Ve iyi ödenen işi kapatmaya başlar."
-        },
-        {
-          "title": "Araçlar mühendislerinize gider",
-          "text": "Günlük iş için Guardian Cloud, G-Coder ve G-Tester — satış ekibi için demo girişi değil. Sırada G-Studio var: kendini kuran siteler, mağazalar ve hizmetler."
-        },
-        {
-          "title": "Sözleşmeniz için özel bir modül",
-          "text": "Büyük bir müşteri sahip olmadığımız bir şey talep ederse, bize söyleyin. Geliştirmede, kendi aklımıza gelenlerden önce ortaklarımızın gerçek ihalelerden getirdiği taleplere öncelik veriyoruz."
-        }
-      ],
-      "transition": "Mevcut filonuzu bize taşıyın. 51. müşteriden itibaren komisyonunuz yükselmeye başlar, 100'de ise bayi statüsü ve kendi markanız altında White-Label açılır. Bir MSP'nin zaten müşterileri olduğundan, bu eşiği bir yıl boyunca çalışmak yerine anında geçersiniz. Geçişin tam koşullarını yüz yüze görüşerek belirleriz.",
-      "close": "Size yığına bir araç daha satmıyoruz. Sattığınız şeyi değiştiriyoruz."
-    },
-    "ecosystem": {
-      "title": "Ekosistemimize katılarak neler kazanırsınız",
-      "lead": "Komisyon bir sonuçtur. Gerçek bir ortaklık başka bir yerden başlar.",
-      "points": [
-        {
-          "title": "Ürün paketine tam erişim",
-          "text": "Guardian Cloud, G-Coder, G-Tester ve ardından gelecek her hizmet. Kendimiz kullandığımız aynı çalışan araç setini alırsınız. Kısaltılmış demo sürümleri yok."
-        },
-        {
-          "title": "Geliştirme üzerinde doğrudan etki",
-          "text": "Bizim göremediğimizi siz görürsünüz: sistemlerin bir müşteride sahada gerçekten nasıl davrandığını. Yeni bir modül geliştirmeye girmeden önce ortaklarımıza görüş sormayı taahhüt ediyoruz — yayından sonra onlara oldu-bitti sunmak yerine."
-        },
-        {
-          "title": "Teknolojiye erken erişim",
-          "text": "Neyi ve nasıl inşa ettiğimizi ilk öğrenen siz olursunuz. Testlere ve mimariye katılmak isterseniz katılırsınız. İstemezseniz, sadece tüm pazarın önünde nabzınızı tutarsınız."
-        },
-        {
-          "title": "Fikirlerinize yatırım",
-          "text": "Bize getirdiğiniz umut vadeden projeleri incelemeye, birlikte fonlamaya ve ekosisteme entegre etmeye hazırız."
-        }
-      ],
-      "close": "İşte kariyerinizdeki yeni dönüş: başkalarının emirlerini yerine getirmekten kendi ürünlerinizin yazarı olmaya giden yol."
-    },
-    "pricing": {
-      "title": "Koşullar",
-      "subtitle": "Oranınız, ödeme yapan müşteri sayınızla birlikte yükselir ve otomatik olarak yeniden hesaplanır.",
-      "ladder": {
-        "title": "Oranınız",
-        "col_clients": "Müşteriler",
-        "col_rate": "Komisyon",
-        "steps": [
-          {
-            "clients": "50'ye kadar",
-            "rate": "%10"
-          },
-          {
-            "clients": "51-60",
-            "rate": "%11"
-          },
-          {
-            "clients": "61-70",
-            "rate": "%12"
-          },
-          {
-            "clients": "71-80",
-            "rate": "%13"
-          },
-          {
-            "clients": "81-90",
-            "rate": "%14"
-          },
-          {
-            "clients": "91 ve üzeri",
-            "rate": "%15"
-          }
-        ],
-        "note": "Bizimle kaldıkları sürece her müşterinizin cirosundan bir yüzde kazanırsınız. Hangi planda oldukları ve tam olarak ne satın aldıkları fark etmez."
-      },
-      "subpartner": {
-        "title": "Getirdiğiniz ortaklar",
-        "text": "Bir ortak getirirseniz, onların müşterilerinin cirosundan ek olarak %5 kazanırsınız. Kendi oranları düşürülmez."
-      },
-      "reseller": {
-        "title": "Bayi statüsü",
-        "text": "100 aktif ödeme yapan müşteride bayiye yükselebilirsiniz: ayda ek 200$ karşılığında kendi markanız altında White-Label, müşterileriniz için öncelikli destek ve yeni modüllere erken erişim."
-      },
-      "payouts": {
-        "title": "Ödemeler",
-        "rows": [
-          {
-            "k": "Ne zaman",
-            "v": "sonraki ayın 10'u"
-          },
-          {
-            "k": "Minimum",
-            "v": "100$ tahakkuk eden komisyon"
-          },
-          {
-            "k": "Koşul",
-            "v": "imzalı bir ödeme talebi"
-          },
-          {
-            "k": "Esas",
-            "v": "müşterinin fiilen ödediği faturalar"
-          },
-          {
-            "k": "Yöntem",
-            "v": "Revolut Business, bizim tarafımızdan hiçbir kesinti yapılmadan"
-          }
-        ]
-      },
-      "cta": "Ortak olun"
-    },
-    "faq": {
-      "title": "Sorularınıza yanıtlar",
-      "q1": {
-        "question": "Programa katılmanın maliyeti nedir?",
-        "answer": "Hiçbir şey. Kayıt, materyallere erişim ve teknik destek ücretsizdir. Müşterileriniz ödeme yaptığında siz de kazanırsınız."
-      },
-      "q2": {
-        "question": "İlk ödememi ne zaman alırım?",
-        "answer": "Müşteriniz ödeme yaptığı anda komisyon tahakkuk eder. Ödeme, tahakkuk eden tutar 100$'a ulaştığında ve ödeme talebi imzalandığında, sonraki ayın 10'unda yapılır."
-      },
-      "q3": {
-        "question": "Müşterim aboneliğini iptal ederse ne olur?",
-        "answer": "O müşteriden komisyon kazanmayı bırakırsınız, diğerleri ödemeye devam ederken. Her müşteri uygun değildir ve bu normaldir."
-      },
-      "q4": {
-        "question": "Hizmetlerinizi kendi markam altında satabilir miyim?",
-        "answer": "Evet. 100 aktif ödeme yapan müşteride bayi statüsünü ve onunla birlikte ayda ek 200$ karşılığında White-Label'i açarsınız: kendi logonuz, kendi adınız, kendi iletişim bilgileriniz."
-      },
-      "q5": {
-        "question": "Müşterilere teknik destek sağlamam gerekiyor mu?",
-        "answer": "Hayır. Kurulum, yapılandırma, izleme ve destek AlfaCan tarafından yürütülür. Siz çözümü önerir ve müşterinin plan seçmesine yardımcı olursunuz."
-      },
-      "q6": {
-        "question": "Bayi statüsü ne zaman açılır?",
-        "answer": "100 aktif ödeme yapan müşteriniz olduğunda otomatik olarak. Ondan önce komisyonunuz kademeli olarak yükselir: 51. müşteriden itibaren temel %10'un üzerine çıkmaya başlar."
-      },
-      "q7": {
-        "question": "Kendi hizmetlerimi platformlarınızla birleştirebilir miyim?",
-        "answer": "Evet, hatta ana model budur. Siz danışmanlık, geliştirme ve uygulamaya devam ederken rutin izleme ve güvenlik platforma taşınır. Zaman kazanır ve üzerine kazanırsınız."
-      },
-      "q8": {
-        "question": "Müşterim komisyon aldığımı öğrenirse ne olur?",
-        "answer": "Hiçbir şey olmaz. Onlara yardımcı olacak bir çözüm önerdiniz ve komisyon bu tavsiyenin karşılığıdır. Büyük her BT şirketi ortaklık programını bu şekilde yürütür."
-      }
-    },
-    "finalCTA": {
-      "title": "İlk müşterinizi getirin",
-      "subtitle": "Kayıt birkaç dakika sürer",
-      "description": "Sonrasında her müşteriyi, her ödemeyi ve mevcut oranınızı gösteren kişisel bir link ve bir gösterge paneli alırsınız.",
-      "primaryButton": "Ortak olun",
-      "note": "Katılım ücretsizdir, hacim taahhüdü gerektirmez."
-    }
-  },
   "team": {
     "hero": {
       "title": "Ekibimiz",
@@ -870,8 +658,7 @@
           "options": [
             "Guardian Cloud",
             "ALFACAN Mercanon",
-            "Her İki Ürün",
-            "Referans Programı"
+            "Her İki Ürün"
           ]
         },
         "message": {
@@ -891,7 +678,6 @@
     "products": "Ürünler",
     "guardianCloud": "Guardian Cloud",
     "guardianOps": "ALFACAN Mercanon",
-    "referralProgram": "Referans Programı",
     "about": "Hakkımızda",
     "aboutUs": "Hakkımızda",
     "team": "Ekibimiz",

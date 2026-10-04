@@ -210,9 +210,6 @@ export default function ContactPage() {
                 <option value="Both">
                   {locale === 'ru' ? 'Оба продукта' : locale === 'zh' ? '两种产品' : 'Both Products'}
                 </option>
-                <option value="Referral">
-                  {locale === 'ru' ? 'Реферальная программа' : locale === 'zh' ? '推荐计划' : 'Referral Program'}
-                </option>
               </select>
             </div>
 

@@ -109,25 +109,6 @@
         "cta_url": "/blackwings/training-center"
       }
     },
-    "section_9_partner_program": {
-      "intro_1": "Compreendemos que o mundo é grande e que nós, apesar de toda a nossa experiência e da equipa de engenheiros de redes neuronais ao nosso lado, continuamos sozinhos. Há muitos mercados, línguas, culturas e setores onde nunca conseguiremos penetrar tão profundamente sozinhos como quem já vive e trabalha lá.",
-      "intro_2": "Por isso, abrimos um programa de parceiros para quem partilha a nossa visão sobre o que a IA deve ser e está disposto a levar as nossas plataformas aos seus mercados.",
-      "program": {
-        "name": "AlfaCan Partner Program",
-        "subtitle": "Comrades in the Cause",
-        "description_1": "Não procuramos revendedores. Procuramos especialistas de TI, administradores de sistemas, agências digitais e fornecedores MSP que já trabalham com os seus clientes e os compreendem melhor do que nós. Nós fornecemos-lhe uma plataforma acabada e o parceiro leva-a a quem realmente precisa dela.",
-        "description_2": "O programa tem dois patamares. O primeiro é para quem está a começar e quer experimentar, oferecendo até dez por cento de cada venda e apoio técnico completo. O segundo é para quem já nos trouxe cem clientes e cresceu para um negócio sério, oferecendo até quinze por cento, opções de white-label sob a sua própria marca e prioridade em tudo.",
-        "description_3": "Para grandes fornecedores MSP, temos uma conversa e condições à parte.",
-        "description_4": "Se é um parceiro deste tipo, veja os termos do programa ou escreva-nos, e discutiremos o que isto pode significar no seu caso específico.",
-        "cta_primary": "Tornar-se parceiro",
-        "cta_primary_url": "/referral",
-        "cta_secondary": "Conhecer os termos",
-        "cta_secondary_url": "/referral#terms"
-      },
-      "referral_cta": "O programa de referência, e como funciona",
-      "intro_3": "Não retiramos trabalho aos especialistas. Administradores de sistemas, engenheiros, programadores, empresas de TI e fornecedores MSP: não nos colocamos no lugar deles. Damos-lhes o instrumento e uma parte do que ele gera.",
-      "intro_4": "O parceiro traz um cliente para a plataforma e ganha em cada pagamento que este fizer, enquanto permanecer connosco: um link de referência pessoal, contabilidade transparente e pagamentos com base em faturas efetivamente liquidadas."
-    },
     "company_intro": {
       "title": "Experiência forjada em condições reais",
       "legal": "AlfaCan Defence Group Limited. Londres, Inglaterra e País de Gales, Reg. N.º 17062207.",
@@ -547,199 +528,6 @@
       "cta": "Partilhe os seus desejos"
     }
   },
-  "referral": {
-    "hero": {
-      "title": "Guardian AI Partner Program",
-      "subtitle": "A sua experiência + a nossa tecnologia = novas oportunidades para o seu negócio",
-      "description": "Imagine poder oferecer aos seus clientes soluções de IA de ponta para cibersegurança e automação sem gastar tempo em desenvolvimento e suporte. Recebe até 15% do pagamento mensal de cada cliente, os seus clientes obtêm proteção profissional 24/7, e a Guardian AI trata de todo o trabalho técnico. Este é o nosso programa de parceiros."
-    },
-    "shift": {
-      "intro": "Não vamos assustá-lo com a ideia de que a IA vai tirar-lhe o emprego. Não é verdade, e de qualquer forma não acreditaria em nós.",
-      "change": "Outra coisa está a mudar, e está a acontecer agora mesmo: os clientes deixaram de pagar por horas e começaram a pagar por resultados. Ninguém quer dez horas de configuração — querem que tudo funcione e esteja protegido.",
-      "bad": "Para quem vende o seu tempo, isto é uma má notícia.",
-      "good": "Para quem gere o sistema, é a melhor notícia em dez anos.",
-      "risk": "O verdadeiro risco não é que uma máquina o substitua. É que um dia o seu cliente vá diretamente ao fornecedor da tecnologia — e o parceiro não perca apenas uma tarefa, mas toda a conta.",
-      "bring": "Traga-os você mesmo. O cliente continua a ser seu, e ganha uma percentagem de cada pagamento que ele fizer."
-    },
-    "insider": {
-      "title": "Se lhe pediram para avaliar este sistema",
-      "lead": "É bem provável que já saiba o que vai dizer. Compreendemos porquê, e não vamos fingir o contrário. Mas leia ambos os cenários até ao fim.",
-      "s1_title": "Cenário 1: Considera o produto imaturo.",
-      "s1_text": "A questão fica encerrada, mas apenas por algum tempo. Dentro de alguns meses o seu diretor vai ouvir falar deste sistema através de um parceiro de negócio que já o utiliza e vê os resultados. Ele voltará ao assunto, mas desta vez sem si. A decisão será tomada acima de si, e a sua avaliação anterior será lida como um erro profissional ou como uma tentativa de proteger o status quo.",
-      "s2_title": "Cenário 2: Traz esta solução por sua própria iniciativa.",
-      "s2_text": "É o primeiro a compreendê-la, e impõe termos rigorosos: o que o sistema pode tocar, o que exige a sua aprovação pessoal, onde passa a fronteira de segurança. A implementação acontece sob o seu controlo total, porque mais ninguém na empresa compreende a infraestrutura tão profundamente como você.",
-      "close": "A diferença entre os cenários não é se a automação chega. Vai chegar. A diferença é se foi você quem a trouxe, ou quem a deixou escapar."
-    },
-    "callout": {
-      "line1": "Talvez seja altura de parar de contar a si próprio uma história sobre um futuro em que permanece exatamente como está hoje.",
-      "line2": "Talvez seja altura de aceitar o que já está a acontecer e nele entrar nos seus próprios termos."
-    },
-    "msp": {
-      "title": "MSP: a sua margem está a arder em salários",
-      "p1": "Vende horas. Os engenheiros ficam mais caros, os clientes resistem aos preços, e cada novo contrato exige mais pessoas. Isto não é uma quebra de mercado, é um modelo esgotado.",
-      "p2": "O seu cliente vai chegar à mesma conclusão. Vai deixar de pagar por um turno de prevenção no dia em que alguém lhe oferecer um sistema autónomo e protegido com uma subscrição fixa.",
-      "s1_title": "Cenário 1. Defender o modelo antigo.",
-      "s1_text": "Essa oferta chegará diretamente ao seu cliente, contornando-o. Não perderá um incidente, perderá o contrato.",
-      "s2_title": "Cenário 2. Traga-a você mesmo.",
-      "s2_text": "Os seus engenheiros saem da primeira linha e passam para a arquitetura. Aceita mais clientes com o mesmo efetivo. Vende uma subscrição, não horas.",
-      "list_title": "O que um parceiro MSP recebe:",
-      "points": [
-        {
-          "title": "White-Label",
-          "text": "Ciberdefesa autónoma sob a sua marca, não a nossa."
-        },
-        {
-          "title": "Os seus técnicos deixam de fechar rotina",
-          "text": "E passam a fechar o trabalho que é bem pago."
-        },
-        {
-          "title": "As ferramentas vão para os seus engenheiros",
-          "text": "Guardian Cloud, G-Coder e G-Tester para o trabalho diário, não um login de demonstração para a equipa de vendas. O G-Studio vem a seguir: sites, lojas e serviços que se montam sozinhos."
-        },
-        {
-          "title": "Um módulo construído para o seu contrato",
-          "text": "Se um grande cliente exigir algo que ainda não temos, diga-nos. No desenvolvimento damos prioridade ao que os parceiros trazem de concursos reais, antes do que nós próprios pensámos."
-        }
-      ],
-      "transition": "Migre a sua carteira existente para nós. A partir do 51.º cliente a sua comissão começa a subir, e nos 100 desbloqueia o estatuto de revendedor e o White-Label sob a sua própria marca. Um MSP já tem os clientes, por isso atinge esse limiar de imediato em vez de trabalhar para ele durante um ano. Os termos exatos da transição acordam-se em pessoa.",
-      "close": "Não lhe estamos a vender mais uma ferramenta para a pilha. Estamos a mudar o que vende."
-    },
-    "ecosystem": {
-      "title": "O que ganha ao juntar-se ao nosso ecossistema",
-      "lead": "A comissão é uma consequência. Uma verdadeira parceria começa noutro sítio.",
-      "points": [
-        {
-          "title": "Acesso total à pilha de produtos",
-          "text": "Guardian Cloud, G-Coder, G-Tester e todos os serviços que se seguem. Recebe o mesmo conjunto de ferramentas de trabalho que utilizamos nós próprios. Nada de edições de demonstração reduzidas."
-        },
-        {
-          "title": "Influência direta no desenvolvimento",
-          "text": "Vê o que nós não conseguimos ver: como os sistemas realmente se comportam no terreno, junto de um cliente. Comprometemo-nos a pedir a opinião dos nossos parceiros antes de um novo módulo entrar em desenvolvimento, em vez de lhes apresentarmos o facto consumado após o lançamento."
-        },
-        {
-          "title": "Acesso antecipado à tecnologia",
-          "text": "É o primeiro a saber o que estamos a construir e como. Quer participar nos testes e na arquitetura — participa. Se não, mantém-se simplesmente a par à frente de todo o mercado."
-        },
-        {
-          "title": "Investimento nas suas ideias",
-          "text": "Estamos prontos para analisar, cofinanciar e integrar no ecossistema os projetos promissores que nos trouxer."
-        }
-      ],
-      "close": "Essa é a sua nova viragem de carreira: o caminho de executar as ordens de outros para ser autor dos seus próprios produtos."
-    },
-    "pricing": {
-      "title": "Termos",
-      "subtitle": "A sua taxa sobe com o número dos seus clientes pagantes e é recalculada automaticamente.",
-      "ladder": {
-        "title": "A sua taxa",
-        "col_clients": "Clientes",
-        "col_rate": "Comissão",
-        "steps": [
-          {
-            "clients": "até 50",
-            "rate": "10%"
-          },
-          {
-            "clients": "51–60",
-            "rate": "11%"
-          },
-          {
-            "clients": "61–70",
-            "rate": "12%"
-          },
-          {
-            "clients": "71–80",
-            "rate": "13%"
-          },
-          {
-            "clients": "81–90",
-            "rate": "14%"
-          },
-          {
-            "clients": "91 ou mais",
-            "rate": "15%"
-          }
-        ],
-        "note": "Ganha uma percentagem do volume de negócios de cada um dos seus clientes, enquanto permanecerem connosco. O plano em que estão e o que exatamente compram não faz diferença."
-      },
-      "subpartner": {
-        "title": "Parceiros que trouxer",
-        "text": "Se trouxer um parceiro, ganha adicionalmente 5% do volume de negócios dos clientes dele. A taxa dele não é reduzida."
-      },
-      "reseller": {
-        "title": "Estatuto de revendedor",
-        "text": "Com 100 clientes pagantes ativos pode subir a revendedor: White-Label sob a sua própria marca por mais $200 por mês, suporte prioritário para os seus clientes e acesso antecipado a novos módulos."
-      },
-      "payouts": {
-        "title": "Pagamentos",
-        "rows": [
-          {
-            "k": "Quando",
-            "v": "dia 10 do mês seguinte"
-          },
-          {
-            "k": "Mínimo",
-            "v": "$100 de comissão acumulada"
-          },
-          {
-            "k": "Condição",
-            "v": "um pedido de pagamento assinado"
-          },
-          {
-            "k": "Base",
-            "v": "faturas efetivamente pagas pelo cliente"
-          },
-          {
-            "k": "Método",
-            "v": "Revolut Business, sem qualquer dedução da nossa parte"
-          }
-        ]
-      },
-      "cta": "Tornar-se parceiro"
-    },
-    "faq": {
-      "title": "Respostas às suas perguntas",
-      "q1": {
-        "question": "Quanto custa aderir ao programa?",
-        "answer": "Nada. O registo, o acesso aos materiais e o suporte técnico são gratuitos. Ganha quando os seus clientes pagam."
-      },
-      "q2": {
-        "question": "Quando recebo o meu primeiro pagamento?",
-        "answer": "A comissão é acumulada no momento em que o seu cliente paga. O pagamento é libertado no dia 10 do mês seguinte, assim que o montante acumulado atingir $100 e o pedido de pagamento estiver assinado."
-      },
-      "q3": {
-        "question": "E se o meu cliente cancelar a subscrição?",
-        "answer": "Deixa simplesmente de ganhar comissão sobre esse cliente, enquanto os outros continuam a pagar. Nem todos os clientes são adequados, e isso é normal."
-      },
-      "q4": {
-        "question": "Posso vender os vossos serviços sob a minha própria marca?",
-        "answer": "Sim. Com 100 clientes pagantes ativos desbloqueia o estatuto de revendedor, e com ele o White-Label por mais $200 por mês: o seu logótipo, o seu nome, os seus contactos."
-      },
-      "q5": {
-        "question": "Tenho de prestar suporte técnico aos clientes?",
-        "answer": "Não. A instalação, configuração, monitorização e suporte são geridos pela AlfaCan. Você recomenda a solução e ajuda o cliente a escolher um plano."
-      },
-      "q6": {
-        "question": "Quando é que se desbloqueia o estatuto de revendedor?",
-        "answer": "Automaticamente, assim que tiver 100 clientes pagantes ativos. Antes disso a sua comissão sobe gradualmente: a partir do 51.º cliente começa a subir acima da base de 10%."
-      },
-      "q7": {
-        "question": "Posso combinar os meus próprios serviços com as vossas plataformas?",
-        "answer": "Sim, e esse é o modelo principal. Continua com a consultoria, o desenvolvimento e a implementação, enquanto a monitorização e a segurança de rotina passam para a plataforma. Ganha tempo e ganha por cima."
-      },
-      "q8": {
-        "question": "E se o meu cliente descobrir que recebo uma comissão?",
-        "answer": "Nada acontece. Recomendou uma solução que o ajuda, e a comissão é a sua recompensa pela recomendação. Todas as grandes empresas de TI gerem assim o seu programa de parceiros."
-      }
-    },
-    "finalCTA": {
-      "title": "Traga o seu primeiro cliente",
-      "subtitle": "O registo demora um par de minutos",
-      "description": "Depois disso recebe um link pessoal e um painel que mostra cada cliente, cada pagamento e a sua taxa atual.",
-      "primaryButton": "Tornar-se parceiro",
-      "note": "A participação é gratuita, sem compromissos de volume."
-    }
-  },
   "team": {
     "hero": {
       "title": "A nossa equipa",
@@ -870,8 +658,7 @@
           "options": [
             "Guardian Cloud",
             "ALFACAN Mercanon",
-            "Ambos os produtos",
-            "Programa de referência"
+            "Ambos os produtos"
           ]
         },
         "message": {
@@ -891,7 +678,6 @@
     "products": "Produtos",
     "guardianCloud": "Guardian Cloud",
     "guardianOps": "ALFACAN Mercanon",
-    "referralProgram": "Programa de referência",
     "about": "Sobre",
     "aboutUs": "Sobre nós",
     "team": "A nossa equipa",

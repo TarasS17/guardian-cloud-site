@@ -109,25 +109,6 @@
         "cta_url": "/blackwings/training-center"
       }
     },
-    "section_9_partner_program": {
-      "intro_1": "Nous comprenons que le monde est vaste, et que nous, malgré toute notre expérience et notre équipe d'ingénieurs neuronaux à nos côtés, sommes encore seuls. Il y a de nombreux marchés, langues, cultures et industries où nous ne pénétrerons jamais aussi profondément par nous-mêmes que ceux qui y vivent et y travaillent déjà.",
-      "intro_2": "C'est pourquoi nous avons ouvert un programme partenaire pour ceux qui partagent notre vision de ce que l'IA devrait être, et qui sont prêts à apporter nos plateformes sur leurs marchés.",
-      "program": {
-        "name": "AlfaCan Partner Program",
-        "subtitle": "Comrades in the Cause",
-        "description_1": "Nous ne cherchons pas de revendeurs. Nous cherchons des spécialistes IT, des administrateurs système, des agences numériques et des prestataires MSP qui travaillent déjà avec leurs clients et les comprennent mieux que nous. Nous vous fournissons une plateforme prête à l'emploi, et vous l'apportez à ceux qui en ont vraiment besoin.",
-        "description_2": "Le programme comporte deux paliers. Le premier s'adresse à ceux qui débutent et veulent essayer, offrant jusqu'à dix pour cent sur chaque vente et un support technique complet. Le second s'adresse à ceux qui nous ont déjà apporté cent clients et se sont développés en une véritable entreprise, offrant jusqu'à quinze pour cent, des options en marque blanche sous votre propre marque, et la priorité en tout.",
-        "description_3": "Pour les grands prestataires MSP, nous avons une discussion et des conditions distinctes.",
-        "description_4": "Si vous êtes un tel partenaire, consultez les conditions du programme ou écrivez-nous, et nous discuterons de ce à quoi cela pourrait ressembler dans votre cas précis.",
-        "cta_primary": "Devenir partenaire",
-        "cta_primary_url": "/referral",
-        "cta_secondary": "Découvrir les conditions",
-        "cta_secondary_url": "/referral#terms"
-      },
-      "referral_cta": "Le programme de parrainage, et comment il fonctionne",
-      "intro_3": "Nous ne retirons pas de travail aux spécialistes. Administrateurs système, ingénieurs, développeurs, sociétés IT et prestataires MSP : nous ne nous mettons pas à leur place. Nous leur donnons l'instrument, et une part de ce qu'il rapporte.",
-      "intro_4": "Vous apportez un client à la plateforme et vous gagnez sur chaque paiement qu'il effectue, aussi longtemps qu'il reste chez nous : un lien de parrainage personnel, une comptabilité transparente, et des versements sur les factures réellement réglées."
-    },
     "company_intro": {
       "title": "Une expérience forgée par les conditions réelles",
       "legal": "AlfaCan Defence Group Limited. Londres, Angleterre et Pays de Galles, N° d'enregistrement 17062207.",
@@ -547,199 +528,6 @@
       "cta": "Partager vos souhaits"
     }
   },
-  "referral": {
-    "hero": {
-      "title": "Guardian AI Partner Program",
-      "subtitle": "Votre expérience + notre technologie = de nouvelles opportunités pour votre entreprise",
-      "description": "Imaginez pouvoir offrir à vos clients des solutions IA de pointe pour la cybersécurité et l'automatisation sans passer de temps sur le développement et le support. Vous recevez jusqu'à 15 % du paiement mensuel de chaque client, vos clients bénéficient d'une protection professionnelle 24/7, et Guardian AI se charge de tout le travail technique. C'est notre programme partenaire."
-    },
-    "shift": {
-      "intro": "Nous n'allons pas vous effrayer avec l'idée que l'IA va prendre votre emploi. Ce n'est pas vrai, et vous ne nous croiriez pas de toute façon.",
-      "change": "Autre chose est en train de changer, et cela se produit en ce moment même : les clients ont cessé de payer pour des heures et ont commencé à payer pour des résultats. Personne ne veut dix heures de configuration, ils veulent que tout fonctionne et soit protégé.",
-      "bad": "Pour quiconque vend son temps, c'est une mauvaise nouvelle.",
-      "good": "Pour quiconque fait tourner le système, c'est la meilleure nouvelle depuis dix ans.",
-      "risk": "Le vrai risque n'est pas qu'une machine vous remplace. C'est qu'un jour votre client s'adresse directement au fournisseur de la technologie, et vous ne perdez pas une seule tâche, mais l'ensemble du compte.",
-      "bring": "Apportez-les vous-même. Le client reste le vôtre, et vous gagnez un pourcentage de chaque paiement qu'il effectue."
-    },
-    "insider": {
-      "title": "Si l'on vous a demandé d'évaluer ce système",
-      "lead": "Vous savez probablement déjà ce que vous allez dire. Nous comprenons pourquoi, et nous n'allons pas prétendre le contraire. Mais lisez les deux scénarios jusqu'au bout.",
-      "s1_title": "Scénario 1 : Vous qualifiez le produit d'immature.",
-      "s1_text": "La question est close, mais seulement pour un temps. Dans quelques mois, votre directeur entendra parler de ce système par un partenaire commercial qui l'utilise déjà et en voit les résultats. Il reviendra sur le sujet, mais cette fois sans vous. La décision sera prise au-dessus de votre tête, et votre évaluation précédente sera lue soit comme une erreur professionnelle, soit comme une tentative de protéger le statu quo.",
-      "s2_title": "Scénario 2 : Vous apportez vous-même cette solution.",
-      "s2_text": "Vous êtes le premier à la comprendre, et vous fixez des conditions strictes : ce que le système est autorisé à toucher, ce qui nécessite votre approbation personnelle, où se situe la limite de sécurité. Le déploiement se fait sous votre contrôle total, car personne d'autre dans l'entreprise ne comprend l'infrastructure aussi bien que vous.",
-      "close": "La différence entre les scénarios n'est pas de savoir si l'automatisation arrivera. Elle arrivera. La différence est de savoir si vous êtes celui qui l'a apportée, ou celui qui l'a manquée."
-    },
-    "callout": {
-      "line1": "Il est peut-être temps d'arrêter de se raconter une histoire sur un futur dans lequel vous resteriez exactement comme vous êtes aujourd'hui.",
-      "line2": "Il est peut-être temps d'accepter ce qui se passe déjà et d'y entrer selon vos propres termes."
-    },
-    "msp": {
-      "title": "MSP : votre marge se consume en salaires",
-      "p1": "Vous vendez des heures. Les ingénieurs deviennent plus chers, les clients résistent sur le prix, et chaque nouveau contrat exige de nouvelles personnes. Ce n'est pas un ralentissement du marché, c'est un modèle épuisé.",
-      "p2": "Votre client arrivera à la même conclusion. Il cessera de payer pour une astreinte le jour où quelqu'un lui proposera un système autonome et protégé sur un abonnement fixe.",
-      "s1_title": "Scénario 1. Défendre l'ancien modèle.",
-      "s1_text": "Cette offre atteindra directement votre client, en vous contournant. Vous ne perdrez pas un incident, mais le contrat.",
-      "s2_title": "Scénario 2. L'apporter vous-même.",
-      "s2_text": "Vos ingénieurs quittent la première ligne pour l'architecture. Vous prenez en charge davantage de clients avec le même effectif. Vous vendez un abonnement, pas des heures.",
-      "list_title": "Ce qu'obtient un partenaire MSP :",
-      "points": [
-        {
-          "title": "Marque blanche",
-          "text": "Cyberdéfense autonome sous votre marque, pas la nôtre."
-        },
-        {
-          "title": "Vos équipes cessent de clôturer la routine",
-          "text": "Et commencent à clôturer le travail qui est bien rémunéré."
-        },
-        {
-          "title": "L'outillage va à vos ingénieurs",
-          "text": "Guardian Cloud, G-Coder et G-Tester pour le travail quotidien, pas un identifiant de démo pour l'équipe commerciale. G-Studio arrive ensuite : des sites, boutiques et services qui s'assemblent eux-mêmes."
-        },
-        {
-          "title": "Un module construit pour votre contrat",
-          "text": "Si un client important exige quelque chose que nous n'avons pas, dites-le-nous. En développement, nous priorisons ce que les partenaires rapportent de vrais appels d'offres, avant ce à quoi nous avons pensé nous-mêmes."
-        }
-      ],
-      "transition": "Transférez votre parc existant chez nous. À partir du 51e client, votre commission commence à grimper, et à 100 vous débloquez le statut de revendeur et la marque blanche sous votre propre marque. Un MSP a déjà des clients, donc vous franchissez ce seuil immédiatement au lieu d'y travailler pendant un an. Les conditions exactes de la transition se conviennent en personne.",
-      "close": "Nous ne vous vendons pas un outil de plus pour la pile. Nous changeons ce que vous vendez."
-    },
-    "ecosystem": {
-      "title": "Ce que vous obtenez en rejoignant notre écosystème",
-      "lead": "La commission est une conséquence. Un véritable partenariat commence ailleurs.",
-      "points": [
-        {
-          "title": "Accès complet à la pile de produits",
-          "text": "Guardian Cloud, G-Coder, G-Tester et tous les services qui suivent. Vous obtenez le même outillage fonctionnel que nous utilisons nous-mêmes. Pas d'éditions de démonstration limitées."
-        },
-        {
-          "title": "Influence directe sur le développement",
-          "text": "Vous voyez ce que nous ne pouvons pas voir : comment les systèmes se comportent réellement sur le terrain chez un client. Nous nous engageons à demander l'avis de nos partenaires avant qu'un nouveau module n'entre en développement, plutôt que de leur présenter le fait accompli après la sortie."
-        },
-        {
-          "title": "Accès anticipé à la technologie",
-          "text": "Vous êtes les premiers à apprendre ce que nous construisons et comment. Vous voulez participer aux tests et à l'architecture, vous participez. Sinon, vous gardez simplement le doigt sur le pouls, en avance sur tout le marché."
-        },
-        {
-          "title": "Investissement dans vos idées",
-          "text": "Nous sommes prêts à examiner, à cofinancer et à intégrer dans l'écosystème les projets prometteurs que vous nous apportez."
-        }
-      ],
-      "close": "C'est votre nouveau tournant de carrière : le chemin qui mène de l'exécution des ordres d'autrui à la création de vos propres produits."
-    },
-    "pricing": {
-      "title": "Conditions",
-      "subtitle": "Votre taux augmente avec le nombre de vos clients payants et est recalculé automatiquement.",
-      "ladder": {
-        "title": "Votre taux",
-        "col_clients": "Clients",
-        "col_rate": "Commission",
-        "steps": [
-          {
-            "clients": "jusqu'à 50",
-            "rate": "10%"
-          },
-          {
-            "clients": "51–60",
-            "rate": "11%"
-          },
-          {
-            "clients": "61–70",
-            "rate": "12%"
-          },
-          {
-            "clients": "71–80",
-            "rate": "13%"
-          },
-          {
-            "clients": "81–90",
-            "rate": "14%"
-          },
-          {
-            "clients": "91 et plus",
-            "rate": "15%"
-          }
-        ],
-        "note": "Vous gagnez un pourcentage du chiffre d'affaires de chacun de vos clients, aussi longtemps qu'ils restent chez nous. Le plan qu'ils choisissent et ce qu'ils achètent exactement ne change rien."
-      },
-      "subpartner": {
-        "title": "Partenaires que vous amenez",
-        "text": "Si vous amenez un partenaire, vous gagnez en plus 5 % du chiffre d'affaires de ses clients. Son propre taux n'est pas réduit."
-      },
-      "reseller": {
-        "title": "Statut de revendeur",
-        "text": "À 100 clients payants actifs, vous pouvez passer au statut de revendeur : marque blanche sous votre propre marque pour 200 $ supplémentaires par mois, support prioritaire pour vos clients et accès anticipé aux nouveaux modules."
-      },
-      "payouts": {
-        "title": "Versements",
-        "rows": [
-          {
-            "k": "Quand",
-            "v": "le 10 du mois suivant"
-          },
-          {
-            "k": "Minimum",
-            "v": "100 $ de commission accumulée"
-          },
-          {
-            "k": "Condition",
-            "v": "une demande de paiement signée"
-          },
-          {
-            "k": "Base",
-            "v": "factures effectivement payées par le client"
-          },
-          {
-            "k": "Méthode",
-            "v": "Revolut Business, sans aucune déduction de notre côté"
-          }
-        ]
-      },
-      "cta": "Devenir partenaire"
-    },
-    "faq": {
-      "title": "Réponses à vos questions",
-      "q1": {
-        "question": "Combien coûte l'adhésion au programme ?",
-        "answer": "Rien. L'inscription, l'accès aux ressources et le support technique sont gratuits. Vous gagnez lorsque vos clients paient."
-      },
-      "q2": {
-        "question": "Quand recevrai-je mon premier versement ?",
-        "answer": "La commission s'accumule au moment où votre client paie. Le versement est effectué le 10 du mois suivant, une fois que le montant accumulé atteint 100 $ et que la demande de paiement a été signée."
-      },
-      "q3": {
-        "question": "Que se passe-t-il si mon client résilie son abonnement ?",
-        "answer": "Vous cessez simplement de gagner une commission sur ce client tandis que les autres continuent de payer. Tous les clients ne conviennent pas, et c'est normal."
-      },
-      "q4": {
-        "question": "Puis-je vendre vos services sous ma propre marque ?",
-        "answer": "Oui. À 100 clients payants actifs, vous débloquez le statut de revendeur, et avec lui la marque blanche pour 200 $ supplémentaires par mois : votre logo, votre nom, vos coordonnées."
-      },
-      "q5": {
-        "question": "Dois-je fournir un support technique aux clients ?",
-        "answer": "Non. L'installation, la configuration, la surveillance et le support sont gérés par AlfaCan. Vous recommandez la solution et aidez le client à choisir une formule."
-      },
-      "q6": {
-        "question": "Quand le statut de revendeur s'ouvre-t-il ?",
-        "answer": "Automatiquement, dès que vous avez 100 clients payants actifs. Avant cela, votre commission augmente progressivement : à partir du 51e client, elle commence à dépasser les 10 % de base."
-      },
-      "q7": {
-        "question": "Puis-je combiner mes propres services avec vos plateformes ?",
-        "answer": "Oui, et c'est le modèle principal. Vous poursuivez le conseil, le développement et l'implémentation pendant que la surveillance de routine et la sécurité passent sur la plateforme. Vous libérez du temps et gagnez en plus."
-      },
-      "q8": {
-        "question": "Que se passe-t-il si mon client découvre que je reçois une commission ?",
-        "answer": "Rien ne se passe. Vous avez recommandé une solution qui les aide, et la commission est votre récompense pour la recommandation. Chaque grande société IT gère son programme partenaire de cette manière."
-      }
-    },
-    "finalCTA": {
-      "title": "Amenez votre premier client",
-      "subtitle": "L'inscription prend quelques minutes",
-      "description": "Après cela, vous obtenez un lien personnel et un tableau de bord qui montre chaque client, chaque paiement et votre taux actuel.",
-      "primaryButton": "Devenir partenaire",
-      "note": "Participation gratuite, sans engagement de volume."
-    }
-  },
   "team": {
     "hero": {
       "title": "Notre équipe",
@@ -870,8 +658,7 @@
           "options": [
             "Guardian Cloud",
             "ALFACAN Mercanon",
-            "Les deux produits",
-            "Programme de parrainage"
+            "Les deux produits"
           ]
         },
         "message": {
@@ -891,7 +678,6 @@
     "products": "Produits",
     "guardianCloud": "Guardian Cloud",
     "guardianOps": "ALFACAN Mercanon",
-    "referralProgram": "Programme de parrainage",
     "about": "À propos",
     "aboutUs": "À propos de nous",
     "team": "Notre équipe",

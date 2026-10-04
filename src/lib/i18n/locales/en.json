@@ -109,25 +109,6 @@
         "cta_url": "/blackwings/training-center"
       }
     },
-    "section_9_partner_program": {
-      "intro_1": "We understand that the world is large, and we, despite all our experience and the team of neural network engineers by our side, are still alone. There are many markets, languages, cultures, and industries where we will never penetrate as deeply on our own as those who already live and work there can.",
-      "intro_2": "Therefore, we have opened a partner program for those who share our view on what AI should be, and are ready to bring our platforms to their markets.",
-      "program": {
-        "name": "AlfaCan Partner Program",
-        "subtitle": "Comrades in the Cause",
-        "description_1": "We are not looking for resellers. We are looking for IT specialists, system administrators, digital agencies, and MSP providers who already work with their clients and understand them better than we do. We provide you with a finished platform, and you bring it to those who truly need it.",
-        "description_2": "The program has two tiers. The first is for those who are starting out and want to try, offering up to ten percent from each sale and full technical support. The second is for those who have already brought us a hundred clients and grown into a serious business, offering up to fifteen percent, white-label options under your own brand, and priority in everything.",
-        "description_3": "For large MSP providers, we have a separate discussion and separate conditions.",
-        "description_4": "If you are such a partner, take a look at the program terms or write to us, and we will discuss what this might look like in your specific case.",
-        "cta_primary": "Become a Partner",
-        "cta_primary_url": "/referral",
-        "cta_secondary": "Learn the Terms",
-        "cta_secondary_url": "/referral#terms"
-      },
-      "referral_cta": "The referral programme, and how it works",
-      "intro_3": "We do not take work away from specialists. System administrators, engineers, programmers, IT companies and MSP providers: we do not put ourselves in their place. We give them the instrument, and a share of what it earns.",
-      "intro_4": "You bring a customer to the platform and earn on every payment they make, for as long as they remain with us: a personal referral link, transparent accounting, and payouts against invoices actually settled."
-    },
     "company_intro": {
       "title": "Experience tempered by real conditions",
       "legal": "AlfaCan Defence Group Limited. London, England and Wales, Reg. No 17062207.",
@@ -547,199 +528,6 @@
       "cta": "Share your wishes"
     }
   },
-  "referral": {
-    "hero": {
-      "title": "Guardian AI Partner Program",
-      "subtitle": "Your Experience + Our Technology = New Opportunities for Your Business",
-      "description": "Imagine that you can offer your clients cutting-edge AI solutions for cybersecurity and automation without spending time on development and support. You receive up to 15% of each client’s payment monthly, your clients get professional 24/7 protection, and Guardian AI takes care of all technical work. This is our partner program."
-    },
-    "shift": {
-      "intro": "We are not going to frighten you with the idea that AI will take your job. It is not true, and you would not believe us anyway.",
-      "change": "Something else is changing, and it is happening right now: clients have stopped paying for hours and started paying for outcomes. Nobody wants ten hours of configuration — they want everything to work and to be protected.",
-      "bad": "For anyone who sells their time, this is bad news.",
-      "good": "For anyone who runs the system, it is the best news in ten years.",
-      "risk": "The real risk is not that a machine replaces you. It is that one day your client goes to the technology vendor directly — and you lose not a single task, but the entire account.",
-      "bring": "Bring them yourself. The client stays yours, and you earn a percentage of every payment they make."
-    },
-    "insider": {
-      "title": "If you have been asked to evaluate this system",
-      "lead": "You most likely already know what you are going to say. We understand why, and we are not going to pretend otherwise. But read both scenarios to the end.",
-      "s1_title": "Scenario 1: You call the product immature.",
-      "s1_text": "The question is closed, but only for a while. In a couple of months your director will hear about this system from a business partner who already runs it and sees the results. He will return to the subject, but this time without you. The decision will be made above your head, and your earlier assessment will read either as a professional mistake or as an attempt to protect the status quo.",
-      "s2_title": "Scenario 2: You bring this solution in yourself.",
-      "s2_text": "You are the first to understand it, and you set hard terms: what the system is allowed to touch, what requires your personal approval, where the safety boundary runs. The rollout happens under your full control, because nobody else in the company understands the infrastructure as deeply as you do.",
-      "close": "The difference between the scenarios is not whether automation arrives. It will. The difference is whether you are the one who brought it in, or the one who missed it."
-    },
-    "callout": {
-      "line1": "Perhaps it is time to stop telling yourself a story about a future in which you stay exactly as you are today.",
-      "line2": "Perhaps it is time to accept what is already happening and step into it on your own terms."
-    },
-    "msp": {
-      "title": "MSP: your margin is burning up in salaries",
-      "p1": "You sell hours. Engineers get more expensive, clients push back on price, and every new contract demands new people. This is not a market downturn, it is an exhausted model.",
-      "p2": "Your client will reach the same conclusion. They will stop paying for an on-call shift the day someone offers them an autonomous, protected system on a fixed subscription.",
-      "s1_title": "Scenario 1. Defend the old model.",
-      "s1_text": "That offer will reach your client directly, bypassing you. You will lose not an incident, but the contract.",
-      "s2_title": "Scenario 2. Bring it in yourself.",
-      "s2_text": "Your engineers move off the first line and onto architecture. You take on more clients with the same headcount. You sell a subscription, not hours.",
-      "list_title": "What an MSP partner gets:",
-      "points": [
-        {
-          "title": "White-Label",
-          "text": "Autonomous cyber defence under your brand, not ours."
-        },
-        {
-          "title": "Your people stop closing routine",
-          "text": "And start closing the work that is paid for well."
-        },
-        {
-          "title": "The tooling goes to your engineers",
-          "text": "Guardian Cloud, G-Coder and G-Tester for daily work, not a demo login for the sales team. G-Studio comes next: sites, stores and services that assemble themselves."
-        },
-        {
-          "title": "A module built for your contract",
-          "text": "If a major client demands something we do not have, tell us. In development we give priority to what partners bring back from real tenders, ahead of what we thought of ourselves."
-        }
-      ],
-      "transition": "Move your existing fleet to us. From the 51st client your commission starts to climb, and at 100 you unlock reseller status and White-Label under your own brand. An MSP already has the clients, so you clear that threshold at once instead of working towards it for a year. The exact terms of the transition we agree in person.",
-      "close": "We are not selling you one more tool for the stack. We are changing what you sell."
-    },
-    "ecosystem": {
-      "title": "What you get by joining our ecosystem",
-      "lead": "The commission is a consequence. A real partnership begins somewhere else.",
-      "points": [
-        {
-          "title": "Full access to the product stack",
-          "text": "Guardian Cloud, G-Coder, G-Tester and every service that follows. You get the same working toolkit we use ourselves. No trimmed-down demo editions."
-        },
-        {
-          "title": "Direct influence on development",
-          "text": "You see what we cannot: how the systems actually behave in the field at a client. We commit to asking our partners for feedback before a new module enters development, rather than presenting them with the fact after release."
-        },
-        {
-          "title": "Early access to the technology",
-          "text": "You are the first to learn what we are building and how. Want to take part in the tests and the architecture — you take part. If not, you simply keep your finger on the pulse ahead of the whole market."
-        },
-        {
-          "title": "Investment in your ideas",
-          "text": "We are ready to review, co-fund and integrate into the ecosystem the promising projects that you bring us."
-        }
-      ],
-      "close": "That is your new turn in a career: the path from carrying out other people’s orders to authoring products of your own."
-    },
-    "pricing": {
-      "title": "Terms",
-      "subtitle": "Your rate rises with the number of your paying clients and is recalculated automatically.",
-      "ladder": {
-        "title": "Your rate",
-        "col_clients": "Clients",
-        "col_rate": "Commission",
-        "steps": [
-          {
-            "clients": "up to 50",
-            "rate": "10%"
-          },
-          {
-            "clients": "51–60",
-            "rate": "11%"
-          },
-          {
-            "clients": "61–70",
-            "rate": "12%"
-          },
-          {
-            "clients": "71–80",
-            "rate": "13%"
-          },
-          {
-            "clients": "81–90",
-            "rate": "14%"
-          },
-          {
-            "clients": "91 and above",
-            "rate": "15%"
-          }
-        ],
-        "note": "You earn a percentage of the turnover of each of your clients, for as long as they stay with us. Which plan they are on and what exactly they buy makes no difference."
-      },
-      "subpartner": {
-        "title": "Partners you bring in",
-        "text": "If you bring in a partner, you additionally earn 5% of the turnover of their clients. Their own rate is not reduced."
-      },
-      "reseller": {
-        "title": "Reseller status",
-        "text": "At 100 active paying clients you can move up to reseller: White-Label under your own brand for an extra $200 a month, priority support for your clients and early access to new modules."
-      },
-      "payouts": {
-        "title": "Payouts",
-        "rows": [
-          {
-            "k": "When",
-            "v": "the 10th of the following month"
-          },
-          {
-            "k": "Minimum",
-            "v": "$100 of accrued commission"
-          },
-          {
-            "k": "Condition",
-            "v": "a signed payment requirement"
-          },
-          {
-            "k": "Basis",
-            "v": "invoices the client has actually paid"
-          },
-          {
-            "k": "Method",
-            "v": "Revolut Business, with nothing deducted on our side"
-          }
-        ]
-      },
-      "cta": "Become a partner"
-    },
-    "faq": {
-      "title": "Answers to your questions",
-      "q1": {
-        "question": "What does it cost to join the programme?",
-        "answer": "Nothing. Registration, access to the materials and technical support are free. You earn when your clients pay."
-      },
-      "q2": {
-        "question": "When do I receive my first payout?",
-        "answer": "Commission accrues the moment your client pays. The payout is released on the 10th of the following month, once the accrued amount reaches $100 and the payment requirement has been signed."
-      },
-      "q3": {
-        "question": "What if my client cancels their subscription?",
-        "answer": "You simply stop earning commission on that client while the others keep paying. Not every client is a fit, and that is normal."
-      },
-      "q4": {
-        "question": "Can I sell your services under my own brand?",
-        "answer": "Yes. At 100 active paying clients you unlock reseller status, and with it White-Label for an additional $200 per month: your logo, your name, your contact details."
-      },
-      "q5": {
-        "question": "Do I have to provide technical support to clients?",
-        "answer": "No. Installation, configuration, monitoring and support are handled by AlfaCan. You recommend the solution and help the client choose a plan."
-      },
-      "q6": {
-        "question": "When does reseller status open up?",
-        "answer": "Automatically, as soon as you have 100 active paying clients. Before that your commission climbs gradually: from the 51st client it starts rising above the base 10%."
-      },
-      "q7": {
-        "question": "Can I combine my own services with your platforms?",
-        "answer": "Yes, and that is the main model. You carry on with consulting, development and implementation while routine monitoring and security move to the platform. You free up time and earn on top."
-      },
-      "q8": {
-        "question": "What if my client finds out I receive a commission?",
-        "answer": "Nothing happens. You recommended a solution that helps them, and the commission is your reward for the recommendation. Every major IT company runs its partner programme this way."
-      }
-    },
-    "finalCTA": {
-      "title": "Bring in your first client",
-      "subtitle": "Registration takes a couple of minutes",
-      "description": "After that you get a personal link and a dashboard that shows every client, every payment and your current rate.",
-      "primaryButton": "Become a partner",
-      "note": "Taking part is free, with no volume commitments."
-    }
-  },
   "team": {
     "hero": {
       "title": "Our Team",
@@ -870,8 +658,7 @@
           "options": [
             "Guardian Cloud",
             "ALFACAN Mercanon",
-            "Both Products",
-            "Referral Program"
+            "Both Products"
           ]
         },
         "message": {
@@ -891,7 +678,6 @@
     "products": "Products",
     "guardianCloud": "Guardian Cloud",
     "guardianOps": "ALFACAN Mercanon",
-    "referralProgram": "Referral Program",
     "about": "About",
     "aboutUs": "About Us",
     "team": "Our Team",

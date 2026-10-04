@@ -893,7 +893,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'How to connect — and your first steps',
     paras1: [
       'We could keep telling you more and more about the platform — but you probably already have one question: how do you connect Guardian Cloud, and what will it do from the very first steps?',
-      'Connecting is very easy. Go to the platform using the “Connect Cloud” button below and sign up. You can also connect through a referral link — you can get one from an authorized partner of ours; the list of partners is on the Referral page.',
+      'Connecting is very easy. Go to the platform using the “Connect Cloud” button below and sign up.',
       'Because the platform works on a B2B model, only a company officially registered in its country can do this.',
       'After signing up, you fill in a form about your company and go through verification; once you pass it, you get full access to your interface.',
       'So you can explore the platform at ease, we give you a 10-day free trial. In it you’ll try both kinds of system administration: one server with full AI automation, and another with AI monitoring. After the trial you choose the plan that suits you and continue as a full client.',
@@ -912,7 +912,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Как подключить и первые шаги',
     paras1: [
       'Мы могли бы ещё долго рассказывать о платформе, но у вас наверняка уже возник вопрос: как подключить Guardian Cloud — и что она будет делать с первых шагов.',
-      'Подключиться очень легко. Перейдите на платформу по кнопке «Подключить Cloud» внизу этого блока и пройдите регистрацию. Подключиться можно и по реферальной ссылке — её можно получить у нашего авторизованного партнёра; список партнёров есть на странице Referral.',
+      'Подключиться очень легко. Перейдите на платформу по кнопке «Подключить Cloud» внизу этого блока и пройдите регистрацию.',
       'В связи с тем, что платформа работает по модели B2B, это может сделать только официально зарегистрированная в своей стране компания.',
       'После регистрации вы заполняете форму о компании и проходите проверку, а после прохождения её вы получите полный доступ к своему интерфейсу.',
       'Чтобы вы спокойно познакомились с возможностями платформы, мы даём 10-дневный бесплатный период. В нём вы попробуете оба типа системного администрирования: один сервер — с полной AI-автоматизацией, второй — с AI-мониторингом. После пробного периода вы выбираете подходящий тариф и продолжаете работу как полноправный клиент.',
@@ -931,7 +931,7 @@ const BLOCK6: Record<string, Block6> = {
     h: '如何部署與引導步驟',
     paras1: [
       '關於平台的強大功能，我們還可以為您介紹更多，但此時您心中一定伴隨着一個核心疑問：如何接軌 Guardian Cloud？在部署初期它又將如何運作？',
-      '輕鬆快速接軌：只需點擊本區塊下方的「連接 Cloud」按鈕進入平台並完成註冊即可。您也可以透過推薦連結（Referral Link）進行註冊 —— 該連結可向我們的授權合作夥伴索取，完整夥伴名單請參閱「Referral」專頁。',
+      '輕鬆快速接軌：只需點擊本區塊下方的「連接 Cloud」按鈕進入平台並完成註冊即可。',
       '企業專屬（B2B 模式）：鑑於本平台完全採用 B2B 商務模式運作，僅限在其所在國家／地區正式註冊登記的合法企業申請加入。',
       '審核與開通：完成初步註冊後，您需要填寫一份企業資料表並通過基本資格審查。審查通過後，您將立即獲得控制中心介面的完整操作權限。',
       '10 天免費體驗：為了讓您毫無顧慮地熟悉平台功能，我們提供 10 天的免費試用期。在此期間，您可以同時體驗兩種維運模式：一台伺服器啟用「全自動 AI 維運」，另一台伺服器啟用「AI 智慧監控」。試用期結束後，您只需選擇最適合的方案，即可無縫延續正式客戶的完整服務。',
@@ -950,7 +950,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Comment se connecter — et vos premiers pas',
     paras1: [
       "Nous pourrions continuer à vous parler encore longtemps de la plateforme — mais vous vous posez sans doute déjà une question : comment connecter Guardian Cloud, et que fera-t-il dès les premiers pas ?",
-      "Se connecter est très simple. Rendez-vous sur la plateforme via le bouton « Connecter Cloud » ci-dessous et inscrivez-vous. Vous pouvez aussi vous connecter via un lien de parrainage — vous pouvez en obtenir un auprès d'un de nos partenaires agréés ; la liste des partenaires figure sur la page Referral.",
+      "Se connecter est très simple. Rendez-vous sur la plateforme via le bouton « Connecter Cloud » ci-dessous et inscrivez-vous.",
       "La plateforme fonctionnant selon un modèle B2B, seule une entreprise officiellement enregistrée dans son pays peut le faire.",
       "Après l'inscription, vous remplissez un formulaire sur votre entreprise et passez une vérification ; une fois validée, vous obtenez un accès complet à votre interface.",
       "Pour que vous puissiez explorer la plateforme en toute tranquillité, nous vous offrons un essai gratuit de 10 jours. Vous y testerez les deux types d'administration système : un serveur avec automatisation IA complète, et un autre avec surveillance IA. Après l'essai, vous choisissez le plan qui vous convient et continuez en tant que client à part entière.",
@@ -969,7 +969,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Wie Sie sich verbinden — und Ihre ersten Schritte',
     paras1: [
       'Wir könnten Ihnen noch viel mehr über die Plattform erzählen — aber wahrscheinlich haben Sie bereits eine Frage: Wie verbinden Sie Guardian Cloud, und was macht es von den ersten Schritten an?',
-      'Die Verbindung ist sehr einfach. Gehen Sie über den Button „Cloud verbinden" unten zur Plattform und registrieren Sie sich. Sie können sich auch über einen Empfehlungslink verbinden — diesen erhalten Sie von einem unserer autorisierten Partner; die Partnerliste finden Sie auf der Referral-Seite.',
+      'Die Verbindung ist sehr einfach. Gehen Sie über den Button „Cloud verbinden" unten zur Plattform und registrieren Sie sich.',
       'Da die Plattform nach einem B2B-Modell arbeitet, kann dies nur ein Unternehmen tun, das offiziell in seinem Land registriert ist.',
       'Nach der Registrierung füllen Sie ein Formular zu Ihrem Unternehmen aus und durchlaufen eine Verifizierung; nach deren Bestehen erhalten Sie vollen Zugriff auf Ihre Oberfläche.',
       'Damit Sie die Plattform in Ruhe erkunden können, geben wir Ihnen eine 10-tägige kostenlose Testphase. In dieser probieren Sie beide Arten der Systemadministration aus: einen Server mit vollständiger KI-Automatisierung und einen weiteren mit KI-Überwachung. Nach der Testphase wählen Sie den passenden Tarif und arbeiten als vollwertiger Kunde weiter.',
@@ -988,7 +988,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Cómo conectarse — y sus primeros pasos',
     paras1: [
       'Podríamos seguir contándole más y más sobre la plataforma, pero probablemente ya tenga una pregunta: ¿cómo conectar Guardian Cloud y qué hará desde los primeros pasos?',
-      'Conectarse es muy fácil. Vaya a la plataforma usando el botón "Conectar Cloud" de abajo y regístrese. También puede conectarse mediante un enlace de referido, que puede obtener de un socio autorizado nuestro; la lista de socios está en la página Referral.',
+      'Conectarse es muy fácil. Vaya a la plataforma usando el botón "Conectar Cloud" de abajo y regístrese.',
       'Dado que la plataforma funciona con un modelo B2B, solo puede hacerlo una empresa oficialmente registrada en su país.',
       'Tras registrarse, completa un formulario sobre su empresa y pasa una verificación; una vez aprobada, obtiene acceso completo a su interfaz.',
       'Para que explore la plataforma con calma, le damos una prueba gratuita de 10 días. En ella probará ambos tipos de administración de sistemas: un servidor con automatización de IA completa y otro con monitorización de IA. Tras la prueba, elige el plan que le convenga y continúa como cliente de pleno derecho.',
@@ -1007,7 +1007,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Come connettersi — e i vostri primi passi',
     paras1: [
       "Potremmo continuare a raccontarvi ancora molto sulla piattaforma, ma probabilmente vi state già chiedendo: come si connette Guardian Cloud e cosa farà fin dai primi passi?",
-      "Connettersi è molto facile. Andate sulla piattaforma tramite il pulsante «Connetti Cloud» qui sotto e registratevi. Potete anche connettervi tramite un link di referral, ottenibile da un nostro partner autorizzato; l'elenco dei partner è nella pagina Referral.",
+      "Connettersi è molto facile. Andate sulla piattaforma tramite il pulsante «Connetti Cloud» qui sotto e registratevi.",
       "Poiché la piattaforma funziona secondo un modello B2B, può farlo solo un'azienda ufficialmente registrata nel proprio paese.",
       "Dopo la registrazione, compilate un modulo sulla vostra azienda e superate una verifica; una volta superata, otterrete l'accesso completo alla vostra interfaccia.",
       "Affinché possiate esplorare la piattaforma con calma, vi offriamo una prova gratuita di 10 giorni. In essa proverete entrambi i tipi di amministrazione di sistema: un server con automazione IA completa e un altro con monitoraggio IA. Dopo la prova, scegliete il piano più adatto e continuate come cliente a tutti gli effetti.",
@@ -1026,7 +1026,7 @@ const BLOCK6: Record<string, Block6> = {
     h: '接続方法 — そして最初のステップ',
     paras1: [
       'プラットフォームについてはまだまだお話しできますが、おそらくすでに一つの疑問をお持ちでしょう。Guardian Cloud をどう接続するのか、そして最初のステップから何をしてくれるのか、ということです。',
-      '接続はとても簡単です。下の「Cloud に接続」ボタンからプラットフォームにアクセスし、登録してください。紹介リンク経由でも接続できます——認定パートナーから入手可能で、パートナー一覧は Referral ページにあります。',
+      '接続はとても簡単です。下の「Cloud に接続」ボタンからプラットフォームにアクセスし、登録してください。',
       'プラットフォームは B2B モデルで運営されているため、自国で正式に登録された企業のみが利用できます。',
       '登録後、会社に関するフォームに記入し、検証を通過します。通過後、インターフェースへの完全アクセスが得られます。',
       '安心してプラットフォームを試していただけるよう、10日間の無料トライアルをご用意しています。この間に2種類のシステム管理を体験できます。1台は完全AI自動化、もう1台はAI監視です。トライアル終了後、ご自身に合ったプランを選び、正式な顧客として継続できます。',
@@ -1045,7 +1045,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Як підключити — і перші кроки',
     paras1: [
       'Ми могли б ще довго розповідати про платформу, але у вас, напевно, вже виникло питання: як підключити Guardian Cloud — і що вона робитиме з перших кроків.',
-      'Підключитися дуже легко. Перейдіть на платформу за кнопкою «Підключити Cloud» внизу цього блоку і пройдіть реєстрацію. Підключитися можна й за реферальним посиланням — його можна отримати у нашого авторизованого партнера; список партнерів є на сторінці Referral.',
+      'Підключитися дуже легко. Перейдіть на платформу за кнопкою «Підключити Cloud» внизу цього блоку і пройдіть реєстрацію.',
       'Оскільки платформа працює за моделлю B2B, це може зробити лише офіційно зареєстрована у своїй країні компанія.',
       'Після реєстрації ви заповнюєте форму про компанію і проходите перевірку, а після проходження ви отримаєте повний доступ до свого інтерфейсу.',
       'Щоб ви спокійно ознайомилися з можливостями платформи, ми даємо 10-денний безкоштовний період. У ньому ви спробуєте обидва типи системного адміністрування: один сервер — з повною AI-автоматизацією, другий — з AI-моніторингом. Після пробного періоду ви обираєте відповідний тариф і продовжуєте роботу як повноправний клієнт.',
@@ -1064,7 +1064,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Kako se povezati — i vaši prvi koraci',
     paras1: [
       'Mogli bismo vam još dugo pričati o platformi, ali verovatno vas već zanima: kako povezati Guardian Cloud i šta će raditi od prvih koraka?',
-      'Povezivanje je vrlo lako. Idite na platformu preko dugmeta „Poveži Cloud" ispod i registrujte se. Možete se povezati i putem referalnog linka — možete ga dobiti od našeg ovlašćenog partnera; lista partnera je na stranici Referral.',
+      'Povezivanje je vrlo lako. Idite na platformu preko dugmeta „Poveži Cloud" ispod i registrujte se.',
       'Pošto platforma radi po B2B modelu, ovo može da uradi samo kompanija zvanično registrovana u svojoj zemlji.',
       'Nakon registracije popunjavate obrazac o kompaniji i prolazite verifikaciju; nakon uspešne verifikacije dobijate pun pristup svom interfejsu.',
       'Da biste se u miru upoznali sa mogućnostima platforme, dajemo vam 10-dnevni besplatni period. U njemu ćete isprobati oba tipa sistemske administracije: jedan server sa punom AI automatizacijom, i drugi sa AI monitoringom. Nakon probnog perioda birate odgovarajući plan i nastavljate kao punopravan klijent.',
@@ -1083,7 +1083,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Como conectar — e seus primeiros passos',
     paras1: [
       'Poderíamos continuar contando cada vez mais sobre a plataforma — mas você provavelmente já tem uma pergunta: como conectar o Guardian Cloud e o que ele fará desde os primeiros passos?',
-      'Conectar-se é muito fácil. Acesse a plataforma pelo botão "Conectar Cloud" abaixo e cadastre-se. Você também pode se conectar por meio de um link de indicação — pode obtê-lo com um parceiro autorizado nosso; a lista de parceiros está na página Referral.',
+      'Conectar-se é muito fácil. Acesse a plataforma pelo botão "Conectar Cloud" abaixo e cadastre-se.',
       'Como a plataforma funciona em um modelo B2B, apenas uma empresa oficialmente registrada em seu país pode fazer isso.',
       'Após o cadastro, você preenche um formulário sobre sua empresa e passa por uma verificação; depois de aprovado, você obtém acesso total à sua interface.',
       'Para que você explore a plataforma com tranquilidade, oferecemos um teste gratuito de 10 dias. Nele você experimentará ambos os tipos de administração de sistemas: um servidor com automação total de IA e outro com monitoramento de IA. Após o teste, você escolhe o plano que lhe convém e continua como cliente pleno.',
@@ -1102,7 +1102,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'कैसे जुड़ें — और आपके पहले कदम',
     paras1: [
       'हम प्लेटफ़ॉर्म के बारे में और भी बहुत कुछ बताते रह सकते हैं — लेकिन शायद आपके मन में पहले से ही एक सवाल है: Guardian Cloud को कैसे जोड़ें, और यह पहले कदम से क्या करेगा?',
-      'जुड़ना बहुत आसान है। नीचे दिए "Cloud से जुड़ें" बटन का उपयोग करके प्लेटफ़ॉर्म पर जाएं और साइन अप करें। आप रेफरल लिंक के माध्यम से भी जुड़ सकते हैं — यह आप हमारे किसी अधिकृत साझेदार से प्राप्त कर सकते हैं; साझेदारों की सूची Referral पृष्ठ पर है।',
+      'जुड़ना बहुत आसान है। नीचे दिए "Cloud से जुड़ें" बटन का उपयोग करके प्लेटफ़ॉर्म पर जाएं और साइन अप करें।',
       'चूंकि यह प्लेटफ़ॉर्म B2B मॉडल पर काम करता है, केवल अपने देश में आधिकारिक रूप से पंजीकृत कंपनी ही यह कर सकती है।',
       'साइन अप के बाद, आप अपनी कंपनी के बारे में एक फॉर्म भरते हैं और सत्यापन से गुजरते हैं; इसे पास करने के बाद आपको अपने इंटरफ़ेस तक पूर्ण पहुंच मिल जाती है।',
       'ताकि आप आराम से प्लेटफ़ॉर्म का अन्वेषण कर सकें, हम आपको 10-दिन का निःशुल्क परीक्षण देते हैं। इसमें आप दोनों प्रकार के सिस्टम प्रशासन आज़माएंगे: पूर्ण AI स्वचालन वाला एक सर्वर, और AI निगरानी वाला दूसरा। परीक्षण के बाद आप अपने अनुकूल योजना चुनते हैं और पूर्ण ग्राहक के रूप में जारी रखते हैं।',
@@ -1121,7 +1121,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Nasıl bağlanılır — ve ilk adımlarınız',
     paras1: [
       "Platform hakkında size daha çok şey anlatmaya devam edebiliriz — ama muhtemelen aklınızda zaten bir soru var: Guardian Cloud'a nasıl bağlanılır ve ilk adımlardan itibaren ne yapar?",
-      "Bağlanmak çok kolaydır. Aşağıdaki \"Cloud'a Bağlan\" düğmesini kullanarak platforma gidin ve kaydolun. Ayrıca bir referans bağlantısı üzerinden de bağlanabilirsiniz — bunu yetkili ortaklarımızdan birinden alabilirsiniz; ortak listesi Referral sayfasında yer alır.",
+      "Bağlanmak çok kolaydır. Aşağıdaki \"Cloud'a Bağlan\" düğmesini kullanarak platforma gidin ve kaydolun.",
       "Platform B2B modeliyle çalıştığından, bunu yalnızca kendi ülkesinde resmi olarak kayıtlı bir şirket yapabilir.",
       "Kaydolduktan sonra şirketinizle ilgili bir form doldurur ve doğrulamadan geçersiniz; bunu geçtikten sonra arayüzünüze tam erişim kazanırsınız.",
       "Platformu rahatça keşfedebilmeniz için size 10 günlük ücretsiz deneme sunuyoruz. Bu süre içinde iki tür sistem yönetimini de deneyeceksiniz: tam AI otomasyonlu bir sunucu ve AI izlemeli başka bir sunucu. Deneme süresinin ardından size uygun planı seçer ve tam müşteri olarak devam edersiniz.",
@@ -1140,7 +1140,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'كيفية الاتصال — وخطواتكم الأولى',
     paras1: [
       'يمكننا الاستمرار في إخباركم بالمزيد عن المنصة — لكن على الأرجح لديكم سؤال بالفعل: كيف تتصلون بـ Guardian Cloud، وماذا سيفعل منذ الخطوات الأولى؟',
-      'الاتصال سهل جدًا. انتقلوا إلى المنصة عبر زر "الاتصال بـ Cloud" أدناه وسجّلوا. يمكنكم أيضًا الاتصال عبر رابط إحالة — يمكنكم الحصول عليه من أحد شركائنا المعتمدين؛ قائمة الشركاء موجودة في صفحة Referral.',
+      'الاتصال سهل جدًا. انتقلوا إلى المنصة عبر زر "الاتصال بـ Cloud" أدناه وسجّلوا.',
       'نظرًا لأن المنصة تعمل وفق نموذج B2B، لا يمكن القيام بذلك إلا لشركة مسجلة رسميًا في بلدها.',
       'بعد التسجيل، تملؤون نموذجًا عن شركتكم وتمرّون بعملية تحقق؛ وبمجرد اجتيازها، تحصلون على وصول كامل إلى واجهتكم.',
       'حتى تتمكنوا من استكشاف المنصة براحة، نمنحكم فترة تجريبية مجانية مدتها 10 أيام. خلالها ستجربون نوعي إدارة الأنظمة: خادم واحد بأتمتة ذكاء اصطناعي كاملة، وآخر بمراقبة ذكاء اصطناعي. بعد الفترة التجريبية، تختارون الخطة المناسبة لكم وتستمرون كعميل كامل.',
@@ -1159,7 +1159,7 @@ const BLOCK6: Record<string, Block6> = {
     h: 'Πώς να συνδεθείτε — και τα πρώτα σας βήματα',
     paras1: [
       'Θα μπορούσαμε να συνεχίσουμε να σας λέμε όλο και περισσότερα για την πλατφόρμα — αλλά μάλλον ήδη έχετε μια ερώτηση: πώς συνδέετε το Guardian Cloud και τι θα κάνει από τα πρώτα βήματα;',
-      'Η σύνδεση είναι πολύ εύκολη. Πηγαίνετε στην πλατφόρμα μέσω του κουμπιού «Σύνδεση Cloud» παρακάτω και εγγραφείτε. Μπορείτε επίσης να συνδεθείτε μέσω συνδέσμου παραπομπής — μπορείτε να τον αποκτήσετε από έναν εξουσιοδοτημένο συνεργάτη μας· η λίστα συνεργατών βρίσκεται στη σελίδα Referral.',
+      'Η σύνδεση είναι πολύ εύκολη. Πηγαίνετε στην πλατφόρμα μέσω του κουμπιού «Σύνδεση Cloud» παρακάτω και εγγραφείτε.',
       'Επειδή η πλατφόρμα λειτουργεί με μοντέλο B2B, μόνο μια εταιρεία επίσημα εγγεγραμμένη στη χώρα της μπορεί να το κάνει αυτό.',
       'Μετά την εγγραφή, συμπληρώνετε μια φόρμα σχετικά με την εταιρεία σας και περνάτε από επαλήθευση· μόλις την περάσετε, αποκτάτε πλήρη πρόσβαση στη διεπαφή σας.',
       'Για να εξερευνήσετε την πλατφόρμα με άνεση, σας δίνουμε 10 ημέρες δωρεάν δοκιμής. Σε αυτήν θα δοκιμάσετε και τους δύο τύπους διαχείρισης συστήματος: έναν διακομιστή με πλήρη αυτοματισμό AI και έναν άλλον με παρακολούθηση AI. Μετά τη δοκιμή επιλέγετε το πλάνο που σας ταιριάζει και συνεχίζετε ως πλήρης πελάτης.',

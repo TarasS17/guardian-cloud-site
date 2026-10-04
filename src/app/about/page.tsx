@@ -8,7 +8,7 @@ import { CompanyIntro, CompanyPrinciples } from '@/components/CompanySections';
 
 // Home — корпоративная страница ALFACAN Defence Group: кто мы и принципы
 // (CompanySections) + четыре направления (Guardian Cloud, Mercanon, AI Studio, BlackWings)
-// + партнёрская программа. Контент — из src/lib/i18n/locales/{ru,en,zh}.json под ключом `home`.
+// Контент — из src/lib/i18n/locales/{ru,en,zh}.json под ключом `home`.
 //
 // Это страница КОМПАНИИ, не продукта: модельный флот, объёмы обучения и статусы
 // развёртывания сюда не ставим — им место на страницах продуктов.
@@ -98,8 +98,6 @@ export default function HomePage() {
   const s6 = t('home.section_6_products_block_1');
   const s7 = t('home.section_7_products_block_2');
   const s8 = t('home.section_8_products_block_3');
-  const s9 = t('home.section_9_partner_program');
-  const prog: Record<string, string> = (s9 && typeof s9 === 'object' ? s9.program : {}) || {};
 
   const waitlistHead =
     locale === 'ru'
@@ -195,53 +193,6 @@ export default function HomePage() {
             <div className="container mx-auto max-w-2xl px-4 text-center">
               <h2 className="text-2xl font-bold text-white md:text-3xl">{waitlistHead}</h2>
               <WaitlistForm className="mt-6" variant="updates" />
-            </div>
-          </section>
-
-          {/* Секция 9 — партнёрская программа */}
-          <section className="bg-gradient-to-b from-[#0A0F1E] to-[#000814] py-20">
-            <div className="container mx-auto max-w-4xl px-4">
-              <div className="mx-auto max-w-3xl space-y-5 text-center">
-                <p className="text-lg leading-relaxed text-white/70">{s9?.intro_1}</p>
-                <p className="text-lg leading-relaxed text-white/70">{s9?.intro_2}</p>
-                {s9?.intro_3 && <p className="text-lg leading-relaxed text-white/85">{s9.intro_3}</p>}
-                {s9?.intro_4 && <p className="text-lg leading-relaxed text-white/70">{s9.intro_4}</p>}
-                {s9?.referral_cta && (
-                  <Link
-                    href="/referral"
-                    className="inline-flex items-center gap-2 font-semibold text-cyan-400 transition-colors hover:text-cyan-300"
-                  >
-                    {s9.referral_cta}
-                    <span aria-hidden="true">→</span>
-                  </Link>
-                )}
-              </div>
-              <div className="mt-10 overflow-hidden rounded-2xl border border-cyan-500/25 bg-gray-900/40">
-                <div className="grid items-center gap-8 p-8 md:grid-cols-[auto_1fr]">
-                  {/* Слева — вертикальное видео команды */}
-                  <div className="mx-auto w-full max-w-[240px] overflow-hidden rounded-xl bg-black md:mx-0" style={{ aspectRatio: '720 / 1120' }}>
-                    <video src="/videos/partners.mp4" autoPlay muted loop playsInline className="h-full w-full object-cover" />
-                  </div>
-                  {/* Справа — текст */}
-                  <div>
-                    <h3 className="text-2xl font-bold text-white">{prog.name}</h3>
-                    {prog.subtitle && <p className="mt-1 text-white/50 italic">{prog.subtitle}</p>}
-                    <div className="mt-4 space-y-3">
-                      {[prog.description_1, prog.description_2, prog.description_3, prog.description_4].filter(Boolean).map((p, i) => (
-                        <p key={i} className="leading-relaxed text-white/80">{p}</p>
-                      ))}
-                    </div>
-                    <div className="mt-6 flex flex-col gap-4 sm:flex-row">
-                      <Link href={prog.cta_primary_url || '/referral'} className="rounded-lg bg-cyan-500 px-8 py-3 text-center font-bold text-gray-900 transition-colors hover:bg-cyan-400">
-                        {prog.cta_primary}
-                      </Link>
-                      <Link href={prog.cta_secondary_url || '/referral#terms'} className="rounded-lg border border-cyan-500 px-8 py-3 text-center font-semibold text-cyan-300 transition-colors hover:bg-cyan-500/10">
-                        {prog.cta_secondary}
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </section>
         </>
