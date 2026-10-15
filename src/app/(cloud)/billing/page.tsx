@@ -8,7 +8,7 @@ import LaunchBanner from '@/components/LaunchBanner';
 export const metadata = {
   title: 'Guardian Cloud — Tariffs & Billing',
   description:
-    'Per-server subscription plans (Monitor / Server / Cluster / Platform / Enterprise) — every plan includes Cloud AI, ITDR, SIEM and RAG — with a hard, fully-audited connect-time billing gate.',
+    'Per-server subscription plans (Monitor / Server / Cluster / Platform / Enterprise) — every plan includes ITDR, SIEM and RAG — with a hard, fully-audited connect-time billing gate.',
 };
 
 export default function BillingPage() {

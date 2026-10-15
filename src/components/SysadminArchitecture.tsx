@@ -36,7 +36,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'the chief orchestrator and commanding officer of the whole module. It receives the audit, incident or task, understands the situation, builds the plan, vets the safety of every command and delegates the work among the specialists — and on danger (a cyber-attack or a virus) it calls the entire ITDR module through the ITDR Officer to resolve it. It also consolidates all logs and data into a single report and stays in touch with you through the Cloud AI assistant in your interface. You can ask Cloud AI to bring the Sysadmin Officer into a shared chat and hold a meeting or a briefing with it — settling whatever concerns you or mapping out the work ahead.',
+        desc: 'the chief orchestrator and commanding officer of the whole module. It receives the audit, incident or task, understands the situation, builds the plan, vets the safety of every command and delegates the work among the specialists — and on danger (a cyber-attack or a virus) it calls the entire ITDR module through the ITDR Officer to resolve it. It also consolidates all logs and data into a single report and stays in touch with you through the AI Sysadmin/Cybersecurity employee in α-Team — that is where you settle whatever concerns you and map out the work ahead.',
       },
       {
         name: 'GCP Officer',
@@ -69,7 +69,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — the platform’s control module',
     role: [
       'When an agent or an officer spots signs of a cyber-attack or a virus on your server, it relays this to the Sysadmin Officer in an instant, and it immediately calls the ITDR module, which removes the threat completely. After that, the Sysadmin module clears every aftereffect of the incident and restores your servers to their original healthy state. Your users will not even notice anything was wrong — because the whole thing takes minutes, perhaps seconds.',
-      'The Sysadmin module also drives every upgrade of your servers. Want to scale? Done. The module carries out all the work and the integration of the new features you have in mind. You and Cloud AI only set the vision; the Sysadmin Officer runs every process: AI Studio writes the architecture and code needed, and the Sysadmin Officer tests it all and integrates it into your servers. Validation is performed by GLM-5.2, our self-hosted main brain — it reviews every line of code for correctness and vulnerabilities inside the contour and produces recommendations that the Sysadmin Officer implements in full. And you get the best possible result.',
+      'The Sysadmin module also drives every upgrade of your servers. Want to scale? Done. The module carries out all the work and the integration of the new features you have in mind. You only set the vision; the Sysadmin Officer runs every process: AI Studio writes the architecture and code needed, and the Sysadmin Officer tests it all and integrates it into your servers. Validation is performed by GLM-5.2, our self-hosted main brain — it reviews every line of code for correctness and vulnerabilities inside the contour and produces recommendations that the Sysadmin Officer implements in full. And you get the best possible result.',
     ],
     diag: {
       input: 'Audit · Incident · Your task',
@@ -91,7 +91,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'главный оркестратор и командующий офицер всего модуля. Принимает аудит, инцидент или задачу, понимает ситуацию, строит план, проверяет безопасность каждой команды и распределяет работу между специалистами, а в случае опасности (кибератака или вирус) вызывает через ITDR Officer весь модуль ITDR для решения проблемы. Он же сводит все логи и данные в единый отчёт и держит связь с вами через помощника Cloud AI в вашем интерфейсе. Вы можете попросить Cloud AI вызвать Sysadmin Officer в общий чат и провести совещание или брифинг совместно с ним — решая все волнующие вопросы или намечая планы работ.',
+        desc: 'главный оркестратор и командующий офицер всего модуля. Принимает аудит, инцидент или задачу, понимает ситуацию, строит план, проверяет безопасность каждой команды и распределяет работу между специалистами, а в случае опасности (кибератака или вирус) вызывает через ITDR Officer весь модуль ITDR для решения проблемы. Он же сводит все логи и данные в единый отчёт и держит связь с вами через ИИ-сотрудника «Сисадмин/Кибербез» в α-Team — с ним вы решаете все волнующие вопросы и намечаете планы работ.',
       },
       { name: 'GCP Officer', desc: 'специалист по Google Cloud. Свободно владеет gcloud, GCE и GKE, IAM, firewall-правилами, сервис-аккаунтами и превращает находку в точное, «родное» для GCP действие.' },
       { name: 'AWS Officer', desc: 'специалист по Amazon Web Services. EC2, S3, IAM, security groups, aws CLI — знает грани платформы и её подводные камни и работает в их рамках.' },
@@ -112,7 +112,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — управляющий модуль платформы',
     role: [
       'Когда агент или офицер обнаруживает признаки кибератаки или вируса на вашем сервере, он моментально передаёт это Sysadmin Officer, и тот сразу вызывает ITDR Module, который полностью устраняет проблему. После этого Sysadmin Module устраняет все последствия инцидента и восстанавливает работу ваших серверов в первоначальное состояние. Ваши пользователи даже не увидят, что были какие-либо проблемы, — потому что это займёт считаные минуты, а возможно, и секунды.',
-      'Sysadmin Module ведёт и все работы по модернизации ваших серверов. Хотите масштабироваться? — Пожалуйста. Модуль полностью проведёт все работы и интеграцию новых функций, которые вы задумали. Вы и Cloud AI задаёте только ваше видение, а Sysadmin Officer управляет всеми процессами: AI Studio пишет нужную архитектуру и код, Sysadmin Officer всё тестирует и интегрирует в ваши серверы. Валидацию выполняет GLM-5.2, наш self-hosted главный мозг — он проверяет каждую строчку кода на корректность и уязвимости внутри контура и выдаёт рекомендации, которые Sysadmin Officer реализует полностью. И вы получаете наилучший результат.',
+      'Sysadmin Module ведёт и все работы по модернизации ваших серверов. Хотите масштабироваться? — Пожалуйста. Модуль полностью проведёт все работы и интеграцию новых функций, которые вы задумали. Вы задаёте только ваше видение, а Sysadmin Officer управляет всеми процессами: AI Studio пишет нужную архитектуру и код, Sysadmin Officer всё тестирует и интегрирует в ваши серверы. Валидацию выполняет GLM-5.2, наш self-hosted главный мозг — он проверяет каждую строчку кода на корректность и уязвимости внутри контура и выдаёт рекомендации, которые Sysadmin Officer реализует полностью. И вы получаете наилучший результат.',
     ],
     diag: {
       input: 'Аудит · Инцидент · Ваша задача',
@@ -134,7 +134,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer（系統維運主控官）',
-        desc: '整個模組的核心編排者與最高指揮官。負責接收稽核、事件或任務，評估全局、制定行動方案、嚴格審查每條指令的安全性，並在各專家間分配工作。一旦偵測到網路攻擊或病毒威脅，它會立即透過 ITDR Officer 調動整個 ITDR 模組。同時，它負責將所有日誌與數據彙整為單一報告，並透過您的 Cloud AI 助理保持即時溝通。您甚至可以要求 Cloud AI 將 Sysadmin Officer 呼叫至共同對話中，直接召開線上會議或技術簡報，共同解決疑慮並規劃工作藍圖。',
+        desc: '整個模組的核心編排者與最高指揮官。負責接收稽核、事件或任務，評估全局、制定行動方案、嚴格審查每條指令的安全性，並在各專家間分配工作。一旦偵測到網路攻擊或病毒威脅，它會立即透過 ITDR Officer 調動整個 ITDR 模組。同時，它負責將所有日誌與數據彙整為單一報告，並透過 α-Team 中的 AI 系統管理／資安員工與您保持溝通——您可以在那裡提出疑慮並規劃工作藍圖。',
       },
       { name: 'GCP Officer（Google Cloud 專家官員）', desc: '深諳 Google Cloud 生態。精通 gcloud、GCE、GKE、IAM 權限管理、防火牆規則（Firewall Rules）及服務帳戶（Service Accounts），能將維運需求轉化為精確且原生（Native）的 GCP 操作。' },
       { name: 'AWS Officer（Amazon Web Services 專家官員）', desc: 'AWS 雲端環境專家。全面掌控 EC2、S3、IAM、安全群組（Security Groups）及 aws CLI，熟知平台特性與潛在陷阱，並在最佳實踐框架下高效維運。' },
@@ -155,7 +155,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin —— 平台的最高管理控制核心',
     role: [
       '當部署在伺服器端的 Agent 或核心 Officer 偵測到任何網路攻擊或惡意病毒的跡象時，資訊將在毫秒間同步至 Sysadmin Officer。後者會立即調用 ITDR 模組進行徹底的威脅清除。隨後，Sysadmin 模組將全自動接管事故善後工作，將您的伺服器架構完美復原至初始健康狀態。您的終端用戶甚至完全不會察覺到任何異常 —— 因為整個防禦與復原流程將在短短數分鐘甚至數秒鐘之內完成。',
-      '同時，Sysadmin 模組也是您伺服器架構升級與擴展的發動機。想要彈性擴展？沒問題。該模組會全權負責您所規劃的新功能整合與全面架構部署。您與 Cloud AI 只需負責勾勒願景，Sysadmin Officer 則負責指揮全局：AI Studio 將自動撰寫所需的系統架構與原始碼，並由 Sysadmin Officer 完成全套自動化測試與環境整合。',
+      '同時，Sysadmin 模組也是您伺服器架構升級與擴展的發動機。想要彈性擴展？沒問題。該模組會全權負責您所規劃的新功能整合與全面架構部署。您只需負責勾勒願景，Sysadmin Officer 則負責指揮全局：AI Studio 將自動撰寫所需的系統架構與原始碼，並由 Sysadmin Officer 完成全套自動化測試與環境整合。',
       '在上線前，系統將由自託管的核心大腦 GLM-5.2 執行頂級驗證（Validation）—— 在安全邊界內逐行審查程式碼的正確性與潛在安全漏洞，並輸出優化建議，由 Sysadmin Officer 100% 落地執行。這確保了您最終獲得最高規格、安全無虞的升級成果。',
     ],
     diag: {
@@ -178,7 +178,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'l’orchestrateur en chef et commandant de tout le module. Il reçoit l’audit, l’incident ou la tâche, comprend la situation, construit le plan, vérifie la sécurité de chaque commande et délègue le travail entre les spécialistes — et en cas de danger (cyberattaque ou virus), il appelle tout le module ITDR via l’ITDR Officer pour le résoudre. Il consolide aussi tous les logs et données en un rapport unique et reste en contact avec vous via l’assistant Cloud AI de votre interface. Vous pouvez demander à Cloud AI de faire venir le Sysadmin Officer dans un chat commun et tenir une réunion ou un point avec lui — pour régler ce qui vous préoccupe ou planifier le travail à venir.',
+        desc: 'l’orchestrateur en chef et commandant de tout le module. Il reçoit l’audit, l’incident ou la tâche, comprend la situation, construit le plan, vérifie la sécurité de chaque commande et délègue le travail entre les spécialistes — et en cas de danger (cyberattaque ou virus), il appelle tout le module ITDR via l’ITDR Officer pour le résoudre. Il consolide aussi tous les logs et données en un rapport unique et reste en contact avec vous via l’employé IA Sysadmin/Cybersécurité d’α-Team — c’est avec lui que vous réglez ce qui vous préoccupe et planifiez le travail à venir.',
       },
       {
         name: 'GCP Officer',
@@ -211,7 +211,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — le module de contrôle de la plateforme',
     role: [
       'Lorsqu’un agent ou un officier repère des signes de cyberattaque ou de virus sur votre serveur, il le relaie instantanément au Sysadmin Officer, qui appelle immédiatement le module ITDR, lequel élimine complètement la menace. Ensuite, le module Sysadmin efface toutes les traces de l’incident et restaure vos serveurs dans leur état sain d’origine. Vos utilisateurs ne remarqueront même pas qu’un problème est survenu — car tout cela prend des minutes, voire des secondes.',
-      'Le module Sysadmin pilote aussi chaque montée en gamme de vos serveurs. Vous voulez évoluer ? C’est fait. Le module réalise tout le travail et l’intégration des nouvelles fonctionnalités que vous avez en tête. Vous et Cloud AI ne fixez que la vision ; le Sysadmin Officer conduit tout le processus : AI Studio écrit l’architecture et le code nécessaires, et le Sysadmin Officer teste le tout et l’intègre à vos serveurs. La validation est effectuée par GLM-5.2, notre cerveau principal auto-hébergé — il examine chaque ligne de code pour en vérifier la justesse et les vulnérabilités à l’intérieur du contour, et produit des recommandations que le Sysadmin Officer applique intégralement. Et vous obtenez le meilleur résultat possible.',
+      'Le module Sysadmin pilote aussi chaque montée en gamme de vos serveurs. Vous voulez évoluer ? C’est fait. Le module réalise tout le travail et l’intégration des nouvelles fonctionnalités que vous avez en tête. Vous ne fixez que la vision ; le Sysadmin Officer conduit tout le processus : AI Studio écrit l’architecture et le code nécessaires, et le Sysadmin Officer teste le tout et l’intègre à vos serveurs. La validation est effectuée par GLM-5.2, notre cerveau principal auto-hébergé — il examine chaque ligne de code pour en vérifier la justesse et les vulnérabilités à l’intérieur du contour, et produit des recommandations que le Sysadmin Officer applique intégralement. Et vous obtenez le meilleur résultat possible.',
     ],
     diag: {
       input: 'Audit · Incident · Votre tâche',
@@ -233,7 +233,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'der Chef-Orchestrator und Kommandeur des gesamten Moduls. Er empfängt das Audit, den Vorfall oder die Aufgabe, versteht die Lage, erstellt den Plan, prüft die Sicherheit jedes Befehls und verteilt die Arbeit unter den Spezialisten — und bei Gefahr (Cyberangriff oder Virus) ruft er über den ITDR Officer das gesamte ITDR-Modul zur Lösung. Er konsolidiert außerdem alle Logs und Daten zu einem einzigen Bericht und bleibt über den Cloud-AI-Assistenten in Ihrer Oberfläche mit Ihnen in Kontakt. Sie können Cloud AI bitten, den Sysadmin Officer in einen gemeinsamen Chat zu holen und mit ihm ein Meeting oder Briefing abzuhalten — um Anliegen zu klären oder die anstehende Arbeit zu planen.',
+        desc: 'der Chef-Orchestrator und Kommandeur des gesamten Moduls. Er empfängt das Audit, den Vorfall oder die Aufgabe, versteht die Lage, erstellt den Plan, prüft die Sicherheit jedes Befehls und verteilt die Arbeit unter den Spezialisten — und bei Gefahr (Cyberangriff oder Virus) ruft er über den ITDR Officer das gesamte ITDR-Modul zur Lösung. Er konsolidiert außerdem alle Logs und Daten zu einem einzigen Bericht und bleibt über den KI-Mitarbeiter Sysadmin/Cybersecurity in α-Team mit Ihnen in Kontakt — mit ihm klären Sie Ihre Anliegen und planen die anstehende Arbeit.',
       },
       {
         name: 'GCP Officer',
@@ -266,7 +266,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — das Kontrollmodul der Plattform',
     role: [
       'Erkennt ein Agent oder Offizier Anzeichen eines Cyberangriffs oder Virus auf Ihrem Server, meldet er dies sofort an den Sysadmin Officer, der umgehend das ITDR-Modul ruft, das die Bedrohung vollständig beseitigt. Danach behebt das Sysadmin-Modul alle Nachwirkungen des Vorfalls und stellt Ihre Server in ihren ursprünglichen gesunden Zustand zurück. Ihre Nutzer werden nicht einmal bemerken, dass etwas nicht stimmte — denn das Ganze dauert Minuten, vielleicht Sekunden.',
-      'Das Sysadmin-Modul treibt auch jedes Upgrade Ihrer Server voran. Wollen Sie skalieren? Erledigt. Das Modul führt die gesamte Arbeit und Integration der von Ihnen anvisierten neuen Funktionen aus. Sie und Cloud AI legen nur die Vision fest; der Sysadmin Officer steuert jeden Prozess: AI Studio schreibt die benötigte Architektur und den Code, und der Sysadmin Officer testet alles und integriert es in Ihre Server. Die Validierung erfolgt durch GLM-5.2, unser selbst gehostetes Haupt-Gehirn — es prüft jede Codezeile innerhalb des Konturs auf Korrektheit und Schwachstellen und erstellt Empfehlungen, die der Sysadmin Officer vollständig umsetzt. Und Sie erhalten das bestmögliche Ergebnis.',
+      'Das Sysadmin-Modul treibt auch jedes Upgrade Ihrer Server voran. Wollen Sie skalieren? Erledigt. Das Modul führt die gesamte Arbeit und Integration der von Ihnen anvisierten neuen Funktionen aus. Sie legen nur die Vision fest; der Sysadmin Officer steuert jeden Prozess: AI Studio schreibt die benötigte Architektur und den Code, und der Sysadmin Officer testet alles und integriert es in Ihre Server. Die Validierung erfolgt durch GLM-5.2, unser selbst gehostetes Haupt-Gehirn — es prüft jede Codezeile innerhalb des Konturs auf Korrektheit und Schwachstellen und erstellt Empfehlungen, die der Sysadmin Officer vollständig umsetzt. Und Sie erhalten das bestmögliche Ergebnis.',
     ],
     diag: {
       input: 'Audit · Vorfall · Ihre Aufgabe',
@@ -288,7 +288,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'el orquestador jefe y oficial al mando de todo el módulo. Recibe la auditoría, el incidente o la tarea, entiende la situación, elabora el plan, verifica la seguridad de cada comando y delega el trabajo entre los especialistas — y ante un peligro (un ciberataque o un virus) llama a todo el módulo ITDR a través del ITDR Officer para resolverlo. También consolida todos los registros y datos en un único informe y mantiene el contacto con usted a través del asistente Cloud AI en su interfaz. Puede pedirle a Cloud AI que traiga al Sysadmin Officer a un chat compartido y celebrar una reunión o una sesión informativa con él — para resolver lo que le preocupe o planificar el trabajo por venir.',
+        desc: 'el orquestador jefe y oficial al mando de todo el módulo. Recibe la auditoría, el incidente o la tarea, entiende la situación, elabora el plan, verifica la seguridad de cada comando y delega el trabajo entre los especialistas — y ante un peligro (un ciberataque o un virus) llama a todo el módulo ITDR a través del ITDR Officer para resolverlo. También consolida todos los registros y datos en un único informe y mantiene el contacto con usted a través del empleado IA de Sysadmin/Ciberseguridad en α-Team — con él resuelve lo que le preocupe y planifica el trabajo por venir.',
       },
       {
         name: 'GCP Officer',
@@ -321,7 +321,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — el módulo de control de la plataforma',
     role: [
       'Cuando un agente u oficial detecta signos de un ciberataque o un virus en su servidor, lo transmite al instante al Sysadmin Officer, que llama de inmediato al módulo ITDR, el cual elimina por completo la amenaza. Después, el módulo Sysadmin borra todas las secuelas del incidente y restaura sus servidores a su estado saludable original. Sus usuarios ni siquiera notarán que algo estuvo mal, porque todo esto ocurre en minutos, quizá segundos.',
-      'El módulo Sysadmin también impulsa cada mejora de sus servidores. ¿Quiere escalar? Hecho. El módulo realiza todo el trabajo y la integración de las nuevas funciones que tenga en mente. Usted y Cloud AI solo definen la visión; el Sysadmin Officer dirige todo el proceso: AI Studio escribe la arquitectura y el código necesarios, y el Sysadmin Officer lo prueba todo y lo integra en sus servidores. La validación la realiza GLM-5.2, nuestro cerebro principal autoalojado, que revisa cada línea de código en busca de corrección y vulnerabilidades dentro del contorno y produce recomendaciones que el Sysadmin Officer implementa por completo. Y usted obtiene el mejor resultado posible.',
+      'El módulo Sysadmin también impulsa cada mejora de sus servidores. ¿Quiere escalar? Hecho. El módulo realiza todo el trabajo y la integración de las nuevas funciones que tenga en mente. Usted solo define la visión; el Sysadmin Officer dirige todo el proceso: AI Studio escribe la arquitectura y el código necesarios, y el Sysadmin Officer lo prueba todo y lo integra en sus servidores. La validación la realiza GLM-5.2, nuestro cerebro principal autoalojado, que revisa cada línea de código en busca de corrección y vulnerabilidades dentro del contorno y produce recomendaciones que el Sysadmin Officer implementa por completo. Y usted obtiene el mejor resultado posible.',
     ],
     diag: {
       input: 'Auditoría · Incidente · Su tarea',
@@ -343,7 +343,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'l’orchestratore capo e ufficiale al comando dell’intero modulo. Riceve l’audit, l’incidente o il compito, comprende la situazione, costruisce il piano, verifica la sicurezza di ogni comando e delega il lavoro tra gli specialisti — e in caso di pericolo (attacco informatico o virus) chiama l’intero modulo ITDR tramite l’ITDR Officer per risolverlo. Consolida inoltre tutti i log e i dati in un unico report e rimane in contatto con voi tramite l’assistente Cloud AI nella vostra interfaccia. Potete chiedere a Cloud AI di portare il Sysadmin Officer in una chat condivisa e tenere una riunione o un briefing con lui — per risolvere ciò che vi preoccupa o pianificare il lavoro futuro.',
+        desc: 'l’orchestratore capo e ufficiale al comando dell’intero modulo. Riceve l’audit, l’incidente o il compito, comprende la situazione, costruisce il piano, verifica la sicurezza di ogni comando e delega il lavoro tra gli specialisti — e in caso di pericolo (attacco informatico o virus) chiama l’intero modulo ITDR tramite l’ITDR Officer per risolverlo. Consolida inoltre tutti i log e i dati in un unico report e rimane in contatto con voi tramite il dipendente IA Sysadmin/Cybersecurity di α-Team — con lui risolvete ciò che vi preoccupa e pianificate il lavoro futuro.',
       },
       {
         name: 'GCP Officer',
@@ -376,7 +376,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — il modulo di controllo della piattaforma',
     role: [
       'Quando un agente o un ufficiale rileva segni di un attacco informatico o di un virus sul vostro server, li trasmette all’istante al Sysadmin Officer, che chiama immediatamente il modulo ITDR, il quale elimina completamente la minaccia. Dopodiché, il modulo Sysadmin cancella ogni conseguenza dell’incidente e riporta i vostri server al loro stato sano originale. I vostri utenti non si accorgeranno nemmeno che qualcosa non andava — perché tutto ciò richiede minuti, forse secondi.',
-      'Il modulo Sysadmin guida anche ogni aggiornamento dei vostri server. Volete scalare? Fatto. Il modulo esegue tutto il lavoro e l’integrazione delle nuove funzionalità che avete in mente. Voi e Cloud AI definite solo la visione; il Sysadmin Officer gestisce ogni processo: AI Studio scrive l’architettura e il codice necessari, e il Sysadmin Officer testa tutto e lo integra nei vostri server. La validazione è eseguita da GLM-5.2, il nostro cervello principale self-hosted — che esamina ogni riga di codice per correttezza e vulnerabilità all’interno del contorno e produce raccomandazioni che il Sysadmin Officer applica integralmente. E voi ottenete il miglior risultato possibile.',
+      'Il modulo Sysadmin guida anche ogni aggiornamento dei vostri server. Volete scalare? Fatto. Il modulo esegue tutto il lavoro e l’integrazione delle nuove funzionalità che avete in mente. Voi definite solo la visione; il Sysadmin Officer gestisce ogni processo: AI Studio scrive l’architettura e il codice necessari, e il Sysadmin Officer testa tutto e lo integra nei vostri server. La validazione è eseguita da GLM-5.2, il nostro cervello principale self-hosted — che esamina ogni riga di codice per correttezza e vulnerabilità all’interno del contorno e produce raccomandazioni che il Sysadmin Officer applica integralmente. E voi ottenete il miglior risultato possibile.',
     ],
     diag: {
       input: 'Audit · Incidente · Il vostro compito',
@@ -398,7 +398,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'モジュール全体の主指揮官かつオーケストレーター。監査、インシデント、タスクを受け取り、状況を理解し、計画を立て、すべてのコマンドの安全性を審査し、専門家間で作業を分配します。危険（サイバー攻撃やウイルス）を検知すると、ITDR Officerを通じてITDRモジュール全体を呼び出して解決します。すべてのログとデータを単一のレポートに統合し、インターフェース上のCloud AIアシスタントを通じてあなたと連絡を保ちます。Cloud AIにSysadmin Officerを共有チャットに呼び込むよう依頼し、懸念事項の解決や今後の作業計画についてミーティングやブリーフィングを行うこともできます。',
+        desc: 'モジュール全体の主指揮官かつオーケストレーター。監査、インシデント、タスクを受け取り、状況を理解し、計画を立て、すべてのコマンドの安全性を審査し、専門家間で作業を分配します。危険（サイバー攻撃やウイルス）を検知すると、ITDR Officerを通じてITDRモジュール全体を呼び出して解決します。すべてのログとデータを単一のレポートに統合し、α-TeamのAI社員「シスアド／サイバーセキュリティ」を通じてあなたと連絡を保ちます。懸念事項の相談や今後の作業計画も、この社員と進められます。',
       },
       {
         name: 'GCP Officer',
@@ -431,7 +431,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin——プラットフォームの制御モジュール',
     role: [
       'エージェントやオフィサーがあなたのサーバー上でサイバー攻撃やウイルスの兆候を検知すると、即座にSysadmin Officerに伝達され、すぐさまITDRモジュールを呼び出して脅威を完全に除去します。その後、Sysadminモジュールはインシデントのあらゆる影響を除去し、サーバーを元の健全な状態に復元します。ユーザーは何も異常があったことに気づくことすらありません——すべてが数分、場合によっては数秒で完了するからです。',
-      'Sysadminモジュールはまた、サーバーのあらゆるアップグレードを推進します。スケールしたいですか？お任せください。モジュールがあなたの構想する新機能のすべての作業と統合を実行します。あなたとCloud AIはビジョンを設定するだけで、Sysadmin Officerがすべてのプロセスを運用します：AI Studioが必要なアーキテクチャとコードを記述し、Sysadmin Officerがすべてをテストしてサーバーに統合します。検証は自社ホスティングの主脳であるGLM-5.2が行います——コンター内のすべてのコード行の正確性と脆弱性をレビューし、Sysadmin Officerが完全に実装する推奨事項を生成します。そして、あなたは最良の結果を得られます。',
+      'Sysadminモジュールはまた、サーバーのあらゆるアップグレードを推進します。スケールしたいですか？お任せください。モジュールがあなたの構想する新機能のすべての作業と統合を実行します。あなたはビジョンを設定するだけで、Sysadmin Officerがすべてのプロセスを運用します：AI Studioが必要なアーキテクチャとコードを記述し、Sysadmin Officerがすべてをテストしてサーバーに統合します。検証は自社ホスティングの主脳であるGLM-5.2が行います——コンター内のすべてのコード行の正確性と脆弱性をレビューし、Sysadmin Officerが完全に実装する推奨事項を生成します。そして、あなたは最良の結果を得られます。',
     ],
     diag: {
       input: '監査・インシデント・あなたのタスク',
@@ -453,7 +453,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'головний оркестратор і командувач офіцер усього модуля. Приймає аудит, інцидент чи задачу, розуміє ситуацію, будує план, перевіряє безпеку кожної команди і розподіляє роботу між спеціалістами — а в разі небезпеки (кібератака чи вірус) викликає через ITDR Officer весь модуль ITDR для вирішення проблеми. Він же зводить усі логи й дані в єдиний звіт і підтримує зв’язок з вами через помічника Cloud AI у вашому інтерфейсі. Ви можете попросити Cloud AI викликати Sysadmin Officer у спільний чат і провести нараду чи брифінг разом з ним — вирішуючи всі питання, що вас турбують, або плануючи майбутню роботу.',
+        desc: 'головний оркестратор і командувач офіцер усього модуля. Приймає аудит, інцидент чи задачу, розуміє ситуацію, будує план, перевіряє безпеку кожної команди і розподіляє роботу між спеціалістами — а в разі небезпеки (кібератака чи вірус) викликає через ITDR Officer весь модуль ITDR для вирішення проблеми. Він же зводить усі логи й дані в єдиний звіт і підтримує зв’язок з вами через ШІ-співробітника «Сисадмін/Кібербезпека» в α-Team — з ним ви вирішуєте всі питання, що вас турбують, і плануєте майбутню роботу.',
       },
       { name: 'GCP Officer', desc: 'спеціаліст з Google Cloud. Вільно володіє gcloud, GCE та GKE, IAM, правилами файрвола, сервіс-акаунтами і перетворює знахідку на точну, «рідну» для GCP дію.' },
       { name: 'AWS Officer', desc: 'спеціаліст з Amazon Web Services. EC2, S3, IAM, security groups, aws CLI — знає межі платформи та її підводні камені й працює в їхніх рамках.' },
@@ -474,7 +474,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — керуючий модуль платформи',
     role: [
       'Коли агент чи офіцер виявляє ознаки кібератаки або вірусу на вашому сервері, він миттєво передає це Sysadmin Officer, і той одразу викликає ITDR Module, який повністю усуває проблему. Після цього Sysadmin Module усуває всі наслідки інциденту і відновлює роботу ваших серверів у початковий стан. Ваші користувачі навіть не помітять, що були якісь проблеми, — бо це займе лічені хвилини, а можливо, і секунди.',
-      'Sysadmin Module веде й усі роботи з модернізації ваших серверів. Хочете масштабуватися? Будь ласка. Модуль повністю проведе всі роботи та інтеграцію нових функцій, які ви задумали. Ви та Cloud AI задаєте лише ваше бачення, а Sysadmin Officer керує всіма процесами: AI Studio пише потрібну архітектуру та код, Sysadmin Officer усе тестує та інтегрує у ваші сервери. Валідацію виконує GLM-5.2, наш self-hosted головний мозок — він перевіряє кожен рядок коду на коректність та вразливості всередині контуру й видає рекомендації, які Sysadmin Officer реалізує повністю. І ви отримуєте найкращий результат.',
+      'Sysadmin Module веде й усі роботи з модернізації ваших серверів. Хочете масштабуватися? Будь ласка. Модуль повністю проведе всі роботи та інтеграцію нових функцій, які ви задумали. Ви задаєте лише ваше бачення, а Sysadmin Officer керує всіма процесами: AI Studio пише потрібну архітектуру та код, Sysadmin Officer усе тестує та інтегрує у ваші сервери. Валідацію виконує GLM-5.2, наш self-hosted головний мозок — він перевіряє кожен рядок коду на коректність та вразливості всередині контуру й видає рекомендації, які Sysadmin Officer реалізує повністю. І ви отримуєте найкращий результат.',
     ],
     diag: {
       input: 'Аудит · Інцидент · Ваша задача',
@@ -496,7 +496,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'glavni orkestrator i komandujući oficir celog modula. Prima reviziju, incident ili zadatak, razume situaciju, gradi plan, proverava bezbednost svake komande i deli posao među specijalistima — a u opasnosti (sajber-napad ili virus) poziva ceo ITDR modul preko ITDR Officer-a da to reši. Takođe konsoliduje sve logove i podatke u jedinstven izveštaj i ostaje u kontaktu s vama preko Cloud AI asistenta u vašem interfejsu. Možete zamoliti Cloud AI da dovede Sysadmin Officer-a u zajednički chat i održite sastanak ili brifing s njim — rešavajući sve što vas brine ili planirajući predstojeći posao.',
+        desc: 'glavni orkestrator i komandujući oficir celog modula. Prima reviziju, incident ili zadatak, razume situaciju, gradi plan, proverava bezbednost svake komande i deli posao među specijalistima — a u opasnosti (sajber-napad ili virus) poziva ceo ITDR modul preko ITDR Officer-a da to reši. Takođe konsoliduje sve logove i podatke u jedinstven izveštaj i ostaje u kontaktu s vama preko AI zaposlenog Sysadmin/Sajber bezbednost u α-Team — s njim rešavate sve što vas brine i planirate predstojeći posao.',
       },
       { name: 'GCP Officer', desc: 'specijalista za Google Cloud. Tečno vlada gcloud-om, GCE i GKE, IAM-om, firewall pravilima i servisnim nalozima i pretvara nalaz u tačnu, nativnu GCP akciju.' },
       { name: 'AWS Officer', desc: 'specijalista za Amazon Web Services. EC2, S3, IAM, security grupe, aws CLI — poznaje granice platforme i njene zamke i radi u tim okvirima.' },
@@ -517,7 +517,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — kontrolni modul platforme',
     role: [
       'Kada agent ili oficir uoči znake sajber-napada ili virusa na vašem serveru, momentalno to prenosi Sysadmin Officer-u, koji odmah poziva ITDR modul, koji potpuno uklanja pretnju. Nakon toga, Sysadmin modul uklanja sve posledice incidenta i vraća vaše servere u prvobitno zdravo stanje. Vaši korisnici neće ni primetiti da je nešto bilo pogrešno — jer sve to traje minute, možda sekunde.',
-      'Sysadmin modul takođe vodi svaku nadogradnju vaših servera. Želite da skalirate? Gotovo. Modul obavlja sav posao i integraciju novih funkcija koje imate na umu. Vi i Cloud AI samo postavljate viziju; Sysadmin Officer vodi sve procese: AI Studio piše potrebnu arhitekturu i kod, a Sysadmin Officer sve to testira i integriše u vaše servere. Validaciju sprovodi GLM-5.2, naš samostalno hostovan glavni mozak — pregleda svaku liniju koda radi ispravnosti i ranjivosti unutar konture i daje preporuke koje Sysadmin Officer u potpunosti sprovodi. I vi dobijate najbolji mogući rezultat.',
+      'Sysadmin modul takođe vodi svaku nadogradnju vaših servera. Želite da skalirate? Gotovo. Modul obavlja sav posao i integraciju novih funkcija koje imate na umu. Vi samo postavljate viziju; Sysadmin Officer vodi sve procese: AI Studio piše potrebnu arhitekturu i kod, a Sysadmin Officer sve to testira i integriše u vaše servere. Validaciju sprovodi GLM-5.2, naš samostalno hostovan glavni mozak — pregleda svaku liniju koda radi ispravnosti i ranjivosti unutar konture i daje preporuke koje Sysadmin Officer u potpunosti sprovodi. I vi dobijate najbolji mogući rezultat.',
     ],
     diag: {
       input: 'Revizija · Incident · Vaš zadatak',
@@ -539,7 +539,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'o orquestrador-chefe e oficial comandante de todo o módulo. Recebe a auditoria, o incidente ou a tarefa, compreende a situação, elabora o plano, verifica a segurança de cada comando e delega o trabalho entre os especialistas — e perante um perigo (um ciberataque ou um vírus) chama todo o módulo ITDR através do ITDR Officer para o resolver. Também consolida todos os registos e dados num único relatório e mantém contacto consigo através do assistente Cloud AI na sua interface. Pode pedir ao Cloud AI que traga o Sysadmin Officer para um chat partilhado e realizar uma reunião ou briefing com ele — resolvendo o que o preocupa ou planeando o trabalho futuro.',
+        desc: 'o orquestrador-chefe e oficial comandante de todo o módulo. Recebe a auditoria, o incidente ou a tarefa, compreende a situação, elabora o plano, verifica a segurança de cada comando e delega o trabalho entre os especialistas — e perante um perigo (um ciberataque ou um vírus) chama todo o módulo ITDR através do ITDR Officer para o resolver. Também consolida todos os registos e dados num único relatório e mantém contacto consigo através do colaborador IA Sysadmin/Cibersegurança no α-Team — é com ele que resolve o que o preocupa e planeia o trabalho futuro.',
       },
       {
         name: 'GCP Officer',
@@ -572,7 +572,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — o módulo de controlo da plataforma',
     role: [
       'Quando um agente ou oficial deteta sinais de um ciberataque ou de um vírus no seu servidor, transmite-o instantaneamente ao Sysadmin Officer, que chama de imediato o módulo ITDR, o qual elimina completamente a ameaça. Depois, o módulo Sysadmin apaga todos os efeitos do incidente e restaura os seus servidores ao seu estado saudável original. Os seus utilizadores nem sequer notarão que algo estava errado — porque tudo isto demora minutos, talvez segundos.',
-      'O módulo Sysadmin também conduz todas as melhorias dos seus servidores. Quer escalar? Está feito. O módulo realiza todo o trabalho e a integração das novas funcionalidades que tem em mente. Você e o Cloud AI apenas definem a visão; o Sysadmin Officer gere todos os processos: o AI Studio escreve a arquitetura e o código necessários, e o Sysadmin Officer testa tudo e integra-o nos seus servidores. A validação é feita pelo GLM-5.2, o nosso cérebro principal autoalojado — que revê cada linha de código quanto à correção e vulnerabilidades dentro do contorno e produz recomendações que o Sysadmin Officer implementa na totalidade. E obtém o melhor resultado possível.',
+      'O módulo Sysadmin também conduz todas as melhorias dos seus servidores. Quer escalar? Está feito. O módulo realiza todo o trabalho e a integração das novas funcionalidades que tem em mente. Você apenas define a visão; o Sysadmin Officer gere todos os processos: o AI Studio escreve a arquitetura e o código necessários, e o Sysadmin Officer testa tudo e integra-o nos seus servidores. A validação é feita pelo GLM-5.2, o nosso cérebro principal autoalojado — que revê cada linha de código quanto à correção e vulnerabilidades dentro do contorno e produz recomendações que o Sysadmin Officer implementa na totalidade. E obtém o melhor resultado possível.',
     ],
     diag: {
       input: 'Auditoria · Incidente · A sua tarefa',
@@ -594,7 +594,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'पूरे मॉड्यूल का मुख्य समन्वयक और कमांडिंग ऑफिसर। यह ऑडिट, घटना या कार्य प्राप्त करता है, स्थिति को समझता है, योजना बनाता है, हर कमांड की सुरक्षा जाँचता है और विशेषज्ञों के बीच काम बाँटता है — और खतरे (साइबर हमला या वायरस) की स्थिति में यह ITDR Officer के माध्यम से पूरे ITDR मॉड्यूल को बुलाकर समस्या हल करता है। यह सभी लॉग और डेटा को एक ही रिपोर्ट में संकलित भी करता है और आपके इंटरफ़ेस में Cloud AI सहायक के माध्यम से आपसे संपर्क में रहता है। आप Cloud AI से Sysadmin Officer को साझा चैट में लाने और उसके साथ बैठक या ब्रीफिंग करने के लिए कह सकते हैं — चाहे कोई चिंता सुलझानी हो या आगे के काम की योजना बनानी हो।',
+        desc: 'पूरे मॉड्यूल का मुख्य समन्वयक और कमांडिंग ऑफिसर। यह ऑडिट, घटना या कार्य प्राप्त करता है, स्थिति को समझता है, योजना बनाता है, हर कमांड की सुरक्षा जाँचता है और विशेषज्ञों के बीच काम बाँटता है — और खतरे (साइबर हमला या वायरस) की स्थिति में यह ITDR Officer के माध्यम से पूरे ITDR मॉड्यूल को बुलाकर समस्या हल करता है। यह सभी लॉग और डेटा को एक ही रिपोर्ट में संकलित भी करता है और α-Team के सिसएडमिन/साइबर सुरक्षा AI कर्मचारी के माध्यम से आपसे संपर्क में रहता है — उसी के साथ आप अपनी चिंताएँ सुलझाते हैं और आगे के काम की योजना बनाते हैं।',
       },
       {
         name: 'GCP Officer',
@@ -627,7 +627,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — प्लेटफ़ॉर्म का नियंत्रण मॉड्यूल',
     role: [
       'जब कोई एजेंट या ऑफिसर आपके सर्वर पर साइबर हमले या वायरस के संकेत देखता है, तो वह तुरंत इसे Sysadmin Officer तक पहुँचाता है, और यह तुरंत ITDR मॉड्यूल को बुलाता है, जो खतरे को पूरी तरह हटा देता है। इसके बाद, Sysadmin मॉड्यूल घटना के हर प्रभाव को साफ करता है और आपके सर्वरों को उनकी मूल स्वस्थ स्थिति में बहाल करता है। आपके उपयोगकर्ताओं को कुछ गलत होने का एहसास तक नहीं होगा — क्योंकि पूरी प्रक्रिया मिनटों, शायद सेकंडों में पूरी हो जाती है।',
-      'Sysadmin मॉड्यूल आपके सर्वरों के हर अपग्रेड को भी संचालित करता है। स्केल करना चाहते हैं? हो गया। मॉड्यूल आपकी सोची हुई नई सुविधाओं का सारा काम और एकीकरण करता है। आप और Cloud AI केवल दृष्टिकोण तय करते हैं; Sysadmin Officer हर प्रक्रिया चलाता है: AI Studio आवश्यक आर्किटेक्चर और कोड लिखता है, और Sysadmin Officer सब कुछ टेस्ट करके आपके सर्वरों में एकीकृत करता है। सत्यापन हमारे सेल्फ-होस्टेड मुख्य मस्तिष्क GLM-5.2 द्वारा किया जाता है — यह कॉन्टूर के भीतर कोड की हर पंक्ति की शुद्धता और कमजोरियों की समीक्षा करता है और सिफारिशें देता है जिन्हें Sysadmin Officer पूरी तरह लागू करता है। और आपको सर्वोत्तम संभव परिणाम मिलता है।',
+      'Sysadmin मॉड्यूल आपके सर्वरों के हर अपग्रेड को भी संचालित करता है। स्केल करना चाहते हैं? हो गया। मॉड्यूल आपकी सोची हुई नई सुविधाओं का सारा काम और एकीकरण करता है। आप केवल दृष्टिकोण तय करते हैं; Sysadmin Officer हर प्रक्रिया चलाता है: AI Studio आवश्यक आर्किटेक्चर और कोड लिखता है, और Sysadmin Officer सब कुछ टेस्ट करके आपके सर्वरों में एकीकृत करता है। सत्यापन हमारे सेल्फ-होस्टेड मुख्य मस्तिष्क GLM-5.2 द्वारा किया जाता है — यह कॉन्टूर के भीतर कोड की हर पंक्ति की शुद्धता और कमजोरियों की समीक्षा करता है और सिफारिशें देता है जिन्हें Sysadmin Officer पूरी तरह लागू करता है। और आपको सर्वोत्तम संभव परिणाम मिलता है।',
     ],
     diag: {
       input: 'ऑडिट · घटना · आपका कार्य',
@@ -649,7 +649,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'tüm modülün baş orkestratörü ve komuta subayı. Denetimi, olayı veya görevi alır, durumu anlar, planı oluşturur, her komutun güvenliğini denetler ve işi uzmanlar arasında dağıtır — tehlike durumunda (siber saldırı veya virüs) bunu çözmek için ITDR Officer aracılığıyla tüm ITDR modülünü çağırır. Ayrıca tüm günlükleri ve verileri tek bir rapora birleştirir ve arayüzünüzdeki Cloud AI asistanı aracılığıyla sizinle iletişim halinde kalır. Cloud AI’dan Sysadmin Officer’ı ortak bir sohbete getirmesini isteyip onunla bir toplantı ya da brifing yapabilir — sizi endişelendiren konuları çözebilir ya da önümüzdeki işleri planlayabilirsiniz.',
+        desc: 'tüm modülün baş orkestratörü ve komuta subayı. Denetimi, olayı veya görevi alır, durumu anlar, planı oluşturur, her komutun güvenliğini denetler ve işi uzmanlar arasında dağıtır — tehlike durumunda (siber saldırı veya virüs) bunu çözmek için ITDR Officer aracılığıyla tüm ITDR modülünü çağırır. Ayrıca tüm günlükleri ve verileri tek bir rapora birleştirir ve α-Team’deki Sysadmin/Siber Güvenlik yapay zekâ çalışanı aracılığıyla sizinle iletişim halinde kalır — sizi endişelendiren konuları ve önümüzdeki işleri onunla çözer ve planlarsınız.',
       },
       {
         name: 'GCP Officer',
@@ -682,7 +682,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — platformun kontrol modülü',
     role: [
       'Bir ajan veya subay sunucunuzda bir siber saldırı veya virüs belirtisi tespit ettiğinde, bunu anında Sysadmin Officer’a iletir ve o da tehdidi tamamen ortadan kaldıran ITDR modülünü hemen çağırır. Bundan sonra, Sysadmin modülü olayın tüm etkilerini temizler ve sunucularınızı orijinal sağlıklı durumuna geri döndürür. Kullanıcılarınız bir şeylerin yanlış gittiğini fark bile etmeyecek — çünkü tüm bunlar dakikalar, belki saniyeler içinde gerçekleşir.',
-      'Sysadmin modülü ayrıca sunucularınızın her yükseltmesini yürütür. Ölçeklenmek mi istiyorsunuz? Tamamdır. Modül, aklınızdaki yeni özelliklerin tüm işini ve entegrasyonunu gerçekleştirir. Siz ve Cloud AI yalnızca vizyonu belirlersiniz; Sysadmin Officer her süreci yürütür: AI Studio gerekli mimariyi ve kodu yazar, Sysadmin Officer ise her şeyi test eder ve sunucularınıza entegre eder. Doğrulama, kendi barındırdığımız ana beynimiz GLM-5.2 tarafından yapılır — kontur içindeki her kod satırını doğruluk ve zafiyet açısından inceler ve Sysadmin Officer’ın tamamen uyguladığı öneriler üretir. Ve siz mümkün olan en iyi sonucu elde edersiniz.',
+      'Sysadmin modülü ayrıca sunucularınızın her yükseltmesini yürütür. Ölçeklenmek mi istiyorsunuz? Tamamdır. Modül, aklınızdaki yeni özelliklerin tüm işini ve entegrasyonunu gerçekleştirir. Siz yalnızca vizyonu belirlersiniz; Sysadmin Officer her süreci yürütür: AI Studio gerekli mimariyi ve kodu yazar, Sysadmin Officer ise her şeyi test eder ve sunucularınıza entegre eder. Doğrulama, kendi barındırdığımız ana beynimiz GLM-5.2 tarafından yapılır — kontur içindeki her kod satırını doğruluk ve zafiyet açısından inceler ve Sysadmin Officer’ın tamamen uyguladığı öneriler üretir. Ve siz mümkün olan en iyi sonucu elde edersiniz.',
     ],
     diag: {
       input: 'Denetim · Olay · Göreviniz',
@@ -704,7 +704,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'المنسّق الرئيسي والضابط القائد للوحدة بأكملها. يستقبل التدقيق أو الحادث أو المهمة، ويفهم الموقف، ويضع الخطة، ويتحقق من أمان كل أمر، ويوزّع العمل بين المتخصصين — وعند وجود خطر (هجوم إلكتروني أو فيروس)، يستدعي وحدة ITDR بأكملها عبر ITDR Officer لحل الأمر. كما يجمّع كل السجلات والبيانات في تقرير واحد ويبقى على تواصل معك عبر مساعد Cloud AI في واجهتك. يمكنك أن تطلب من Cloud AI إحضار Sysadmin Officer إلى محادثة مشتركة وعقد اجتماع أو إحاطة معه — لحل ما يشغلك أو التخطيط للعمل القادم.',
+        desc: 'المنسّق الرئيسي والضابط القائد للوحدة بأكملها. يستقبل التدقيق أو الحادث أو المهمة، ويفهم الموقف، ويضع الخطة، ويتحقق من أمان كل أمر، ويوزّع العمل بين المتخصصين — وعند وجود خطر (هجوم إلكتروني أو فيروس)، يستدعي وحدة ITDR بأكملها عبر ITDR Officer لحل الأمر. كما يجمّع كل السجلات والبيانات في تقرير واحد ويبقى على تواصل معك عبر موظف الذكاء الاصطناعي لإدارة الأنظمة/الأمن السيبراني في α-Team — معه تحل ما يشغلك وتخطط للعمل القادم.',
       },
       {
         name: 'GCP Officer',
@@ -737,7 +737,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — وحدة التحكم في المنصة',
     role: [
       'عندما يرصد عميل أو ضابط علامات هجوم إلكتروني أو فيروس على خادمك، ينقل ذلك فورًا إلى Sysadmin Officer، الذي يستدعي على الفور وحدة ITDR التي تزيل التهديد بالكامل. بعد ذلك، تزيل وحدة Sysadmin كل آثار الحادث وتعيد خوادمك إلى حالتها السليمة الأصلية. لن يلاحظ مستخدموك حتى أن شيئًا كان خاطئًا — لأن كل ذلك يستغرق دقائق، وربما ثوانٍ.',
-      'تقود وحدة Sysadmin أيضًا كل ترقية لخوادمك. تريد التوسّع؟ تم. تنفّذ الوحدة كل العمل ودمج الميزات الجديدة التي تفكر فيها. أنت وCloud AI تحددان فقط الرؤية؛ ويدير Sysadmin Officer كل عملية: يكتب AI Studio البنية والكود اللازمين، ويختبر Sysadmin Officer كل شيء ويدمجه في خوادمك. يتم التحقق بواسطة GLM-5.2، عقلنا الرئيسي المستضاف ذاتيًا — يراجع كل سطر من الكود من حيث الصحة والثغرات داخل الكنتور، وينتج توصيات ينفّذها Sysadmin Officer بالكامل. وتحصل أنت على أفضل نتيجة ممكنة.',
+      'تقود وحدة Sysadmin أيضًا كل ترقية لخوادمك. تريد التوسّع؟ تم. تنفّذ الوحدة كل العمل ودمج الميزات الجديدة التي تفكر فيها. أنت تحدد فقط الرؤية؛ ويدير Sysadmin Officer كل عملية: يكتب AI Studio البنية والكود اللازمين، ويختبر Sysadmin Officer كل شيء ويدمجه في خوادمك. يتم التحقق بواسطة GLM-5.2، عقلنا الرئيسي المستضاف ذاتيًا — يراجع كل سطر من الكود من حيث الصحة والثغرات داخل الكنتور، وينتج توصيات ينفّذها Sysadmin Officer بالكامل. وتحصل أنت على أفضل نتيجة ممكنة.',
     ],
     diag: {
       input: 'تدقيق · حادث · مهمتك',
@@ -759,7 +759,7 @@ const ARCH: Record<string, Arch> = {
     officers: [
       {
         name: 'Sysadmin Officer',
-        desc: 'ο κύριος ενορχηστρωτής και διοικητής όλου του module. Λαμβάνει τον έλεγχο, το περιστατικό ή την εργασία, κατανοεί την κατάσταση, καταρτίζει το σχέδιο, ελέγχει την ασφάλεια κάθε εντολής και αναθέτει την εργασία στους ειδικούς — και σε περίπτωση κινδύνου (κυβερνοεπίθεση ή ιός) καλεί ολόκληρο το module ITDR μέσω του ITDR Officer για να το επιλύσει. Επίσης, ενοποιεί όλα τα logs και τα δεδομένα σε μία ενιαία αναφορά και παραμένει σε επαφή μαζί σας μέσω του βοηθού Cloud AI στη διεπαφή σας. Μπορείτε να ζητήσετε από το Cloud AI να φέρει τον Sysadmin Officer σε μια κοινή συνομιλία και να πραγματοποιήσετε μια συνάντηση ή ενημέρωση μαζί του — επιλύοντας οτιδήποτε σας απασχολεί ή σχεδιάζοντας την επόμενη εργασία.',
+        desc: 'ο κύριος ενορχηστρωτής και διοικητής όλου του module. Λαμβάνει τον έλεγχο, το περιστατικό ή την εργασία, κατανοεί την κατάσταση, καταρτίζει το σχέδιο, ελέγχει την ασφάλεια κάθε εντολής και αναθέτει την εργασία στους ειδικούς — και σε περίπτωση κινδύνου (κυβερνοεπίθεση ή ιός) καλεί ολόκληρο το module ITDR μέσω του ITDR Officer για να το επιλύσει. Επίσης, ενοποιεί όλα τα logs και τα δεδομένα σε μία ενιαία αναφορά και παραμένει σε επαφή μαζί σας μέσω του υπαλλήλου ΤΝ Sysadmin/Κυβερνοασφάλειας στο α-Team — μαζί του επιλύετε ό,τι σας απασχολεί και σχεδιάζετε την επόμενη εργασία.',
       },
       {
         name: 'GCP Officer',
@@ -792,7 +792,7 @@ const ARCH: Record<string, Arch> = {
     roleH: 'Sysadmin — το module ελέγχου της πλατφόρμας',
     role: [
       'Όταν ένας πράκτορας ή αξιωματικός εντοπίσει ενδείξεις κυβερνοεπίθεσης ή ιού στον διακομιστή σας, το μεταφέρει άμεσα στον Sysadmin Officer, ο οποίος καλεί αμέσως το module ITDR, που εξαλείφει πλήρως την απειλή. Στη συνέχεια, το module Sysadmin καθαρίζει κάθε συνέπεια του περιστατικού και επαναφέρει τους διακομιστές σας στην αρχική τους υγιή κατάσταση. Οι χρήστες σας δεν θα αντιληφθούν καν ότι κάτι πήγε στραβά — γιατί όλο αυτό διαρκεί λεπτά, ίσως δευτερόλεπτα.',
-      'Το module Sysadmin καθοδηγεί επίσης κάθε αναβάθμιση των διακομιστών σας. Θέλετε να κλιμακωθείτε; Έγινε. Το module εκτελεί όλη την εργασία και την ενσωμάτωση των νέων λειτουργιών που έχετε κατά νου. Εσείς και το Cloud AI ορίζετε μόνο το όραμα· ο Sysadmin Officer διαχειρίζεται κάθε διαδικασία: το AI Studio γράφει την απαραίτητη αρχιτεκτονική και τον κώδικα, και ο Sysadmin Officer τα δοκιμάζει όλα και τα ενσωματώνει στους διακομιστές σας. Η επικύρωση γίνεται από το GLM-5.2, τον κύριο εγκέφαλό μας που φιλοξενείται αυτόνομα — εξετάζει κάθε γραμμή κώδικα για ορθότητα και τρωτά σημεία εντός του περιγράμματος και παράγει συστάσεις που ο Sysadmin Officer εφαρμόζει πλήρως. Και εσείς λαμβάνετε το καλύτερο δυνατό αποτέλεσμα.',
+      'Το module Sysadmin καθοδηγεί επίσης κάθε αναβάθμιση των διακομιστών σας. Θέλετε να κλιμακωθείτε; Έγινε. Το module εκτελεί όλη την εργασία και την ενσωμάτωση των νέων λειτουργιών που έχετε κατά νου. Εσείς ορίζετε μόνο το όραμα· ο Sysadmin Officer διαχειρίζεται κάθε διαδικασία: το AI Studio γράφει την απαραίτητη αρχιτεκτονική και τον κώδικα, και ο Sysadmin Officer τα δοκιμάζει όλα και τα ενσωματώνει στους διακομιστές σας. Η επικύρωση γίνεται από το GLM-5.2, τον κύριο εγκέφαλό μας που φιλοξενείται αυτόνομα — εξετάζει κάθε γραμμή κώδικα για ορθότητα και τρωτά σημεία εντός του περιγράμματος και παράγει συστάσεις που ο Sysadmin Officer εφαρμόζει πλήρως. Και εσείς λαμβάνετε το καλύτερο δυνατό αποτέλεσμα.',
     ],
     diag: {
       input: 'Έλεγχος · Περιστατικό · Η εργασία σας',

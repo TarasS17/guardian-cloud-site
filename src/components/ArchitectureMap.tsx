@@ -56,11 +56,12 @@ export default function ArchitectureMap() {
     { cx: 480, color: '#38bdf8', title: 'Azure Officer' },
     { cx: 660, color: '#a855f7', title: 'All-Platform' },
   ];
-  const modules = [
+  // Помощник Cloud AI удалён (владелец 15.10.2026) — его место занял ИИ-сотрудник α-Team.
+  const modules: { cy: number; color: string; title: string; sub?: string }[] = [
     { cy: 96, color: '#fb7185', title: 'ITDR Module' },
     { cy: 206, color: '#8b5cf6', title: 'AI Studio' },
     { cy: 316, color: '#f59e0b', title: 'Doctrine' },
-    { cy: 426, color: '#22d3ee', title: 'Cloud AI' },
+    { cy: 426, color: '#22d3ee', title: 'α-Team', sub: 'AI Sysadmin/Cybersecurity' },
   ];
   const agentX = [130, 300, 470, 630];
   const agentsRow1 = ['Audit', 'Monitoring', 'Execution', 'Antivirus'];
@@ -130,7 +131,7 @@ export default function ArchitectureMap() {
 
         {/* modules */}
         {modules.map((m) => (
-          <Node key={m.title} cx={898} cy={m.cy} w={188} h={52} color={m.color} title={m.title} />
+          <Node key={m.title} cx={898} cy={m.cy} w={188} h={52} color={m.color} title={m.title} sub={m.sub} />
         ))}
       </svg>
     </div>

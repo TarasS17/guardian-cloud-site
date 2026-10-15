@@ -87,7 +87,6 @@ type Row = { model: string; role: string; result: string };
 const ROWS: Row[] = [
   { model: 'Audit Officer · Qwen3-30B-A3B-Thinking-2507', role: 'Initial server audit', result: 'LOW / CRITICAL — correct' },
   { model: 'ITDR Officer · Gemma-4-26B-A4B', role: 'Intrusion verdict (ROE)', result: '100 / 100 · safety gate 100%' },
-  { model: 'Cloud AI · Gemma-4-26B-A4B-it', role: 'Conversational interface', result: 'live' },
   { model: 'Detection shields · 3× Qwen3-4B-Instruct-2507', role: 'First-line detection', result: '3 / 3 in 726–952 ms' },
   { model: 'All-Platform specialist · Qwen3-Coder-30B-A3B-Instruct', role: 'Command generation', result: '97.0%' },
   { model: 'Azure specialist', role: 'Command generation', result: '94.0%' },

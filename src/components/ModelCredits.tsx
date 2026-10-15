@@ -11,7 +11,7 @@ const DATA: Record<string, Data> = {
     lead: 'Guardian’s fleet is built on the work of leading model labs. Our thanks to the teams whose models we fine-tune and self-host — each adapted for its own specialization.',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'cloud specialists, audit reasoning, detection shields, doctrine embedder & reranker' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'the ITDR officer & Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'the ITDR officer' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'the main brain and validator of the council: frontier-grade open weights under the MIT licence, self-hosted inside the perimeter' },
     ],
     anthropicH: 'Anthropic',
@@ -22,7 +22,7 @@ const DATA: Record<string, Data> = {
     lead: 'Парк Guardian построен на труде ведущих модельных лабораторий. Спасибо командам, чьи модели мы дообучаем и держим на собственных серверах — каждую под свою специализацию.',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'облачные специалисты, reasoning аудита, щиты детекции, embedder и reranker доктрины' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'офицер ITDR и Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'офицер ITDR' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'главный мозг и валидатор совета: открытые веса переднего края под лицензией MIT, self-hosted внутри периметра' },
     ],
     anthropicH: 'Anthropic',
@@ -33,7 +33,7 @@ const DATA: Record<string, Data> = {
     lead: 'Guardian 艦隊建立在頂尖模型實驗室的成果之上。感謝這些團隊——我們對其模型進行微調並自託管，每一個都針對其專屬領域。',
     makers: [
       { name: 'Qwen 團隊 — 阿里巴巴', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: '雲端專家、稽核推理、偵測護盾、知識庫嵌入與重排' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDR 安全官與 Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDR 安全官' },
       { name: 'Z.ai', models: 'GLM-5.2', note: '委員會的主腦與驗證者：MIT 授權的前沿開放權重，自託管於邊界之內' },
     ],
     anthropicH: 'Anthropic',
@@ -44,7 +44,7 @@ const DATA: Record<string, Data> = {
     lead: "La flotte de Guardian s'appuie sur le travail des principaux laboratoires de modèles. Merci aux équipes dont nous affinons et hébergeons nous-mêmes les modèles — chacun adapté à sa propre spécialisation.",
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: "spécialistes cloud, raisonnement d'audit, boucliers de détection, embedder et reranker de la doctrine" },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: "l'officier ITDR et Cloud AI" },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: "l'officier ITDR" },
       { name: 'Z.ai', models: 'GLM-5.2', note: "cerveau principal et validateur du conseil : poids ouverts de pointe sous licence MIT, auto-hébergés dans le périmètre" },
     ],
     anthropicH: 'Anthropic',
@@ -55,7 +55,7 @@ const DATA: Record<string, Data> = {
     lead: 'Die Flotte von Guardian basiert auf der Arbeit führender Modelllabore. Unser Dank gilt den Teams, deren Modelle wir feinabstimmen und selbst hosten — jedes für seine eigene Spezialisierung angepasst.',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'Cloud-Spezialisten, Audit-Reasoning, Erkennungsschilde, Doctrine-Embedder & Reranker' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'der ITDR-Offizier & Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'der ITDR-Offizier' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'Hauptgehirn und Validator des Councils: hochmoderne offene Gewichte unter MIT-Lizenz, selbst gehostet innerhalb des Perimeters' },
     ],
     anthropicH: 'Anthropic',
@@ -66,7 +66,7 @@ const DATA: Record<string, Data> = {
     lead: 'La flota de Guardian se construye sobre el trabajo de los principales laboratorios de modelos. Nuestro agradecimiento a los equipos cuyos modelos ajustamos y alojamos nosotros mismos — cada uno adaptado a su propia especialización.',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'especialistas de nube, razonamiento de auditoría, escudos de detección, embedder y reranker de doctrina' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'el oficial ITDR y Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'el oficial ITDR' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'cerebro principal y validador del consejo: pesos abiertos de vanguardia bajo licencia MIT, autoalojados dentro del perímetro' },
     ],
     anthropicH: 'Anthropic',
@@ -77,7 +77,7 @@ const DATA: Record<string, Data> = {
     lead: "La flotta di Guardian si basa sul lavoro dei principali laboratori di modelli. Un ringraziamento ai team i cui modelli affiniamo e ospitiamo autonomamente — ciascuno adattato alla propria specializzazione.",
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'specialisti cloud, ragionamento di audit, scudi di rilevamento, embedder e reranker della dottrina' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: "l'ufficiale ITDR e Cloud AI" },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: "l'ufficiale ITDR" },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'cervello principale e validatore del consiglio: pesi aperti di frontiera con licenza MIT, self-hosted all\'interno del perimetro' },
     ],
     anthropicH: 'Anthropic',
@@ -88,7 +88,7 @@ const DATA: Record<string, Data> = {
     lead: 'Guardianのフリートは、主要なモデル研究機関の成果の上に構築されています。私たちがファインチューニングし自社ホストしているモデルのチームに感謝します——それぞれが独自の専門分野に適応しています。',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'クラウド専門家、監査推論、検知シールド、ドクトリンのエンベッダーとリランカー' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDRオフィサーとCloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDRオフィサー' },
       { name: 'Z.ai', models: 'GLM-5.2', note: '評議会の中枢兼検証者：MITライセンスの最先端オープンウェイト、境界内で自社ホスト' },
     ],
     anthropicH: 'Anthropic',
@@ -99,7 +99,7 @@ const DATA: Record<string, Data> = {
     lead: 'Флот Guardian побудований на роботі провідних модельних лабораторій. Дякуємо командам, чиї моделі ми донавчаємо та тримаємо на власних серверах — кожну під свою спеціалізацію.',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'хмарні спеціалісти, reasoning аудиту, щити детекції, embedder та reranker доктрини' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'офіцер ITDR та Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'офіцер ITDR' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'головний мозок і валідатор ради: відкриті ваги переднього краю за ліцензією MIT, self-hosted всередині периметра' },
     ],
     anthropicH: 'Anthropic',
@@ -110,7 +110,7 @@ const DATA: Record<string, Data> = {
     lead: 'Guardian флота је изграђена на раду водећих модел лабораторија. Хвала тимовима чије моделе фино подешавамо и хостујемо сами — сваки прилагођен својој специјализацији.',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'облак специјалисти, ревизорско резоновање, штитови детекције, embedder и reranker доктрине' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDR официр и Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDR официр' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'главни мозак и валидатор већа: отворене тежине водеће технологије под MIT лиценцом, self-hosted унутар периметра' },
     ],
     anthropicH: 'Anthropic',
@@ -121,7 +121,7 @@ const DATA: Record<string, Data> = {
     lead: 'A frota da Guardian é construída sobre o trabalho de laboratórios de modelos líderes. Os nossos agradecimentos às equipas cujos modelos afinamos e alojamos nós próprios — cada um adaptado à sua especialização.',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'especialistas cloud, raciocínio de auditoria, escudos de deteção, embedder e reranker da doutrina' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'o oficial ITDR e Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'o oficial ITDR' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'cérebro principal e validador do conselho: pesos abertos de ponta sob licença MIT, autoalojados dentro do perímetro' },
     ],
     anthropicH: 'Anthropic',
@@ -132,7 +132,7 @@ const DATA: Record<string, Data> = {
     lead: 'Guardian का फ्लीट अग्रणी मॉडल लैब्स के काम पर आधारित है। उन टीमों का धन्यवाद जिनके मॉडल हम फाइन-ट्यून करके स्वयं होस्ट करते हैं — प्रत्येक अपनी विशेषज्ञता के अनुसार अनुकूलित।',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'क्लाउड विशेषज्ञ, ऑडिट रीजनिंग, डिटेक्शन शील्ड, doctrine embedder व reranker' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDR ऑफिसर और Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDR ऑफिसर' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'काउंसिल का मुख्य मस्तिष्क और सत्यापक: MIT लाइसेंस के तहत फ्रंटियर-ग्रेड ओपन वेट्स, परिधि के भीतर सेल्फ-होस्टेड' },
     ],
     anthropicH: 'Anthropic',
@@ -143,7 +143,7 @@ const DATA: Record<string, Data> = {
     lead: "Guardian'ın filosu önde gelen model laboratuvarlarının çalışmaları üzerine kuruludur. İnce ayar yaptığımız ve kendi sunucularımızda barındırdığımız modellerin ekiplerine teşekkür ederiz — her biri kendi uzmanlığına göre uyarlanmıştır.",
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'bulut uzmanları, denetim akıl yürütmesi, tespit kalkanları, doktrin embedder ve reranker' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDR görevlisi ve Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ITDR görevlisi' },
       { name: 'Z.ai', models: 'GLM-5.2', note: "konseyin ana beyni ve doğrulayıcısı: MIT lisansı altında öncü açık ağırlıklar, çevre içinde self-hosted" },
     ],
     anthropicH: 'Anthropic',
@@ -154,7 +154,7 @@ const DATA: Record<string, Data> = {
     lead: 'يعتمد أسطول Guardian على عمل مختبرات النماذج الرائدة. شكرًا للفرق التي نقوم بضبط نماذجها واستضافتها ذاتيًا — كل واحدة مُكيّفة لتخصصها الخاص.',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'متخصصو السحابة، تفكير التدقيق، دروع الكشف، embedder وreranker العقيدة' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ضابط ITDR وCloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ضابط ITDR' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'العقل الرئيسي والمُحقق للمجلس: أوزان مفتوحة رائدة برخصة MIT، مستضافة ذاتيًا داخل المحيط' },
     ],
     anthropicH: 'Anthropic',
@@ -165,7 +165,7 @@ const DATA: Record<string, Data> = {
     lead: 'Ο στόλος του Guardian βασίζεται στη δουλειά κορυφαίων εργαστηρίων μοντέλων. Ευχαριστούμε τις ομάδες των οποίων τα μοντέλα βελτιστοποιούμε και φιλοξενούμε οι ίδιοι — το καθένα προσαρμοσμένο στην εξειδίκευσή του.',
     makers: [
       { name: 'Qwen Team — Alibaba', models: 'Qwen3-Coder-30B-A3B-Instruct · Qwen3-30B-A3B-Thinking-2507 · Qwen3-4B-Instruct-2507 · Qwen3-VL-Embedding-8B · Qwen3-VL-Reranker-2B', note: 'ειδικοί cloud, συλλογιστική ελέγχου, ασπίδες ανίχνευσης, embedder και reranker δόγματος' },
-      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ο αξιωματικός ITDR και το Cloud AI' },
+      { name: 'Google DeepMind', models: 'Gemma-4-26B-A4B · Gemma-4-26B-A4B-it', note: 'ο αξιωματικός ITDR' },
       { name: 'Z.ai', models: 'GLM-5.2', note: 'ο κύριος εγκέφαλος και επικυρωτής του συμβουλίου: πρωτοπόρα ανοιχτά βάρη υπό άδεια MIT, self-hosted εντός της περιμέτρου' },
     ],
     anthropicH: 'Anthropic',

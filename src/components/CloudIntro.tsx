@@ -560,7 +560,7 @@ const BLOCK4: Record<string, Block4> = {
       'You build your own screen. From a set of ready-made widgets you take only the ones you actually need and arrange them into a workspace shaped around your tasks. At any moment you can add a new widget or swap any of them — the interface grows with you.',
       'The main interface belongs to the owner or the company’s manager, and only they decide who gets in. To onboard a specialist, you simply add them to your company database: the system generates their interface automatically, with the access level you consider appropriate.',
       'Your accountant sees one workspace, your system administrator another, your security lead another — each gets exactly the tools they need, and nothing more.',
-      'And you see every action your specialists take. If an action threatens your system, your personal AI assistant warns you instantly and, on your command, blocks it the moment you judge it dangerous or unauthorized.',
+      'And you see every action your specialists take. If an action threatens your system, the AI Sysadmin/Cybersecurity employee in α-Team warns you instantly and, on your command, blocks it the moment you judge it dangerous or unauthorized.',
       'Access can be protected by up to five factors: password, email, Telegram, an authenticator app, and biometrics. How many to enable is entirely up to you.',
     ],
   },
@@ -571,7 +571,7 @@ const BLOCK4: Record<string, Block4> = {
       'Свой экран вы собираете сами. Из набора готовых виджетов вы берёте только те, что нужны именно вам, и выстраиваете из них рабочее пространство под свои задачи. В любой момент можно добавить новый виджет или заменить любой из них — интерфейс растёт вместе с вами.',
       'Главный интерфейс принадлежит владельцу или управляющему компании, и только он решает, кого пустить внутрь. Чтобы подключить специалиста, достаточно добавить его в базу данных вашей компании: система сама сгенерирует для него интерфейс, с тем уровнем доступа, который вы сочтёте нужным.',
       'Бухгалтер видит своё, системный администратор — своё, специалист по безопасности — своё. Каждый получает ровно тот инструмент, что ему нужен, и ничего лишнего.',
-      'При этом вы видите все действия своих специалистов. Если действие угрожает вашей системе, персональный AI-помощник тут же вас предупредит и по вашей команде заблокирует, если вы сочтёте его опасным или несанкционированным.',
+      'При этом вы видите все действия своих специалистов. Если действие угрожает вашей системе, ИИ-сотрудник «Сисадмин/Кибербез» в α-Team тут же вас предупредит и по вашей команде заблокирует, если вы сочтёте его опасным или несанкционированным.',
       'Вход в интерфейс можно защитить вплоть до пяти факторов: пароль, почта, Telegram, приложение-аутентификатор и биометрия. Сколько из них включить — решаете вы.',
     ],
   },
@@ -582,7 +582,7 @@ const BLOCK4: Record<string, Block4> = {
       '打造您的自訂主頁：您可以像玩積木一樣自由組合螢幕畫面。從內建的元件庫（Widgets）中挑選您所需的模組，客製化出最符合自身業務需求的工作空間。您可以隨時新增或調整任何元件 —— 系統介面將伴隨您的業務規模一同成長。',
       '權限全權在手：主控台的最高權限歸企業主或核心管理員所有，只有您能決定誰有權進入系統。若要授予專家存取權，只需將其新增至您的企業資料庫中：系統會根據您設定的權限級別，自動為其生成專屬的作業介面。',
       '會計只能看到財務相關數據，系統管理員專注於運維指標，而安全專家則盯緊防禦動態。每位團隊成員都能精準獲取所需的工具，絕無任何冗餘干擾。',
-      '全程掌控，智慧防禦：與此同時，您可以全程追蹤團隊專家的所有操作。一旦系統偵測到任何可能威脅架構安全的行為，您的專屬 AI 助理將立即發出警報。若您判定該操作具備危險性或未經授權，只需下達指令，AI 就會即刻執行攔截與封鎖。',
+      '全程掌控，智慧防禦：與此同時，您可以全程追蹤團隊專家的所有操作。一旦系統偵測到任何可能威脅架構安全的行為，您在 α-Team 的 AI 系統管理／資安員工將立即發出警報。若您判定該操作具備危險性或未經授權，只需下達指令，AI 就會即刻執行攔截與封鎖。',
       '最高支援五重資安驗證：您可以為控制中心的登入流程部署高達五道防線：密碼、電子郵件、Telegram、驗證器應用程式（Authenticator App）以及生物辨識。具體啟用幾重驗證，完全由您全權決定。',
     ],
   },
@@ -593,7 +593,7 @@ const BLOCK4: Record<string, Block4> = {
       "Vous construisez votre propre écran. Parmi un ensemble de widgets prêts à l'emploi, vous ne prenez que ceux dont vous avez réellement besoin et les organisez en un espace de travail adapté à vos tâches. À tout moment, vous pouvez ajouter un nouveau widget ou en remplacer un autre — l'interface évolue avec vous.",
       "L'interface principale appartient au propriétaire ou au dirigeant de l'entreprise, et lui seul décide qui peut y accéder. Pour intégrer un spécialiste, il suffit de l'ajouter à la base de données de votre entreprise : le système génère automatiquement son interface, avec le niveau d'accès que vous jugez approprié.",
       "Votre comptable voit un espace de travail, votre administrateur système un autre, votre responsable sécurité encore un autre — chacun reçoit exactement les outils dont il a besoin, et rien de plus.",
-      'Et vous voyez chaque action de vos spécialistes. Si une action menace votre système, votre assistant IA personnel vous prévient instantanément et, sur votre ordre, la bloque dès que vous la jugez dangereuse ou non autorisée.',
+      'Et vous voyez chaque action de vos spécialistes. Si une action menace votre système, l’employé IA Sysadmin/Cybersécurité d’α-Team vous prévient instantanément et, sur votre ordre, la bloque dès que vous la jugez dangereuse ou non autorisée.',
       "L'accès peut être protégé par jusqu'à cinq facteurs : mot de passe, e-mail, Telegram, une application d'authentification et la biométrie. Le nombre à activer dépend entièrement de vous.",
     ],
   },
@@ -604,7 +604,7 @@ const BLOCK4: Record<string, Block4> = {
       'Sie bauen Ihren eigenen Bildschirm. Aus einer Reihe fertiger Widgets nehmen Sie nur diejenigen, die Sie wirklich brauchen, und ordnen sie zu einem Arbeitsbereich, der auf Ihre Aufgaben zugeschnitten ist. Jederzeit können Sie ein neues Widget hinzufügen oder ein bestehendes austauschen — die Oberfläche wächst mit Ihnen.',
       'Die Hauptoberfläche gehört dem Eigentümer oder dem Geschäftsführer, und nur er entscheidet, wer Zugang erhält. Um einen Spezialisten einzubinden, fügen Sie ihn einfach zur Datenbank Ihres Unternehmens hinzu: Das System generiert automatisch seine Oberfläche, mit der von Ihnen für angemessen gehaltenen Zugriffsebene.',
       'Ihr Buchhalter sieht einen Arbeitsbereich, Ihr Systemadministrator einen anderen, Ihr Sicherheitsverantwortlicher wieder einen anderen — jeder erhält genau die Werkzeuge, die er braucht, und nicht mehr.',
-      'Und Sie sehen jede Handlung Ihrer Spezialisten. Wenn eine Handlung Ihr System bedroht, warnt Sie Ihr persönlicher KI-Assistent sofort und blockiert sie auf Ihren Befehl, sobald Sie sie als gefährlich oder nicht autorisiert einstufen.',
+      'Und Sie sehen jede Handlung Ihrer Spezialisten. Wenn eine Handlung Ihr System bedroht, warnt Sie Ihr KI-Mitarbeiter Sysadmin/Cybersecurity in α-Team sofort und blockiert sie auf Ihren Befehl, sobald Sie sie als gefährlich oder nicht autorisiert einstufen.',
       'Der Zugang kann durch bis zu fünf Faktoren geschützt werden: Passwort, E-Mail, Telegram, eine Authenticator-App und Biometrie. Wie viele Sie aktivieren, entscheiden Sie ganz allein.',
     ],
   },
@@ -615,7 +615,7 @@ const BLOCK4: Record<string, Block4> = {
       'Usted construye su propia pantalla. De un conjunto de widgets ya preparados, toma solo los que realmente necesita y los organiza en un espacio de trabajo adaptado a sus tareas. En cualquier momento puede añadir un nuevo widget o sustituir cualquiera de ellos: la interfaz crece con usted.',
       'La interfaz principal pertenece al propietario o al gerente de la empresa, y solo él decide quién entra. Para incorporar a un especialista, basta con añadirlo a la base de datos de su empresa: el sistema genera automáticamente su interfaz, con el nivel de acceso que usted considere adecuado.',
       'Su contable ve un espacio de trabajo, su administrador de sistemas otro, su responsable de seguridad otro más: cada uno recibe exactamente las herramientas que necesita, y nada más.',
-      'Y usted ve cada acción de sus especialistas. Si una acción amenaza su sistema, su asistente de IA personal le avisa al instante y, por orden suya, la bloquea en el momento en que usted la considere peligrosa o no autorizada.',
+      'Y usted ve cada acción de sus especialistas. Si una acción amenaza su sistema, su empleado IA de Sysadmin/Ciberseguridad en α-Team le avisa al instante y, por orden suya, la bloquea en el momento en que usted la considere peligrosa o no autorizada.',
       'El acceso puede protegerse con hasta cinco factores: contraseña, correo electrónico, Telegram, una aplicación autenticadora y biometría. Cuántos activar depende totalmente de usted.',
     ],
   },
@@ -626,7 +626,7 @@ const BLOCK4: Record<string, Block4> = {
       'Costruite voi stessi il vostro schermo. Da un insieme di widget già pronti, prendete solo quelli di cui avete realmente bisogno e li organizzate in uno spazio di lavoro costruito sulle vostre attività. In qualsiasi momento potete aggiungere un nuovo widget o sostituirne uno: l\'interfaccia cresce con voi.',
       'L\'interfaccia principale appartiene al proprietario o al responsabile dell\'azienda, e solo lui decide chi vi accede. Per inserire uno specialista, basta aggiungerlo al database della vostra azienda: il sistema genera automaticamente la sua interfaccia, con il livello di accesso che ritenete opportuno.',
       'Il vostro commercialista vede uno spazio di lavoro, il vostro amministratore di sistema un altro, il vostro responsabile della sicurezza un altro ancora: ognuno riceve esattamente gli strumenti di cui ha bisogno, e nient\'altro.',
-      'E voi vedete ogni azione dei vostri specialisti. Se un\'azione minaccia il vostro sistema, il vostro assistente IA personale vi avvisa immediatamente e, su vostro comando, la blocca nel momento in cui la ritenete pericolosa o non autorizzata.',
+      'E voi vedete ogni azione dei vostri specialisti. Se un\'azione minaccia il vostro sistema, il vostro dipendente IA Sysadmin/Cybersecurity in α-Team vi avvisa immediatamente e, su vostro comando, la blocca nel momento in cui la ritenete pericolosa o non autorizzata.',
       'L\'accesso può essere protetto fino a cinque fattori: password, e-mail, Telegram, un\'app di autenticazione e la biometria. Quanti attivarne dipende interamente da voi.',
     ],
   },
@@ -637,7 +637,7 @@ const BLOCK4: Record<string, Block4> = {
       '自分の画面は自分で組み立てます。用意されたウィジェットの中から本当に必要なものだけを選び、自分の業務に合わせたワークスペースを構成します。いつでも新しいウィジェットを追加したり入れ替えたりでき、インターフェースはあなたと共に成長します。',
       'メインインターフェースはオーナーまたは企業の管理者に属し、誰を入れるかを決めるのはその人だけです。専門家をオンボードするには、会社のデータベースに追加するだけで、システムが適切と判断されたアクセスレベルで自動的にインターフェースを生成します。',
       '経理担当者は自分の作業空間を、システム管理者は別の作業空間を、セキュリティ責任者はまた別の作業空間を見ます。それぞれが必要なツールだけを正確に手にし、それ以上は何もありません。',
-      'そして、専門家のすべての操作をあなたが確認できます。行動がシステムを脅かす場合、あなた専属のAIアシスタントが即座に警告し、あなたの指示に基づき、危険または不正と判断した瞬間にブロックします。',
+      'そして、専門家のすべての操作をあなたが確認できます。行動がシステムを脅かす場合、α-TeamのAI社員「シスアド／サイバーセキュリティ」が即座に警告し、あなたの指示に基づき、危険または不正と判断した瞬間にブロックします。',
       'アクセスは最大5つの要素で保護できます：パスワード、メール、Telegram、認証アプリ、生体認証。いくつ有効にするかは完全にあなた次第です。',
     ],
   },
@@ -648,7 +648,7 @@ const BLOCK4: Record<string, Block4> = {
       'Свій екран ви збираєте самі. З набору готових віджетів ви берете тільки ті, що потрібні саме вам, і вибудовуєте з них робочий простір під свої завдання. У будь-який момент можна додати новий віджет або замінити будь-який з них — інтерфейс росте разом із вами.',
       'Головний інтерфейс належить власнику або керівнику компанії, і тільки він вирішує, кого пустити всередину. Щоб підключити фахівця, достатньо додати його до бази даних вашої компанії: система сама згенерує для нього інтерфейс із тим рівнем доступу, який ви вважатимете потрібним.',
       'Бухгалтер бачить своє, системний адміністратор — своє, фахівець з безпеки — своє. Кожен отримує рівно той інструмент, що йому потрібен, і нічого зайвого.',
-      'При цьому ви бачите всі дії своїх фахівців. Якщо дія загрожує вашій системі, персональний AI-помічник одразу вас попередить і за вашою командою заблокує, якщо ви вважатимете її небезпечною чи несанкціонованою.',
+      'При цьому ви бачите всі дії своїх фахівців. Якщо дія загрожує вашій системі, ШІ-співробітник «Сисадмін/Кібербезпека» в α-Team одразу вас попередить і за вашою командою заблокує, якщо ви вважатимете її небезпечною чи несанкціонованою.',
       'Вхід в інтерфейс можна захистити аж п\'ятьма факторами: пароль, пошта, Telegram, застосунок-автентифікатор і біометрія. Скільки з них увімкнути — вирішуєте ви.',
     ],
   },
@@ -659,7 +659,7 @@ const BLOCK4: Record<string, Block4> = {
       'Svoj ekran gradite sami. Iz seta gotovih vidžeta uzimate samo one koji su vam zaista potrebni i slažete ih u radni prostor prilagođen vašim zadacima. U svakom trenutku možete dodati novi vidžet ili zameniti bilo koji — interfejs raste zajedno sa vama.',
       'Glavni interfejs pripada vlasniku ili menadžeru kompanije, i samo on odlučuje ko ima pristup. Da biste uključili stručnjaka, dovoljno je da ga dodate u bazu podataka vaše kompanije: sistem automatski generiše njegov interfejs, sa nivoom pristupa koji smatrate odgovarajućim.',
       'Vaš knjigovođa vidi svoj radni prostor, sistem administrator svoj, bezbednosni stručnjak svoj — svako dobija tačno onaj alat koji mu je potreban, i ništa više.',
-      'A vi vidite svaku radnju svojih stručnjaka. Ako radnja ugrožava vaš sistem, vaš lični AI asistent vas odmah upozorava i, na vašu komandu, blokira je u trenutku kada je proceniite opasnom ili neovlašćenom.',
+      'A vi vidite svaku radnju svojih stručnjaka. Ako radnja ugrožava vaš sistem, vaš AI zaposleni Sysadmin/Sajber bezbednost u α-Team vas odmah upozorava i, na vašu komandu, blokira je u trenutku kada je proceniite opasnom ili neovlašćenom.',
       'Pristup se može zaštititi sa do pet faktora: lozinka, e-pošta, Telegram, aplikacija za autentifikaciju i biometrija. Koliko ćete ih aktivirati, u potpunosti zavisi od vas.',
     ],
   },
@@ -670,7 +670,7 @@ const BLOCK4: Record<string, Block4> = {
       'Você constrói sua própria tela. De um conjunto de widgets prontos, você escolhe apenas os que realmente precisa e os organiza em um espaço de trabalho voltado para suas tarefas. A qualquer momento você pode adicionar um novo widget ou trocar qualquer um deles — a interface cresce com você.',
       'A interface principal pertence ao proprietário ou ao gestor da empresa, e só ele decide quem entra. Para integrar um especialista, basta adicioná-lo ao banco de dados da sua empresa: o sistema gera automaticamente a interface dele, com o nível de acesso que você considerar adequado.',
       'Seu contador vê um espaço de trabalho, seu administrador de sistemas outro, seu responsável de segurança outro ainda — cada um recebe exatamente as ferramentas de que precisa, e nada além disso.',
-      'E você vê cada ação de seus especialistas. Se uma ação ameaçar seu sistema, seu assistente de IA pessoal o avisa instantaneamente e, a seu comando, a bloqueia no momento em que você a considerar perigosa ou não autorizada.',
+      'E você vê cada ação de seus especialistas. Se uma ação ameaçar seu sistema, seu colaborador IA Sysadmin/Cibersegurança no α-Team o avisa instantaneamente e, a seu comando, a bloqueia no momento em que você a considerar perigosa ou não autorizada.',
       'O acesso pode ser protegido por até cinco fatores: senha, e-mail, Telegram, um aplicativo autenticador e biometria. Quantos ativar depende inteiramente de você.',
     ],
   },
@@ -681,7 +681,7 @@ const BLOCK4: Record<string, Block4> = {
       'आप अपनी स्क्रीन खुद बनाते हैं। तैयार विजेट्स के सेट में से आप केवल वही लेते हैं जिनकी आपको वास्तव में आवश्यकता है और उन्हें अपने कार्यों के अनुरूप एक कार्यक्षेत्र में व्यवस्थित करते हैं। किसी भी क्षण आप एक नया विजेट जोड़ सकते हैं या किसी को बदल सकते हैं — इंटरफ़ेस आपके साथ बढ़ता है।',
       'मुख्य इंटरफ़ेस मालिक या कंपनी के प्रबंधक का होता है, और केवल वही तय करता है कि किसे प्रवेश मिले। किसी विशेषज्ञ को शामिल करने के लिए, बस उन्हें अपनी कंपनी के डेटाबेस में जोड़ें: सिस्टम स्वचालित रूप से उनका इंटरफ़ेस उस पहुंच स्तर के साथ बना देता है जिसे आप उचित समझते हैं।',
       'आपका एकाउंटेंट एक कार्यक्षेत्र देखता है, आपका सिस्टम प्रशासक दूसरा, आपका सुरक्षा प्रमुख तीसरा — हर किसी को ठीक वही उपकरण मिलते हैं जिनकी उसे आवश्यकता है, और कुछ नहीं।',
-      'और आप अपने विशेषज्ञों की हर क्रिया देखते हैं। यदि कोई क्रिया आपके सिस्टम को खतरे में डालती है, तो आपका व्यक्तिगत AI सहायक तुरंत आपको चेतावनी देता है और आपके आदेश पर, जिस क्षण आप इसे खतरनाक या अनधिकृत समझें, उसे रोक देता है।',
+      'और आप अपने विशेषज्ञों की हर क्रिया देखते हैं। यदि कोई क्रिया आपके सिस्टम को खतरे में डालती है, तो α-Team में आपका सिसएडमिन/साइबर सुरक्षा AI कर्मचारी तुरंत आपको चेतावनी देता है और आपके आदेश पर, जिस क्षण आप इसे खतरनाक या अनधिकृत समझें, उसे रोक देता है।',
       'पहुंच को पांच कारकों तक सुरक्षित किया जा सकता है: पासवर्ड, ईमेल, Telegram, एक ऑथेंटिकेटर ऐप और बायोमेट्रिक्स। कितने सक्षम करने हैं, यह पूरी तरह आप पर निर्भर है।',
     ],
   },
@@ -692,7 +692,7 @@ const BLOCK4: Record<string, Block4> = {
       'Kendi ekranınızı siz oluşturursunuz. Hazır widget setinden yalnızca gerçekten ihtiyacınız olanları alır ve görevlerinize göre şekillenen bir çalışma alanına yerleştirirsiniz. İstediğiniz an yeni bir widget ekleyebilir veya herhangi birini değiştirebilirsiniz — arayüz sizinle birlikte büyür.',
       'Ana arayüz şirket sahibine veya yöneticisine aittir ve kime erişim verileceğine yalnızca o karar verir. Bir uzmanı dahil etmek için onu şirket veritabanınıza eklemeniz yeterlidir: sistem, uygun gördüğünüz erişim düzeyiyle onun arayüzünü otomatik olarak oluşturur.',
       'Muhasebeciniz bir çalışma alanı görür, sistem yöneticiniz başka birini, güvenlik sorumlunuz bir başkasını — herkes tam olarak ihtiyacı olan araçları alır, fazlasını değil.',
-      "Ve siz uzmanlarınızın her eylemini görürsünüz. Bir eylem sisteminizi tehdit ediyorsa, kişisel AI asistanınız sizi anında uyarır ve komutunuz üzerine, bunu tehlikeli veya yetkisiz bulduğunuz anda işlemi engeller.",
+      "Ve siz uzmanlarınızın her eylemini görürsünüz. Bir eylem sisteminizi tehdit ediyorsa, α-Team’deki Sysadmin/Siber Güvenlik yapay zekâ çalışanınız sizi anında uyarır ve komutunuz üzerine, bunu tehlikeli veya yetkisiz bulduğunuz anda işlemi engeller.",
       'Erişim beş faktöre kadar korunabilir: parola, e-posta, Telegram, bir kimlik doğrulama uygulaması ve biyometri. Kaçını etkinleştireceğiniz tamamen size bağlıdır.',
     ],
   },
@@ -703,7 +703,7 @@ const BLOCK4: Record<string, Block4> = {
       'أنتم من يبني شاشتكم الخاصة. من مجموعة من الأدوات الجاهزة، تختارون فقط ما تحتاجونه فعلاً وترتبونها في مساحة عمل مصممة حسب مهامكم. يمكنكم في أي لحظة إضافة أداة جديدة أو استبدال أي منها — تنمو الواجهة معكم.',
       'تخص الواجهة الرئيسية المالك أو مدير الشركة، وهو وحده من يقرر من يُسمح له بالدخول. لإضافة أخصائي، يكفي إضافته إلى قاعدة بيانات شركتكم: يقوم النظام تلقائيًا بإنشاء واجهته، بمستوى الوصول الذي ترونه مناسبًا.',
       'محاسبكم يرى مساحة عمل، مسؤول أنظمتكم يرى أخرى، مسؤول الأمن لديكم يرى ثالثة — كل شخص يحصل بالضبط على الأدوات التي يحتاجها، ولا شيء أكثر.',
-      'وترون كل إجراء يقوم به أخصائيوكم. إذا كان إجراء ما يهدد نظامكم، يحذركم مساعد الذكاء الاصطناعي الشخصي فورًا، وبناءً على أمركم، يحظره في اللحظة التي تعتبرونه فيها خطيرًا أو غير مصرح به.',
+      'وترون كل إجراء يقوم به أخصائيوكم. إذا كان إجراء ما يهدد نظامكم، يحذركم موظف الذكاء الاصطناعي لإدارة الأنظمة/الأمن السيبراني في α-Team فورًا، وبناءً على أمركم، يحظره في اللحظة التي تعتبرونه فيها خطيرًا أو غير مصرح به.',
       'يمكن حماية الوصول بما يصل إلى خمسة عوامل: كلمة المرور، البريد الإلكتروني، Telegram، تطبيق مصادقة، والقياسات الحيوية. عدد ما تفعّلونه منها يعود بالكامل إليكم.',
     ],
   },
@@ -714,7 +714,7 @@ const BLOCK4: Record<string, Block4> = {
       'Χτίζετε τη δική σας οθόνη. Από ένα σύνολο έτοιμων widgets, παίρνετε μόνο όσα πραγματικά χρειάζεστε και τα οργανώνετε σε έναν χώρο εργασίας προσαρμοσμένο στις εργασίες σας. Ανά πάσα στιγμή μπορείτε να προσθέσετε νέο widget ή να αντικαταστήσετε κάποιο — η διεπαφή μεγαλώνει μαζί σας.',
       'Η κύρια διεπαφή ανήκει στον ιδιοκτήτη ή στον διευθυντή της εταιρείας, και μόνο αυτός αποφασίζει ποιος έχει πρόσβαση. Για να εντάξετε έναν ειδικό, απλώς τον προσθέτετε στη βάση δεδομένων της εταιρείας σας: το σύστημα δημιουργεί αυτόματα τη διεπαφή του, με το επίπεδο πρόσβασης που εσείς κρίνετε κατάλληλο.',
       'Ο λογιστής σας βλέπει έναν χώρο εργασίας, ο διαχειριστής συστημάτων σας άλλον, ο υπεύθυνος ασφαλείας σας έναν τρίτο — ο καθένας λαμβάνει ακριβώς τα εργαλεία που χρειάζεται, τίποτα παραπάνω.',
-      'Και εσείς βλέπετε κάθε ενέργεια των ειδικών σας. Αν μια ενέργεια απειλεί το σύστημά σας, ο προσωπικός σας βοηθός AI σάς προειδοποιεί αμέσως και, με εντολή σας, την μπλοκάρει τη στιγμή που την κρίνετε επικίνδυνη ή μη εξουσιοδοτημένη.',
+      'Και εσείς βλέπετε κάθε ενέργεια των ειδικών σας. Αν μια ενέργεια απειλεί το σύστημά σας, ο υπάλληλος ΤΝ Sysadmin/Κυβερνοασφάλειας στο α-Team σάς προειδοποιεί αμέσως και, με εντολή σας, την μπλοκάρει τη στιγμή που την κρίνετε επικίνδυνη ή μη εξουσιοδοτημένη.',
       'Η πρόσβαση μπορεί να προστατευτεί με έως πέντε παράγοντες: κωδικό πρόσβασης, email, Telegram, εφαρμογή ελέγχου ταυτότητας και βιομετρικά στοιχεία. Πόσους θα ενεργοποιήσετε εξαρτάται αποκλειστικά από εσάς.',
     ],
   },
@@ -722,9 +722,9 @@ const BLOCK4: Record<string, Block4> = {
 
 const BLOCK5: Record<string, Block4> = {
   en: {
-    h: 'Your AI assistant',
+    h: 'Your AI Sysadmin/Cybersecurity employee in α-Team',
     paras: [
-      'In your UI there is always an assistant who can answer any of your questions and help you make sense of anything you don’t understand — but most importantly, this assistant is the bridge between you and any officer or specialist in your system.',
+      'In α-Team you always have an AI Sysadmin/Cybersecurity employee who can answer any of your questions and help you make sense of anything you don’t understand — but most importantly, this employee is the bridge between you and any officer or specialist in your system.',
       'You ask it any question about the state of your servers, and it answers only after first consulting the AI specialists that look after your servers and analysing the current operational logs — and only then does it tell you, as fully and truthfully as possible, what is going on.',
       'It needs no prompts and no skills downloaded from the web to work the way you need — we have already done that. And by watching how you work and what decisions you make, it adapts to you in a short time and becomes your deputy, making the kind of decisions you would have made yourself.',
       'But that is not all it can do.',
@@ -733,9 +733,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   ru: {
-    h: 'Ваш AI-помощник',
+    h: 'Ваш ИИ-сотрудник «Сисадмин/Кибербез» в α-Team',
     paras: [
-      'В вашем UI всегда есть помощник, который сможет ответить вам на любой вопрос и помочь разобраться с тем, что вы не понимаете, но главное — этот помощник мост между вами и любым офицером или специалистом в вашей системе.',
+      'В α-Team у вас всегда есть ИИ-сотрудник «Сисадмин/Кибербез», который сможет ответить вам на любой вопрос и помочь разобраться с тем, что вы не понимаете, но главное — этот сотрудник мост между вами и любым офицером или специалистом в вашей системе.',
       'Вы задаёте ему любой вопрос о состоянии ваших серверов, и он отвечает вам, предварительно опросив это у тех AI-специалистов, которые занимаются вашими серверами, и проанализировав текущие логи работы, а только потом отвечает вам максимально полно и правдиво, что происходит.',
       'Ему не нужно писать промпты, искать в сети скилы, чтобы он работал так, как вам нужно, — мы это уже сделали, а он, смотря, как вы работаете и какие решения принимаете, подстроится под вас за короткое время и станет вашим замом, который будет принимать такие решения, которые приняли бы вы.',
       'Но это ещё не всё, что он может.',
@@ -744,9 +744,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   zh: {
-    h: '您的專屬 AI 智慧助理',
+    h: '您在 α-Team 的 AI 系統管理／資安員工',
     paras: [
-      '在您的使用者介面（UI）中，始終有一位 AI 助理隨時候命。他不僅能解答您的任何疑問、幫您理清所有不解之處，更重要的是 —— 他是連接您與系統中任何高階安全官或技術專家的「核心橋樑」。',
+      '在 α-Team 中，始終有一位 AI 系統管理／資安員工隨時候命。他不僅能解答您的任何疑問、幫您理清所有不解之處，更重要的是 —— 他是連接您與系統中任何高階安全官或技術專家的「核心橋樑」。',
       '當您詢問任何關於伺服器狀態的問題時，他不會盲目作答，而是會先向負責您伺服器運作的其他專職 AI 核心進行全面諮詢，並深度分析當前的系統運行日誌（Logs）。在彙整所有資訊後，他才會為您提供一份最完整、最真實的現狀報告。',
       '您完全不需要學習如何撰寫複雜的提示詞（Prompts），也無需在網路上搜尋任何擴充技能包。這一切底層優化我們早已為您完成。更強大的是，他會透過觀察您的工作習慣與決策風格，在極短時間內完成自我調適，成為您的「AI 數位副手」，能夠精準做出完全符合您心意的決策。',
       '但這還遠非他的能力極限。',
@@ -755,9 +755,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   fr: {
-    h: 'Votre assistant IA',
+    h: 'Votre employé IA Sysadmin/Cybersécurité dans α-Team',
     paras: [
-      "Dans votre interface, il y a toujours un assistant capable de répondre à toutes vos questions et de vous aider à comprendre ce que vous ne saisissez pas — mais surtout, cet assistant est le pont entre vous et tout officier ou spécialiste de votre système.",
+      "Dans α-Team, vous avez toujours un employé IA Sysadmin/Cybersécurité capable de répondre à toutes vos questions et de vous aider à comprendre ce que vous ne saisissez pas — mais surtout, cet employé est le pont entre vous et tout officier ou spécialiste de votre système.",
       "Vous lui posez n'importe quelle question sur l'état de vos serveurs, et il ne répond qu'après avoir d'abord consulté les spécialistes IA qui s'occupent de vos serveurs et analysé les journaux opérationnels actuels — et c'est seulement ensuite qu'il vous dit, aussi complètement et sincèrement que possible, ce qui se passe.",
       "Il n'a besoin ni de prompts ni de compétences téléchargées sur le web pour fonctionner comme vous le souhaitez — nous avons déjà fait ce travail. Et en observant comment vous travaillez et quelles décisions vous prenez, il s'adapte à vous en peu de temps et devient votre adjoint, prenant le genre de décisions que vous auriez prises vous-même.",
       "Mais ce n'est pas tout ce qu'il peut faire.",
@@ -766,9 +766,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   de: {
-    h: 'Ihr KI-Assistent',
+    h: 'Ihr KI-Mitarbeiter Sysadmin/Cybersecurity in α-Team',
     paras: [
-      'In Ihrer Oberfläche gibt es immer einen Assistenten, der jede Ihrer Fragen beantworten und Ihnen helfen kann, alles zu verstehen, was Ihnen unklar ist — aber vor allem ist dieser Assistent die Brücke zwischen Ihnen und jedem Officer oder Spezialisten in Ihrem System.',
+      'In α-Team haben Sie immer einen KI-Mitarbeiter Sysadmin/Cybersecurity, der jede Ihrer Fragen beantworten und Ihnen helfen kann, alles zu verstehen, was Ihnen unklar ist — aber vor allem ist dieser Mitarbeiter die Brücke zwischen Ihnen und jedem Officer oder Spezialisten in Ihrem System.',
       'Sie stellen ihm jede Frage zum Zustand Ihrer Server, und er antwortet erst, nachdem er zunächst die KI-Spezialisten konsultiert hat, die sich um Ihre Server kümmern, und die aktuellen Betriebsprotokolle analysiert hat — und erst dann sagt er Ihnen so vollständig und wahrheitsgemäß wie möglich, was los ist.',
       'Er braucht weder Prompts noch aus dem Web heruntergeladene Fähigkeiten, um so zu arbeiten, wie Sie es brauchen — das haben wir bereits erledigt. Und indem er beobachtet, wie Sie arbeiten und welche Entscheidungen Sie treffen, passt er sich in kurzer Zeit an Sie an und wird zu Ihrem Stellvertreter, der die Art von Entscheidungen trifft, die Sie selbst getroffen hätten.',
       'Aber das ist noch nicht alles, was er kann.',
@@ -777,9 +777,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   es: {
-    h: 'Su asistente de IA',
+    h: 'Su empleado IA de Sysadmin/Ciberseguridad en α-Team',
     paras: [
-      'En su interfaz siempre hay un asistente que puede responder cualquiera de sus preguntas y ayudarle a entender lo que no comprende, pero lo más importante: este asistente es el puente entre usted y cualquier oficial o especialista de su sistema.',
+      'En α-Team siempre tiene un empleado IA de Sysadmin/Ciberseguridad que puede responder cualquiera de sus preguntas y ayudarle a entender lo que no comprende, pero lo más importante: este empleado es el puente entre usted y cualquier oficial o especialista de su sistema.',
       'Le hace cualquier pregunta sobre el estado de sus servidores, y él responde solo después de consultar primero a los especialistas de IA que cuidan de sus servidores y analizar los registros operativos actuales, y solo entonces le dice, de la forma más completa y veraz posible, qué está ocurriendo.',
       'No necesita prompts ni habilidades descargadas de internet para funcionar como usted necesita: ya lo hemos hecho nosotros. Y al observar cómo trabaja y qué decisiones toma, se adapta a usted en poco tiempo y se convierte en su suplente, tomando el tipo de decisiones que usted mismo habría tomado.',
       'Pero eso no es todo lo que puede hacer.',
@@ -788,9 +788,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   it: {
-    h: 'Il vostro assistente IA',
+    h: 'Il vostro dipendente IA Sysadmin/Cybersecurity in α-Team',
     paras: [
-      "Nella vostra interfaccia c'è sempre un assistente in grado di rispondere a qualsiasi domanda e di aiutarvi a capire ciò che non comprendete — ma soprattutto, questo assistente è il ponte tra voi e qualsiasi officer o specialista del vostro sistema.",
+      "In α-Team avete sempre un dipendente IA Sysadmin/Cybersecurity in grado di rispondere a qualsiasi domanda e di aiutarvi a capire ciò che non comprendete — ma soprattutto, questo dipendente è il ponte tra voi e qualsiasi officer o specialista del vostro sistema.",
       "Gli ponete qualsiasi domanda sullo stato dei vostri server, e risponde solo dopo aver prima consultato gli specialisti IA che si occupano dei vostri server e analizzato i log operativi correnti — e solo allora vi dice, nel modo più completo e veritiero possibile, cosa sta succedendo.",
       "Non ha bisogno di prompt né di competenze scaricate dal web per funzionare come volete voi: lo abbiamo già fatto noi. E osservando come lavorate e quali decisioni prendete, si adatta a voi in breve tempo e diventa il vostro vice, prendendo il tipo di decisioni che avreste preso voi stessi.",
       "Ma non è tutto ciò che sa fare.",
@@ -799,9 +799,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   ja: {
-    h: 'あなたのAIアシスタント',
+    h: 'α-TeamのAI社員「シスアド／サイバーセキュリティ」',
     paras: [
-      'あなたのUIには常に、あらゆる質問に答え、理解できないことを整理する手助けをするアシスタントがいます——しかし何より重要なのは、このアシスタントがあなたとシステム内のあらゆるオフィサーや専門家をつなぐ橋渡し役だということです。',
+      'α-Teamには常に、あらゆる質問に答え、理解できないことを整理する手助けをするAI社員「シスアド／サイバーセキュリティ」がいます——しかし何より重要なのは、この社員があなたとシステム内のあらゆるオフィサーや専門家をつなぐ橋渡し役だということです。',
       'サーバーの状態についてどんな質問をしても、彼はまずサーバーを担当するAI専門家に確認し、現在の運用ログを分析した上で初めて回答します——そうして初めて、何が起きているのかをできる限り完全かつ正直に伝えます。',
       'プロンプトもウェブからダウンロードしたスキルも不要で、あなたが望む形で機能します——それはすでに私たちが済ませてあります。そして、あなたの働き方や下す判断を観察することで、短期間であなたに適応し、あなた自身が下すであろう判断を行う代理となります。',
       'しかし、それだけではありません。',
@@ -810,9 +810,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   uk: {
-    h: 'Ваш AI-помічник',
+    h: 'Ваш ШІ-співробітник «Сисадмін/Кібербезпека» в α-Team',
     paras: [
-      'У вашому UI завжди є помічник, який зможе відповісти на будь-яке ваше питання і допомогти розібратися з тим, що ви не розумієте, але головне — цей помічник є мостом між вами і будь-яким офіцером чи фахівцем у вашій системі.',
+      'В α-Team у вас завжди є ШІ-співробітник «Сисадмін/Кібербезпека», який зможе відповісти на будь-яке ваше питання і допомогти розібратися з тим, що ви не розумієте, але головне — цей співробітник є мостом між вами і будь-яким офіцером чи фахівцем у вашій системі.',
       'Ви ставите йому будь-яке питання про стан ваших серверів, і він відповідає, попередньо опитавши AI-фахівців, які займаються вашими серверами, та проаналізувавши поточні логи роботи, і лише потім відповідає вам максимально повно і правдиво, що відбувається.',
       'Йому не потрібно писати промпти чи шукати в мережі скіли, щоб він працював так, як вам потрібно, — ми це вже зробили, а він, спостерігаючи, як ви працюєте і які рішення приймаєте, підлаштується під вас за короткий час і стане вашим замом, який прийматиме такі рішення, які прийняли б ви.',
       'Але це ще не все, що він вміє.',
@@ -821,9 +821,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   sr: {
-    h: 'Vaš AI asistent',
+    h: 'Vaš AI zaposleni Sysadmin/Sajber bezbednost u α-Team',
     paras: [
-      'U vašem UI-ju uvek postoji asistent koji može da odgovori na bilo koje vaše pitanje i pomogne vam da razumete ono što vam nije jasno — ali najvažnije, ovaj asistent je most između vas i bilo kog oficira ili stručnjaka u vašem sistemu.',
+      'U α-Team uvek imate AI zaposlenog Sysadmin/Sajber bezbednost koji može da odgovori na bilo koje vaše pitanje i pomogne vam da razumete ono što vam nije jasno — ali najvažnije, ovaj zaposleni je most između vas i bilo kog oficira ili stručnjaka u vašem sistemu.',
       'Postavljate mu bilo koje pitanje o stanju vaših servera, a on odgovara tek nakon što se prvo konsultuje sa AI stručnjacima koji se brinu o vašim serverima i analizira trenutne operativne logove — i tek tada vam govori, što potpunije i istinitije, šta se dešava.',
       'Ne treba mu ni prompt ni veštine preuzete sa interneta da bi radio onako kako vam je potrebno — to smo već uradili mi. A posmatrajući kako radite i koje odluke donosite, prilagođava se vama za kratko vreme i postaje vaš zamenik, donoseći onakve odluke kakve biste doneli i vi sami.',
       'Ali to nije sve što ume.',
@@ -832,9 +832,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   pt: {
-    h: 'Seu assistente de IA',
+    h: 'Seu colaborador IA Sysadmin/Cibersegurança no α-Team',
     paras: [
-      'Em sua interface há sempre um assistente que pode responder a qualquer pergunta e ajudá-lo a entender qualquer coisa que você não compreenda — mas o mais importante, esse assistente é a ponte entre você e qualquer oficial ou especialista do seu sistema.',
+      'No α-Team há sempre um colaborador IA Sysadmin/Cibersegurança que pode responder a qualquer pergunta e ajudá-lo a entender qualquer coisa que você não compreenda — mas o mais importante, esse colaborador é a ponte entre você e qualquer oficial ou especialista do seu sistema.',
       'Você faz qualquer pergunta sobre o estado de seus servidores, e ele responde somente depois de consultar primeiro os especialistas de IA que cuidam de seus servidores e analisar os registros operacionais atuais — e só então lhe diz, da forma mais completa e verdadeira possível, o que está acontecendo.',
       'Ele não precisa de prompts nem de habilidades baixadas da web para funcionar como você precisa — já fizemos isso. E observando como você trabalha e quais decisões toma, ele se adapta a você em pouco tempo e se torna seu adjunto, tomando o tipo de decisão que você mesmo teria tomado.',
       'Mas isso não é tudo o que ele pode fazer.',
@@ -843,9 +843,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   hi: {
-    h: 'आपका AI सहायक',
+    h: 'α-Team में आपका सिसएडमिन/साइबर सुरक्षा AI कर्मचारी',
     paras: [
-      'आपके UI में हमेशा एक सहायक मौजूद रहता है जो आपके किसी भी प्रश्न का उत्तर दे सकता है और जो कुछ आप नहीं समझते उसे समझने में मदद कर सकता है — लेकिन सबसे महत्वपूर्ण बात यह है कि यह सहायक आपके और आपके सिस्टम में किसी भी अधिकारी या विशेषज्ञ के बीच पुल है।',
+      'α-Team में हमेशा एक सिसएडमिन/साइबर सुरक्षा AI कर्मचारी मौजूद रहता है जो आपके किसी भी प्रश्न का उत्तर दे सकता है और जो कुछ आप नहीं समझते उसे समझने में मदद कर सकता है — लेकिन सबसे महत्वपूर्ण बात यह है कि यह कर्मचारी आपके और आपके सिस्टम में किसी भी अधिकारी या विशेषज्ञ के बीच पुल है।',
       'आप उससे अपने सर्वरों की स्थिति के बारे में कोई भी प्रश्न पूछते हैं, और वह पहले आपके सर्वरों की देखभाल करने वाले AI विशेषज्ञों से परामर्श करने और वर्तमान परिचालन लॉग का विश्लेषण करने के बाद ही उत्तर देता है — और तभी वह आपको यथासंभव पूर्ण और सत्य रूप से बताता है कि क्या हो रहा है।',
       'उसे आपकी आवश्यकतानुसार काम करने के लिए न किसी प्रॉम्प्ट की जरूरत है, न वेब से डाउनलोड की गई किसी स्किल की — यह हम पहले ही कर चुके हैं। और आप कैसे काम करते हैं और क्या निर्णय लेते हैं, यह देखकर वह थोड़े समय में आपके अनुरूप ढल जाता है और आपका डिप्टी बन जाता है, जो वैसे ही निर्णय लेता है जैसे आप स्वयं लेते।',
       'लेकिन यह सब कुछ नहीं जो वह कर सकता है।',
@@ -854,9 +854,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   tr: {
-    h: 'Sizin AI asistanınız',
+    h: 'α-Team’deki Sysadmin/Siber Güvenlik yapay zekâ çalışanınız',
     paras: [
-      "Arayüzünüzde her zaman, herhangi bir sorunuzu yanıtlayabilen ve anlamadığınız her şeyi çözmenize yardımcı olabilen bir asistan bulunur — ama en önemlisi, bu asistan sizinle sisteminizdeki herhangi bir görevli veya uzman arasındaki köprüdür.",
+      "α-Team’de her zaman, herhangi bir sorunuzu yanıtlayabilen ve anlamadığınız her şeyi çözmenize yardımcı olabilen bir Sysadmin/Siber Güvenlik yapay zekâ çalışanınız bulunur — ama en önemlisi, bu çalışan sizinle sisteminizdeki herhangi bir görevli veya uzman arasındaki köprüdür.",
       "Sunucularınızın durumu hakkında ona herhangi bir soru sorarsınız ve o, önce sunucularınızla ilgilenen AI uzmanlarına danışıp güncel operasyonel kayıtları analiz ettikten sonra yanıt verir — ancak o zaman size neler olduğunu mümkün olduğunca eksiksiz ve doğru şekilde anlatır.",
       "İhtiyacınız olan şekilde çalışması için ne prompta ne de internetten indirilmiş becerilere ihtiyacı vardır — bunu zaten biz halletik. Nasıl çalıştığınızı ve hangi kararları aldığınızı gözlemleyerek kısa sürede size uyum sağlar ve sizin verebileceğiniz türden kararları veren yardımcınız haline gelir.",
       "Ama yapabildiği tek şey bu değil.",
@@ -865,9 +865,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   ar: {
-    h: 'مساعدك بالذكاء الاصطناعي',
+    h: 'موظفك بالذكاء الاصطناعي لإدارة الأنظمة/الأمن السيبراني في α-Team',
     paras: [
-      'في واجهتكم، يوجد دائمًا مساعد يمكنه الإجابة عن أي سؤال ومساعدتكم على فهم أي شيء لا تفهمونه — لكن الأهم من ذلك، أن هذا المساعد هو الجسر بينكم وبين أي ضابط أو أخصائي في نظامكم.',
+      'في α-Team، يوجد لديكم دائمًا موظف بالذكاء الاصطناعي لإدارة الأنظمة/الأمن السيبراني يمكنه الإجابة عن أي سؤال ومساعدتكم على فهم أي شيء لا تفهمونه — لكن الأهم من ذلك، أن هذا الموظف هو الجسر بينكم وبين أي ضابط أو أخصائي في نظامكم.',
       'تطرحون عليه أي سؤال حول حالة خوادمكم، فيجيب فقط بعد استشارة أخصائيي الذكاء الاصطناعي المسؤولين عن خوادمكم أولاً وتحليل سجلات التشغيل الحالية — وعندها فقط يخبركم، بأقصى قدر ممكن من الاكتمال والصدق، بما يحدث.',
       'لا يحتاج إلى مطالبات ولا إلى مهارات محمّلة من الويب ليعمل بالطريقة التي تحتاجونها — لقد قمنا بذلك بالفعل. ومن خلال مراقبة كيفية عملكم والقرارات التي تتخذونها، يتكيّف معكم في وقت قصير ويصبح نائبكم، متخذًا نوع القرارات التي كنتم لتتخذوها بأنفسكم.',
       'لكن هذا ليس كل ما يمكنه فعله.',
@@ -876,9 +876,9 @@ const BLOCK5: Record<string, Block4> = {
     ],
   },
   el: {
-    h: 'Ο βοηθός AI σας',
+    h: 'Ο υπάλληλός σας ΤΝ Sysadmin/Κυβερνοασφάλειας στο α-Team',
     paras: [
-      'Στο περιβάλλον εργασίας σας υπάρχει πάντα ένας βοηθός που μπορεί να απαντήσει σε οποιαδήποτε ερώτησή σας και να σας βοηθήσει να κατανοήσετε οτιδήποτε δεν καταλαβαίνετε — αλλά το πιο σημαντικό, αυτός ο βοηθός είναι η γέφυρα ανάμεσα σε εσάς και οποιονδήποτε αξιωματικό ή ειδικό στο σύστημά σας.',
+      'Στο α-Team έχετε πάντα έναν υπάλληλο ΤΝ Sysadmin/Κυβερνοασφάλειας που μπορεί να απαντήσει σε οποιαδήποτε ερώτησή σας και να σας βοηθήσει να κατανοήσετε οτιδήποτε δεν καταλαβαίνετε — αλλά το πιο σημαντικό, αυτός ο υπάλληλος είναι η γέφυρα ανάμεσα σε εσάς και οποιονδήποτε αξιωματικό ή ειδικό στο σύστημά σας.',
       'Του κάνετε οποιαδήποτε ερώτηση σχετικά με την κατάσταση των διακομιστών σας, και απαντά μόνο αφού συμβουλευτεί πρώτα τους ειδικούς AI που φροντίζουν τους διακομιστές σας και αναλύσει τα τρέχοντα αρχεία καταγραφής λειτουργίας — και μόνο τότε σας λέει, όσο πιο πλήρως και ειλικρινά γίνεται, τι συμβαίνει.',
       'Δεν χρειάζεται prompts ούτε δεξιότητες που κατεβάζονται από το διαδίκτυο για να λειτουργεί όπως χρειάζεστε — το έχουμε ήδη κάνει εμείς. Και παρατηρώντας πώς εργάζεστε και ποιες αποφάσεις παίρνετε, προσαρμόζεται σε εσάς σε σύντομο χρονικό διάστημα και γίνεται ο αναπληρωτής σας, λαμβάνοντας τις αποφάσεις που θα παίρνατε εσείς οι ίδιοι.',
       'Αλλά αυτό δεν είναι το μόνο που μπορεί να κάνει.',
@@ -1369,7 +1369,7 @@ export default function CloudIntro() {
         </div>
       </section>
 
-      {/* Block 5 — your AI assistant (видеофон убран по решению владельца) */}
+      {/* Block 5 — ИИ-сотрудник Сисадмин/Кибербез в α-Team вместо удалённого помощника Cloud AI (владелец 15.10.2026; видеофон убран по решению владельца) */}
       <section className="border-b border-white/5 py-16">
         <div className="container mx-auto max-w-4xl space-y-6 px-4 text-lg leading-relaxed text-white/80">
           <h2 className="text-2xl font-bold text-white md:text-3xl">{b5.h}</h2>
